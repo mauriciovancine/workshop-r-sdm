@@ -1,0 +1,497 @@
+---
+title: "XXX Semana de Estudos da Ecologia <br><br> Introdução à linguagem R: manipulação e visualização de dados"
+subtitle: ""
+author: "Maurício Vancine <br> Helena Oliveira <br> Lucas Almeida <br>"
+date: "<br> xaringan [presentation ninja] <br><br> 06/11/2019"
+encoding: "UTF-8"
+output:
+  xaringan::moon_reader:
+    css: metropolis
+    lib_dir: libs
+    nature:
+      highlightStyle: rainbow
+      highlightLines: true
+      countIncrementalSlides: false
+      slideNumberFormat: "%current%/%total%"
+    includes:
+      in_header: header.html
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE)
+```
+
+class: clear, center, middle
+background-image: url(https://user-images.githubusercontent.com/163582/45438104-ea200600-b67b-11e8-80fa-d9f2a99a03b0.png)
+background-size: 40%
+background-position: 50% 50%
+
+---
+
+# Maurício Vancine
+
+## Ecólogo (2015) | Mestre em Zoologia (2018)
+
+--
+
+### Pesquisa
+- Ecologia Espacial
+- Ecologia Quantitativa
+- Ecologia e Conservação de Anfíbios
+  
+--
+
+### Habilidades
+- Modelos de Distribuição de Espécies (SDMs)
+- Análise de Dados Ecológicos e Geoespaciais
+- **Open source** [R, QGIS, GRASS GIS, Linux, Libreoffice....]
+
+--
+
+### Contato e informações
+|                                                                                          |                                     |
+| :--------------------------------------------------------------------------------------- | :--------------------------------   |
+| <a href="mailto:mauricio.vancine@gmail.com">.RUred[<i class="fa fa-envelope fa-fw"></i>] | mauricio.vancine@gmail.com          |
+| <a href="http://twitter.com/mauriciovancine">.RUred[<i class="fa fa-twitter fa-fw"></i>] | @mauriciovancine                    |
+| <a href="https://mauriciovancine.netlify.com/">.RUred[<i class="fa fa-link fa-fw"></i>]  | mauriciovancine.netlify.com         |
+
+---
+
+# Helena Oliveira
+
+## Bióloga (2021?)
+
+### Pesquisa
+- Ecologia de Comunidades
+- Ecologia de Anfíbios
+- ????
+
+### Habilidades
+- Modelos de Distribuição de Espécies
+- **Open source** [R, Linux, Libreoffice....]
+- ????
+
+### Contato e informações
+|                                                                                          |                                   |
+| :--------------------------------------------------------------------------------------- | :-------------------------------- |
+| <a href="mailto:helenatcdo@gmail.com">.RUred[<i class="fa fa-envelope fa-fw"></i>]       | helenatcdo@gmail.com              |
+
+
+---
+
+# Lucas Almeida
+
+## Biólogo (2020)
+
+### Pesquisa
+- Zoologia
+- Herpetologia
+- Comportamento animal
+- ????
+
+### Habilidades
+- Naturalista
+- Modelos de Distribuição de Espécies
+- **Open source** [R]
+- ????
+
+### Contato e informações
+|                                                                                          |                                   |
+| :--------------------------------------------------------------------------------------- | :-------------------------------- |
+| <a href="mailto:almeidals1994@gmail.com">.RUred[<i class="fa fa-envelope fa-fw"></i>]    | almeidals1994@gmail.com           |
+
+---
+
+# Participantes
+
+## Apresentações
+
+<br><br>
+
+### 1. Nome que a sua família e que a UNESP te deram...
+
+### 2. O que faz da vida...
+
+### 3. Já conhece a 'palavra' do R?
+
+### 4. O que raios está fazendo aqui?
+
+---
+
+# Experiência
+
+## Minha história com o R (~480 h)
+
+<br>
+
+- 2011: Assisti, **Curso de R** (40 h) - Prof. Tadeu Siqueira
+
+- 2015: Minicurso, **Introdução ao software R** (08 h) - SEE 2015
+
+- 2015: Monitor, **Ecologia Quantitativa** (60 h) - Prof. Tadeu Siqueira
+
+- 2016: Minicurso, **Introdução software R: manejo de dados, gráficos e análises estatísticas** (16 h) - SeBio 2016
+
+- 2016: Monitor, **Modelagem de Nicho Ecológico no R** (30 h) - UNESP
+
+- 2016: Professor colaborador, **Modelagem de nicho ecológico: teoria e prática** (45 h) - Unicamp
+
+---
+
+# Experiência
+
+## Minha história com o R (~480 h)
+
+<br>
+
+- 2017:	Professor colaborador, **Modelagem de nicho ecológico: teoria e prática** (60 h) - UNESP
+
+- 2017: Estágio docência, **Ecologia Quantitativa** (60 h) - Prof. Tadeu Siqueira
+
+- 2018: Professor colaborador, **Modelos Estatísticos em Ecologia** (12 h) - UNESP
+
+- 2019: Curso, **Introdução à linguagem R: manejo, visualização e análises de dados** (50 h) - Labic
+
+- 2019: Assisti, **Introdução à modelagem hierárquica** (45 h) - UFRGS
+
+- 2019: Professor visitante, **Introdução ao geoprocessamento para etnobiologia e conservação da biodiversidade ** (45 h) - UFRPE
+
+- 2019: Minicurso, **Introdução à linguagem R: manejo, visualização e análises de dados** (8 h) - SeBio 2019
+
+---
+
+# Minicurso
+
+<br><br>
+
+### Duração
+~08 h
+
+--
+
+### Datas e horários
+06/11 [08:00 h - 12:00 h] <br>
+07/11 [08:00 h - 12:00 h]
+
+--
+
+### Formato
+Prática (6 h) <br>
+Exercícios (2 h)
+
+---
+
+# Minicurso
+
+## Material
+
+### Repositório de dados do minicurso no GitHub
+https://github.com/mauriciovancine/minicurso-r-see-2019
+
+--
+
+<br>
+
+## Organização no seu computador
+Criem uma pasta chamada `github` em `Documentos` ou na famigerada `Área de Trabalho`
+
+--
+
+Adicionem o arquivo `minicurso-r-see-2019-master.zip` nessa pasta
+
+--
+
+Deszipem o arquivo nessa pasta
+
+--
+
+Pronto, arquivos organizados do minicurso =]
+
+---
+
+background-image: url(https://www.r-project.org/logo/Rlogo.svg)
+background-size: 350px
+background-position: 75% 75%
+
+# Minicurso
+
+## Conteúdo
+
+### 1 Linguagem R, aplicações e material
+1.1 Linguagem R
+<br>
+1.2 Linguagem R e software RStudio
+<br>
+1.3 Aplicações da linguagem R
+<br>
+1.4 Apostilas, sites e livros
+
+---
+
+background-image: url(https://www.rstudio.com/wp-content/uploads/2018/10/RStudio-Logo-flat.svg)
+background-size: 450px
+background-position: 90% 85%
+
+# Minicurso
+
+## Conteúdo
+
+### 2 Funcionamento da linguagem R
+2.1 RStudio
+<br>
+2.2 Editor/Roteiro (*code*/*script*)
+<br>
+2.3 Comentários (*#*)
+<br>
+2.4 Atribuição (*<-*)
+<br>
+2.5 Objetos
+<br>
+2.6 Operadores
+<br>
+2.7 Funções
+<br>
+2.8 Pacotes
+<br>
+2.9 Ajuda (*help*)
+<br>
+2.10 Ambiente (*environment*/*workspace*)
+<br>
+2.11 Citações
+<br>
+2.12 Principais erros
+
+---
+
+background-image: url(https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2017/05/5-298x300.png)
+background-size: 300px
+background-position: 80% 90%
+
+# Minicurso
+
+## Conteúdo
+
+### 3 Estrutura e manipulação de dados
+3.1 Atributos dos objetos
+<br>
+3.2 Modos dos objetos (*numeric*, *character* e *logical*)
+<br>
+3.3 Estrutura dos objetos (*vector*, *factor*, *matrix* e *data frame*)
+<br>
+3.4 Manejo de dados unidimensionais
+<br>
+3.5 Manejo de dados bidimensionais
+<br>
+3.6 Valores faltantes e especiais
+<br>
+3.7 Diretório de trabalho
+<br>
+3.8 Importar dados
+<br>
+3.9 Conferir e manejar dados importados
+<br>
+3.10 Exportar dados
+
+---
+
+background-image: url(https://www.rstudio.com/wp-content/uploads/2014/04/tidyverse.png)
+background-size: 250px
+background-position: 75% 75%
+
+# Minicurso
+
+## Conteúdo
+
+### 4 Introdução ao tidyverse
+4.1 tidyverse
+<br>
+4.2 readr
+<br>
+4.3 readxl
+<br>
+4.4 tibble
+<br>
+4.5 magrittr (*pipe - %>%*)
+<br>
+4.6 tidyr
+<br>
+4.7 dplyr
+
+
+---
+
+background-image: url(https://www.rstudio.com/wp-content/uploads/2014/04/ggplot2.png)
+background-size: 250px
+background-position: 75% 75%
+
+# Minicurso
+
+## Conteúdo
+
+### 5 Visualização de dados
+5.1 Principais pacotes para gráficos no R
+<br>
+5.2 Principais livros e sites
+<br>
+5.3 Colunas como eixos do gráficos (*variáveis = colunas*)
+<br>
+5.4 Principais tipos de gráficos
+<br>
+5.5 Histograma (*histogram*)
+<br>
+5.6 Gráfico de setores (*pie chart* e *donut plot*)
+<br>
+5.7 Gráfico de barras (*bar plot*)
+<br>
+5.8 Gráfico de caixa (*box plot* e *violin plot*)
+<br>
+5.9 Gráfico de dispersão (*scatter plot*)
+
+---
+
+# Minicurso
+  
+## IMPORTANTE!
+  
+<br>
+  
+--
+  
+### **Aproveitem** o máximo possível!
+  
+--
+  
+### **Perguntem** o que não entenderam! Não deixem passar dúvidas!
+  
+--
+
+<br>
+### Estudar R e estatística geraram muitas **oportunidades** de parcerias em **pesquisas** e principalmente **trabalho**!
+
+---
+
+# Minicurso
+
+## IMPORTANTE!
+
+### Só se aprende R...
+
+--
+
+### ...'errando'
+
+--
+
+### Esse curso é apenas o **começo**, o aprendizado é com vocês!
+
+--
+
+### Será como **reaprender** à pensar, falar e escrever
+
+--
+
+### Aprender leva **tempo**! Muito tempo....
+
+--
+
+### Ponto positivo: há **muito material disponível** e **grátis**!
+
+---
+
+background-image: url(https://media0.giphy.com/media/dILrAu24mU729pxPYN/giphy.gif)
+background-size: 700px
+background-position: 50% 60%
+
+# O R: qual o sentido?
+
+---
+
+class: clear, inverse, middle, center
+background-image: url(img/ecologia_estatistica.jpg)
+background-size: 600px
+background-position: 50% 50%
+
+---
+
+# O R: qual o sentido?
+
+## O R precisa de um <u>**objetivo**</u> para começar a fazer sentido...
+
+--
+
+### Nesse minicurso teremos dois <u>**objetivos**</u>:
+
+### 1. **Manipular ou gerenciar** dados (planilhas) de forma mais fácil, automática e reproduzível
+
+--
+
+### 2. **Visualizar** os dados (planilhas) para apresentar e entender padrões
+
+--
+
+<br>
+
+### <u>**IMPORTANTE**</u>: não teremos <u>**estatística**</u> pelo tempo limitado...
+
+---
+
+class: clear, inverse, middle, center
+
+# O que nos leva à pergunta: como são/estão suas habilidades com **planilhas eletrônicas**?
+
+---
+
+# Planilha eletrônica
+
+## Softwares
+
+### Pago
+1. Microsoft Office (Excel): https://products.office.com/en/excel
+
+### Livre
+2. LibreOffice (Calc): https://www.libreoffice.org/discover/calc/
+3. WPS (SpreadSheets): https://www.wps.com/
+4. FreeOffice (PlanMaker): https://www.freeoffice.com/
+5. OnlyOffice (SpreadSheets): https://www.onlyoffice.com/
+
+### Online:
+6. Google Drive (SpreadSheets): https://docs.google.com/spreadsheets/
+
+---
+
+background-image: url(img/planilhas_eletronicas.png)
+background-size: 700px
+background-position: 50% 75%
+
+# Planilha eletrônica
+
+## Funcionamento
+
+### Configurem seus notebooks sempre com região com <u>**língua inglesa**</u>
+
+---
+
+class: inverse, middle, center
+
+# Dúvidas?
+
+---
+
+class: clear, middle
+
+## Maurício Vancine
+
+<br>
+
+Contatos:
+
+|                                                                                           |                               |
+| :---------------------------------------------------------------------------------------- | :---------------------------- |
+| <a href="mailto:mauricio.vancine@gmail.com">.RUred[<i class="fa fa-envelope fa-fw"></i>]  | mauricio.vancine@gmail.com    |
+| <a href="https://mauriciovancine.netlify.com/">.RUred[<i class="fa fa-link fa-fw"></i>]   | mauriciovancine.netlify.com   |
+| <a href="http://twitter.com/mauriciovancine">.RUred[<i class="fa fa-twitter fa-fw"></i>]  | @mauriciovancine              |
+| <a href="http://gitlab.com/mauriciovancine">.RUred[<i class="fa fa-gitlab fa-fw"></i>]    | @mauriciovancine              |
+| <a href="http://github.com/mauriciovancine">.RUred[<i class="fa fa-github fa-fw"></i>]    | @mauriciovancine              |
+
+Slides criados via pacote [xaringan](https://github.com/yihui/xaringan) e tema [Metropolis](https://github.com/pat-s/xaringan-metropolis)

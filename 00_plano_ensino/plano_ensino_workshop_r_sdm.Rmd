@@ -1,0 +1,105 @@
+---
+title: "Introdução à modelagem de distribuição de espécies usando a linguagem R"
+subtitle: "Mastozóologos Organizados em uma Conferência Online (MOCÓ)"
+author: "Maurício Vancine"
+date: "25-26/09/2021"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Resumo
+
+A ampla disponibilidade de dados sobre a biodiversidade e variáveis ambientais têm propiciado o uso de análises da espaciais, dentre elas, os Modelos de Distribuição de Espécies (ou do inglês *Species Distribution Modeling* - SDM). Nessa oficina, oferecerei uma introdução teórica e prática à técnica de SDM utilizando a linguagem R. Primeiramente, apresentarei brevemente os principais conceitos da teoria de nicho ecológico (Grinnell, Elton e Hutchinson) e da teoria de MDEs (espaço geográfico (G), espaço ambiental (E) e diagrama Biótico-Abiótico-Movimentação (BAM)). Seguida à parte teórica, apresentarei as principais bases de dados (ocorrências e variáveis ambientais), tipos de algoritmos (BIOCLIM, Mahalanobis, Gower, GLM, GAM, Random Forest, SVM e MaxEnt), avaliação dos modelos (ROC, AUC e TSS), limites de corte (*thresholds*) e consenso de modelos (*ensemble*). A parte prática será focada na construção dos modelos através da linguagem R, onde abordarei: (1) introdução à linguagem R, (2) obtenção e seleção de dados de ocorrências e variáveis ambientais, (3) ajuste e predição dos modelos, (4) métricas de avaliação, (5) consenso dos modelos (ensemble) e (6) composição dos mapas.
+
+## Carga horária
+
+06 horas
+
+## Repositório do GitHub
+
+[https://github.com/mauriciovancine/workshop-r-sdm](https://github.com/mauriciovancine/workshop-r-sdm)
+
+## Pré-requisitos
+
+É desejável, mas não obrigatório, o conhecimento em linguagem R (tidyverse), geoprocessamento e conceitos de estatística básica e inferencial.
+
+## Ministrante
+
+Maurício Vancine é Bacharel em Ecologia, Mestre em Zoologia e Doutorando em Ecologia, Evolução e Biodiversidade pela UNESP de Rio Claro. Possui experiência em Ecologia Espacial, Ecologia da Paisagem, Modelos de Distribuição de Espécies e Ecologia de Anfíbios.
+
+Mais informações:
+
+- Website: [https://mauriciovancine.github.io/](https://mauriciovancine.github.io/) 
+- Twitter: [https://twitter.com/mauriciovancine](https://twitter.com/mauriciovancine)
+- GitHub: [https://github.com/mauriciovancine](https://github.com/mauriciovancine)
+
+## Conteúdo
+
+### 1 Apresentação (10 min)
+
+1. Apresentações
+1. Oficina
+1. Slides
+1. Conjunto de dados
+1. Conferindo os computadores
+
+### 2 Teoria de nicho ecológico e distribuição de espécies (90 min)
+
+1. Teoria de nicho ecológico
+1. Teoria de modelos de distribuição de espécies
+1. Ecologia de populações e nicho ecológico
+1. Dados de entrada (ocorrências e variáveis)
+1. Tipos de métodos ou algoritmos
+1. Avaliação dos modelos
+1. Consenso dos modelos
+
+### 3 Funcionamento da linguagem R (20 min)
+
+1. R e RStudio 
+1. Console
+1. Scripts
+1. Operadores
+1. Objetos 
+1. Funções
+1. Pacotes
+1. Ajuda
+1. Ambiente
+1. Citações
+1. tidyverse (pipe - %>%)
+
+### 4 Dados de entrada (ocorrências e variáveis) (60 min)
+
+1. Download de dados de ocorrência
+1. Limpeza de dados de ocorrência
+1. Download de variáveis ambientais
+1. Colinearidade de variáveis ambientais
+
+### 5 Ajuste e predição dos modelos (60 min)
+
+1. Métodos de ajuste de modelos
+1. Predição de modelos
+
+### 6 Métricas de avaliação dos modelos (60 min)
+
+1. Avaliação dos modelos
+
+### 7 Consenso dos modelos (ensemble) (50 min)
+
+1. Tipos de consensos
+1. Consenso por frequência
+1. Consenso por média
+1. Consenso por média ponderada
+1. Incerteza associada ao concenso
+
+### 8 Composição dos mapas (10 min)
+
+1. Composição de mapas
+1. Mapas estáticos
+1. Mapas interativos
+
+### Bibliografia
+
+R Core Team. 2021. R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. [https://www.r-project.org/](https://www.r-project.org/)
