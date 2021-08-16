@@ -1,7 +1,7 @@
 ---
 title: "Introdução à modelagem de distribuição de espécies usando a linguagem R"
 subtitle: "Mastozóologos Organizados em uma Conferência Online (MOCÓ)"
-author: "Maurício Vancine"
+author: "Maurício H. Vancine"
 date: "25-26/09/2021"
 output: pdf_document
 ---
@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Resumo
 
-A ampla disponibilidade de dados sobre a biodiversidade e variáveis ambientais têm propiciado o uso de análises da espaciais, dentre elas, os Modelos de Distribuição de Espécies (ou do inglês *Species Distribution Modeling* - SDM). Nessa oficina, oferecerei uma introdução teórica e prática à técnica de SDM utilizando a linguagem R. Primeiramente, apresentarei brevemente os principais conceitos da teoria de nicho ecológico (Grinnell, Elton e Hutchinson) e da teoria de MDEs (espaço geográfico (G), espaço ambiental (E) e diagrama Biótico-Abiótico-Movimentação (BAM)). Seguida à parte teórica, apresentarei as principais bases de dados (ocorrências e variáveis ambientais), tipos de algoritmos (BIOCLIM, Mahalanobis, Gower, GLM, GAM, Random Forest, SVM e MaxEnt), avaliação dos modelos (ROC, AUC e TSS), limites de corte (*thresholds*) e consenso de modelos (*ensemble*). A parte prática será focada na construção dos modelos através da linguagem R, onde abordarei: (1) introdução à linguagem R, (2) obtenção e seleção de dados de ocorrências e variáveis ambientais, (3) ajuste e predição dos modelos, (4) métricas de avaliação, (5) consenso dos modelos (ensemble) e (6) composição dos mapas.
+A ampla disponibilidade de dados sobre a biodiversidade e variáveis ambientais propiciam o uso de análises espaciais, dentre elas, os Modelos de Distribuição de Espécies (ou do inglês *Species Distribution Modeling* — SDM). Nessa oficina, oferecerei uma introdução teórica e prática à técnica de SDM utilizando a linguagem R. Primeiramente, apresentarei brevemente os principais conceitos da teoria de nicho ecológico (Grinnell, Elton e Hutchinson) e da teoria de MDEs (espaço geográfico (G), espaço ambiental (E) e diagrama Biótico-Abiótico-Movimentação (BAM)). Seguida à parte teórica, apresentarei as principais bases de dados (ocorrências e variáveis ambientais), tipos de algoritmos (BIOCLIM, Mahalanobis, Gower, GLM, GAM, Random Forest, SVM e MaxEnt), avaliação dos modelos (ROC, AUC e TSS), limites de corte (*thresholds*) e consenso de modelos (*ensemble*). A parte prática será focada na construção dos modelos através da linguagem R, onde abordarei: (1) introdução à linguagem R, (2) obtenção e seleção de dados de ocorrências e variáveis ambientais, (3) ajuste e predição dos modelos, (4) métricas de avaliação, (5) consenso dos modelos (ensemble) e (6) composição dos mapas.
 
 ## Carga horária
 
@@ -43,22 +43,23 @@ Mais informações:
 1. Apresentações
 1. Oficina
 1. Slides
-1. Conjunto de dados
+1. Material
 1. Conferindo os computadores
 
 ### 2 Teoria de nicho ecológico e distribuição de espécies (90 min)
 
 1. Teoria de nicho ecológico
-1. Teoria de modelos de distribuição de espécies
-1. Ecologia de populações e nicho ecológico
+1. Nicho ecológico e ecologia de populações
+1. Visão geral de modelos de distribuição de espécies
 1. Dados de entrada (ocorrências e variáveis)
 1. Tipos de métodos ou algoritmos
 1. Avaliação dos modelos
-1. Consenso dos modelos
+1. Consenso de modelos
 
 ### 3 Funcionamento da linguagem R (20 min)
 
-1. R e RStudio 
+1. Linguamgem R 
+1. RStudio 
 1. Console
 1. Scripts
 1. Operadores
@@ -67,8 +68,9 @@ Mais informações:
 1. Pacotes
 1. Ajuda
 1. Ambiente
-1. Citações
+1. Diretório de trabalho
 1. tidyverse (pipe - %>%)
+1. Dados geoespaciais
 
 ### 4 Dados de entrada (ocorrências e variáveis) (60 min)
 
@@ -77,24 +79,14 @@ Mais informações:
 1. Download de variáveis ambientais
 1. Colinearidade de variáveis ambientais
 
-### 5 Ajuste e predição dos modelos (60 min)
+### 5 Ajuste, avaliação e predição dos modelos (100 min)
 
-1. Métodos de ajuste de modelos
-1. Predição de modelos
-
-### 6 Métricas de avaliação dos modelos (60 min)
-
+1. Ajuste dos modelos
 1. Avaliação dos modelos
+1. Predição dos modelos
+1. Consensos dos modelos
 
-### 7 Consenso dos modelos (ensemble) (50 min)
-
-1. Tipos de consensos
-1. Consenso por frequência
-1. Consenso por média
-1. Consenso por média ponderada
-1. Incerteza associada ao concenso
-
-### 8 Composição dos mapas (10 min)
+### 6 Composição dos mapas (20 min)
 
 1. Composição de mapas
 1. Mapas estáticos
@@ -102,4 +94,56 @@ Mais informações:
 
 ### Bibliografia
 
+Allouche, O., Tsoar, A., & Kadmon, R. (2006). Assessing the accuracy of species distribution models: Prevalence, kappa and the true skill statistic (Tss): Assessing the accuracy of distribution models. Journal of Applied Ecology, 43(6), 1223–1232. https://doi.org/10.1111/j.1365-2664.2006.01214.x
+
+Araújo, M. B., R. P. Anderson, A. M. Barbosa, C. M. Beale, C. F. Dormann, R. Early, R. A. Garcia, et al. 2019. “Standards for Distribution Models in Biodiversity Assessments.” Science Advances 5: eaat4858.
+
+Dormann, C. F., J. Elith, S. Bacher, C. Buchmann, G. Carl, G. Carre, J. R. Garcia Marquez, et al. 2013. “Collinearity: A Review of Methods to Deal with It and a Simulation Study Evaluating Their Performance.” Ecography 36: 27–46.
+
+Elith, J., C. H. Graham, R. P. Anderson, M. Dudik, S. Ferrier, A. Guisan, R. J. Hijmans, et al. 2006. “Novel Methods Improve Prediction of Species’ Distribution from Occurence Data.” Ecography 29: 129–51.
+
+Elith, J., and J. R. Leathwick. 2009. “Species Distribution Models: Ecological Explanation and Prediction Across Space and Time.” Annual Review of Ecology, Evolution, and Systematics 40: 677–97.
+
+Elith, J., S. J. Phillips, T. Hastie, M. Dudik, Y. E. Chee, and C. J. Yates. 2011. “A Statistical Explanation of Maxent for Ecologists.” Diversity and Distributions 17: 43–57.
+
+Franklin, J. 2010. Mapping Species Distributions: Spatial Inference and Prediction. Cambride University Press.
+
+Freeman, E. A., and G. Moisen. 2008. “PresenceAbsence: An R Package for Presence Absence Analysis.” Journal of Statistical Software 23: 1–31.
+
+Guillera-Arroita, G. 2017. “Modelling of Species Distributions, Range Dynamics and Communities Under Imperfect Detection: Advances, Challenges and Opportunities.” Ecography 40: 281–95.
+
+Guisan, A., and W. Thuiller. 2005. “Predicting Species Distribution: Offering More Than Simple Habitat Models.” Ecology Letters 8: 993–1009.
+
+Guisan, A., W. Thuiller, and N. E. Zimmermann. 2017. Habitat Suitability and Distribution Models with Applications in R. Cambride University Press.
+
+Guisan, A., and N. E. Zimmermann. 2000. “Predictive Habitat Distribution Models in Ecology.” Ecological Modelling 135: 147–86.
+
+Hijmans, R. J. 2019. Raster: Geographic Data Analysis and Modeling. https://CRAN.R-project.org/package=raster.
+
+Hutchinson, G. E. 1957. “Concluding Remarks, Cold Spring Harbor Symposium.” Quantitative Biology 22: 415–27.
+
+Liu, C., P. M. Berry, T. P. Dawson, and R. G. Pearson. 2005. “Selecting Thresholds of Occurrence in the Prediction of Species Distributions.” Ecography 28: 385–93.
+
+Merow, C., M. J. Smith, T. C. Edwards Jr, A. Guisan, S. M. McMahon, S. Normand, W. Thuiller, R. O. Wueest, N. E. Zimmermann, and J. Elith. 2014. “What Do We Gain from Simplicity Versus Complexity in Species Distribution Models?” Ecography 37: 1267–81.
+
+Merow, C., M. J. Smith, and J. A. Silander Jr. 2013. “A Practical Guide to Maxent for Modeling Species’ Distributions: What It Does, and Why Inputs and Settings Matter.” Ecography 36: 1058–69.
+
+Peterson, A. T., J. Soberon, R.G. Pearson, R. P. Anderson, E. Martinez-Meyer, M. Nakamura, and M. B. Araujo. 2011. Ecological Niches and Geographic Distributions. Princeton University Press.
+
+Phillips, S. J., R. P. Anderson, and R. E. Schapire. 2006. “Maximum Entropy Modeling of Species Geographic Distributions.” Ecological Modelling 190: 231–59.
+
 R Core Team. 2021. R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. [https://www.r-project.org/](https://www.r-project.org/)
+
+Roberts, D. R., V. Bahn, S. Ciuti, M. S. Boyce, J. Elith, G. Guillera-Arroita, S: Hauenstein, et al. 2017. “Cross-Validation Strategies for Data with Temporal, Spatial, Hierarchical, or Phylogenetic Structure.” Ecography 40: 913–29.
+
+Soberon, J. 2007. “Grinellian and Eltonian Niches and Geographic Distributions of Species.” Ecology Letters 10: 1115–23.
+
+Thuiller, W., M. Guéguen, J. Renaud, D. N. Karger, and N. E. Zimmermann. 2019. “Uncertainty in Ensembles of Global Biodiversity Scenarios.” Nature Communications 10: 1446.
+
+Thuiller, W., B. Lafourcade, R. Engler, and M. B. Araujo. 2009. “BIOMOD - a Platform for Ensemble Forecasting of Species Distributions.” Ecography 32: 369–73.
+
+Urban, M. C., G. Bocedi, A. P. Hendry, J.-B. Mihoub, G. Pe’er, A. Singer, J. R. Bridle, et al. 2016. “Improving the Forecast for Biodiversity Under Climate Change.” Science 353: aad8466.
+
+Zurell, D., J. Elith, and B. Schroeder. 2012. “Predicting to New Environments: Tools for Visualising Model Behaviour and Impacts on Mapped Distributions.” Diversity and Distributions 18: 628–34.
+
+Zurell, D., and J.O. Engler. 2019. “Ecological Niche Modelling.” In Effects of Climate Change on Birds, edited by P.O. Dunn and A.P. Moller, 60–73. Oxford University Press.

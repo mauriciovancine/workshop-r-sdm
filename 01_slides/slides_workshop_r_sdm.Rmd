@@ -1,497 +1,1406 @@
 ---
-title: "XXX Semana de Estudos da Ecologia <br><br> Introdução à linguagem R: manipulação e visualização de dados"
-subtitle: ""
-author: "Maurício Vancine <br> Helena Oliveira <br> Lucas Almeida <br>"
-date: "<br> xaringan [presentation ninja] <br><br> 06/11/2019"
-encoding: "UTF-8"
+title: "Introdução à modelagem de distribuição de espécies usando a linguagem R <br><br><br>"
+subtitle: "Mastozóologos Organizados em uma Conferência Online (MOCÓ)"
+author: "Maurício H. Vancine"
+institute: "UNESP - Rio Claro <br> Laborário de Ecologia Espacial e Conservação (LEEC)"
+date: "25-26/09/2021"
 output:
   xaringan::moon_reader:
-    css: metropolis
+    css: [default, metropolis, metropolis-fonts, custom.css]
     lib_dir: libs
     nature:
       highlightStyle: rainbow
-      highlightLines: true
+      highlightLines: false
+      highlightSpans: true
       countIncrementalSlides: false
       slideNumberFormat: "%current%/%total%"
-    includes:
-      in_header: header.html
+      ratio: "16:9"
 ---
 
 ```{r setup, include=FALSE}
-options(htmltools.dir.version = FALSE)
-knitr::opts_chunk$set(warning = FALSE, message = FALSE)
+options(htmltools.dir.version = FALSE, encoding = "UTF-8")
+knitr::opts_chunk$set(fig.retina = 3, warning = FALSE, message = FALSE)
+library(tidyverse)
 ```
 
-class: clear, center, middle
-background-image: url(https://user-images.githubusercontent.com/163582/45438104-ea200600-b67b-11e8-80fa-d9f2a99a03b0.png)
-background-size: 40%
-background-position: 50% 50%
+class: inverse, center, middle
+
+# Primeiramente, gostaria de agradecê-los pela presença na oficina, sejam muito bem-vindas e bem-vindos!
 
 ---
 
-# Maurício Vancine
+class: inverse, center, middle
 
-## Ecólogo (2015) | Mestre em Zoologia (2018)
+# Gostaria de agradecer também ao MOCÓ pela oportunidade de oferecer a oficina!
 
---
+---
 
-### Pesquisa
+background-image: url(img/general_sig.png)
+background-size: 300px
+background-position: 45% 70%
+
+# Curso
+
+## Conteúdo
+
+### 1 Apresentações (10 min)
+
+1. Apresentações
+1. Oficina
+1. Material
+1. Slides
+1. Conferindo os computadores
+
+---
+
+background-image: url(img/general_sig.png)
+background-size: 300px
+background-position: 90% 75%
+
+# Curso
+
+## Conteúdo
+
+### 2 Teoria de nicho ecológico e distribuição de espécies (90 min)
+
+1. O que são Modelos de Distribuição de Espécies?
+1. Teoria de nicho ecológico
+1. Nicho ecológico e ecologia de populações
+1. Visão geral de Modelos de Distribuição de Espécies
+1. Dados de entrada (ocorrências e variáveis)
+1. Tipos de métodos ou algoritmos
+1. Avaliação dos modelos
+1. Consenso de modelos
+
+---
+
+background-image: url(img/r_logo.svg)
+background-size: 600px
+background-position: 85% 60%
+
+# Curso
+
+## Conteúdo
+
+### 3 Funcionamento da linguagem R (20 min)
+
+1. Linguamgem R 
+1. RStudio 
+1. Console
+1. Scripts
+1. Operadores
+1. Objetos 
+1. Funções
+1. Pacotes
+1. Ajuda
+1. Ambiente
+1. Diretório de trabalho
+1. tidyverse (pipe - %>%)
+1. Dados geoespaciais
+
+---
+
+background-image: url(img/geo_vector_types.jpg)
+background-size: 400px
+background-position: 85% 80%
+
+# Curso
+
+## Conteúdo
+
+### 4 Dados de entrada (ocorrências e variáveis) (60 min)
+
+1. Download de dados de ocorrência
+1. Limpeza de dados de ocorrência
+1. Download de variáveis ambientais
+1. Colinearidade de variáveis ambientais
+
+---
+
+background-image: url(img/geo_raster.jpg)
+background-size: 500px
+background-position: 85% 70%
+
+# Curso
+
+## Conteúdo
+
+### 5 Ajuste, avaliação e predição dos modelos (100 min)
+
+1. Ajuste dos modelos
+1. Avaliação dos modelos
+1. Predição dos modelos
+1. Consensos dos modelos
+
+---
+
+background-image: url(img/geo_map_elements.png)
+background-size: 600px
+background-position: 85% 70%
+
+# Curso
+
+## Conteúdo
+
+### 6 Composição de mapas (20 min)
+
+1. Composição de mapas
+1. Mapas estáticos
+1. Mapas interativos
+
+---
+
+class: inverse, center, middle
+
+# 1 Apresentações
+
+---
+
+background-image: url(img/unesp_logo-removebg-preview.png), url(img/person_mauricio_vancine.jpg),url(img/gif_frog.gif)
+background-size: 400px, 250px, 200px
+background-position: 90% 20%, 84% 80%, 60% 90%
+
+# 1.1 Apresentações
+
+### Ecólogo (2014) | Mestre em Zoologia (2018) | Doutorando em Ecologia (2020)
+
+**Pesquisa**
 - Ecologia Espacial
-- Ecologia Quantitativa
+- Modelagem Ecológica
 - Ecologia e Conservação de Anfíbios
-  
---
 
-### Habilidades
+**Habilidades**
 - Modelos de Distribuição de Espécies (SDMs)
 - Análise de Dados Ecológicos e Geoespaciais
-- **Open source** [R, QGIS, GRASS GIS, Linux, Libreoffice....]
+- *Open source* [R, QGIS, GRASS GIS, GNU/Linux, ...]
 
---
+**Informações:**
 
-### Contato e informações
-|                                                                                          |                                     |
-| :--------------------------------------------------------------------------------------- | :--------------------------------   |
-| <a href="mailto:mauricio.vancine@gmail.com">.RUred[<i class="fa fa-envelope fa-fw"></i>] | mauricio.vancine@gmail.com          |
-| <a href="http://twitter.com/mauriciovancine">.RUred[<i class="fa fa-twitter fa-fw"></i>] | @mauriciovancine                    |
-| <a href="https://mauriciovancine.netlify.com/">.RUred[<i class="fa fa-link fa-fw"></i>]  | mauriciovancine.netlify.com         |
+- `r icons::icon_style(icons::fontawesome(name = "envelope", style = "solid"), fill = "#23373b")` [mauricio.vancine@gmail.com]()
+- `r icons::icon_style(icons::fontawesome("twitter"), fill = "#23373b")` [@mauriciovancine](https://twitter.com/mauriciovancine)  
+- `r icons::icon_style(icons::fontawesome(name = "github"), fill = "#23373b")` [mauriciovancine](https://github.com/mauriciovancine)
+- `r icons::icon_style(icons::fontawesome(name = "link", style = "solid"), fill = "#23373b")` [mauriciovancine.github.io](https://mauriciovancine.github.io)
 
 ---
 
-# Helena Oliveira
+background-image: url(img/general_introduce_yourself.jpg)
+background-size: 400px
+background-position: 90% 60%
 
-## Bióloga (2021?)
+# 1.1 Apresentações
 
-### Pesquisa
-- Ecologia de Comunidades
-- Ecologia de Anfíbios
-- ????
+## Participantes (10 segundos cada um)
 
-### Habilidades
-- Modelos de Distribuição de Espécies
-- **Open source** [R, Linux, Libreoffice....]
-- ????
+<br>
 
-### Contato e informações
-|                                                                                          |                                   |
-| :--------------------------------------------------------------------------------------- | :-------------------------------- |
-| <a href="mailto:helenatcdo@gmail.com">.RUred[<i class="fa fa-envelope fa-fw"></i>]       | helenatcdo@gmail.com              |
+### 1. Nome
 
+### 2. Formação
+
+### 3. O que faz ou pensa em fazer da vida?
+
+### 4. Conhece algo de Modelos de Distribuição de Espécies?
+
+### 5. Por que escolheu e o que espera dessa oficina?
 
 ---
 
-# Lucas Almeida
-
-## Biólogo (2020)
-
-### Pesquisa
-- Zoologia
-- Herpetologia
-- Comportamento animal
-- ????
-
-### Habilidades
-- Naturalista
-- Modelos de Distribuição de Espécies
-- **Open source** [R]
-- ????
-
-### Contato e informações
-|                                                                                          |                                   |
-| :--------------------------------------------------------------------------------------- | :-------------------------------- |
-| <a href="mailto:almeidals1994@gmail.com">.RUred[<i class="fa fa-envelope fa-fw"></i>]    | almeidals1994@gmail.com           |
-
----
-
-# Participantes
-
-## Apresentações
-
-<br><br>
-
-### 1. Nome que a sua família e que a UNESP te deram...
-
-### 2. O que faz da vida...
-
-### 3. Já conhece a 'palavra' do R?
-
-### 4. O que raios está fazendo aqui?
-
----
-
-# Experiência
-
-## Minha história com o R (~480 h)
-
-<br>
-
-- 2011: Assisti, **Curso de R** (40 h) - Prof. Tadeu Siqueira
-
-- 2015: Minicurso, **Introdução ao software R** (08 h) - SEE 2015
-
-- 2015: Monitor, **Ecologia Quantitativa** (60 h) - Prof. Tadeu Siqueira
-
-- 2016: Minicurso, **Introdução software R: manejo de dados, gráficos e análises estatísticas** (16 h) - SeBio 2016
-
-- 2016: Monitor, **Modelagem de Nicho Ecológico no R** (30 h) - UNESP
-
-- 2016: Professor colaborador, **Modelagem de nicho ecológico: teoria e prática** (45 h) - Unicamp
-
----
-
-# Experiência
-
-## Minha história com o R (~480 h)
-
-<br>
-
-- 2017:	Professor colaborador, **Modelagem de nicho ecológico: teoria e prática** (60 h) - UNESP
-
-- 2017: Estágio docência, **Ecologia Quantitativa** (60 h) - Prof. Tadeu Siqueira
-
-- 2018: Professor colaborador, **Modelos Estatísticos em Ecologia** (12 h) - UNESP
-
-- 2019: Curso, **Introdução à linguagem R: manejo, visualização e análises de dados** (50 h) - Labic
-
-- 2019: Assisti, **Introdução à modelagem hierárquica** (45 h) - UFRGS
-
-- 2019: Professor visitante, **Introdução ao geoprocessamento para etnobiologia e conservação da biodiversidade ** (45 h) - UFRPE
-
-- 2019: Minicurso, **Introdução à linguagem R: manejo, visualização e análises de dados** (8 h) - SeBio 2019
-
----
-
-# Minicurso
-
-<br><br>
-
-### Duração
-~08 h
-
---
-
-### Datas e horários
-06/11 [08:00 h - 12:00 h] <br>
-07/11 [08:00 h - 12:00 h]
-
---
-
-### Formato
-Prática (6 h) <br>
-Exercícios (2 h)
-
----
-
-# Minicurso
-
-## Material
-
-### Repositório de dados do minicurso no GitHub
-https://github.com/mauriciovancine/minicurso-r-see-2019
-
---
-
-<br>
-
-## Organização no seu computador
-Criem uma pasta chamada `github` em `Documentos` ou na famigerada `Área de Trabalho`
-
---
-
-Adicionem o arquivo `minicurso-r-see-2019-master.zip` nessa pasta
-
---
-
-Deszipem o arquivo nessa pasta
-
---
-
-Pronto, arquivos organizados do minicurso =]
-
----
-
-background-image: url(https://www.r-project.org/logo/Rlogo.svg)
-background-size: 350px
-background-position: 75% 75%
-
-# Minicurso
-
-## Conteúdo
-
-### 1 Linguagem R, aplicações e material
-1.1 Linguagem R
-<br>
-1.2 Linguagem R e software RStudio
-<br>
-1.3 Aplicações da linguagem R
-<br>
-1.4 Apostilas, sites e livros
-
----
-
-background-image: url(https://www.rstudio.com/wp-content/uploads/2018/10/RStudio-Logo-flat.svg)
-background-size: 450px
-background-position: 90% 85%
-
-# Minicurso
-
-## Conteúdo
-
-### 2 Funcionamento da linguagem R
-2.1 RStudio
-<br>
-2.2 Editor/Roteiro (*code*/*script*)
-<br>
-2.3 Comentários (*#*)
-<br>
-2.4 Atribuição (*<-*)
-<br>
-2.5 Objetos
-<br>
-2.6 Operadores
-<br>
-2.7 Funções
-<br>
-2.8 Pacotes
-<br>
-2.9 Ajuda (*help*)
-<br>
-2.10 Ambiente (*environment*/*workspace*)
-<br>
-2.11 Citações
-<br>
-2.12 Principais erros
-
----
-
-background-image: url(https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2017/05/5-298x300.png)
+background-image: url(img/general_master_meme.jpg)
 background-size: 300px
-background-position: 80% 90%
+background-position: 95% 45%
 
-# Minicurso
+# 1.2 Oficina
 
-## Conteúdo
+<br>
 
-### 3 Estrutura e manipulação de dados
-3.1 Atributos dos objetos
+## Carga horária
+
+### - 06 horas
+
 <br>
-3.2 Modos dos objetos (*numeric*, *character* e *logical*)
-<br>
-3.3 Estrutura dos objetos (*vector*, *factor*, *matrix* e *data frame*)
-<br>
-3.4 Manejo de dados unidimensionais
-<br>
-3.5 Manejo de dados bidimensionais
-<br>
-3.6 Valores faltantes e especiais
-<br>
-3.7 Diretório de trabalho
-<br>
-3.8 Importar dados
-<br>
-3.9 Conferir e manejar dados importados
-<br>
-3.10 Exportar dados
+
+## Diânima
+
+### - Tudo vai ser muito rápido
+
+### - O principal intuito é fazer uma introdução ao tema
+
+### - Vou disponibilizar e indicar material
 
 ---
 
-background-image: url(https://www.rstudio.com/wp-content/uploads/2014/04/tidyverse.png)
-background-size: 250px
-background-position: 75% 75%
+background-image: url(img/github_logo.png)
+background-size: 500px
+background-position: 50% 70%
 
-# Minicurso
+# 1.3 Material
 
-## Conteúdo
+## O material do curso pode ser acessado nesse respositório
 
-### 4 Introdução ao tidyverse
-4.1 tidyverse
-<br>
-4.2 readr
-<br>
-4.3 readxl
-<br>
-4.4 tibble
-<br>
-4.5 magrittr (*pipe - %>%*)
-<br>
-4.6 tidyr
-<br>
-4.7 dplyr
-
+.footnote[
+[Repositório](https://github.com/mauriciovancine/workshop-r-sdm)
+]
 
 ---
 
-background-image: url(https://www.rstudio.com/wp-content/uploads/2014/04/ggplot2.png)
-background-size: 250px
-background-position: 75% 75%
+background-image: url(img/package_xaringan.png)
+background-size: 400px
+background-position: 50% 80%
 
-# Minicurso
+# 1.4 Slides
 
-## Conteúdo
+## Todos os slides estão disponibilizados em .html
 
-### 5 Visualização de dados
-5.1 Principais pacotes para gráficos no R
-<br>
-5.2 Principais livros e sites
-<br>
-5.3 Colunas como eixos do gráficos (*variáveis = colunas*)
-<br>
-5.4 Principais tipos de gráficos
-<br>
-5.5 Histograma (*histogram*)
-<br>
-5.6 Gráfico de setores (*pie chart* e *donut plot*)
-<br>
-5.7 Gráfico de barras (*bar plot*)
-<br>
-5.8 Gráfico de caixa (*box plot* e *violin plot*)
-<br>
-5.9 Gráfico de dispersão (*scatter plot*)
+.footnote[
+[xaringan](https://slides.yihui.org/xaringan)
+]
 
 ---
 
-# Minicurso
-  
-## IMPORTANTE!
-  
-<br>
-  
---
-  
-### **Aproveitem** o máximo possível!
-  
---
-  
-### **Perguntem** o que não entenderam! Não deixem passar dúvidas!
-  
---
-
-<br>
-### Estudar R e estatística geraram muitas **oportunidades** de parcerias em **pesquisas** e principalmente **trabalho**!
-
----
-
-# Minicurso
-
-## IMPORTANTE!
-
-### Só se aprende R...
-
---
-
-### ...'errando'
-
---
-
-### Esse curso é apenas o **começo**, o aprendizado é com vocês!
-
---
-
-### Será como **reaprender** à pensar, falar e escrever
-
---
-
-### Aprender leva **tempo**! Muito tempo....
-
---
-
-### Ponto positivo: há **muito material disponível** e **grátis**!
-
----
-
-background-image: url(https://media0.giphy.com/media/dILrAu24mU729pxPYN/giphy.gif)
+background-image: url(img/general_hard_soft.png)
 background-size: 700px
-background-position: 50% 60%
-
-# O R: qual o sentido?
-
----
-
-class: clear, inverse, middle, center
-background-image: url(img/ecologia_estatistica.jpg)
-background-size: 600px
 background-position: 50% 50%
 
----
-
-# O R: qual o sentido?
-
-## O R precisa de um <u>**objetivo**</u> para começar a fazer sentido...
-
---
-
-### Nesse minicurso teremos dois <u>**objetivos**</u>:
-
-### 1. **Manipular ou gerenciar** dados (planilhas) de forma mais fácil, automática e reproduzível
-
---
-
-### 2. **Visualizar** os dados (planilhas) para apresentar e entender padrões
-
---
-
-<br>
-
-### <u>**IMPORTANTE**</u>: não teremos <u>**estatística**</u> pelo tempo limitado...
+# 1.5 Conferir os computadores
 
 ---
 
-class: clear, inverse, middle, center
+class: inverse, center, middle
 
-# O que nos leva à pergunta: como são/estão suas habilidades com **planilhas eletrônicas**?
-
----
-
-# Planilha eletrônica
-
-## Softwares
-
-### Pago
-1. Microsoft Office (Excel): https://products.office.com/en/excel
-
-### Livre
-2. LibreOffice (Calc): https://www.libreoffice.org/discover/calc/
-3. WPS (SpreadSheets): https://www.wps.com/
-4. FreeOffice (PlanMaker): https://www.freeoffice.com/
-5. OnlyOffice (SpreadSheets): https://www.onlyoffice.com/
-
-### Online:
-6. Google Drive (SpreadSheets): https://docs.google.com/spreadsheets/
+# Dúvidas?
 
 ---
 
-background-image: url(img/planilhas_eletronicas.png)
+background-image: url(img/r_rstudio.png)
+background-size: 450px
+background-position: 80% 75%
+
+# 3 Introdução ao R
+
+## Conteúdo
+
+1. Linguagem R
+1. Console
+1. Scripts
+1. Operadores
+1. Objetos 
+1. Funções
+1. Pacotes
+1. Ajuda
+1. Ambiente
+1. Diretório de trabalho
+1. tidyverse (pipe - %>%)
+1. Dados geoespaciais
+
+---
+
+class: inverse, center, middle
+
+# 3.1 Linguagem R
+
+---
+
+background-image: url(img/r_power.jpeg)
+background-size: 400px
+background-position: 50% 90%
+
+# 3.1 Linguagem R
+
+## Definições
+
+O R é uma **linguagem de programação livre** (*open source*), direcionada à **manipulação, análise e visualização de dados**, com diversas **expansões** (*pacotes*) para o uso de **dados com formatos específicos**
+
+---
+
+background-image: url(img/r_rollercoaster.png)
+background-size: 850px
+background-position: 70% 90%
+
+# 3.1 Linguagem R
+
+## É legal, mas nem sempre é fácil...
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+Fonte: [@allison_horst](https://twitter.com/allison_horst)
+
+---
+
+background-image: url(img/general_directory_meme.jpg)
 background-size: 700px
 background-position: 50% 75%
 
-# Planilha eletrônica
+# 3.1 Linguagem R
 
-## Funcionamento
-
-### Configurem seus notebooks sempre com região com <u>**língua inglesa**</u>
+## É legal, mas nem sempre é fácil...
 
 ---
 
-class: inverse, middle, center
+background-image: url(img/general_code_meme.jpg)
+background-size: 800px
+background-position: 50% 75%
+
+# 3.1 Linguagem R
+
+## É legal, mas nem sempre é fácil...
+
+---
+
+background-image: url(img/r_rstudio_vs01.png)
+background-size: 600px
+background-position: 50% 70%
+
+# 3.2 RStudio
+
+---
+
+background-image: url(img/r_rstudio_vs02.png),url(img/r_rstudio_vs03.png)
+background-size: 800px,800px
+background-position: 50% 15%,50% 80%
+
+# 3.2 RStudio
+
+---
+
+background-image: url(img/rstudio.png)
+background-size: 800px
+background-position: 50% 70%
+
+# 3.2 RStudio
+
+---
+
+background-image: url(img/rstudio.png)
+background-size: 500px
+background-position: 95% 85%
+
+# 3.2 RStudio
+
+## Janelas e abas
+
+- **1. Editor/Script**: é onde escrevemos nossos códigos em R ou R Markdown
+- **2. Console**: é onde os códigos são rodados e vemos as saídas
+- **3. Environment**: painel com todos os objetos criados na sessão
+- **3. History**: painel com o histórico dos comandos rodados
+- **3. Connection**: painel para conectar banco de dados
+- **3. Git**: painel de controle de versão
+- **3. Tutorial**: painel de tutoriais
+- **4. Files**: painel que mostra os arquivos no diretório de trabalho
+- **4. Plots**: painel onde os gráficos são apresentados
+- **4. Packages**: painel que lista os pacotes
+- **4. Help**: painel onde a documentação das funções é exibida
+- **4. Help**: painel onde a documentação das funções é exibida
+
+---
+
+background-image: url(img/rstudio.png)
+background-size: 500px
+background-position: 90% 25%
+
+# 3.2 RStudio
+
+## Atalhos
+
+- **f1**: abre o painel de *Help*
+- **ctrl + Enter**: roda a linha selecionada no script
+- **ctrl + Shift + N**: abre um novo script
+- **ctrl + S**: salva um script
+- **ctrl + Z**: desfaz uma operação
+- **ctrl + shift + Z**: refaz uma operação
+- **alt + -**: insere um sinal de atribuição (<-)
+- **ctrl + Shift + M**: insere um operador pipe (%>%) 
+- **ctrl + Shift + C**: comenta uma linha no script - insere um (#) 
+- **ctrl + Shift + R**: insere uma sessão (# ----------------------)
+- **ctrl + Shift + H**: abre uma janela para selecionar o diretório de trabalho
+- **ctrl + Shift + f10**: reinicia o console
+- **ctrl + L**: limpa os comandos do console 
+- **alt + Shift + K**: abre uma janela com todos os atalhos disponíveis
+
+---
+
+background-image: url(img/rstudio_project.png), url(img/rstudio_project_logo.png)
+background-size: 700px, 100px
+background-position: 60% 80%, 95% 10%
+
+# 3.2 RStudio
+
+## Projeto R (.Rproj)
+
+- Facilita o trabalho em múltiplos ambientes 
+- Cada projeto possui seu diretório, documentos e workspace
+- Permite versionamento
+
+---
+
+background-image: url(img/rstudio_project.webp)
+background-size: 430px
+background-position: 50% 90%
+
+# 3.2 RStudio
+
+## Projeto R (.Rproj)
+
+### - Sempre **abram o RStudio** pelo arquivo **.Rproj**
+
+### - Ou **definam o projeto** depois de abrir o RStudio
+
+---
+
+class: inverse, center, middle
+
+# 3.3 Console
+
+---
+
+background-image: url(img/rstudio_script.png)
+background-size: 500px
+background-position: 50% 90%
+
+# 3.3 Console
+
+## Console
+
+### O console é onde a versão da linguagem R instalada é carregada para executar os códigos da linguagem R
+
+---
+
+# 3.3 Console
+
+## Console
+
+### O console é onde a versão da linguagem R instalada é carregada para executar os códigos da linguagem R
+
+<br>
+
+```{r}
+10 + 2
+```
+
+<br>
+
+--
+
+```{r}
+1:42
+```
+
+---
+
+class: inverse, center, middle
+
+# 3.4 Scripts
+
+---
+
+background-image: url(img/rstudio_script.jpg)
+background-size: 700px
+background-position: 50% 100%
+
+# 3.4 Scripts
+
+## Script (.R)
+
+**Atalho**: `ctrl + shift + N`
+
+- São **rascunhos** dos comandos
+- Será neles que os **códigos serão escritos** e depois **enviados ao console do R**
+- São **arquivos de texto simples**, que serão salvos no formato .R
+
+---
+
+# 3.4 Scripts
+
+## Esclarecimentos
+
+<br>
+
+### Isso é texto, não digite no R!
+
+--
+
+<br>
+
+### Digitar no script
+
+```{r eval=FALSE}
+print("Isso é o resultado que deve aparecer no console")
+```
+
+--
+
+### Resultado no console
+
+```{r echo=FALSE}
+print("Isso é o resultado que deve aparecer no console")
+```
+
+---
+
+background-image: url(img/rstudio_script.jpg)
+background-size: 900px
+background-position: 50% 110%
+
+# 3.4 Scripts
+
+## Salvar um script
+
+**Atalho**: `ctrl + S`
+
+---
+
+# 3.4 Scripts
+
+### Todos os **comandos** devem ser digitados no **script**!
+
+--
+
+### Deixem o **cursor** em **qualquer local da linha** e executem essa linha utilizando essa **combinação**: 
+
+### **Atalho**: `ctrl + Enter`
+
+--
+
+### Vamos testar:
+
+--
+
+```{r}
+1
+```
+
+--
+
+```{r}
+1 + 2
+```
+
+---
+
+class: inverse, center, middle
+
+# E é isso que faremos pelo resto de nossas vidas...
+
+---
+
+# 3.4 Scripts
+
+## Comentários (#)
+
+### Comentários **não são lidos** pelo R e **descrevem informações**
+
+--
+
+### São representados pelo **#** (hash) ou **#'** (hash-linha)
+
+### Informações sobre os comandos
+
+```{r}
+## comentarios
+# o r nao le o codigo depois do # (hash)
+
+42 # essas palavras nao sao executadas, apenas o 42
+```
+
+---
+
+# 3.4 Scripts
+
+## Comentários (#)
+
+### Comentários **não são lidos** pelo R e **descrevem informações**
+
+### São representados pelo **#** (hash) ou **#'** (hash-linha)
+
+### Cabeçalho
+
+```{r}
+#' ---
+#' title: Introdução à modelagem de distribuição de espécies usando a linguagem R
+#' author: seu nome
+#' date: 25-09-2021
+#' ---
+```
+
+---
+
+class: inverse, center, middle
+
+# 3.5 Operadores
+
+---
+
+# 3.5 Operadores
+
+## Operadores aritméticos
+
+```{r}
+## operadores aritmeticos (+, -, *, /, ^)
+10 + 2 # adicao
+```
+--
+```{r}
+10 * 2 # multiplicacao
+```
+--
+```{r}
+10 / 2 # divisao
+```
+--
+```{r}
+10 ^ 2 # potenciacao
+```
+
+---
+
+# 3.5 Operadores
+
+### Ordem das operações aritméticas 
+
+<br>
+
+### .center[`^  >>  * ou /  >>  + ou -`]
+
+<br>
+
+```{r}
+# sem especificar - segue a ordem
+1 * 2 + 2 / 2 ^ 2
+```
+
+--
+
+```{r}
+# especificando - segue os parênteses
+((1 * 2) + (2 / 2)) ^ 2
+```
+
+---
+
+# 3.5 Operadores
+
+## Operadores
+
+.pull-left[ 
+
+### Operadores aritméticos
+
+<br>
+
+| Operador |       Descrição      |   Uso   |
+|:--------:|:--------------------:|:-------:|
+|     +    | Adição               |  a + b  |
+|     –    | Subtração            |  a - b  |
+|     *    | Multiplicação        |  a * b  |
+|     /    | Divisão              |  a / b  |
+|    %%    | Resto da divisão     |  a %% b |
+|    %/%   | Quociente da divisão | a %/% b |
+|     ^    | Potenciação          |   a^b   |
+]
+
+--
+
+.pull-right[ 
+
+### Operadores relacionais
+
+<br>
+
+| Operador |       Descrição       |   Uso   |
+|:--------:|:---------------------:|:-------:|
+|     <    | Menor                 |  a < b  |
+|     >    | Maior                 |  a > b  |
+|    ==    | Igual                 |  a == b |
+|    <=    | Menor ou igual        |  a <= b |
+|    >=    | Maior ou igual        | a > = b |
+|    !=    | Não igual (diferente) |   a!=b  |
+]
+
+---
+
+class: inverse, center, middle
+
+# 3.6 Objetos
+
+---
+
+# 3.6 Objetos
+
+## Atribuição (<-)
+
+### Objetos são palavras que atribuímos dados
+
+--
+
+### A atribuição possibilita a manipulação de dados ou resultados de análises
+
+--
+
+### Utilizaremos o símbolo **"<" (menor)** seguido de **"-" (menos)**, **sem espaço**!!!
+
+<br>
+
+--
+
+## **palavra <- dados**
+
+### Atalho: `alt + -`
+
+--
+
+background-image: url(img/r_assignment.jpg)
+background-size: 450px
+background-position: 70% 90%
+
+---
+
+# 3.6 Objetos
+
+### Vamos atribuir o **valor 10** à palavra **obj10**
+
+--
+
+```{r}
+## atribuicao - simbolo (<-)
+obj10 <- 10 
+```
+
+--
+
+### Agora a palavra **obj10** vale **10**
+
+#### Mas não aconteceu nada....
+
+--
+
+background-image: url(img/gif_where.gif)
+background-size: 500px
+background-position: 50% 90%
+
+---
+
+# 3.6 Objetos
+
+## Sempre **confira** a atribuição!!!
+
+## Chame o objeto **novamente**!!!
+
+```{r}
+## atribuicao - simbolo (<-)
+obj10 <- 10 
+obj10
+```
+
+--
+
+## Outro exemplo
+
+```{r}
+## atribuicao - simbolo (<-)
+obj2 <- 2
+obj2
+```
+
+---
+
+class: inverse, center, middle
+
+# Os objetos podem ser visualizados no painel *Environment*
+
+---
+
+# 3.6 Objetos
+
+## CUIDADO!
+### O R **sobrescreve** os valores dos objetos com o **mesmo nome**!
+
+--
+
+```{r}
+# sobrescreve o valor dos objetos
+obj <- 100
+obj
+```
+
+--
+
+```{r}
+# obj agora vale 2
+obj <- 2
+obj
+```
+
+---
+
+# 3.7 Funções
+
+---
+
+# 3.7 Funções
+
+## Funções
+
+### **Códigos** que realizam **operações** em **argumentos**
+
+--
+
+<br>
+
+## Estrutura de uma função:
+
+> nome_da_funcao(argumento1, argumento2)
+
+1. **Nome da função**: remete ao que ela faz
+1. **Parênteses**: limitam a função
+1. **Argumentos**: onde a função atuará 
+1. **Vírgulas**: separam os argumentos
+
+---
+
+# 3.7 Funções
+
+## Os **argumentos** de uma função podem ser de **dois tipos**
+
+### 1. **Valores** ou **Objetos**: a função irá **alterar os valores** em si ou os valores **atribuídos** aos objetos
+
+--
+
+```{r}
+# funcoes - argumentos como valores
+# soma
+sum(10, 2)
+
+# funcoes - argumentos como objetos
+# soma
+sum(obj10, obj2)
+```
+
+---
+
+# 3.7 Funções
+
+## Os **argumentos** de uma função podem ser de **dois tipos**
+
+### 2. **Parâmetros**: valores fixos que informam um **método** ou a realização de uma **operação**. Informa-se o **nome desse argumento**, seguido de **"="** e um *número*, *texto* ou *TRUE* ou *FALSE*
+
+```{r}
+# funcoes - argumentos como valores
+# repeticao - todos
+rep(x = 1:5, times = 10)
+```
+
+```{r}
+# repeticao - cada
+rep(x = 1:5, each = 10)
+```
+
+---
+
+# 3.7 Funções
+
+## Atribuir resultados das funções a objetos
+
+### Podemos atribuir os resultados de operações a objetos
+
+```{r}
+# repeticao - todos
+rep_times <- rep(x = 1:5, times = 10)
+rep_times
+```
+
+--
+
+```{r}
+## atribuicao dos resultados
+# repeticao - todos
+rep_each <- rep(x = 1:5, each = 10)
+rep_each
+```
+
+---
+
+# 3.7 Funções
+
+## Atribuição, função e linha temporal
+
+### Esse é o processo de programação no R: 
+
+1. **Atribuição** de dados a objetos
+1. **Funções** que **operam e mudam** esses dados
+1. Nova **atribuição** desses resultados a novos objetos
+
+```{r eval=FALSE}
+# atribuicao dos resultados
+# repeticao
+rep_times <- rep(x = 1:5, times = 10)
+rep_times
+
+# somar e atribuir
+rep_times_soma <- sum(rep_times)
+rep_times_soma
+
+# raiz e atribuir
+rep_times_soma_raiz <- sqrt(rep_times_soma)
+rep_times_soma_raiz
+```
+
+---
+
+class: inverse, center, middle
+
+# Nesse momento vocês devem estar se perguntando: como vou saber o nome das funções?!
+
+---
+
+class: clear, inverse
+background-image: url(img/gif_google_it.gif)
+background-size: 1000px
+
+---
+
+class: clear
+background-image: url(img/general_ajuda_google.png)
+background-size: 800px
+background-position: 50% 50%
+
+# 3.7 Funções
+
+## Uma **maracutaia** para ajudar!
+
+---
+
+class: inverse, center, middle
+
+# E de onde vêm as funções?!
+
+---
+
+class: inverse, center, middle
+
+# 3.8 Pacotes
+
+---
+
+background-image: url(img/package_r.png)
+background-size: 250px
+background-position: 90% 105%
+
+# 3.8 Pacotes
+
+## **Coleção de funções** para executar **tarefas específicas**
+
+### Duas fontes: 
+- **CRAN** (*finalizados*)
+- **GitHub** (em *desenvolvimento*)
+
+### Verificar **pacotes carregados**
+```{r}
+# verificar pacotes carregados
+search()
+```
+
+---
+
+background-image: url(img/package_r.png)
+background-size: 250px
+background-position: 90% 105%
+
+# 3.8 Pacotes
+
+## **Coleção de funções** para executar **tarefas específicas**
+
+### Duas fontes: 
+- **CRAN** (*finalizados*)
+- **GitHub** (em *desenvolvimento*)
+
+### Verificar **pacotes instalados**
+
+```{r eval=FALSE}
+# verificar pacotes instalados
+library()
+```
+
+---
+
+background-image: url(img/package_r.png)
+background-size: 250px
+background-position: 90% 105%
+
+# 3.8 Pacotes
+
+## Ex.: pacote `vegan` 
+
+<br>
+
+## Fontes:
+
+### Pacotes do CRAN
+https://cran.r-project.org/web/packages/vegan/index.html
+
+<br>
+
+### Pacotes do GitHub
+https://github.com/vegandevs/vegan
+
+---
+
+# 3.8 Pacotes
+
+## Instalar pacotes
+
+### 1. Instala-se apenas **uma vez**
+
+### 2. **Precisa** estar conectado à **internet**
+
+### 3. O **nome do pacote precisa** estar entre **aspas**
+
+### 4. Função (CRAN): 
+`install.packages()`
+
+```{r eval=FALSE}
+# instalar pacotes
+install.packages("vegan")
+```
+
+---
+
+# 3.8 Pacotes
+
+##  Carregar pacotes
+
+### 1. Carrega-se **toda vez** que se abre **uma nova sessão do R**
+
+### 2. **Não precisa** estar conectado à **internet**
+
+### 3. O **nome do pacote não precisa** estar entre **aspas**
+
+### 4. Funções: 
+`library()` ou `require()`
+
+```{r}
+# carregar pacotes
+library(vegan)
+```
+
+---
+
+# 3.8 Pacotes
+
+## Instalar pacotes do GitHub
+
+### 1. Instalar pacote **devtools**
+
+```{r eval=FALSE}
+# instalar pacote devtools
+install.packages("devtools")
+
+# carregar pacote devtools
+library(devtools)
+```
+
+--
+
+### 2. Instalar usando a função `install_github()`
+
+### Atentar para usar essa forma **usuário/repositório**
+
+```{r eval=FALSE}
+# instalar pacote do github
+install_github("vegandevs/vegan")
+
+# carregar pacote do github
+library(vegan)
+```
+
+---
+
+class: inverse, center, middle
+
+# E onde ficam esses pacotes no meu notebook?
+
+---
+
+background-image: url(img/package_r.png)
+background-size: 250px
+background-position: 90% 105%
+
+# 3.8 Pacotes
+
+## Diretório dos pacotes instalados
+
+## Windows
+C:/Users/**nome_do_computador**/Documentos/R/win-library/**numero_da_versao_r**
+
+<br>
+
+## Unix (Linux e MacOS):
+/home/**nome_do_computador**/R/**tipo_do_computador**/**numero_da_versao_r**
+
+---
+
+background-image: url(img/package_r.png)
+background-size: 250px
+background-position: 90% 105%
+
+# 3.8 Pacotes
+
+## Exemplos:
+
+### **vegan** – análises de comunidades
+### **sf** – manipulação de vetores
+### **raster** – manipulação de rasters
+### **ggplot2** – gráficos
+### **tmaps** – mapas temáticos
+### **bblme** – seleção de modelos (AIC)
+### **tidyverse** – data science
+
+---
+
+class: inverse, center, middle
+
+# 3.9 Ajuda (*Help*)
+
+---
+
+# 3.9 Ajuda (*Help*)
+
+## Descreve as informações de uma função
+
+```{r eval=FALSE}
+## ajuda
+# descreve as informacoes de uma funcao
+help("mean") # arquivo .html
+
+?mean
+```
+
+- **Description**: resumo da função
+- **Usage**: como utilizar a função e quais os seus argumentos
+- **Arguments**: detalha os argumentos e como os mesmos devem ser especificados
+- **Details**: detalhes importantes para se usar a função
+- **Value**: mostra como interpretar a saída (*output*) da função (os resultados)
+- **Note**: notas gerais sobre a função
+- **Authors**: autores da função
+- **References**: referências bibliográficas para os métodos usados para construção da função
+- **See also**: funções relacionadas
+- **Examples**: exemplos do uso da função. Às vezes pode ser útil copiar esse trecho e colar no R para ver como funciona e como usar a função
+
+---
+
+background-image: url(img/rstudio_help.png)
+background-size: 600px
+background-position: 50% 50%
+
+# 3.9 Ajuda (*Help*)
+
+---
+
+class: inverse, center, middle
+
+# 3.10 Diretório de trabalho
+
+---
+
+# 3.10 Diretório de trabalho
+
+### O diretório de trabalho é o endereço da pasta (ou diretório) de onde o R importará ou exportará nossos dados
+
+<br>
+
+### Podemos utilizar o próprio RStudio para tal tarefa, indo em: 
+
+<br>
+
+> Session > Set Work Directory > Choose Directory... 
+
+<br>
+
+### Atalho: `ctrl + shift + H`
+
+---
+
+# 3.10 Diretório de trabalho
+
+### O diretório de trabalho é o endereço da pasta (ou diretório) de onde o R importará ou exportará nossos dados
+
+<br>
+
+### Podemos utilizar funções no script
+
+```{r eval=FALSE}
+# definir o diretorio de trabalho
+setwd("/home/mude/data/github/short-curse-geospatial-data-r/04_dados/01_tabela")
+
+# verificar o diretorio
+getwd()
+
+# listar os arquivos no diretorio
+dir()
+```
+
+---
+
+class: inverse, center, middle
+
+# 3.11 *tidyverse*
+
+---
+
+background-image: url(img/general_data_science_r4ds.png)
+background-size: 900px
+background-position: 50% 75%
+
+# 3.11 *tidyverse*
+
+## O tidyverse é um **fluxo de trabalho** designado para **Data Science**
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+Fonte: [@allison_horst](https://twitter.com/allison_horst)
+
+---
+
+background-image: url(img/tidyverse_packages.png)
+background-size: 650px
+background-position: 50% 60%
+
+# 3.11 *tidyverse*
+
+## Pacotes
+
+---
+
+background-image: url(img/cover_data_science_r.png)
+background-size: 280px
+background-position: 50% 55%
+
+# 3.11 *tidyverse*
+
+## R for Data Science (2017)
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+[*] https://r4ds.had.co.nz/
+
+---
+
+class: clear
+background-image: url(img/package_magrittr.png)
+background-size: 400px
+
+---
+
+background-image: url(img/person_rene_magritte.jpg), url(img/tidyverse_magritte_pipe.jpg)
+background-size: 350px, 550px
+background-position: 7% 60%, 85% 75%
+
+# 3.11 *tidyverse*
+
+## magrittr (pipe - %>%)
+
+### René Magritte (1898-1967)
+
+---
+
+background-image: url(img/general_fog01.jpg)
+background-size: 500px
+background-position: 50% 90%
+
+# 3.11 *tidyverse*
+
+## magrittr (pipe - %>%)
+
+### Atalho: `Crtl + Shift + M`
+
+```{r}
+# sem pipe
+sqrt(sum(1:100))
+```
+
+---
+
+background-image: url(img/general_fog02.jpg)
+background-size: 300px
+background-position: 50% 90%
+
+# 3.11 *tidyverse*
+
+## magrittr (pipe - %>%)
+
+### Atalho: `Crtl + Shift + M`
+
+```{r}
+# sem pipe
+sqrt(sum(1:100))
+```
+
+---
+
+background-image: url(img/gif_mario.gif)
+background-size: 300px
+background-position: 50% 90%
+
+# 3.11 *tidyverse*
+
+## magrittr (pipe - %>%)
+
+### Atalho: `Crtl + Shift + M`
+
+```{r}
+# com pipe
+1:100 %>% 
+  sum() %>% 
+  sqrt()
+```
+
+---
+
+background-image: url(img/gif_mario.gif)
+background-size: 300px
+background-position: 50% 90%
+
+# 3.11 *tidyverse*
+
+## magrittr (pipe - |>) - R 4.1
+
+### Atalho: `Crtl + Shift + M`
+
+```{r}
+# com pipe
+1:100 |>
+  sum() |>
+  sqrt()
+```
+
+---
+
+class: inverse, center, middle
+
+# 3.12 Dados geoespaciais
+
+---
+
+class: inverse, center, middle
 
 # Dúvidas?
 
 ---
 
 class: clear, middle
+background-image: url(img/gif_frog.gif),url(img/gif_frogs.gif), url(img/package_xaringan.png)
+background-size: 250px, 500px, 130px
+background-position: 35% 50%, 90% 55%, 5% 86%
 
 ## Maurício Vancine
 
-<br>
+<br><br>
 
 Contatos:
 
-|                                                                                           |                               |
-| :---------------------------------------------------------------------------------------- | :---------------------------- |
-| <a href="mailto:mauricio.vancine@gmail.com">.RUred[<i class="fa fa-envelope fa-fw"></i>]  | mauricio.vancine@gmail.com    |
-| <a href="https://mauriciovancine.netlify.com/">.RUred[<i class="fa fa-link fa-fw"></i>]   | mauriciovancine.netlify.com   |
-| <a href="http://twitter.com/mauriciovancine">.RUred[<i class="fa fa-twitter fa-fw"></i>]  | @mauriciovancine              |
-| <a href="http://gitlab.com/mauriciovancine">.RUred[<i class="fa fa-gitlab fa-fw"></i>]    | @mauriciovancine              |
-| <a href="http://github.com/mauriciovancine">.RUred[<i class="fa fa-github fa-fw"></i>]    | @mauriciovancine              |
+`r icons::icon_style(icons::fontawesome(name = "envelope", style = "solid"), fill = "#23373b")` [mauricio.vancine@gmail.com]()  
+`r icons::icon_style(icons::fontawesome("twitter"), fill = "#23373b")` [@mauriciovancine](https://twitter.com/mauriciovancine)  
+`r icons::icon_style(icons::fontawesome(name = "github"), fill = "#23373b")` [mauriciovancine](https://github.com/mauriciovancine)
+`r icons::icon_style(icons::fontawesome(name = "link", style = "solid"), fill = "#23373b")` [mauriciovancine.github.io](https://mauriciovancine.github.io)
 
-Slides criados via pacote [xaringan](https://github.com/yihui/xaringan) e tema [Metropolis](https://github.com/pat-s/xaringan-metropolis)
+<br><br><br><br><br>
+
+Slides criados via pacote [xaringan](https://github.com/yihui/xaringan) e tema [Metropolis](https://github.com/pat-s/xaringan-metropolis). Animação dos sapos por [@probzz](https://twitter.com/probzz/status/1367613720294170627).
