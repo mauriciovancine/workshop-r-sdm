@@ -41,7 +41,7 @@ background-image: url(img/general_meme_this_is_fine.jpeg), url(img/general_ojo_d
 background-size: 700px, 400px
 background-position: 5% 50%, 95% 40%
 
-# Tudo bem com vocês?
+# E aí, tudo bem com vocês?
 
 ---
 
@@ -79,11 +79,9 @@ background-position: 85% 80%
 
 1. Visão geral dos Modelos de Distribuição de Espécies
 1. Nicho ecológico e distribuição de espécies
-1. Dados de entrada (ocorrências e variáveis)
-1. Ajuste dos modelos (métodos)
-1. Avaliação dos modelos
-1. Predição dos modelos
-1. Consenso de modelos
+1. Outros tipos de modelos
+1. Aplicações dos modelos
+1. Padronização para criação dos modelos
 
 .footnote[
 [Fletcher &amp; Fortin (2018)](https://www.springer.com/gp/book/9783030019884)
@@ -101,7 +99,7 @@ background-position: 75% 65%
 
 ### 3 Introdução à linguagem R (20 min)
 
-1. Linguamgem R 
+1. Linguagem R 
 1. RStudio 
 1. Console
 1. Scripts
@@ -110,7 +108,6 @@ background-position: 75% 65%
 1. Funções
 1. Pacotes
 1. Ajuda
-1. Ambiente
 1. Diretório de trabalho
 1. tidyverse (pipe - %&gt;%)
 1. Dados geoespaciais no R
@@ -119,9 +116,9 @@ background-position: 75% 65%
 
 ---
 
-background-image: url(img/geo_raster_intro.png), url(img/geo_vetor.png)
-background-size: 600px, 400px
-background-position: 15% 80%, 90% 80%
+background-image: url(img/sdm_general.jpg)
+background-size: 500px
+background-position: 85% 60%
 
 # Oficina
 
@@ -129,14 +126,18 @@ background-position: 15% 80%, 90% 80%
 
 ### 4 Dados de entrada (ocorrências e variáveis) (60 min)
 
+1. Dados de ocorrências
+1. Conjunto de dados de ocorrência
 1. Download de dados de ocorrência
 1. Limpeza de dados de ocorrência
+1. Dados ambientais
+1. Conjunto de dados ambientais
 1. Download de variáveis ambientais
 1. Colinearidade de variáveis ambientais
 
-.footnote[
-[Tennekes &amp; Nowosad (2021)](https://r-tmap.github.io/tmap-book)
-]
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+
+[Jarnevich et al. (2015)](https://www.sciencedirect.com/science/article/pii/S1574954115000977)
 
 ---
 
@@ -157,8 +158,8 @@ background-position: 10% 80%, 90% 80%
 
 &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
 
-[Tennekes &amp; Nowosad (2021)](https://r-tmap.github.io/tmap-book),
-[Fletcher &amp; Fortin (2018)](https://www.springer.com/gp/book/9783030019884)
+[Fletcher &amp; Fortin (2018)](https://www.springer.com/gp/book/9783030019884),
+[Tennekes &amp; Nowosad (2021)](https://r-tmap.github.io/tmap-book)
 
 ---
 
@@ -176,11 +177,12 @@ background-position: 8% 70%, 30% 70%, 90% 70%
 1. Mapas estáticos
 1. Mapas interativos
 
-.footnote[
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+
 [Wickham et al. (2021)](https://ggplot2-book.org/),
 [Tennekes (2018)](https://www.jstatsoft.org/article/view/v084i06),
 [Gimond (2021)](https://mgimond.github.io/Spatial/index.html)
-]
+
 
 ---
 
@@ -219,7 +221,7 @@ background-position: 90% 20%, 84% 80%, 60% 90%
 
 background-image: url(img/general_introduce_yourself.jpg)
 background-size: 400px
-background-position: 95% 60%
+background-position: 95% 70%
 
 # 1.1 Apresentações
 
@@ -241,7 +243,7 @@ background-position: 95% 60%
 
 background-image: url(img/general_master_meme.jpg)
 background-size: 300px
-background-position: 95% 45%
+background-position: 90% 45%
 
 # 1.2 Oficina
 
@@ -278,8 +280,8 @@ background-position: 50% 70%
 ---
 
 background-image: url(img/package_xaringan.png)
-background-size: 400px
-background-position: 50% 80%
+background-size: 350px
+background-position: 50% 65%
 
 # 1.4 Slides
 
@@ -319,11 +321,9 @@ background-position: 85% 80%
 
 1. Visão geral dos Modelos de Distribuição de Espécies
 1. Nicho ecológico e distribuição de espécies
-1. Dados de entrada (ocorrências e variáveis)
-1. Ajuste dos modelos (métodos)
-1. Avaliação dos modelos
-1. Predição dos modelos
-1. Consenso de modelos
+1. Outros tipos de modelos
+1. Aplicações dos modelos
+1. Padronização para criação dos modelos
 
 .footnote[
 [Fletcher &amp; Fortin (2018)](https://www.springer.com/gp/book/9783030019884)
@@ -352,28 +352,122 @@ background-position: 85% 80%
 
 ### 3. Modelos de Adequabilidade de Habitat (*Habitat Suitability Models* - HSMs)
 
-- Reflete melhor a base dos modelos: quantificar a relação espécie-ambiente (habitat)
-- Aplicações não precisam prever a distribuição geográfica da entidade modelada
-- Aplicável a entidades que não sejam espécies (por exemplo, genes ou comunidades)
-- Aplicável a casos em que um nicho é parcialmente capturado em um modelo (área menor que a distribuição total)
+- Reflete melhor a base dos modelos: quantificar a **relação espécie-ambiente** (habitat)
+- Modelos nem sempre precisam prever a **distribuição geográfica** da entidade modelada
+- Aplicável a entidades que **não sejam espécies** (e.g. genes ou comunidades)
+- Aplicável a casos em que um **nicho é parcialmente capturado** em um modelo (área menor que a distribuição total)
 
-[Araújo &amp; Peterson (2012)](https://doi.org/10.1890/11-1930.1), [Peterson &amp; Soberon (2012)](https://doi.org/10.4322/natcon.2012.019), [Guisan et al. (2017)](https://www.cambridge.org/br/academic/subjects/life-sciences/ecology-and-conservation/habitat-suitability-and-distribution-models-applications-r), [Adaptado da aula da Luara Tourinho](https://youtu.be/l62rqAlV3aE)
+[Araújo &amp; Peterson (2012)](https://doi.org/10.1890/11-1930.1), [Peterson &amp; Soberon (2012)](https://doi.org/10.4322/natcon.2012.019), [Guisan et al. (2017)](https://www.cambridge.org/br/academic/subjects/life-sciences/ecology-and-conservation/habitat-suitability-and-distribution-models-applications-r), [Adaptado de Luara Tourinho (2021)](https://youtu.be/l62rqAlV3aE)
+
+---
+
+class: inverse, center, middle
+
+# Em comum: todos são modelos. Mas o que são modelos?
+
+---
+
+background-image: url(img/general_models.png)
+background-size: 700px
+background-position: 80% 55%
+
+# 2.1 Visão geral dos SDMs
+
+## Modelos Científicos
+
+### *Idealizações da realidade* e não a própria *realidade*
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+
+[Silva &amp; Catelli (2019)](http://dx.doi.org/10.1590/1806-9126-RBEF-2019-0029)
 
 ---
 
 background-image: url(img/person_george_box.jpg), url(img/general_models.png)
 background-size: 170px, 700px
-background-position: 8% 80%, 80% 60%
+background-position: 8% 70%, 80% 55%
 
 # 2.1 Visão geral dos SDMs
 
-## Modelos
+## Modelos Científicos
 
-### Simplificação da realidade com um objetivo
+### *Idealizações da realidade* e não a própria *realidade*
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+
+&gt; (...) essentially, all models are wrong, but some are useful. George E. P. Box (1919-2013)
+
+[Silva &amp; Catelli (2019)](http://dx.doi.org/10.1590/1806-9126-RBEF-2019-0029)
+
+---
+
+background-image: url(img/sdm_niche_distribution_soberon_etal_2017.jpg)
+background-size: 800px
+background-position: 50% 70%
+
+# 2.1 Visão geral dos SDMs
+
+## Objetivo
+
+### Predizer a **distribuição de espécies** (ou entidades) a partir do **nicho ecológico**
 
 &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
 
-&gt; essentially, all models are wrong, but some are useful. George E. P. Box (1919-2013)
+[Soberón et al. (2017)](http://dx.doi.org/10.1016/j.rmb.2017.03.011)
+
+---
+
+background-image: url(img/sdm_niche_variation.png), url(img/sdm_niche_raul.jpg)
+background-size: 350px, 500px
+background-position: 37% 70%, 95% 70%
+
+# 2.1 Visão geral dos SDMs
+
+## Entretanto...
+
+### Estimar/analisar o **nicho das espécies** sem inferir sua distribuição geográfica
+
+- Sobreposição de nicho
+- Amplitude do nicho
+- Montagem de comunidades
+- Respostas ambientais
+- Diversidade funcional
+- ...
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+[Site pessoal do Raul Costa-Pereira](https://rcosta-pereira.weebly.com/)
+&lt;br&gt;
+[Costa-Pereira et al. (2019)](https://royalsocietypublishing.org/doi/full/10.1098/rspb.2019.0369)
+
+---
+
+background-image: url(img/sdm_mpc_interpolacao.png), url(img/sdm_iucn_amphibian_richness.jpg), url(img/sdm_iucn_bird_richness.jpg), url(img/sdm_iucn_mammal_richness.jpg)
+background-size: 450px, 250px, 250px, 250px
+background-position: 55% 80%, 92% 31%, 92% 62%, 92% 93%
+
+# 2.1 Visão geral dos SDMs
+
+## Entretanto...
+
+### Inferir a **distribuição das espécies** sem estimar o nicho ecológico
+
+- Buffers
+- Densidade de Kernel
+- Mínimo Polígono Convexo (MPC)
+- Interpolações (IDW, Spline, Krigagem)
+- Opinião de especialistas (IUCN)
+- ...
+
+&lt;br&gt;&lt;br&gt;
+[Bahn &amp; McGill (2007)](https://onlinelibrary.wiley.com/doi/10.1111/j.1466-8238.2007.00331.x)
+&lt;br&gt;
+[Jenkins et al. (2014)](https://doi.org/10.1073/pnas.1302251110)
+&lt;br&gt;
+[BiodiversityMapping.org](https://biodiversitymapping.org/)
+&lt;br&gt;
+[IUCN (2021)](https://www.iucnredlist.org/)
+&lt;br&gt;
+[Warren (2012)](https://linkinghub.elsevier.com/retrieve/pii/S0169534712000754)
 
 ---
 
@@ -389,15 +483,510 @@ background-position: 60% 60%
 
 ---
 
-# 2.1 Visão geral dos SDMs
+class: inverse, center, middle
+
+# O que é nicho ecológico?
 
 ---
 
-# 2.1 Visão geral dos SDMs
+background-image: url(img/sdm_nicho_salles_01.jpg), url(img/sdm_nicho_salles_02.jpg)
+background-size: 800px, 600px
+background-position: 60% 90%, 95% 5%
+
+# 2.2. Nicho ecológico e distribuição de espécies
+
+## Nicho ecológico
+
+### 1. Modelagem de nicho ecológico
+
+### 2. Coexistência entre espécies
+
+### 3. Metacommunidades
+
+.footnote[
+[Sales et al. (2021)](https://doi.org/10.1016/j.actao.2020.103701)
+]
 
 ---
 
-# 2.2 Nicho ecológico e distribuição de espécies
+background-image: url(img/sdm_nicho_r_crescimento.jpg), url(img/sdm_verhulst_grafico.png)
+background-size: 300px, 400px
+background-position: 10% 70%, 95% 75%
+
+# 2.2. Nicho ecológico e distribuição de espécies
+
+## Nicho ecológico
+
+### 1. Modelagem de nicho ecológico
+
+- Nicho são as combinações de requisitos que permitem a uma população
+sobreviver e crescer em um determinado lugar 
+
+$$
+\dfrac{d N}{dt} = rN \left[1 - \frac{N}{K}\right]
+$$
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+[Chase &amp; Leibold (2003)](https://press.uchicago.edu/ucp/books/book/chicago/E/bo3638660.html), [Holt (2009)](https://www.pnas.org/content/106/Supplement_2/19659),
+[Soberón (2010)](https://onlinelibrary.wiley.com/doi/10.1111/j.1600-0587.2009.06074.x),
+[Gravel et al. (2019)](https://onlinelibrary.wiley.com/doi/abs/10.1111/ecog.04006),
+[Murray &amp; Sandercock 2020](https://www.wiley.com/en-am/Population+Ecology+in+Practice-p-9780470674147)
+
+---
+
+background-image: url(img/sdm_guisan_quad.png)
+background-size: 300px
+background-position: 98% 5%
+
+# 2.2. Nicho ecológico e distribuição de espécies
+
+## Nicho ecológico
+
+### 1. Modelagem de nicho ecológico
+
+- Requisitos: componente abiótico, abiótico e dispersão
+
+`$$\dfrac{1}{x_{i,j}} \dfrac{d x_{i,j}}{dt} = r_{i,j}(\vec e_j) - \varphi_{i,j}(\vec x_j; \vec R_{i,j}; \vec e_j) + \psi_{i,j}(\vec x_i; \mathbf{T})$$`
+
+--
+
+- `\(\dfrac{1}{x_{i,j}} \dfrac{d x_{i,j}}{dt}\)`: taxa de crescimento per capita de uma população da espécie i na célula j
+
+--
+
+- `\(r_{i,j}(\vec e_j)\)`: crescimento da população da espécie i na célula j em função das condições abióticas `\(\vec e_j\)`
+
+--
+
+- `\(\varphi_{i,j}(\vec x_j; \vec R_{i,j}; \vec e_j)\)`: interações com outras espécies e uso de recursos, definido em termos de densidade de cada espécie `\(\vec x_j\)`, interações `\(\vec R_{i,j}\)`, e densidade-independente `\(\vec e_j\)`
+
+--
+
+- `\(\psi_{i,j}(\vec x_i; \mathbf{T})\)`: movimento dos indivíduos da espécie i de outras células em j de acordo com uma matriz de transição `\(\mathbf{T}\)` 
+
+[Soberón (2010)](https://onlinelibrary.wiley.com/doi/10.1111/j.1600-0587.2009.06074.x),
+[Peterson et al. (2011)](https://www.degruyter.com/document/doi/10.1515/9781400840670/html)
+
+---
+
+class: inverse, center, middle
+
+# Vamos olhar para o mesmo conceito, mas desenhando isso no Espaço Geográfico (G)
+
+---
+
+background-image: url(img/sdm_nicho_distribuicao01.png)
+background-size: 650px
+background-position: 60% 50%
+
+# 2.2. Nicho ecológico e distribuição de espécies
+
+## Espaço geográfico (G)
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+[Peterson et al. (2011)](https://www.degruyter.com/document/doi/10.1515/9781400840670/html)
+
+---
+
+background-image: url(img/sdm_nicho_distribuicao02.png)
+background-size: 650px
+background-position: 60% 50%
+
+# 2.2. Nicho ecológico e distribuição de espécies
+
+## Distribuição de espécies
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+[Peterson et al. (2011)](https://www.degruyter.com/document/doi/10.1515/9781400840670/html)
+
+---
+
+background-image: url(img/sdm_nicho_distribuicao03.png)
+background-size: 650px
+background-position: 60% 45%
+
+# 2.2. Nicho ecológico e distribuição de espécies
+
+## Condições abióticas (B)
+
+### `\(+r_{i,j}(\vec e_j)\)`
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+[Grinnell (1917)](https://www.jstor.org/stable/info/10.2307/4072271)
+[Soberón &amp; Peterson (2005)](https://doi.org/10.1016/j.actao.2020.103701)
+[Soberón (2007)](https://onlinelibrary.wiley.com/doi/10.1111/j.1461-0248.2007.01107.x),
+[Peterson et al. (2011)](https://www.degruyter.com/document/doi/10.1515/9781400840670/html)
+
+---
+
+background-image: url(img/sdm_nicho_distribuicao04.png), url(img/niche_macauthur.svg)
+background-size: 650px, 300px
+background-position: 60% 45%, 2% 80%
+
+# 2.2. Nicho ecológico e distribuição de espécies
+
+## Condições bióticas (B)
+
+### `\(-\varphi_{i,j}(\vec x_j; \vec R_{i,j}; \vec e_j)\)`
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+[Elton (1927)](http://www.biodiversitylibrary.org/bibliography/7435)
+[MacArthur &amp; Levins (1967)](https://www.journals.uchicago.edu/doi/abs/10.1086/282505),
+[Soberón &amp; Peterson (2005)](https://doi.org/10.1016/j.actao.2020.103701)
+[Soberón (2007)](https://onlinelibrary.wiley.com/doi/10.1111/j.1461-0248.2007.01107.x),
+[Peterson et al. (2011)](https://www.degruyter.com/document/doi/10.1515/9781400840670/html)
+
+
+---
+
+background-image: url(img/sdm_nicho_distribuicao05.png)
+background-size: 650px
+background-position: 60% 45%
+
+# 2.2. Nicho ecológico e distribuição de espécies
+
+## Condições abióticas (A) e bióticas (B)
+
+### `\(+r_{i,j}(\vec e_j)\)`
+
+### `\(-\varphi_{i,j}(\vec x_j; \vec R_{i,j}; \vec e_j)\)`
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+[Hutchinson (1957)](http://symposium.cshlp.org/cgi/doi/10.1101/SQB.1957.022.01.039)
+[Soberón &amp; Peterson (2005)](https://doi.org/10.1016/j.actao.2020.103701)
+[Soberón (2007)](https://onlinelibrary.wiley.com/doi/10.1111/j.1461-0248.2007.01107.x),
+[Peterson et al. (2011)](https://www.degruyter.com/document/doi/10.1515/9781400840670/html)
+
+---
+
+background-image: url(img/sdm_nicho_distribuicao06.png)
+background-size: 650px
+background-position: 60% 45%
+
+# 2.2. Nicho ecológico e distribuição de espécies
+
+## Nicho fundamental: todas as condições ambientais favoráveis
+
+### `\(+r_{i,j}(\vec e_j)\)`
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+[Hutchinson (1957)](http://symposium.cshlp.org/cgi/doi/10.1101/SQB.1957.022.01.039)
+[Soberón &amp; Peterson (2005)](https://doi.org/10.1016/j.actao.2020.103701)
+[Soberón (2007)](https://onlinelibrary.wiley.com/doi/10.1111/j.1461-0248.2007.01107.x),
+[Peterson et al. (2011)](https://www.degruyter.com/document/doi/10.1515/9781400840670/html)
+
+---
+
+background-image: url(img/sdm_nicho_distribuicao07.png)
+background-size: 650px
+background-position: 60% 45%
+
+# 2.2. Nicho ecológico e distribuição de espécies
+
+### Nicho realizado: todas as condições ambientais favoráveis limitadas pela interação
+
+### `\(+r_{i,j}(\vec e_j)\)`
+
+### `\(-\varphi_{i,j}(\vec x_j; \vec R_{i,j}; \vec e_j)\)`
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+[Hutchinson (1957)](http://symposium.cshlp.org/cgi/doi/10.1101/SQB.1957.022.01.039)
+[Soberón &amp; Peterson (2005)](https://doi.org/10.1016/j.actao.2020.103701)
+[Soberón (2007)](https://onlinelibrary.wiley.com/doi/10.1111/j.1461-0248.2007.01107.x),
+[Peterson et al. (2011)](https://www.degruyter.com/document/doi/10.1515/9781400840670/html)
+
+---
+
+class: inverse, center, middle
+
+# Agora vamos olhar apenas para as condições no Espaço Ambiental (E)
+
+---
+
+background-image: url(img/sdm_nicho_distribuicao08.png)
+background-size: 600px
+background-position: 60% 45%
+
+# 2.2. Nicho ecológico e distribuição de espécies
+
+## Hipervolume n-dimensional
+
+### `\(+r_{i,j}(\vec e_j)\)`
+
+### `\(-\varphi_{i,j}(\vec x_j; \vec R_{i,j}; \vec e_j)\)`
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+[Hutchinson (1957)](http://symposium.cshlp.org/cgi/doi/10.1101/SQB.1957.022.01.039)
+[Soberón &amp; Peterson (2005)](https://doi.org/10.1016/j.actao.2020.103701)
+[Soberón (2007)](https://onlinelibrary.wiley.com/doi/10.1111/j.1461-0248.2007.01107.x),
+[Peterson et al. (2011)](https://www.degruyter.com/document/doi/10.1515/9781400840670/html)
+
+---
+
+class: inverse, center, middle
+
+# Oxe! Notaram que falei do Espaço Geográfico (G) e do Espaço Ambiental (E)?
+
+---
+
+background-image: url(img/sdm_niche_distribution_soberon_etal_2017.jpg), url(img/sdm_niche_distribution_soberon_nakamura_2009.jpg)
+background-size: 600px, 400px
+background-position: 10% 65%, 90% 80%
+
+# 2.2. Nicho ecológico e distribuição de espécies
+
+## Dualidade Hutchinsoniana
+
+### Inferir a **distribuição geográfica** de uma espécie a partir do **nicho ecológico**
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+
+[Colwell &amp; Rangel (2009)](http://www.pnas.org/cgi/doi/10.1073/pnas.0901650106)
+[Soberón &amp; Nakamura (2009)](http://www.pnas.org/cgi/doi/10.1073/pnas.0901637106)
+[Peterson et al. (2011)](https://www.degruyter.com/document/doi/10.1515/9781400840670/html)
+[Soberón et al. (2017)](http://dx.doi.org/10.1016/j.rmb.2017.03.011)
+
+---
+
+background-image: url(img/sdm_guisan_general.png)
+background-size: 800px
+background-position: 60% 60%
+
+# 2.2. Nicho ecológico e distribuição de espécies
+
+.footnote[
+[Guisan et al. (2017)](https://www.cambridge.org/br/academic/subjects/life-sciences/ecology-and-conservation/habitat-suitability-and-distribution-models-applications-r)
+]
+
+---
+
+background-image: url(img/sdm_dualidade01.png)
+background-size: 900px
+background-position: 50% 60%
+
+# 2.2. Nicho ecológico e distribuição de espécies
+
+## Ocorrências no espaço geográfico + Condições ambientais
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+
+[Soberón &amp; Nakamura (2009)](http://www.pnas.org/cgi/doi/10.1073/pnas.0901637106)
+
+---
+
+background-image: url(img/sdm_dualidade02.png)
+background-size: 900px
+background-position: 50% 60%
+
+# 2.2. Nicho ecológico e distribuição de espécies
+
+## Condições ambientais para toda a área e para as ocorrências
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+
+[Soberón &amp; Nakamura (2009)](http://www.pnas.org/cgi/doi/10.1073/pnas.0901637106)
+
+---
+
+background-image: url(img/sdm_dualidade03.png)
+background-size: 900px
+background-position: 50% 60%
+
+# 2.2. Nicho ecológico e distribuição de espécies
+
+## Estimativa do nicho realizado
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+
+[Soberón &amp; Nakamura (2009)](http://www.pnas.org/cgi/doi/10.1073/pnas.0901637106)
+
+---
+
+background-image: url(img/sdm_dualidade04.png)
+background-size: 900px
+background-position: 50% 60%
+
+# 2.2. Nicho ecológico e distribuição de espécies
+
+## Predição geográfica do nicho realizado estimado
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+
+[Soberón &amp; Nakamura (2009)](http://www.pnas.org/cgi/doi/10.1073/pnas.0901637106)
+
+---
+
+class: inverse, center, middle
+
+# Oxe2! Pode ser que uma mesma condição ambiental no Espaço Ambiental (E) represente mais de um local no Espaço Geográfico (G)!
+
+---
+
+class: inverse, center, middle
+
+# Como contornar essa extrapolação?
+
+---
+
+background-image: url(img/sdm_nicho_distribuicao09.png)
+background-size: 650px
+background-position: 60% 45%
+
+# 2.2. Nicho ecológico e distribuição de espécies
+
+## Limitações pela área acessível (dispersão) (M)
+
+### `\(+r_{i,j}(\vec e_j)\)`
+
+### `\(-\varphi_{i,j}(\vec x_j; \vec R_{i,j}; \vec e_j)\)`
+
+### `\(+\psi_{i,j}(\vec x_i; \mathbf{T})\)`
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+[Hutchinson (1957)](http://symposium.cshlp.org/cgi/doi/10.1101/SQB.1957.022.01.039)
+[Soberón &amp; Peterson (2005)](https://doi.org/10.1016/j.actao.2020.103701)
+[Soberón (2007)](https://onlinelibrary.wiley.com/doi/10.1111/j.1461-0248.2007.01107.x),
+[Peterson et al. (2011)](https://www.degruyter.com/document/doi/10.1515/9781400840670/html)
+
+---
+
+background-image: url(img/sdm_nicho_distribuicao09.png)
+background-size: 650px
+background-position: 60% 45%
+
+# 2.2. Nicho ecológico e distribuição de espécies
+
+## Limitações pela área acessível (dispersão) (M)
+
+### `\(\dfrac{1}{x_{i,j}} \dfrac{d x_{i,j}}{dt}=\)`
+
+### `\(+r_{i,j}(\vec e_j)\)`
+
+### `\(-\varphi_{i,j}(\vec x_j; \vec R_{i,j}; \vec e_j)\)`
+
+### `\(+\psi_{i,j}(\vec x_i; \mathbf{T})\)`
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+[Hutchinson (1957)](http://symposium.cshlp.org/cgi/doi/10.1101/SQB.1957.022.01.039)
+[Soberón &amp; Peterson (2005)](https://doi.org/10.1016/j.actao.2020.103701)
+[Soberón (2007)](https://onlinelibrary.wiley.com/doi/10.1111/j.1461-0248.2007.01107.x),
+[Peterson et al. (2011)](https://www.degruyter.com/document/doi/10.1515/9781400840670/html)
+
+---
+
+background-image: url(img/sdm_nicho_distribuicao10.png)
+background-size: 650px
+background-position: 60% 45%
+
+# 2.2. Nicho ecológico e distribuição de espécies
+
+## Populações fonte e ralo (*source-sink*)
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+[Hutchinson (1957)](http://symposium.cshlp.org/cgi/doi/10.1101/SQB.1957.022.01.039)
+[Soberón &amp; Peterson (2005)](https://doi.org/10.1016/j.actao.2020.103701)
+[Soberón (2007)](https://onlinelibrary.wiley.com/doi/10.1111/j.1461-0248.2007.01107.x),
+[Peterson et al. (2011)](https://www.degruyter.com/document/doi/10.1515/9781400840670/html)
+
+---
+
+background-image: url(img/sdm_nicho_distribuicao11.png)
+background-size: 650px
+background-position: 60% 45%
+
+# 2.2. Nicho ecológico e distribuição de espécies
+
+## Populações fonte e ralo (*source-sink*)
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+[Hutchinson (1957)](http://symposium.cshlp.org/cgi/doi/10.1101/SQB.1957.022.01.039)
+[Soberón &amp; Peterson (2005)](https://doi.org/10.1016/j.actao.2020.103701)
+[Soberón (2007)](https://onlinelibrary.wiley.com/doi/10.1111/j.1461-0248.2007.01107.x),
+[Peterson et al. (2011)](https://www.degruyter.com/document/doi/10.1515/9781400840670/html)
+
+---
+
+background-image: url(img/sdm_nicho_distribuicao11.png), url(img/sdm_nicho_realizado_expandido.png)
+background-size: 650px, 200px
+background-position: 60% 45%, 98% 45%
+
+# 2.2. Nicho ecológico e distribuição de espécies
+
+## Populações fonte e ralo (*source-sink*)
+
+### Facilitação
+- Mutualismo (+ +)
+- Cooperação (+ +)
+- Comensalismo (+ 0)
+- Inquilismo (+ 0)
+- Epifitismo (+ 0)
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+[Hutchinson (1957)](http://symposium.cshlp.org/cgi/doi/10.1101/SQB.1957.022.01.039)
+[Soberón &amp; Peterson (2005)](https://doi.org/10.1016/j.actao.2020.103701)
+[Soberón (2007)](https://onlinelibrary.wiley.com/doi/10.1111/j.1461-0248.2007.01107.x),
+[Peterson et al. (2011)](https://www.degruyter.com/document/doi/10.1515/9781400840670/html)
+
+---
+
+background-image: url(img/sdm_niche_distribution_soberon_nakamura_2009.jpg)
+background-size: 400px
+background-position: 80% 50%
+
+# 2.2. Nicho ecológico e distribuição de espécies
+
+## Pressupostos
+
+.pull-left[
+- **Estabilidade do nicho ecológico**: as espécies mantêm o mesmo nicho ecológico ao
+longo do tempo, ou pelo menos entre os períodos utilizados na modelagem
+- **Equilíbio espécie-clima**: distribuição de uma espécie é considerada em equilíbrio com o clima
+quando ela está presente em todas as áreas climaticamente adequadas à sua
+ocorrência e não ocorre nas regiões inadequadas
+- **Controle taxonômico**: certeza em relação à taxonomia da espécie para as ocorrências (discutível)
+- **"Ruído Eltoniano"**: as interações bióticas não afetam a distribuição da espécie na macroescala
+]
+.pull-right[
+]
+
+&lt;br&gt;&lt;br&gt;
+
+[Colwell &amp; Rangel (2009)](http://www.pnas.org/cgi/doi/10.1073/pnas.0901650106)
+[Soberón &amp; Nakamura (2009)](http://www.pnas.org/cgi/doi/10.1073/pnas.0901637106)
+[Peterson et al. (2011)](https://www.degruyter.com/document/doi/10.1515/9781400840670/html)
+[Soberón et al. (2017)](http://dx.doi.org/10.1016/j.rmb.2017.03.011)
+
+---
+
+background-image: url(img/sdm_niche_distribution_soberon_nakamura_2009.jpg)
+background-size: 400px
+background-position: 80% 50%
+
+# 2.3. Outros tipos de modelos
+
+## Modelos correlativos e mecanísticos
+
+1. 
+
+---
+
+background-image: url(img/sdm_niche_distribution_soberon_nakamura_2009.jpg)
+background-size: 400px
+background-position: 80% 50%
+
+# 2.4. Aplicações dos modelos
+
+## 
+
+---
+
+background-image: url(img/sdm_niche_distribution_soberon_nakamura_2009.jpg)
+background-size: 400px
+background-position: 80% 50%
+
+# 2.5.Padronização para criação dos modelos
+
+## Pressupostos
 
 ---
 
@@ -429,15 +1018,24 @@ background-position: 60% 60%
 
 ---
 
+# 2.7 Aplicações
+
+## Doenças
+
+
+
+---
+
 background-image: url(img/r_rstudio.png)
-background-size: 450px
-background-position: 80% 75%
+background-size: 400px
+background-position: 75% 65%
 
 # 3 Introdução ao R
 
 ## Conteúdo
 
-1. Linguagem R
+1. Linguagem R 
+1. RStudio 
 1. Console
 1. Scripts
 1. Operadores
@@ -445,35 +1043,63 @@ background-position: 80% 75%
 1. Funções
 1. Pacotes
 1. Ajuda
-1. Ambiente
 1. Diretório de trabalho
 1. tidyverse (pipe - %&gt;%)
-1. Dados geoespaciais
+1. Dados geoespaciais no R
 
-
----
-
-class: inverse, center, middle
-
-# 3.1 Linguagem R
+[R](https://www.r-project.org/), [RStudio](https://www.rstudio.com/)
 
 ---
 
-background-image: url(img/r_power.jpeg)
+background-image: url(img/r_logo.svg)
 background-size: 400px
-background-position: 50% 90%
+background-position: 50% 70%
 
 # 3.1 Linguagem R
 
-## Definições
+## Definição
 
-O R é uma **linguagem de programação livre** (*open source*), direcionada à **manipulação, análise e visualização de dados**, com diversas **expansões** (*pacotes*) para o uso de **dados com formatos específicos**
+O R é uma **linguagem de programação livre** (*open source*), direcionada à **manipulação, análise e visualização de dados**, com diversas **expansões** (*pacotes*) para o uso de **dados com formatos específicos** 
+
+.footnote[
+[R](https://www.r-project.org/)
+]
 
 ---
 
-background-image: url(img/r_rollercoaster.png)
-background-size: 850px
-background-position: 70% 90%
+background-image: url(img/r_power.jpg)
+background-size: 500px
+background-position: 50% 80%
+
+# 3.1 Linguagem R
+
+## E por que usar o R?
+
+---
+
+background-image: url(img/general_curso_r.png), url(img/general_cinco_motivos.png)
+background-size: 500px, 400px
+background-position: 25% 80%, 90% 90%
+
+# 3.1 Linguagem R
+
+## Cinco motivos para usar R
+
+1. R é completamente gratuito!
+1. Grandes pessoas da comunidade disponibilizam seu trabalho em R
+1. R possui um ecossistema que incentiva a reprodutibilidade
+1. R tem uma comunidade vibrante e crescente
+1. Os focos da linguagem são modelagem, visualização e análise de dados
+
+.footnote[
+[Curso-R](https://www.r-project.org/)
+]
+
+---
+
+background-image: url(img/r_rollercoaster.png), url(img/general_code_meme.jpg)
+background-size: 600px, 500px
+background-position: 7% 55%, 95% 80%
 
 # 3.1 Linguagem R
 
@@ -481,80 +1107,63 @@ background-position: 70% 90%
 
 &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
 
-Fonte: [@allison_horst](https://twitter.com/allison_horst)
-
----
-
-background-image: url(img/general_directory_meme.jpg)
-background-size: 700px
-background-position: 50% 75%
-
-# 3.1 Linguagem R
-
-## É legal, mas nem sempre é fácil...
-
----
-
-background-image: url(img/general_code_meme.jpg)
-background-size: 800px
-background-position: 50% 75%
-
-# 3.1 Linguagem R
-
-## É legal, mas nem sempre é fácil...
-
----
-
-background-image: url(img/r_rstudio_vs01.png)
-background-size: 600px
-background-position: 50% 70%
-
-# 3.2 RStudio
+.footnote[
+[@allison_horst](https://twitter.com/allison_horst)
+]
 
 ---
 
 background-image: url(img/r_rstudio_vs02.png),url(img/r_rstudio_vs03.png)
-background-size: 800px,800px
-background-position: 50% 15%,50% 80%
+background-size: 600px, 600px
+background-position: 50% 35%, 50% 85%
 
 # 3.2 RStudio
+
+## IDE 
+ - *Integrated Development Environment* ou Ambiente de Desenvolvimento Integrado
+
+.footnote[
+[Ismay &amp; Kim (2021)](https://moderndive.com/)
+]
 
 ---
 
 background-image: url(img/rstudio.png)
 background-size: 800px
-background-position: 50% 70%
+background-position: 50% 90%
 
 # 3.2 RStudio
 
+## Interface
+
 ---
 
-background-image: url(img/rstudio.png)
-background-size: 500px
-background-position: 95% 85%
+background-image: url(img/rstudio_tabs.png)
+background-size: 350px
+background-position: 85% 90%
 
 # 3.2 RStudio
 
 ## Janelas e abas
 
-- **1. Editor/Script**: é onde escrevemos nossos códigos em R ou R Markdown
-- **2. Console**: é onde os códigos são rodados e vemos as saídas
-- **3. Environment**: painel com todos os objetos criados na sessão
-- **3. History**: painel com o histórico dos comandos rodados
-- **3. Connection**: painel para conectar banco de dados
-- **3. Git**: painel do controle de versão
-- **3. Tutorial**: painel de tutoriais
-- **4. Files**: painel que mostra os arquivos no diretório de trabalho
-- **4. Plots**: painel onde os gráficos são apresentados
-- **4. Packages**: painel que lista os pacotes
-- **4. Help**: painel onde a documentação das funções é exibida
-- **4. Viewer**: painel de visualização
+**1. Editor/Script**: é onde escrevemos nossos códigos em R ou R Markdown  
+**2. Console**: é onde os códigos são rodados e vemos as saídas  
+**3. Environment**: painel com todos os objetos criados na sessão  
+**3. History**: painel com o histórico dos comandos rodados  
+**3. Connection**: painel para conectar banco de dados  
+**3. Git**: painel do controle de versão  
+**3. Tutorial**: painel de tutoriais  
+**4. Files**: painel que mostra os arquivos no diretório de trabalho  
+**4. Plots**: painel onde os gráficos são apresentados  
+**4. Packages**: painel que lista os pacotes  
+**4. Help**: painel onde a documentação das funções é exibida  
+**4. Viewer**: painel de visualização  
 
 ---
 
-background-image: url(img/rstudio_project.png), url(img/rstudio_project_logo.png)
-background-size: 700px, 100px
-background-position: 60% 80%, 95% 10%
+background-image: url(img/rstudio_project_logo.png), url(img/general_teressact.jpg), url(img/rstudio_project.png)
+background-size: 100px, 100px, 700px 
+background-position: 95% 10%, 96% 35%, 60% 80%
 
 # 3.2 RStudio
 
@@ -566,9 +1175,9 @@ background-position: 60% 80%, 95% 10%
 
 ---
 
-background-image: url(img/rstudio_project.webp)
-background-size: 430px
-background-position: 50% 90%
+background-image: url(img/rstudio_project_logo.png), url(img/general_teressact.jpg), url(img/rstudio_project.webp)
+background-size: 100px, 100px, 400px
+background-position: 95% 10%, 96% 35%, 50% 90%
 
 # 3.2 RStudio
 
@@ -581,7 +1190,7 @@ background-position: 50% 90%
 ---
 
 background-image: url(img/rstudio_script.png)
-background-size: 500px
+background-size: 450px
 background-position: 50% 90%
 
 # 3.3 Console
@@ -619,7 +1228,8 @@ background-position: 50% 90%
 ```
 
 ```
-##  [1]  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42
+##  [1]  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25
+## [26] 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42
 ```
 
 ---
@@ -873,7 +1483,7 @@ class: inverse, center, middle
 
 background-image: url(img/r_assignment.jpg)
 background-size: 450px
-background-position: 70% 90%
+background-position: 80% 90%
 
 ---
 
@@ -937,6 +1547,7 @@ obj2
 
 ---
 
+
 class: inverse, center, middle
 
 # Os objetos podem ser visualizados no painel *Environment*
@@ -976,19 +1587,25 @@ obj
 
 ---
 
+background-image: url(img/code_function.png), url(img/code_function_annotated.png)
+background-size: 250px, 400px
+background-position: 87% 35%, 85% 90%
+
 # 3.7 Funções
 
 ## Funções
 
 ### **Códigos** que realizam **operações** em **argumentos**
 
---
+&lt;br&gt;
+
+## Estrutura de uma função: 
 
 &lt;br&gt;
 
-## Estrutura de uma função:
-
 &gt; nome_da_funcao(argumento1, argumento2)
+
+&lt;br&gt;
 
 1. **Nome da função**: remete ao que ela faz
 1. **Parênteses**: limitam a função
@@ -1041,12 +1658,16 @@ background-size: 1000px
 
 class: clear
 background-image: url(img/general_ajuda_google.png)
-background-size: 800px
+background-size: 1100px
 background-position: 50% 50%
 
 # 3.7 Funções
 
 ## Uma **maracutaia** para ajudar!
+
+.footnote[
+[Curso-R (2021)](https://livro.curso-r.com/index.html)
+]
 
 ---
 
@@ -1056,8 +1677,8 @@ class: inverse, center, middle
 ---
 
 background-image: url(img/package_r.png)
-background-size: 250px
-background-position: 90% 105%
+background-size: 150px
+background-position: 97% 7%
 
 # 3.8 Pacotes
 
@@ -1075,17 +1696,19 @@ search()
 ```
 
 ```
-##  [1] ".GlobalEnv"             "package:vegan"          "package:lattice"        "package:permute"        "package:forcats"        "package:stringr"       
-##  [7] "package:dplyr"          "package:purrr"          "package:readr"          "package:tidyr"          "package:tibble"         "package:ggplot2"       
-## [13] "package:tidyverse"      "package:xaringanthemer" "tools:rstudio"          "package:stats"          "package:graphics"       "package:grDevices"     
-## [19] "package:utils"          "package:datasets"       "package:methods"        "Autoloads"              "package:base"
+##  [1] ".GlobalEnv"        "package:forcats"   "package:stringr"  
+##  [4] "package:dplyr"     "package:purrr"     "package:readr"    
+##  [7] "package:tidyr"     "package:tibble"    "package:ggplot2"  
+## [10] "package:tidyverse" "package:stats"     "package:graphics" 
+## [13] "package:grDevices" "package:utils"     "package:datasets" 
+## [16] "package:methods"   "Autoloads"         "package:base"
 ```
 
 ---
 
 background-image: url(img/package_r.png)
-background-size: 250px
-background-position: 90% 105%
+background-size: 150px
+background-position: 97% 7%
 
 # 3.8 Pacotes
 
@@ -1106,8 +1729,8 @@ library()
 ---
 
 background-image: url(img/package_r.png)
-background-size: 250px
-background-position: 90% 105%
+background-size: 150px
+background-position: 97% 7%
 
 # 3.8 Pacotes
 
@@ -1126,6 +1749,10 @@ https://cran.r-project.org/web/packages/vegan/index.html
 https://github.com/vegandevs/vegan
 
 ---
+
+background-image: url(img/package_r.png)
+background-size: 150px
+background-position: 97% 7%
 
 # 3.8 Pacotes
 
@@ -1147,6 +1774,10 @@ install.packages("vegan")
 ```
 
 ---
+
+background-image: url(img/package_r.png)
+background-size: 150px
+background-position: 97% 7%
 
 # 3.8 Pacotes
 
@@ -1221,6 +1852,10 @@ background-position: 50% 50%
 
 ---
 
+background-image: url(img/general_setwd.png)
+background-size: 400px
+background-position: 90% 90%
+
 # 3.10 Diretório de trabalho
 
 ### O diretório de trabalho é o endereço da pasta (ou diretório) de onde o R importará ou exportará nossos dados
@@ -1281,13 +1916,17 @@ Fonte: [@allison_horst](https://twitter.com/allison_horst)
 
 ---
 
-background-image: url(img/tidyverse_packages.png)
-background-size: 650px
-background-position: 50% 60%
+background-image: url(img/tidyverse_funcionalidades.png)
+background-size: 1000px
+background-position: 50% 55%
 
 # 3.11 *tidyverse*
 
-## Pacotes
+## Pacotes e funcionalidades
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+
+[Getting Started with tidyverse in R - Martin Frigaard (2017)](https://www.storybench.org/getting-started-with-tidyverse-in-r/)
 
 ---
 
@@ -1301,13 +1940,13 @@ background-position: 50% 55%
 
 &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
 
-[*] https://r4ds.had.co.nz/
+[Wickham &amp; Grolemund (2017)](https://r4ds.had.co.nz/)
 
 ---
 
 class: clear
 background-image: url(img/package_magrittr.png)
-background-size: 400px
+background-size: 400px 
 
 ---
 
@@ -1391,12 +2030,32 @@ background-position: 50% 90%
 
 ---
 
-class: inverse, center, middle
-
-# Dados geoespaciais
+# 3.12 Dados geoespaciais
 
 ---
 
+---
+
+background-image: url(img/sdm_general.jpg)
+background-size: 500px
+background-position: 85% 70%
+
+# 4 Dados de entrada
+
+## Ocorrências e variáveis
+
+1. Dados de ocorrências
+1. Conjunto de dados de ocorrência
+1. Download de dados de ocorrência
+1. Limpeza de dados de ocorrência
+1. Dados ambientais
+1. Conjunto de dados ambientais
+1. Download de variáveis ambientais
+1. Colinearidade de variáveis ambientais
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+
+[Jarnevich et al. (2015)](https://www.sciencedirect.com/science/article/pii/S1574954115000977)
 
 ---
 

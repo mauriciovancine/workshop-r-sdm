@@ -42,23 +42,24 @@ Mais informações:
 
 1. Apresentações
 1. Oficina
-1. Slides
 1. Material
+1. Slides
 1. Conferindo os computadores
 
 ### 2 Teoria de nicho ecológico e distribuição de espécies (90 min)
 
-1. Teoria de nicho ecológico
-1. Nicho ecológico e ecologia de populações
-1. Visão geral de modelos de distribuição de espécies
+1. Visão geral dos Modelos de Distribuição de Espécies
+1. Nicho ecológico e distribuição de espécies
 1. Dados de entrada (ocorrências e variáveis)
-1. Tipos de métodos ou algoritmos
+1. Ajuste dos modelos (métodos)
 1. Avaliação dos modelos
+1. Predição dos modelos
 1. Consenso de modelos
+1. Aplicações dos modelos
 
 ### 3 Funcionamento da linguagem R (20 min)
 
-1. Linguamgem R 
+1. Linguagem R 
 1. RStudio 
 1. Console
 1. Scripts
@@ -67,15 +68,18 @@ Mais informações:
 1. Funções
 1. Pacotes
 1. Ajuda
-1. Ambiente
 1. Diretório de trabalho
 1. tidyverse (pipe - %>%)
-1. Dados geoespaciais
+1. Dados geoespaciais no R
 
 ### 4 Dados de entrada (ocorrências e variáveis) (60 min)
 
+1. Dados de ocorrências
+1. Conjunto de dados de ocorrência
 1. Download de dados de ocorrência
 1. Limpeza de dados de ocorrência
+1. Dados ambientais
+1. Conjunto de dados ambientais
 1. Download de variáveis ambientais
 1. Colinearidade de variáveis ambientais
 
