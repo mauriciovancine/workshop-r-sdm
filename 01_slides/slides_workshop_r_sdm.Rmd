@@ -190,7 +190,7 @@ class: inverse, center, middle
 
 ---
 
-background-image: url(img/unesp_logo.jpg), url(img/person_mauricio_vancine.jpg), url(img/gif_frog.gif)
+background-image: url(img/general_unesp_logo.jpg), url(img/person_mauricio_vancine.jpg), url(img/gif_frog.gif)
 background-size: 400px, 250px, 250px
 background-position: 90% 20%, 84% 80%, 60% 90%
 
@@ -223,7 +223,7 @@ background-position: 95% 70%
 
 # 1.1 Apresentações
 
-## Participantes (10 segundos)
+## Participantes (~10 segundos)
 
 <br>
 
@@ -244,8 +244,6 @@ background-size: 300px
 background-position: 90% 45%
 
 # 1.2 Oficina
-
-<br>
 
 ## Carga horária
 
@@ -401,7 +399,7 @@ background-position: 8% 70%, 80% 55%
 
 background-image: url(img/sdm_niche_distribution_soberon_etal_2017.jpg)
 background-size: 800px
-background-position: 50% 70%
+background-position: 50% 75%
 
 # 2.1 Visão geral dos SDMs
 
@@ -507,9 +505,9 @@ background-position: 60% 90%, 95% 5%
 
 ---
 
-background-image: url(img/sdm_nicho_r_crescimento.jpg), url(img/sdm_verhulst_grafico.png)
-background-size: 300px, 400px
-background-position: 10% 70%, 95% 75%
+background-image: url(img/sdm_nicho_r_crescimento.jpg), url(img/sdm_r.png), url(img/sdm_verhulst_grafico.png)
+background-size: 300px, 230px, 400px
+background-position: 10% 70%, 50% 75%, 95% 70%
 
 # 2.2. Nicho ecológico e distribuição de espécies
 
@@ -527,8 +525,10 @@ $$
 <br><br><br><br><br><br><br><br><br>
 [Chase & Leibold (2003)](https://press.uchicago.edu/ucp/books/book/chicago/E/bo3638660.html), [Holt (2009)](https://www.pnas.org/content/106/Supplement_2/19659),
 [Soberón (2010)](https://onlinelibrary.wiley.com/doi/10.1111/j.1600-0587.2009.06074.x),
+[Ovaskainen et al. (2017)](https://oxford.universitypressscholarship.com/view/10.1093/acprof:oso/9780198714866.001.0001/acprof-9780198714866),
 [Gravel et al. (2019)](https://onlinelibrary.wiley.com/doi/abs/10.1111/ecog.04006),
-[Murray & Sandercock 2020](https://www.wiley.com/en-am/Population+Ecology+in+Practice-p-9780470674147)
+[Murray & Sandercock (2020)](https://www.wiley.com/en-am/Population+Ecology+in+Practice-p-9780470674147)
+
 
 ---
 
@@ -607,7 +607,7 @@ background-position: 60% 45%
 
 ## Condições abióticas (B)
 
-### $+r_{i,j}(\vec e_j)$
+## $+r_{i,j}(\vec e_j)$
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br>
 [Grinnell (1917)](https://www.jstor.org/stable/info/10.2307/4072271)
