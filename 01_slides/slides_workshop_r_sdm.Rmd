@@ -91,15 +91,7 @@ background-position: 85% 31%, 84% 85%, 60% 90%
 
 **Informações:**
 
-[`r icons::icon_style(icons::fontawesome(name = "link", style = "solid"), fill = "#23373b", scale = 1.7)`](https://mauriciovancine.github.io)
-[`r icons::icon_style(icons::academicons("cv"), fill = "#23373b", scale = 2)`](https://mauriciovancine.github.io/pt/cv/cv-mauricio-vancine-pt-academic-complete.html)
-[`r icons::icon_style(icons::fontawesome("twitter"), fill = "#23373b", scale = 2)`](https://twitter.com/mauriciovancine)
-[`r icons::icon_style(icons::fontawesome(name = "github"), fill = "#23373b", scale = 2)`](https://github.com/mauriciovancine)
-[`r icons::icon_style(icons::academicons("orcid"), fill = "#23373b", scale = 2)`](https://orcid.org/0000-0001-9650-7575)
-[`r icons::icon_style(icons::academicons("publons"), fill = "#23373b", scale = 2)`](https://publons.com/researcher/1391845/mauricio-vancine)
-[`r icons::icon_style(icons::academicons("lattes"), fill = "#23373b", scale = 2)`](http://lattes.cnpq.br/9761288418931193)
-[`r icons::icon_style(icons::academicons("google-scholar"), fill = "#23373b", scale = 2)`](https://scholar.google.com/citations?user=i-2xZBQAAAAJ)
-[`r icons::icon_style(icons::fontawesome("linkedin"), fill = "#23373b", scale = 2)`](https://www.linkedin.com/in/mauricio-vancine/)
+[mauriciovancine.github.io](https://mauriciovancine.github.io)
 
 ---
 
@@ -174,9 +166,10 @@ background-position: 85% 80%
 1. Outros tipos de modelos
 1. Padronização para criação dos modelos
 1. Conceituação
-1. 
-1.
-1.
+1. Preparação dos dados
+1. Ajuste dos modelos
+1. Avaliação dos modelos
+1. Predições no tempo e no espaço
 
 .footnote[
 [Fletcher & Fortin (2018)](https://www.springer.com/gp/book/9783030019884)
@@ -205,7 +198,7 @@ background-position: 75% 65%
 1. Ajuda
 1. Diretório de trabalho
 1. tidyverse (pipe - %>%)
-1. Dados geoespaciais no R
+1. Dados geoespaciais
 
 [R](https://www.r-project.org/), [RStudio](https://www.rstudio.com/)
 
@@ -249,7 +242,7 @@ background-position: 10% 80%, 90% 80%
 1. Ajuste dos modelos
 1. Avaliação dos modelos
 1. Predição dos modelos
-1. Consensos dos modelos
+1. Consenso dos modelos
 
 <br><br><br><br><br><br><br><br>
 
@@ -326,23 +319,9 @@ class: inverse, center, middle
 
 ---
 
-background-image: url(img/sdm_fletcher_fortin_intro.png)
-background-size: 650px
-background-position: 85% 80%
+class: inverse, center, middle
 
 # 2 Teoria de nicho ecológico e distribuição de espécies
-
-## Conteúdo
-
-1. Visão geral dos Modelos de Distribuição de Espécies
-1. Nicho ecológico e distribuição de espécies
-1. Outros tipos de modelos
-1. Aplicações dos modelos
-1. Padronização para criação dos modelos
-
-.footnote[
-[Fletcher & Fortin (2018)](https://www.springer.com/gp/book/9783030019884)
-]
 
 ---
 
@@ -384,7 +363,7 @@ class: inverse, center, middle
 
 background-image: url(img/general_models.png)
 background-size: 700px
-background-position: 80% 55%
+background-position: 80% 59%
 
 # 2.1 Visão geral dos SDMs
 
@@ -601,6 +580,7 @@ background-position: 60% 50%
 ## Espaço geográfico (G)
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+[Soberón & Peterson (2005)](https://doi.org/10.1016/j.actao.2020.103701)
 [Peterson et al. (2011)](https://www.degruyter.com/document/doi/10.1515/9781400840670/html)
 
 ---
@@ -614,6 +594,7 @@ background-position: 60% 50%
 ## Distribuição de espécies
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+[Soberón & Peterson (2005)](https://doi.org/10.1016/j.actao.2020.103701)
 [Peterson et al. (2011)](https://www.degruyter.com/document/doi/10.1515/9781400840670/html)
 
 ---
@@ -773,9 +754,9 @@ background-position: 5% 70%, 52% 70%, 95% 70%
 
 ## Dualidade Hutchinsoniana e Estimativa do Nicho Ecológico
 
-- Podemos associar a taxa de crescimento intrínsica com as condições ambientais favoráveis no Espaço Ambiental (E)
+- Podemos associar a taxa de crescimento intrínseca com as condições ambientais favoráveis no Espaço Ambiental (E)
 - Essas condições favoráveis no Espaço Ambiental (E) possuem diferentes localizações no Espaço Geográfico (G)
-- Modelo vai estimar o nicho ecológico no Espaço Ambiental (E)
+- O modelo vai estimar o nicho ecológico no Espaço Ambiental (E) e projetar no Espaço Geográfico (G)
 
 <br><br><br><br><br><br><br><br><br><br><br>
 
@@ -805,7 +786,7 @@ background-position: 50% 60%
 
 # 2.2. Nicho ecológico e distribuição de espécies
 
-## Condições ambientais para as ocorrências e para toda a área modelada
+## Condições ambientais para as ocorrências e para a área modelada
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
@@ -971,11 +952,13 @@ background-position: 60% 75%
 
 background-image: url(img/sdm_niche_distribution_soberon_nakamura_2009.jpg)
 background-size: 400px
-background-position: 80% 50%
+background-position: 80% 40%
 
 # 2.2. Nicho ecológico e distribuição de espécies
 
 ## Pressupostos
+
+<br>
 
 .pull-left[
 - **Estabilidade do nicho ecológico**: as espécies mantêm o mesmo nicho ecológico ao
@@ -995,6 +978,18 @@ ocorrência e não ocorre nas regiões inadequadas
 [Soberón & Nakamura (2009)](http://www.pnas.org/cgi/doi/10.1073/pnas.0901637106)
 [Peterson et al. (2011)](https://www.degruyter.com/document/doi/10.1515/9781400840670/html)
 [Soberón et al. (2017)](http://dx.doi.org/10.1016/j.rmb.2017.03.011)
+
+---
+
+class: inverse, center, middle
+
+# Dúvidas?
+
+---
+
+class: inverse, center, middle
+
+# Bem, esses não são os únicos tipos de modelos para distribuição de espécies...
 
 ---
 
@@ -1114,7 +1109,7 @@ background-position: 50% 70%
 
 background-image: url(img/sdm_america_sul_grupos.png), url(img/sdm_america_sul_temas.png)
 background-size: 500px, 500px
-background-position: 90% 10%, 90% 85%
+background-position: 90% 10%, 90% 83%
 
 # 2.4.Padronização para criação dos modelos
 
@@ -1133,7 +1128,9 @@ background-position: 90% 10%, 90% 85%
 1. Estabelecer refúgios climáticos
 1. Estabelecimento e eficiência de áreas protegidas
 
-<br><br>
+**"Species Distribution Modeling in Latin America: <br>
+A 25-Year Retrospective Review"**
+
 [Urbina-Cardona et al. (2019)](http://journals.sagepub.com/doi/10.1177/1940082919854058)
 
 ---
@@ -1164,9 +1161,9 @@ background-position: 80% 70%
 
 ---
 
-background-image: url(img/sdm_geral.png), url(img/sdm_geral_dados.png)
-background-size: 300px, 700px
-background-position: 10% 55%, 88% 50%
+background-image: url(img/sdm_geral.png), url(img/sdm_geral_dados.png), url(img/sdm_dados.png)
+background-size: 300px, 500px, 500px
+background-position: 10% 55%, 80% 10%, 80% 85%
 
 # 2.4.Padronização para criação dos modelos 
 
@@ -1178,8 +1175,8 @@ background-position: 10% 55%, 88% 50%
 ---
 
 background-image: url(img/sdm_geral.png), url(img/sdm_geral_ajuste.png)
-background-size: 300px, 600px
-background-position: 10% 55%, 80% 55%
+background-size: 300px, 500px
+background-position: 10% 55%, 75% 55%
 
 # 2.4.Padronização para criação dos modelos
 
@@ -1190,84 +1187,42 @@ background-position: 10% 55%, 80% 55%
 
 ---
 
-background-image: url(img/sdm_geral.png), url(img/sdm_geral_ajuste.png), url(img/sdm_ribeiro_diniz_avaliacao.png)
-background-size: 300px, 600px
-background-position: 10% 55%, 80% 55%
-
-background-image: 
-background-size: 500px
-background-position: 50% 60%
+background-image: url(img/sdm_geral.png), url(img/sdm_geral_avaliacao.png), url(img/sdm_ribeiro_diniz_avaliacao_tabela.png), url(img/sdm_ribeiro_diniz_avaliacao_auc.png)
+background-size: 300px, 200px, 300px, 300px
+background-position: 10% 55%, 55% 55%, 83% 10%, 83% 93%
 
 # 2.4.Padronização para criação dos modelos
 
 ## 4. Avaliação (do ajuste) dos modelos
 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+[Brown & Yoder (2015)](https://doi.org/10.1002/ece3.1418),
+[Lima-Ribeiro & Diniz-Filho (2013)](https://files.cercomp.ufg.br/weby/up/672/o/Paleoecologia_completo.pdf)
+
 ---
 
-background-image: url(img/sdm_projecao_tempo.jpg)
-background-size: 800px
-background-position: 50% 60%
+background-image: url(img/sdm_geral.png), url(img/sdm_geral_predicao.png)
+background-size: 300px, 600px
+background-position: 10% 55%, 80% 55%
 
 # 2.4.Padronização para criação dos modelos
 
 ## 5. Predições no tempo e no espaço
 
----
-
-# 2.3 Dados de entrada (ocorrências e variáveis)
-
-## Ocorrências
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+[Brown & Yoder (2015)](https://doi.org/10.1002/ece3.1418)
 
 ---
 
-# 2.3 Dados de entrada (ocorrências e variáveis)
+class: inverse, center, middle
 
-## Variáveis
-
----
-
-# 2.4 Tipos de métodos ou algoritmos
+# Dúvidas?
 
 ---
 
-# 2.5 Avaliação dos modelos
-
----
-
-# 2.6 Consenso de modelos
-
----
-
-# 2.7 Aplicações
-
-## Doenças
-
-
-
----
-
-background-image: url(img/r_rstudio.png)
-background-size: 400px
-background-position: 75% 65%
+class: inverse, center, middle
 
 # 3 Introdução ao R
-
-## Conteúdo
-
-1. Linguagem R 
-1. RStudio 
-1. Console
-1. Scripts
-1. Operadores
-1. Objetos 
-1. Funções
-1. Pacotes
-1. Ajuda
-1. Diretório de trabalho
-1. tidyverse (pipe - %>%)
-1. Dados geoespaciais no R
-
-[R](https://www.r-project.org/), [RStudio](https://www.rstudio.com/)
 
 ---
 
