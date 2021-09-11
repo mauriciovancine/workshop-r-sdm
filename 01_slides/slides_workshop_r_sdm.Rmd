@@ -35,152 +35,31 @@ class: inverse, center, middle
 
 ---
 
+background-image: url(img/general_selecao_logo.png), url(img/person_giovanelli.png), url(img/general_9cbh.png)
+background-size: 300px, 400px, 300px
+background-position: 5% 11%, 50% 30%, 94% 53%
+
+class: inverse, center
+
+# E por fim, agradecer especialmente ao João Giovanelli
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+[`r icons::icon_style(icons::fontawesome(name = "link", style = "solid"), fill = "white", scale = 1.7)`](http://selecaonatural.net/)
+[`r icons::icon_style(icons::fontawesome("facebook"), fill = "white", scale = 2)`](https://www.facebook.com/joao.giovanelli)
+[`r icons::icon_style(icons::fontawesome("twitter"), fill = "white", scale = 2)`](https://twitter.com/biodiverso)
+[`r icons::icon_style(icons::academicons("lattes"), fill = "white", scale = 2)`](http://lattes.cnpq.br/3329493534907304)
+[`r icons::icon_style(icons::academicons("google-scholar"), fill = "white", scale = 2)`](https://scholar.google.com.br/citations?user=YY4o3U0AAAAJ&hl=pt-BR&authuser=1&hl=pt-BR)
+[`r icons::icon_style(icons::fontawesome("linkedin"), fill = "white", scale = 2)`](https://www.linkedin.com/in/giovanelli/)
+
+
+---
+
 background-image: url(img/general_meme_this_is_fine.jpeg), url(img/general_ojo_de_fuego.png)
 background-size: 700px, 400px
 background-position: 5% 50%, 95% 40%
 
 # E aí, tudo bem com vocês?
-
----
-
-background-image: url(img/general_moco_vacine.jpg), url(img/general_moco.png)
-background-size: 300px, 400px
-background-position: 45% 83%, 90% 75%
-
-# Oficina
-
-## Conteúdo
-
-### 1 Apresentações (10 min)
-
-1. Apresentações
-1. Oficina
-1. Material
-1. Slides
-1. Conferindo os computadores
-
-.footnote[
-[MOCÓ](https://moco2021.com.br/)
-]
-
----
-
-background-image: url(img/sdm_fletcher_fortin_intro.png)
-background-size: 600px
-background-position: 85% 80%
-
-# Oficina
-
-## Conteúdo
-
-### 2 Teoria de nicho ecológico e distribuição de espécies (90 min)
-
-1. Visão geral dos Modelos de Distribuição de Espécies
-1. Nicho ecológico e distribuição de espécies
-1. Outros tipos de modelos
-1. Aplicações dos modelos
-1. Padronização para criação dos modelos
-
-.footnote[
-[Fletcher & Fortin (2018)](https://www.springer.com/gp/book/9783030019884)
-]
-
----
-
-background-image: url(img/r_rstudio.png)
-background-size: 400px
-background-position: 75% 65%
-
-# Oficina
-
-## Conteúdo
-
-### 3 Introdução à linguagem R (20 min)
-
-1. Linguagem R 
-1. RStudio 
-1. Console
-1. Scripts
-1. Operadores
-1. Objetos 
-1. Funções
-1. Pacotes
-1. Ajuda
-1. Diretório de trabalho
-1. tidyverse (pipe - %>%)
-1. Dados geoespaciais no R
-
-[R](https://www.r-project.org/), [RStudio](https://www.rstudio.com/)
-
----
-
-background-image: url(img/sdm_general.jpg)
-background-size: 500px
-background-position: 85% 60%
-
-# Oficina
-
-## Conteúdo
-
-### 4 Dados de entrada (ocorrências e variáveis) (60 min)
-
-1. Dados de ocorrências
-1. Conjunto de dados de ocorrência
-1. Download de dados de ocorrência
-1. Limpeza de dados de ocorrência
-1. Dados ambientais
-1. Conjunto de dados ambientais
-1. Download de variáveis ambientais
-1. Colinearidade de variáveis ambientais
-
-<br><br><br><br><br><br>
-
-[Jarnevich et al. (2015)](https://www.sciencedirect.com/science/article/pii/S1574954115000977)
-
----
-
-background-image: url(img/sdm_wegmman_predict.png), url(img/sdm_fletcher_fortin_ensemble.png)
-background-size: 700px, 350px
-background-position: 10% 80%, 90% 80%
-
-# Oficina
-
-## Conteúdo
-
-### 5 Ajuste, avaliação e predição dos modelos (100 min)
-
-1. Ajuste dos modelos
-1. Avaliação dos modelos
-1. Predição dos modelos
-1. Consensos dos modelos
-
-<br><br><br><br><br><br><br><br>
-
-[Fletcher & Fortin (2018)](https://www.springer.com/gp/book/9783030019884),
-[Tennekes & Nowosad (2021)](https://r-tmap.github.io/tmap-book)
-
----
-
-background-image: url(img/package_ggplot2.png), url(img/package_tmap.png), url(img/geo_map_elements.png)
-background-size: 200px, 200px, 600px
-background-position: 8% 70%, 30% 70%, 90% 70%
-
-# Oficina
-
-## Conteúdo
-
-### 6 Composição de mapas (20 min)
-
-1. Composição de mapas
-1. Mapas estáticos
-1. Mapas interativos
-
-<br><br><br><br><br><br><br><br><br>
-
-[Wickham et al. (2021)](https://ggplot2-book.org/),
-[Tennekes (2018)](https://www.jstatsoft.org/article/view/v084i06),
-[Gimond (2021)](https://mgimond.github.io/Spatial/index.html)
-
 
 ---
 
@@ -191,10 +70,12 @@ class: inverse, center, middle
 ---
 
 background-image: url(img/general_unesp_logo.jpg), url(img/person_mauricio_vancine.jpg), url(img/gif_frog.gif)
-background-size: 400px, 250px, 250px
-background-position: 90% 20%, 84% 80%, 60% 90%
+background-size: 300px, 250px, 250px
+background-position: 85% 31%, 84% 85%, 60% 90%
 
 # 1.1 Apresentações
+
+## Maurício Vancine
 
 ### Ecólogo (2014) | Mestre em Zoologia (2018) | Doutorando em Ecologia (2020)
 
@@ -210,10 +91,15 @@ background-position: 90% 20%, 84% 80%, 60% 90%
 
 **Informações:**
 
-- `r icons::icon_style(icons::fontawesome(name = "envelope", style = "solid"), fill = "#23373b")` [mauricio.vancine@gmail.com]()
-- `r icons::icon_style(icons::fontawesome("twitter"), fill = "#23373b")` [@mauriciovancine](https://twitter.com/mauriciovancine)  
-- `r icons::icon_style(icons::fontawesome(name = "github"), fill = "#23373b")` [mauriciovancine](https://github.com/mauriciovancine)
-- `r icons::icon_style(icons::fontawesome(name = "link", style = "solid"), fill = "#23373b")` [mauriciovancine.github.io](https://mauriciovancine.github.io)
+[`r icons::icon_style(icons::fontawesome(name = "link", style = "solid"), fill = "#23373b", scale = 1.7)`](https://mauriciovancine.github.io)
+[`r icons::icon_style(icons::academicons("cv"), fill = "#23373b", scale = 2)`](https://mauriciovancine.github.io/pt/cv/cv-mauricio-vancine-pt-academic-complete.html)
+[`r icons::icon_style(icons::fontawesome("twitter"), fill = "#23373b", scale = 2)`](https://twitter.com/mauriciovancine)
+[`r icons::icon_style(icons::fontawesome(name = "github"), fill = "#23373b", scale = 2)`](https://github.com/mauriciovancine)
+[`r icons::icon_style(icons::academicons("orcid"), fill = "#23373b", scale = 2)`](https://orcid.org/0000-0001-9650-7575)
+[`r icons::icon_style(icons::academicons("publons"), fill = "#23373b", scale = 2)`](https://publons.com/researcher/1391845/mauricio-vancine)
+[`r icons::icon_style(icons::academicons("lattes"), fill = "#23373b", scale = 2)`](http://lattes.cnpq.br/9761288418931193)
+[`r icons::icon_style(icons::academicons("google-scholar"), fill = "#23373b", scale = 2)`](https://scholar.google.com/citations?user=i-2xZBQAAAAJ)
+[`r icons::icon_style(icons::fontawesome("linkedin"), fill = "#23373b", scale = 2)`](https://www.linkedin.com/in/mauricio-vancine/)
 
 ---
 
@@ -225,7 +111,7 @@ background-position: 95% 70%
 
 ## Participantes (~10 segundos)
 
-<br>
+## Pode abrir a câmera e microfone, se puder e quiser =]
 
 ### 1. Nome
 
@@ -258,6 +144,139 @@ background-position: 90% 45%
 ### - O principal intuito é fazer uma introdução ao tema
 
 ### - Vou indicar material (mas muito mesmo...)
+
+---
+
+background-image: url(img/general_starwars_teamwork.png)
+background-size: 500px
+background-position: 50% 80%
+
+# 1.2 Oficina
+
+## Espaço seguro e amigável
+
+### Sintam-se à vontade para me interromper e tirar dúvidas
+
+---
+
+background-image: url(img/sdm_fletcher_fortin_intro.png)
+background-size: 600px
+background-position: 85% 80%
+
+# 1.2 Oficina
+
+## Conteúdo
+
+### 2 Teoria de nicho ecológico e distribuição de espécies (90 min)
+
+1. Visão geral dos Modelos de Distribuição de Espécies
+1. Nicho ecológico e distribuição de espécies
+1. Outros tipos de modelos
+1. Padronização para criação dos modelos
+1. Conceituação
+1. 
+1.
+1.
+
+.footnote[
+[Fletcher & Fortin (2018)](https://www.springer.com/gp/book/9783030019884)
+]
+
+---
+
+background-image: url(img/r_rstudio.png)
+background-size: 400px
+background-position: 75% 65%
+
+# 1.2 Oficina
+
+## Conteúdo
+
+### 3 Introdução à linguagem R (20 min)
+
+1. Linguagem R 
+1. RStudio 
+1. Console
+1. Scripts
+1. Operadores
+1. Objetos 
+1. Funções
+1. Pacotes
+1. Ajuda
+1. Diretório de trabalho
+1. tidyverse (pipe - %>%)
+1. Dados geoespaciais no R
+
+[R](https://www.r-project.org/), [RStudio](https://www.rstudio.com/)
+
+---
+
+background-image: url(img/sdm_general.jpg)
+background-size: 500px
+background-position: 85% 60%
+
+# 1.2 Oficina
+
+## Conteúdo
+
+### 4 Dados de entrada (ocorrências e variáveis) (60 min)
+
+1. Dados de ocorrências
+1. Conjunto de dados de ocorrência
+1. Download de dados de ocorrência
+1. Limpeza de dados de ocorrência
+1. Dados ambientais
+1. Conjunto de dados ambientais
+1. Download de variáveis ambientais
+1. Colinearidade de variáveis ambientais
+
+<br><br><br><br><br><br>
+
+[Jarnevich et al. (2015)](https://www.sciencedirect.com/science/article/pii/S1574954115000977)
+
+---
+
+background-image: url(img/sdm_wegmman_predict.png), url(img/sdm_fletcher_fortin_ensemble.png)
+background-size: 700px, 350px
+background-position: 10% 80%, 90% 80%
+
+# 1.2 Oficina
+
+## Conteúdo
+
+### 5 Ajuste, avaliação e predição dos modelos (100 min)
+
+1. Ajuste dos modelos
+1. Avaliação dos modelos
+1. Predição dos modelos
+1. Consensos dos modelos
+
+<br><br><br><br><br><br><br><br>
+
+[Fletcher & Fortin (2018)](https://www.springer.com/gp/book/9783030019884),
+[Tennekes & Nowosad (2021)](https://r-tmap.github.io/tmap-book)
+
+---
+
+background-image: url(img/package_ggplot2.png), url(img/package_tmap.png), url(img/geo_map_elements.png)
+background-size: 200px, 200px, 600px
+background-position: 8% 70%, 30% 70%, 90% 70%
+
+# 1.2 Oficina
+
+## Conteúdo
+
+### 6 Composição de mapas (20 min)
+
+1. Composição de mapas
+1. Mapas estáticos
+1. Mapas interativos
+
+<br><br><br><br><br><br><br><br><br>
+
+[Wickham et al. (2021)](https://ggplot2-book.org/),
+[Tennekes (2018)](https://www.jstatsoft.org/article/view/v084i06),
+[Gimond (2021)](https://mgimond.github.io/Spatial/index.html)
 
 ---
 
@@ -569,7 +588,7 @@ $$\dfrac{1}{x_{i,j}} \dfrac{d x_{i,j}}{dt} = r_{i,j}(\vec e_j) - \varphi_{i,j}(\
 
 class: inverse, center, middle
 
-# Vamos olhar para o mesmo conceito, mas desenhando isso no Espaço Geográfico (G)
+# Vamos olhar para os mesmos conceitos, mas agora desenhando e com sapos...
 
 ---
 
@@ -601,11 +620,11 @@ background-position: 60% 50%
 
 background-image: url(img/sdm_nicho_distribuicao03.png)
 background-size: 650px
-background-position: 60% 45%
+background-position: 60% 50%
 
 # 2.2. Nicho ecológico e distribuição de espécies
 
-## Condições abióticas (B)
+## Condições abióticas (A)
 
 ## $+r_{i,j}(\vec e_j)$
 
@@ -618,8 +637,8 @@ background-position: 60% 45%
 ---
 
 background-image: url(img/sdm_nicho_distribuicao04.png), url(img/niche_macauthur.svg)
-background-size: 650px, 300px
-background-position: 60% 45%, 2% 80%
+background-size: 650px, 280px
+background-position: 60% 50%, 3% 75%
 
 # 2.2. Nicho ecológico e distribuição de espécies
 
@@ -639,7 +658,7 @@ background-position: 60% 45%, 2% 80%
 
 background-image: url(img/sdm_nicho_distribuicao05.png)
 background-size: 650px
-background-position: 60% 45%
+background-position: 60% 50%
 
 # 2.2. Nicho ecológico e distribuição de espécies
 
@@ -659,11 +678,11 @@ background-position: 60% 45%
 
 background-image: url(img/sdm_nicho_distribuicao06.png)
 background-size: 650px
-background-position: 60% 45%
+background-position: 60% 50%
 
 # 2.2. Nicho ecológico e distribuição de espécies
 
-## Nicho fundamental: todas as condições ambientais favoráveis
+## **Nicho fundamental**: todas as condições ambientais favoráveis
 
 ### $+r_{i,j}(\vec e_j)$
 
@@ -677,11 +696,11 @@ background-position: 60% 45%
 
 background-image: url(img/sdm_nicho_distribuicao07.png)
 background-size: 650px
-background-position: 60% 45%
+background-position: 60% 50%
 
 # 2.2. Nicho ecológico e distribuição de espécies
 
-### Nicho realizado: todas as condições ambientais favoráveis limitadas pela interação
+### **Nicho realizado**: todas as condições ambientais favoráveis limitadas pela interação
 
 ### $+r_{i,j}(\vec e_j)$
 
@@ -703,11 +722,11 @@ class: inverse, center, middle
 
 background-image: url(img/sdm_nicho_distribuicao08.png)
 background-size: 600px
-background-position: 60% 45%
+background-position: 60% 50%
 
 # 2.2. Nicho ecológico e distribuição de espécies
 
-## Hipervolume n-dimensional
+## **Nicho**: Hipervolume n-dimensional
 
 ### $+r_{i,j}(\vec e_j)$
 
@@ -746,25 +765,33 @@ background-position: 10% 65%, 90% 80%
 
 ---
 
-background-image: url(img/sdm_guisan_general.png)
-background-size: 800px
-background-position: 60% 60%
+background-image: url(img/sdm_nicho_r_geografico.png), url(img/sdm_nicho_r_ambiental.png), url(img/sdm_nicho_modelo.png)
+background-size: 380px, 350px, 340px
+background-position: 5% 70%, 52% 70%, 95% 70%
 
 # 2.2. Nicho ecológico e distribuição de espécies
 
-.footnote[
-[Guisan et al. (2017)](https://www.cambridge.org/br/academic/subjects/life-sciences/ecology-and-conservation/habitat-suitability-and-distribution-models-applications-r)
-]
+## Dualidade Hutchinsoniana e Estimativa do Nicho Ecológico
+
+- Podemos associar a taxa de crescimento intrínsica com as condições ambientais favoráveis no Espaço Ambiental (E)
+- Essas condições favoráveis no Espaço Ambiental (E) possuem diferentes localizações no Espaço Geográfico (G)
+- Modelo vai estimar o nicho ecológico no Espaço Ambiental (E)
+
+<br><br><br><br><br><br><br><br><br><br><br>
+
+[Hirzel & Le Lay (2008)](https://onlinelibrary.wiley.com/doi/10.1111/j.1365-2664.2008.01524.x)
+[Colwell & Rangel (2009)](http://www.pnas.org/cgi/doi/10.1073/pnas.0901650106)
+[Soberón & Nakamura (2009)](http://www.pnas.org/cgi/doi/10.1073/pnas.0901637106)
 
 ---
 
 background-image: url(img/sdm_dualidade01.png)
-background-size: 900px
+background-size: 800px
 background-position: 50% 60%
 
 # 2.2. Nicho ecológico e distribuição de espécies
 
-## Ocorrências no espaço geográfico + Condições ambientais
+## Ocorrências no espaço geográfico
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
@@ -773,12 +800,12 @@ background-position: 50% 60%
 ---
 
 background-image: url(img/sdm_dualidade02.png)
-background-size: 900px
+background-size: 800px
 background-position: 50% 60%
 
 # 2.2. Nicho ecológico e distribuição de espécies
 
-## Condições ambientais para toda a área e para as ocorrências
+## Condições ambientais para as ocorrências e para toda a área modelada
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
@@ -787,7 +814,7 @@ background-position: 50% 60%
 ---
 
 background-image: url(img/sdm_dualidade03.png)
-background-size: 900px
+background-size: 800px
 background-position: 50% 60%
 
 # 2.2. Nicho ecológico e distribuição de espécies
@@ -801,7 +828,7 @@ background-position: 50% 60%
 ---
 
 background-image: url(img/sdm_dualidade04.png)
-background-size: 900px
+background-size: 800px
 background-position: 50% 60%
 
 # 2.2. Nicho ecológico e distribuição de espécies
@@ -828,7 +855,7 @@ class: inverse, center, middle
 
 background-image: url(img/sdm_nicho_distribuicao09.png)
 background-size: 650px
-background-position: 60% 45%
+background-position: 60% 50%
 
 # 2.2. Nicho ecológico e distribuição de espécies
 
@@ -850,7 +877,7 @@ background-position: 60% 45%
 
 background-image: url(img/sdm_nicho_distribuicao09.png)
 background-size: 650px
-background-position: 60% 45%
+background-position: 60% 50%
 
 # 2.2. Nicho ecológico e distribuição de espécies
 
@@ -874,7 +901,7 @@ background-position: 60% 45%
 
 background-image: url(img/sdm_nicho_distribuicao10.png)
 background-size: 650px
-background-position: 60% 45%
+background-position: 60% 50%
 
 # 2.2. Nicho ecológico e distribuição de espécies
 
@@ -890,7 +917,7 @@ background-position: 60% 45%
 
 background-image: url(img/sdm_nicho_distribuicao11.png)
 background-size: 650px
-background-position: 60% 45%
+background-position: 60% 50%
 
 # 2.2. Nicho ecológico e distribuição de espécies
 
@@ -906,7 +933,7 @@ background-position: 60% 45%
 
 background-image: url(img/sdm_nicho_distribuicao11.png), url(img/sdm_nicho_realizado_expandido.png)
 background-size: 650px, 200px
-background-position: 60% 45%, 98% 45%
+background-position: 60% 50%, 98% 45%
 
 # 2.2. Nicho ecológico e distribuição de espécies
 
@@ -919,11 +946,26 @@ background-position: 60% 45%, 98% 45%
 - Inquilismo (+ 0)
 - Epifitismo (+ 0)
 
-<br><br><br><br><br><br><br><br>
-[Hutchinson (1957)](http://symposium.cshlp.org/cgi/doi/10.1101/SQB.1957.022.01.039)
-[Soberón & Peterson (2005)](https://doi.org/10.1016/j.actao.2020.103701)
+<br><br><br><br><br><br><br>
+[Hutchinson (1957)](http://symposium.cshlp.org/cgi/doi/10.1101/SQB.1957.022.01.039),
+[Bruno et al. (2003)](https://www.sciencedirect.com/science/article/pii/S0169534702000459),
+[Soberón & Peterson (2005)](https://doi.org/10.1016/j.actao.2020.103701),
 [Soberón (2007)](https://onlinelibrary.wiley.com/doi/10.1111/j.1461-0248.2007.01107.x),
 [Peterson et al. (2011)](https://www.degruyter.com/document/doi/10.1515/9781400840670/html)
+
+---
+
+background-image: url(img/sdm_bam_mudanca.png)
+background-size: 550px
+background-position: 60% 75%
+
+# 2.2. Nicho ecológico e distribuição de espécies
+
+## Variações das condições abióticas e bióticas em função do tempo
+
+.footnote[
+[Lima-Ribeiro & Diniz-Filho (2013)](https://files.cercomp.ufg.br/weby/up/672/o/Paleoecologia_completo.pdf)
+]
 
 ---
 
@@ -956,39 +998,219 @@ ocorrência e não ocorre nas regiões inadequadas
 
 ---
 
-background-image: url(img/sdm_niche_distribution_soberon_nakamura_2009.jpg)
-background-size: 400px
-background-position: 80% 50%
+background-image: url(img/sdm_guisan_nicho.png), url(img/sdm_correlativo_mecanistico.png)
+background-size: 600px, 400px
+background-position: 10% 55%, 90% 80%
 
 # 2.3. Outros tipos de modelos
 
 ## Modelos correlativos e mecanísticos
 
-1. 
+- Experimento laboratoriais para definir o nicho fundamental
+- Variáveis ambientais altamente acuradas
+
+.footnote[
+[Kearney (2006)](https://onlinelibrary.wiley.com/doi/10.1111/j.2006.0030-1299.14908.x),
+[Guisan et al. (2017)](https://www.cambridge.org/br/academic/subjects/life-sciences/ecology-and-conservation/habitat-suitability-and-distribution-models-applications-r)
+]
 
 ---
 
-background-image: url(img/sdm_niche_distribution_soberon_nakamura_2009.jpg)
-background-size: 400px
-background-position: 80% 50%
+background-image: url(img/sdm_ocupacao.jpg), url(img/sdm_ocupacao.gif)
+background-size: 500px, 300px
+background-position: 20% 60%, 80% 70%
 
-# 2.4. Aplicações dos modelos
+# 2.3. Outros tipos de modelos
 
-## 
+### hSDM - Hierarchical Species Distribution Modeling (Modelos de ocupação)
 
----
+- Detecção imperfeita
 
-background-image: url(img/sdm_niche_distribution_soberon_nakamura_2009.jpg)
-background-size: 400px
-background-position: 80% 50%
-
-# 2.5.Padronização para criação dos modelos
-
-## Pressupostos
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+[Kéry et al. (2010)](https://onlinelibrary.wiley.com/doi/10.1111/j.1365-2699.2010.02345.x),
+[Guillera-Arroita (2017)](https://onlinelibrary.wiley.com/doi/10.1111/ecog.02445)
 
 ---
 
-# 2.3 Dados de entrada (ocorrências e variáveis)
+background-image: url(img/sdm_ssdm.png), url(img/sdm_ssdm_gra.png), url(img/sdm_ssdm_map.png)
+background-size: 600px, 250px, 400px
+background-position: 10% 60%, 85% 85%, 90% 25%
+
+# 2.3. Outros tipos de modelos 
+
+## S-SDM - Stacked Species Distribution Modeling
+
+- Modelar a composição potencial de espécies em comunidades
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+[Mateo et al. (2012)](https://dx.plos.org/10.1371/journal.pone.0032586),
+[Vidal et al. (in prep.)](https://www.biorxiv.org/content/10.1101/629782v1.abstract)
+
+---
+
+background-image: url(img/sdm_jsdm_dados.webp), url(img/sdm_jsdm02.jpg), url(img/sdm_jsdm_filtro.webp), url(img/sdm_jsdm03.jpg)
+background-size: 450px, 300px, 300px, 300px
+background-position: 10% 60%, 63% 60%, 97% 2%, 98% 65%
+
+# 2.3. Outros tipos de modelos
+
+## JSDM - Joint Species Distribution Modeling
+
+- Modelar a resposta individual das espécies às variações ambientais
+- Entender as coocorrências potenciais (respostas positivas e negativas)
+- Embasado na teoria de filtros para montagem de comunidades
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+[Warton et al. (2015)](https://onlinelibrary.wiley.com/doi/10.1111/j.1365-2699.2010.02345.x),
+[Ovaskainen et al. (2017)](https://onlinelibrary.wiley.com/doi/10.1111/ecog.02445)
+
+---
+
+class: inverse, center, middle
+
+# Dúvidas?
+
+---
+
+background-image: url(img/sdm_zurell_standard_complete.jpg)
+background-size: 700px
+background-position: 50% 60%
+
+# 2.4.Padronização para criação dos modelos
+
+## Um protocolo padrão para modelos de distribuição de espécies
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+[Zurell et al. (2020)](https://onlinelibrary.wiley.com/doi/10.1111/ecog.04960)
+
+---
+
+background-image: url(img/sdm_zurell_standard_odmap.webp), url(img/sdm_zurell_standard_odmap_representacao.webp)
+background-size: 400px, 700px
+background-position: 5% 55%, 90% 55%
+
+# 2.4.Padronização para criação dos modelos
+
+## Um protocolo padrão para modelos de distribuição de espécies
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+[Zurell et al. (2020)](https://onlinelibrary.wiley.com/doi/10.1111/ecog.04960), 
+[ODMAP v1.0 ](https://odmap.wsl.ch/)
+
+---
+
+background-image: url(img/sdm_zurell_standard.png)
+background-size: 1000px
+background-position: 50% 70%
+
+# 2.4.Padronização para criação dos modelos
+
+## Um protocolo padrão para modelos de distribuição de espécies
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+[Zurell et al. (2020)](https://onlinelibrary.wiley.com/doi/10.1111/ecog.04960)
+
+---
+
+background-image: url(img/sdm_america_sul_grupos.png), url(img/sdm_america_sul_temas.png)
+background-size: 500px, 500px
+background-position: 90% 10%, 90% 85%
+
+# 2.4.Padronização para criação dos modelos
+
+## 1. Conceitualização
+
+### Temas
+
+1. Distribuição de espécies
+1. Padrões de diversidade
+1. Mudanças climáticas (passado e futuro)
+1. Invasão de espécies
+1. Transmissão de doenças
+1. Interações entre espécies
+1. Processos de extinção
+1. Conservação-evolução de nicho
+1. Estabelecer refúgios climáticos
+1. Estabelecimento e eficiência de áreas protegidas
+
+<br><br>
+[Urbina-Cardona et al. (2019)](http://journals.sagepub.com/doi/10.1177/1940082919854058)
+
+---
+
+background-image: url(img/sdm_conceitualizacao.png)
+background-size: 380px
+background-position: 80% 70%
+
+# 2.4.Padronização para criação dos modelos
+
+## 1. Conceitualização
+
+### Temas
+
+1. Distribuição de espécies
+1. Padrões de diversidade
+1. Mudanças climáticas (passado e futuro)
+1. Invasão de espécies
+1. Transmissão de doenças
+1. Interações entre espécies
+1. Processos de extinção
+1. Conservação-evolução de nicho
+1. Estabelecer refúgios climáticos
+1. Estabelecimento e eficiência de áreas protegidas
+
+<br><br>
+[Adaptado de Gonçalves-Souza et al. (2019)](http://link.springer.com/10.1007/978-1-4939-8919-5_7)
+
+---
+
+background-image: url(img/sdm_geral.png), url(img/sdm_geral_dados.png)
+background-size: 300px, 700px
+background-position: 10% 55%, 88% 50%
+
+# 2.4.Padronização para criação dos modelos 
+
+## 2. Preparação dos dados
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+[Brown & Yoder (2015)](https://doi.org/10.1002/ece3.1418)
+
+---
+
+background-image: url(img/sdm_geral.png), url(img/sdm_geral_ajuste.png)
+background-size: 300px, 600px
+background-position: 10% 55%, 80% 55%
+
+# 2.4.Padronização para criação dos modelos
+
+## 3. Ajuste dos modelos
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+[Brown & Yoder (2015)](https://doi.org/10.1002/ece3.1418)
+
+---
+
+background-image: url(img/sdm_geral.png), url(img/sdm_geral_ajuste.png), url(img/sdm_ribeiro_diniz_avaliacao.png)
+background-size: 300px, 600px
+background-position: 10% 55%, 80% 55%
+
+background-image: 
+background-size: 500px
+background-position: 50% 60%
+
+# 2.4.Padronização para criação dos modelos
+
+## 4. Avaliação (do ajuste) dos modelos
+
+---
+
+background-image: url(img/sdm_projecao_tempo.jpg)
+background-size: 800px
+background-position: 50% 60%
+
+# 2.4.Padronização para criação dos modelos
+
+## 5. Predições no tempo e no espaço
 
 ---
 
