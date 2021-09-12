@@ -131,7 +131,7 @@ background-position: 90% 45%
 
 &lt;br&gt;
 
-## Diânima
+## Dinâmica
 
 ### - Tudo vai ser muito rápido
 
@@ -166,15 +166,16 @@ background-position: 85% 80%
 1. Visão geral dos Modelos de Distribuição de Espécies
 1. Nicho ecológico e distribuição de espécies
 1. Outros tipos de modelos
-1. Padronização para criação dos modelos
-1. Conceituação
-1. Preparação dos dados
-1. Ajuste dos modelos
-1. Avaliação dos modelos
-1. Predições no tempo e no espaço
+1. Padronização para criação dos modelos  
+4.1. Conceituação  
+4.2. Preparação dos dados  
+4.3. Ajuste dos modelos  
+4.4. Avaliação dos modelos  
+4.5. Predições no tempo e no espaço  
 
 .footnote[
-[Fletcher &amp; Fortin (2018)](https://www.springer.com/gp/book/9783030019884)
+[Fletcher &amp; Fortin (2018)](https://www.springer.com/gp/book/9783030019884),
+[Zurell et al. (2020)](https://onlinelibrary.wiley.com/doi/10.1111/ecog.04960)
 ]
 
 ---
@@ -206,28 +207,25 @@ background-position: 75% 65%
 
 ---
 
-background-image: url(img/sdm_general.jpg)
+background-image: url(img/sdm_dados.png)
 background-size: 500px
-background-position: 85% 60%
+background-position: 80% 80%
 
 # 1.2 Oficina
 
 ## Conteúdo
 
-### 4 Dados de entrada (ocorrências e variáveis) (60 min)
+### 4 Preparação dos dados (ocorrências e variáveis) (60 min)
 
+1. Dados geoespaciais
 1. Dados de ocorrências
-1. Conjunto de dados de ocorrência
+1. Bases de dados de ocorrências
 1. Download de dados de ocorrência
 1. Limpeza de dados de ocorrência
 1. Dados ambientais
-1. Conjunto de dados ambientais
-1. Download de variáveis ambientais
-1. Colinearidade de variáveis ambientais
-
-&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
-
-[Jarnevich et al. (2015)](https://www.sciencedirect.com/science/article/pii/S1574954115000977)
+1. Base de dados ambientais
+1. Download de dados ambientais
+1. Colinearidade de dados ambientais
 
 ---
 
@@ -298,6 +296,8 @@ background-position: 50% 65%
 ## Todos os slides estão disponibilizados em .html
 
 .footnote[
+[slides](https://mauriciovancine.github.io/workshop-r-sdm/01_slides/slides_workshop_r_sdm.html#1)
+&lt;br&gt;
 [xaringan](https://slides.yihui.org/xaringan)
 ]
 
@@ -353,7 +353,10 @@ class: inverse, center, middle
 - Aplicável a entidades que **não sejam espécies** (e.g. genes ou comunidades)
 - Aplicável a casos em que um **nicho é parcialmente capturado** em um modelo (área menor que a distribuição total)
 
-[Araújo &amp; Peterson (2012)](https://doi.org/10.1890/11-1930.1), [Peterson &amp; Soberon (2012)](https://doi.org/10.4322/natcon.2012.019), [Guisan et al. (2017)](https://www.cambridge.org/br/academic/subjects/life-sciences/ecology-and-conservation/habitat-suitability-and-distribution-models-applications-r), [Adaptado de Luara Tourinho (2021)](https://youtu.be/l62rqAlV3aE)
+[Araújo &amp; Peterson (2012)](https://doi.org/10.1890/11-1930.1), 
+[Peterson &amp; Soberon (2012)](https://doi.org/10.4322/natcon.2012.019), 
+[Guisan et al. (2017)](https://www.cambridge.org/br/academic/subjects/life-sciences/ecology-and-conservation/habitat-suitability-and-distribution-models-applications-r), 
+[Adaptado de Luara Tourinho (2021)](https://youtu.be/l62rqAlV3aE)
 
 ---
 
@@ -431,7 +434,7 @@ background-position: 37% 70%, 95% 70%
 - ...
 
 &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
-[Site pessoal do Raul Costa-Pereira](https://rcosta-pereira.weebly.com/)
+[Site pessoal do Raul Costa-Pereira](https://rcosta-pereira.weebly.com/),
 &lt;br&gt;
 [Costa-Pereira et al. (2019)](https://royalsocietypublishing.org/doi/full/10.1098/rspb.2019.0369)
 
@@ -455,13 +458,13 @@ background-position: 55% 80%, 92% 31%, 92% 62%, 92% 93%
 - ...
 
 &lt;br&gt;&lt;br&gt;
-[Bahn &amp; McGill (2007)](https://onlinelibrary.wiley.com/doi/10.1111/j.1466-8238.2007.00331.x)
+[Bahn &amp; McGill (2007)](https://onlinelibrary.wiley.com/doi/10.1111/j.1466-8238.2007.00331.x),
 &lt;br&gt;
-[Jenkins et al. (2014)](https://doi.org/10.1073/pnas.1302251110)
+[Jenkins et al. (2014)](https://doi.org/10.1073/pnas.1302251110),
 &lt;br&gt;
-[BiodiversityMapping.org](https://biodiversitymapping.org/)
+[BiodiversityMapping.org](https://biodiversitymapping.org/),
 &lt;br&gt;
-[IUCN (2021)](https://www.iucnredlist.org/)
+[IUCN (2021)](https://www.iucnredlist.org/),
 &lt;br&gt;
 [Warren (2012)](https://linkinghub.elsevier.com/retrieve/pii/S0169534712000754)
 
@@ -489,7 +492,7 @@ background-image: url(img/sdm_nicho_salles_01.jpg), url(img/sdm_nicho_salles_02.
 background-size: 800px, 600px
 background-position: 60% 90%, 95% 5%
 
-# 2.2. Nicho ecológico e distribuição de espécies
+# 2.2 Nicho ecológico e distribuição de espécies
 
 ## Nicho ecológico
 
@@ -509,7 +512,7 @@ background-image: url(img/sdm_nicho_r_crescimento.jpg), url(img/sdm_r.png), url(
 background-size: 300px, 230px, 400px
 background-position: 10% 70%, 50% 75%, 95% 70%
 
-# 2.2. Nicho ecológico e distribuição de espécies
+# 2.2 Nicho ecológico e distribuição de espécies
 
 ## Nicho ecológico
 
@@ -523,7 +526,8 @@ $$
 $$
 
 &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
-[Chase &amp; Leibold (2003)](https://press.uchicago.edu/ucp/books/book/chicago/E/bo3638660.html), [Holt (2009)](https://www.pnas.org/content/106/Supplement_2/19659),
+[Chase &amp; Leibold (2003)](https://press.uchicago.edu/ucp/books/book/chicago/E/bo3638660.html), 
+[Holt (2009)](https://www.pnas.org/content/106/Supplement_2/19659),
 [Soberón (2010)](https://onlinelibrary.wiley.com/doi/10.1111/j.1600-0587.2009.06074.x),
 [Ovaskainen et al. (2017)](https://oxford.universitypressscholarship.com/view/10.1093/acprof:oso/9780198714866.001.0001/acprof-9780198714866),
 [Gravel et al. (2019)](https://onlinelibrary.wiley.com/doi/abs/10.1111/ecog.04006),
@@ -536,13 +540,13 @@ background-image: url(img/sdm_guisan_quad.png)
 background-size: 300px
 background-position: 98% 5%
 
-# 2.2. Nicho ecológico e distribuição de espécies
+# 2.2 Nicho ecológico e distribuição de espécies
 
 ## Nicho ecológico
 
 ### 1. Modelagem de nicho ecológico
 
-- Requisitos: componente abiótico, abiótico e dispersão
+- Requisitos: componente abiótico, biótico e dispersão
 
 `$$\dfrac{1}{x_{i,j}} \dfrac{d x_{i,j}}{dt} = r_{i,j}(\vec e_j) - \varphi_{i,j}(\vec x_j; \vec R_{i,j}; \vec e_j) + \psi_{i,j}(\vec x_i; \mathbf{T})$$`
 
@@ -577,12 +581,12 @@ background-image: url(img/sdm_nicho_distribuicao01.png)
 background-size: 650px
 background-position: 60% 50%
 
-# 2.2. Nicho ecológico e distribuição de espécies
+# 2.2 Nicho ecológico e distribuição de espécies
 
 ## Espaço geográfico (G)
 
 &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
-[Soberón &amp; Peterson (2005)](https://doi.org/10.1016/j.actao.2020.103701)
+[Soberón &amp; Peterson (2005)](https://doi.org/10.1016/j.actao.2020.103701),
 [Peterson et al. (2011)](https://www.degruyter.com/document/doi/10.1515/9781400840670/html)
 
 ---
@@ -591,12 +595,12 @@ background-image: url(img/sdm_nicho_distribuicao02.png)
 background-size: 650px
 background-position: 60% 50%
 
-# 2.2. Nicho ecológico e distribuição de espécies
+# 2.2 Nicho ecológico e distribuição de espécies
 
 ## Distribuição de espécies
 
 &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
-[Soberón &amp; Peterson (2005)](https://doi.org/10.1016/j.actao.2020.103701)
+[Soberón &amp; Peterson (2005)](https://doi.org/10.1016/j.actao.2020.103701),
 [Peterson et al. (2011)](https://www.degruyter.com/document/doi/10.1515/9781400840670/html)
 
 ---
@@ -605,15 +609,15 @@ background-image: url(img/sdm_nicho_distribuicao03.png)
 background-size: 650px
 background-position: 60% 50%
 
-# 2.2. Nicho ecológico e distribuição de espécies
+# 2.2 Nicho ecológico e distribuição de espécies
 
 ## Condições abióticas (A)
 
 ## `\(+r_{i,j}(\vec e_j)\)`
 
 &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
-[Grinnell (1917)](https://www.jstor.org/stable/info/10.2307/4072271)
-[Soberón &amp; Peterson (2005)](https://doi.org/10.1016/j.actao.2020.103701)
+[Grinnell (1917)](https://www.jstor.org/stable/info/10.2307/4072271),
+[Soberón &amp; Peterson (2005)](https://doi.org/10.1016/j.actao.2020.103701),
 [Soberón (2007)](https://onlinelibrary.wiley.com/doi/10.1111/j.1461-0248.2007.01107.x),
 [Peterson et al. (2011)](https://www.degruyter.com/document/doi/10.1515/9781400840670/html)
 
@@ -623,16 +627,16 @@ background-image: url(img/sdm_nicho_distribuicao04.png), url(img/niche_macauthur
 background-size: 650px, 280px
 background-position: 60% 50%, 3% 75%
 
-# 2.2. Nicho ecológico e distribuição de espécies
+# 2.2 Nicho ecológico e distribuição de espécies
 
 ## Condições bióticas (B)
 
 ### `\(-\varphi_{i,j}(\vec x_j; \vec R_{i,j}; \vec e_j)\)`
 
 &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
-[Elton (1927)](http://www.biodiversitylibrary.org/bibliography/7435)
+[Elton (1927)](http://www.biodiversitylibrary.org/bibliography/7435),
 [MacArthur &amp; Levins (1967)](https://www.journals.uchicago.edu/doi/abs/10.1086/282505),
-[Soberón &amp; Peterson (2005)](https://doi.org/10.1016/j.actao.2020.103701)
+[Soberón &amp; Peterson (2005)](https://doi.org/10.1016/j.actao.2020.103701),
 [Soberón (2007)](https://onlinelibrary.wiley.com/doi/10.1111/j.1461-0248.2007.01107.x),
 [Peterson et al. (2011)](https://www.degruyter.com/document/doi/10.1515/9781400840670/html)
 
@@ -643,7 +647,7 @@ background-image: url(img/sdm_nicho_distribuicao05.png)
 background-size: 650px
 background-position: 60% 50%
 
-# 2.2. Nicho ecológico e distribuição de espécies
+# 2.2 Nicho ecológico e distribuição de espécies
 
 ## Condições abióticas (A) e bióticas (B)
 
@@ -652,8 +656,8 @@ background-position: 60% 50%
 ### `\(-\varphi_{i,j}(\vec x_j; \vec R_{i,j}; \vec e_j)\)`
 
 &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
-[Hutchinson (1957)](http://symposium.cshlp.org/cgi/doi/10.1101/SQB.1957.022.01.039)
-[Soberón &amp; Peterson (2005)](https://doi.org/10.1016/j.actao.2020.103701)
+[Hutchinson (1957)](http://symposium.cshlp.org/cgi/doi/10.1101/SQB.1957.022.01.039),
+[Soberón &amp; Peterson (2005)](https://doi.org/10.1016/j.actao.2020.103701),
 [Soberón (2007)](https://onlinelibrary.wiley.com/doi/10.1111/j.1461-0248.2007.01107.x),
 [Peterson et al. (2011)](https://www.degruyter.com/document/doi/10.1515/9781400840670/html)
 
@@ -663,15 +667,15 @@ background-image: url(img/sdm_nicho_distribuicao06.png)
 background-size: 650px
 background-position: 60% 50%
 
-# 2.2. Nicho ecológico e distribuição de espécies
+# 2.2 Nicho ecológico e distribuição de espécies
 
 ## **Nicho fundamental**: todas as condições ambientais favoráveis
 
 ### `\(+r_{i,j}(\vec e_j)\)`
 
 &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
-[Hutchinson (1957)](http://symposium.cshlp.org/cgi/doi/10.1101/SQB.1957.022.01.039)
-[Soberón &amp; Peterson (2005)](https://doi.org/10.1016/j.actao.2020.103701)
+[Hutchinson (1957)](http://symposium.cshlp.org/cgi/doi/10.1101/SQB.1957.022.01.039),
+[Soberón &amp; Peterson (2005)](https://doi.org/10.1016/j.actao.2020.103701),
 [Soberón (2007)](https://onlinelibrary.wiley.com/doi/10.1111/j.1461-0248.2007.01107.x),
 [Peterson et al. (2011)](https://www.degruyter.com/document/doi/10.1515/9781400840670/html)
 
@@ -681,7 +685,7 @@ background-image: url(img/sdm_nicho_distribuicao07.png)
 background-size: 650px
 background-position: 60% 50%
 
-# 2.2. Nicho ecológico e distribuição de espécies
+# 2.2 Nicho ecológico e distribuição de espécies
 
 ### **Nicho realizado**: todas as condições ambientais favoráveis limitadas pela interação
 
@@ -690,8 +694,8 @@ background-position: 60% 50%
 ### `\(-\varphi_{i,j}(\vec x_j; \vec R_{i,j}; \vec e_j)\)`
 
 &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
-[Hutchinson (1957)](http://symposium.cshlp.org/cgi/doi/10.1101/SQB.1957.022.01.039)
-[Soberón &amp; Peterson (2005)](https://doi.org/10.1016/j.actao.2020.103701)
+[Hutchinson (1957)](http://symposium.cshlp.org/cgi/doi/10.1101/SQB.1957.022.01.039),
+[Soberón &amp; Peterson (2005)](https://doi.org/10.1016/j.actao.2020.103701),
 [Soberón (2007)](https://onlinelibrary.wiley.com/doi/10.1111/j.1461-0248.2007.01107.x),
 [Peterson et al. (2011)](https://www.degruyter.com/document/doi/10.1515/9781400840670/html)
 
@@ -707,7 +711,7 @@ background-image: url(img/sdm_nicho_distribuicao08.png)
 background-size: 600px
 background-position: 60% 50%
 
-# 2.2. Nicho ecológico e distribuição de espécies
+# 2.2 Nicho ecológico e distribuição de espécies
 
 ## **Nicho**: Hipervolume n-dimensional
 
@@ -716,8 +720,8 @@ background-position: 60% 50%
 ### `\(-\varphi_{i,j}(\vec x_j; \vec R_{i,j}; \vec e_j)\)`
 
 &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
-[Hutchinson (1957)](http://symposium.cshlp.org/cgi/doi/10.1101/SQB.1957.022.01.039)
-[Soberón &amp; Peterson (2005)](https://doi.org/10.1016/j.actao.2020.103701)
+[Hutchinson (1957)](http://symposium.cshlp.org/cgi/doi/10.1101/SQB.1957.022.01.039),
+[Soberón &amp; Peterson (2005)](https://doi.org/10.1016/j.actao.2020.103701),
 [Soberón (2007)](https://onlinelibrary.wiley.com/doi/10.1111/j.1461-0248.2007.01107.x),
 [Peterson et al. (2011)](https://www.degruyter.com/document/doi/10.1515/9781400840670/html)
 
@@ -733,7 +737,7 @@ background-image: url(img/sdm_niche_distribution_soberon_etal_2017.jpg), url(img
 background-size: 600px, 400px
 background-position: 10% 65%, 90% 80%
 
-# 2.2. Nicho ecológico e distribuição de espécies
+# 2.2 Nicho ecológico e distribuição de espécies
 
 ## Dualidade Hutchinsoniana
 
@@ -741,9 +745,9 @@ background-position: 10% 65%, 90% 80%
 
 &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
 
-[Colwell &amp; Rangel (2009)](http://www.pnas.org/cgi/doi/10.1073/pnas.0901650106)
-[Soberón &amp; Nakamura (2009)](http://www.pnas.org/cgi/doi/10.1073/pnas.0901637106)
-[Peterson et al. (2011)](https://www.degruyter.com/document/doi/10.1515/9781400840670/html)
+[Colwell &amp; Rangel (2009)](http://www.pnas.org/cgi/doi/10.1073/pnas.0901650106),
+[Soberón &amp; Nakamura (2009)](http://www.pnas.org/cgi/doi/10.1073/pnas.0901637106),
+[Peterson et al. (2011)](https://www.degruyter.com/document/doi/10.1515/9781400840670/html),
 [Soberón et al. (2017)](http://dx.doi.org/10.1016/j.rmb.2017.03.011)
 
 ---
@@ -752,7 +756,7 @@ background-image: url(img/sdm_nicho_r_geografico.png), url(img/sdm_nicho_r_ambie
 background-size: 380px, 350px, 340px
 background-position: 5% 70%, 52% 70%, 95% 70%
 
-# 2.2. Nicho ecológico e distribuição de espécies
+# 2.2 Nicho ecológico e distribuição de espécies
 
 ## Dualidade Hutchinsoniana e Estimativa do Nicho Ecológico
 
@@ -762,8 +766,8 @@ background-position: 5% 70%, 52% 70%, 95% 70%
 
 &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
 
-[Hirzel &amp; Le Lay (2008)](https://onlinelibrary.wiley.com/doi/10.1111/j.1365-2664.2008.01524.x)
-[Colwell &amp; Rangel (2009)](http://www.pnas.org/cgi/doi/10.1073/pnas.0901650106)
+[Hirzel &amp; Le Lay (2008)](https://onlinelibrary.wiley.com/doi/10.1111/j.1365-2664.2008.01524.x),
+[Colwell &amp; Rangel (2009)](http://www.pnas.org/cgi/doi/10.1073/pnas.0901650106),
 [Soberón &amp; Nakamura (2009)](http://www.pnas.org/cgi/doi/10.1073/pnas.0901637106)
 
 ---
@@ -772,7 +776,7 @@ background-image: url(img/sdm_dualidade01.png)
 background-size: 800px
 background-position: 50% 60%
 
-# 2.2. Nicho ecológico e distribuição de espécies
+# 2.2 Nicho ecológico e distribuição de espécies
 
 ## Ocorrências no espaço geográfico
 
@@ -786,7 +790,7 @@ background-image: url(img/sdm_dualidade02.png)
 background-size: 800px
 background-position: 50% 60%
 
-# 2.2. Nicho ecológico e distribuição de espécies
+# 2.2 Nicho ecológico e distribuição de espécies
 
 ## Condições ambientais para as ocorrências e para a área modelada
 
@@ -800,7 +804,7 @@ background-image: url(img/sdm_dualidade03.png)
 background-size: 800px
 background-position: 50% 60%
 
-# 2.2. Nicho ecológico e distribuição de espécies
+# 2.2 Nicho ecológico e distribuição de espécies
 
 ## Estimativa do nicho realizado
 
@@ -814,7 +818,7 @@ background-image: url(img/sdm_dualidade04.png)
 background-size: 800px
 background-position: 50% 60%
 
-# 2.2. Nicho ecológico e distribuição de espécies
+# 2.2 Nicho ecológico e distribuição de espécies
 
 ## Predição geográfica do nicho realizado estimado
 
@@ -840,7 +844,7 @@ background-image: url(img/sdm_nicho_distribuicao09.png)
 background-size: 650px
 background-position: 60% 50%
 
-# 2.2. Nicho ecológico e distribuição de espécies
+# 2.2 Nicho ecológico e distribuição de espécies
 
 ## Limitações pela área acessível (dispersão) (M)
 
@@ -851,10 +855,11 @@ background-position: 60% 50%
 ### `\(+\psi_{i,j}(\vec x_i; \mathbf{T})\)`
 
 &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
-[Hutchinson (1957)](http://symposium.cshlp.org/cgi/doi/10.1101/SQB.1957.022.01.039)
-[Soberón &amp; Peterson (2005)](https://doi.org/10.1016/j.actao.2020.103701)
+[Hutchinson (1957)](http://symposium.cshlp.org/cgi/doi/10.1101/SQB.1957.022.01.039),
+[Soberón &amp; Peterson (2005)](https://doi.org/10.1016/j.actao.2020.103701),
 [Soberón (2007)](https://onlinelibrary.wiley.com/doi/10.1111/j.1461-0248.2007.01107.x),
-[Peterson et al. (2011)](https://www.degruyter.com/document/doi/10.1515/9781400840670/html)
+[Peterson et al. (2011)](https://www.degruyter.com/document/doi/10.1515/9781400840670/html),
+[Barve et al. (2011)](https://linkinghub.elsevier.com/retrieve/pii/S0304380011000780)
 
 ---
 
@@ -862,7 +867,7 @@ background-image: url(img/sdm_nicho_distribuicao09.png)
 background-size: 650px
 background-position: 60% 50%
 
-# 2.2. Nicho ecológico e distribuição de espécies
+# 2.2 Nicho ecológico e distribuição de espécies
 
 ## Limitações pela área acessível (dispersão) (M)
 
@@ -875,10 +880,11 @@ background-position: 60% 50%
 ### `\(+\psi_{i,j}(\vec x_i; \mathbf{T})\)`
 
 &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
-[Hutchinson (1957)](http://symposium.cshlp.org/cgi/doi/10.1101/SQB.1957.022.01.039)
-[Soberón &amp; Peterson (2005)](https://doi.org/10.1016/j.actao.2020.103701)
+[Hutchinson (1957)](http://symposium.cshlp.org/cgi/doi/10.1101/SQB.1957.022.01.039),
+[Soberón &amp; Peterson (2005)](https://doi.org/10.1016/j.actao.2020.103701),
 [Soberón (2007)](https://onlinelibrary.wiley.com/doi/10.1111/j.1461-0248.2007.01107.x),
-[Peterson et al. (2011)](https://www.degruyter.com/document/doi/10.1515/9781400840670/html)
+[Peterson et al. (2011)](https://www.degruyter.com/document/doi/10.1515/9781400840670/html),
+[Barve et al. (2011)](https://linkinghub.elsevier.com/retrieve/pii/S0304380011000780)
 
 ---
 
@@ -886,15 +892,16 @@ background-image: url(img/sdm_nicho_distribuicao10.png)
 background-size: 650px
 background-position: 60% 50%
 
-# 2.2. Nicho ecológico e distribuição de espécies
+# 2.2 Nicho ecológico e distribuição de espécies
 
 ## Populações fonte e ralo (*source-sink*)
 
 &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
-[Hutchinson (1957)](http://symposium.cshlp.org/cgi/doi/10.1101/SQB.1957.022.01.039)
-[Soberón &amp; Peterson (2005)](https://doi.org/10.1016/j.actao.2020.103701)
+[Hutchinson (1957)](http://symposium.cshlp.org/cgi/doi/10.1101/SQB.1957.022.01.039),
+[Soberón &amp; Peterson (2005)](https://doi.org/10.1016/j.actao.2020.103701),
 [Soberón (2007)](https://onlinelibrary.wiley.com/doi/10.1111/j.1461-0248.2007.01107.x),
-[Peterson et al. (2011)](https://www.degruyter.com/document/doi/10.1515/9781400840670/html)
+[Peterson et al. (2011)](https://www.degruyter.com/document/doi/10.1515/9781400840670/html),
+[Barve et al. (2011)](https://linkinghub.elsevier.com/retrieve/pii/S0304380011000780)
 
 ---
 
@@ -902,15 +909,16 @@ background-image: url(img/sdm_nicho_distribuicao11.png)
 background-size: 650px
 background-position: 60% 50%
 
-# 2.2. Nicho ecológico e distribuição de espécies
+# 2.2 Nicho ecológico e distribuição de espécies
 
 ## Populações fonte e ralo (*source-sink*)
 
 &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
-[Hutchinson (1957)](http://symposium.cshlp.org/cgi/doi/10.1101/SQB.1957.022.01.039)
-[Soberón &amp; Peterson (2005)](https://doi.org/10.1016/j.actao.2020.103701)
+[Hutchinson (1957)](http://symposium.cshlp.org/cgi/doi/10.1101/SQB.1957.022.01.039),
+[Soberón &amp; Peterson (2005)](https://doi.org/10.1016/j.actao.2020.103701),
 [Soberón (2007)](https://onlinelibrary.wiley.com/doi/10.1111/j.1461-0248.2007.01107.x),
-[Peterson et al. (2011)](https://www.degruyter.com/document/doi/10.1515/9781400840670/html)
+[Peterson et al. (2011)](https://www.degruyter.com/document/doi/10.1515/9781400840670/html),
+[Barve et al. (2011)](https://linkinghub.elsevier.com/retrieve/pii/S0304380011000780)
 
 ---
 
@@ -918,7 +926,7 @@ background-image: url(img/sdm_nicho_distribuicao11.png), url(img/sdm_nicho_reali
 background-size: 650px, 200px
 background-position: 60% 50%, 98% 45%
 
-# 2.2. Nicho ecológico e distribuição de espécies
+# 2.2 Nicho ecológico e distribuição de espécies
 
 ## Populações fonte e ralo (*source-sink*)
 
@@ -942,7 +950,7 @@ background-image: url(img/sdm_bam_mudanca.png)
 background-size: 550px
 background-position: 60% 75%
 
-# 2.2. Nicho ecológico e distribuição de espécies
+# 2.2 Nicho ecológico e distribuição de espécies
 
 ## Variações das condições abióticas e bióticas em função do tempo
 
@@ -956,11 +964,9 @@ background-image: url(img/sdm_niche_distribution_soberon_nakamura_2009.jpg)
 background-size: 400px
 background-position: 80% 40%
 
-# 2.2. Nicho ecológico e distribuição de espécies
+# 2.2 Nicho ecológico e distribuição de espécies
 
 ## Pressupostos
-
-&lt;br&gt;
 
 .pull-left[
 - **Estabilidade do nicho ecológico**: as espécies mantêm o mesmo nicho ecológico ao
@@ -976,9 +982,9 @@ ocorrência e não ocorre nas regiões inadequadas
 
 &lt;br&gt;&lt;br&gt;
 
-[Colwell &amp; Rangel (2009)](http://www.pnas.org/cgi/doi/10.1073/pnas.0901650106)
-[Soberón &amp; Nakamura (2009)](http://www.pnas.org/cgi/doi/10.1073/pnas.0901637106)
-[Peterson et al. (2011)](https://www.degruyter.com/document/doi/10.1515/9781400840670/html)
+[Colwell &amp; Rangel (2009)](http://www.pnas.org/cgi/doi/10.1073/pnas.0901650106),
+[Soberón &amp; Nakamura (2009)](http://www.pnas.org/cgi/doi/10.1073/pnas.0901637106),
+[Peterson et al. (2011)](https://www.degruyter.com/document/doi/10.1515/9781400840670/html),
 [Soberón et al. (2017)](http://dx.doi.org/10.1016/j.rmb.2017.03.011)
 
 ---
@@ -991,7 +997,7 @@ class: inverse, center, middle
 
 class: inverse, center, middle
 
-# Bem, esses não são os únicos tipos de modelos para distribuição de espécies...
+# Bem, mas esses não são os únicos tipos de modelos para distribuição de espécies...
 
 ---
 
@@ -999,7 +1005,7 @@ background-image: url(img/sdm_guisan_nicho.png), url(img/sdm_correlativo_mecanis
 background-size: 600px, 400px
 background-position: 10% 55%, 90% 80%
 
-# 2.3. Outros tipos de modelos
+# 2.3 Outros tipos de modelos
 
 ## Modelos correlativos e mecanísticos
 
@@ -1017,7 +1023,7 @@ background-image: url(img/sdm_ocupacao.jpg), url(img/sdm_ocupacao.gif)
 background-size: 500px, 300px
 background-position: 20% 60%, 80% 70%
 
-# 2.3. Outros tipos de modelos
+# 2.3 Outros tipos de modelos
 
 ### hSDM - Hierarchical Species Distribution Modeling (Modelos de ocupação)
 
@@ -1033,23 +1039,22 @@ background-image: url(img/sdm_ssdm.png), url(img/sdm_ssdm_gra.png), url(img/sdm_
 background-size: 600px, 250px, 400px
 background-position: 10% 60%, 85% 85%, 90% 25%
 
-# 2.3. Outros tipos de modelos 
+# 2.3 Outros tipos de modelos 
 
 ## S-SDM - Stacked Species Distribution Modeling
 
 - Modelar a composição potencial de espécies em comunidades
 
 &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
-[Mateo et al. (2012)](https://dx.plos.org/10.1371/journal.pone.0032586),
 [Vidal et al. (in prep.)](https://www.biorxiv.org/content/10.1101/629782v1.abstract)
 
 ---
 
 background-image: url(img/sdm_jsdm_dados.webp), url(img/sdm_jsdm02.jpg), url(img/sdm_jsdm_filtro.webp), url(img/sdm_jsdm03.jpg)
 background-size: 450px, 300px, 300px, 300px
-background-position: 10% 60%, 63% 60%, 97% 2%, 98% 65%
+background-position: 8% 70%, 60% 75%, 97% 2%, 97% 80%
 
-# 2.3. Outros tipos de modelos
+# 2.3 Outros tipos de modelos
 
 ## JSDM - Joint Species Distribution Modeling
 
@@ -1057,7 +1062,7 @@ background-position: 10% 60%, 63% 60%, 97% 2%, 98% 65%
 - Entender as coocorrências potenciais (respostas positivas e negativas)
 - Embasado na teoria de filtros para montagem de comunidades
 
-&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
 [Warton et al. (2015)](https://onlinelibrary.wiley.com/doi/10.1111/j.1365-2699.2010.02345.x),
 [Ovaskainen et al. (2017)](https://onlinelibrary.wiley.com/doi/10.1111/ecog.02445)
 
@@ -1073,7 +1078,7 @@ background-image: url(img/sdm_zurell_standard_complete.jpg)
 background-size: 700px
 background-position: 50% 60%
 
-# 2.4.Padronização para criação dos modelos
+# 2.4 Padronização para criação dos modelos
 
 ## Um protocolo padrão para modelos de distribuição de espécies
 
@@ -1086,7 +1091,7 @@ background-image: url(img/sdm_zurell_standard_odmap.webp), url(img/sdm_zurell_st
 background-size: 400px, 700px
 background-position: 5% 55%, 90% 55%
 
-# 2.4.Padronização para criação dos modelos
+# 2.4 Padronização para criação dos modelos
 
 ## Um protocolo padrão para modelos de distribuição de espécies
 
@@ -1100,7 +1105,7 @@ background-image: url(img/sdm_zurell_standard.png)
 background-size: 1000px
 background-position: 50% 70%
 
-# 2.4.Padronização para criação dos modelos
+# 2.4 Padronização para criação dos modelos
 
 ## Um protocolo padrão para modelos de distribuição de espécies
 
@@ -1113,7 +1118,7 @@ background-image: url(img/sdm_america_sul_grupos.png), url(img/sdm_america_sul_t
 background-size: 500px, 500px
 background-position: 90% 10%, 90% 83%
 
-# 2.4.Padronização para criação dos modelos
+# 2.4 Padronização para criação dos modelos
 
 ## 1. Conceitualização
 
@@ -1141,7 +1146,7 @@ background-image: url(img/sdm_conceitualizacao.png)
 background-size: 380px
 background-position: 80% 70%
 
-# 2.4.Padronização para criação dos modelos
+# 2.4 Padronização para criação dos modelos
 
 ## 1. Conceitualização
 
@@ -1167,7 +1172,7 @@ background-image: url(img/sdm_geral.png), url(img/sdm_geral_dados.png), url(img/
 background-size: 300px, 500px, 500px
 background-position: 10% 55%, 80% 10%, 80% 85%
 
-# 2.4.Padronização para criação dos modelos 
+# 2.4 Padronização para criação dos modelos 
 
 ## 2. Preparação dos dados
 
@@ -1180,7 +1185,7 @@ background-image: url(img/sdm_geral.png), url(img/sdm_geral_ajuste.png)
 background-size: 300px, 500px
 background-position: 10% 55%, 75% 55%
 
-# 2.4.Padronização para criação dos modelos
+# 2.4 Padronização para criação dos modelos
 
 ## 3. Ajuste dos modelos
 
@@ -1191,9 +1196,9 @@ background-position: 10% 55%, 75% 55%
 
 background-image: url(img/sdm_geral.png), url(img/sdm_geral_avaliacao.png), url(img/sdm_ribeiro_diniz_avaliacao_tabela.png), url(img/sdm_ribeiro_diniz_avaliacao_auc.png)
 background-size: 300px, 200px, 300px, 300px
-background-position: 10% 55%, 55% 55%, 83% 10%, 83% 93%
+background-position: 10% 55%, 55% 55%, 87% 10%, 87% 93%
 
-# 2.4.Padronização para criação dos modelos
+# 2.4 Padronização para criação dos modelos
 
 ## 4. Avaliação (do ajuste) dos modelos
 
@@ -1207,7 +1212,7 @@ background-image: url(img/sdm_geral.png), url(img/sdm_geral_predicao.png)
 background-size: 300px, 600px
 background-position: 10% 55%, 80% 55%
 
-# 2.4.Padronização para criação dos modelos
+# 2.4 Padronização para criação dos modelos
 
 ## 5. Predições no tempo e no espaço
 
@@ -1276,7 +1281,7 @@ background-position: 25% 80%, 90% 90%
 
 background-image: url(img/r_rollercoaster.png), url(img/general_code_meme.jpg)
 background-size: 600px, 500px
-background-position: 7% 55%, 95% 80%
+background-position: 7% 40%, 91% 80%
 
 # 3.1 Linguagem R
 
@@ -1291,13 +1296,14 @@ background-position: 7% 55%, 95% 80%
 ---
 
 background-image: url(img/r_rstudio_vs02.png),url(img/r_rstudio_vs03.png)
-background-size: 600px, 600px
-background-position: 50% 35%, 50% 85%
+background-size: 650px, 650px
+background-position: 50% 30%, 50% 90%
 
 # 3.2 RStudio
 
 ## IDE 
- - *Integrated Development Environment* ou Ambiente de Desenvolvimento Integrado
+
+*Integrated Development Environment* ou Ambiente de Desenvolvimento Integrado
 
 .footnote[
 [Ismay &amp; Kim (2021)](https://moderndive.com/)
@@ -1306,8 +1312,8 @@ background-position: 50% 35%, 50% 85%
 ---
 
 background-image: url(img/rstudio.png)
-background-size: 800px
-background-position: 50% 90%
+background-size: 900px
+background-position: 50% 80%
 
 # 3.2 RStudio
 
@@ -1315,9 +1321,9 @@ background-position: 50% 90%
 
 ---
 
-background-image: url(img/rstudio_tabs.png)
-background-size: 350px
-background-position: 85% 90%
+background-image: url(img/rstudio.png), url(img/rstudio_logo.svg)
+background-size: 500px, 300px
+background-position: 90% 88%, 90% 35%
 
 # 3.2 RStudio
 
@@ -1326,7 +1332,7 @@ background-position: 85% 90%
 **1. Editor/Script**: é onde escrevemos nossos códigos em R ou R Markdown  
 **2. Console**: é onde os códigos são rodados e vemos as saídas  
 **3. Environment**: painel com todos os objetos criados na sessão  
-**3. History**: painel com o histórico dos comandos rodados  
+**3. History**: painel com o histórico dos códigos rodados  
 **3. Connection**: painel para conectar banco de dados  
 **3. Git**: painel do controle de versão  
 **3. Tutorial**: painel de tutoriais  
@@ -1340,7 +1346,7 @@ background-position: 85% 90%
 
 background-image: url(img/rstudio_project_logo.png), url(img/general_teressact.jpg), url(img/rstudio_project.png)
 background-size: 100px, 100px, 700px 
-background-position: 95% 10%, 96% 35%, 60% 80%
+background-position: 95% 10%, 95% 35%, 60% 80%
 
 # 3.2 RStudio
 
@@ -1354,7 +1360,7 @@ background-position: 95% 10%, 96% 35%, 60% 80%
 
 background-image: url(img/rstudio_project_logo.png), url(img/general_teressact.jpg), url(img/rstudio_project.webp)
 background-size: 100px, 100px, 400px
-background-position: 95% 10%, 96% 35%, 50% 90%
+background-position: 95% 10%, 95% 35%, 50% 90%
 
 # 3.2 RStudio
 
@@ -1421,7 +1427,7 @@ background-position: 50% 100%
 
 **Atalho**: `ctrl + shift + N`
 
-- São **rascunhos** dos comandos
+- São **rascunhos** dos códigos
 - Será neles que os **códigos serão escritos** e depois **enviados ao console do R**
 - São **arquivos de texto simples**, que serão salvos no formato .R
 
@@ -1429,7 +1435,7 @@ background-position: 50% 100%
 
 # 3.4 Scripts
 
-### Todos os **comandos** devem ser digitados no **script**!
+### Todos os **códigos** devem ser digitados preferencialmente no **script**
 
 --
 
@@ -1475,13 +1481,15 @@ class: inverse, center, middle
 
 ## Comentários (#)
 
-### Comentários **não são lidos** pelo R e **descrevem informações**
+### Comentários **não são lidos** pelo R e **descrevem informações** em nosso script
 
 --
 
 ### São representados pelo **#** (hash) ou **#'** (hash-linha)
 
-### Informações sobre os comandos
+&lt;br&gt;
+
+### Informações sobre os código
 
 
 ```r
@@ -1501,9 +1509,11 @@ class: inverse, center, middle
 
 ## Comentários (#)
 
-### Comentários **não são lidos** pelo R e **descrevem informações**
+### Comentários **não são lidos** pelo R e **descrevem informações** em nosso script
 
 ### São representados pelo **#** (hash) ou **#'** (hash-linha)
+
+&lt;br&gt;
 
 ### Cabeçalho
 
@@ -1520,50 +1530,47 @@ class: inverse, center, middle
 
 # 3.5 Operadores
 
-## Operadores aritméticos
+## Operadores
 
+.pull-left[ 
 
-```r
-## operadores aritmeticos (+, -, *, /, ^)
-10 + 2 # adicao
-```
+### Operadores aritméticos (Números)
 
-```
-## [1] 12
-```
+&lt;br&gt;
 
+| Operador |       Descrição      |   Uso   |
+|:--------:|:--------------------:|:-------:|
+|     +    | Adição               |  a + b  |
+|     –    | Subtração            |  a - b  |
+|     *    | Multiplicação        |  a * b  |
+|     /    | Divisão              |  a / b  |
+|    %%    | Resto da divisão     |  a %% b |
+|    %/%   | Quociente da divisão | a %/% b |
+|     ^    | Potenciação          |   a^b   |
+]
 
-```r
-10 * 2 # multiplicacao
-```
+.pull-right[ 
 
-```
-## [1] 20
-```
+### Operadores relacionais (TRUE|FALSE)
 
+&lt;br&gt;
 
-```r
-10 / 2 # divisao
-```
-
-```
-## [1] 5
-```
-
-
-```r
-10 ^ 2 # potenciacao
-```
-
-```
-## [1] 100
-```
+| Operador |       Descrição       |   Uso   |
+|:--------:|:---------------------:|:-------:|
+|     &lt;    | Menor                 |  a &lt; b  |
+|     &gt;    | Maior                 |  a &gt; b  |
+|    ==    | Igual                 |  a == b |
+|    &lt;=    | Menor ou igual        |  a &lt;= b |
+|    &gt;=    | Maior ou igual        | a &gt; = b |
+|    !=    | Não igual (diferente) |   a!=b  |
+]
 
 ---
 
+
 # 3.5 Operadores
 
-### Ordem das operações aritméticas 
+## Ordem das operações aritméticas 
 
 &lt;br&gt;
 
@@ -1590,47 +1597,6 @@ class: inverse, center, middle
 ```
 ## [1] 9
 ```
-
----
-
-# 3.5 Operadores
-
-## Operadores
-
-.pull-left[ 
-
-### Operadores aritméticos
-
-&lt;br&gt;
-
-| Operador |       Descrição      |   Uso   |
-|:--------:|:--------------------:|:-------:|
-|     +    | Adição               |  a + b  |
-|     –    | Subtração            |  a - b  |
-|     *    | Multiplicação        |  a * b  |
-|     /    | Divisão              |  a / b  |
-|    %%    | Resto da divisão     |  a %% b |
-|    %/%   | Quociente da divisão | a %/% b |
-|     ^    | Potenciação          |   a^b   |
-]
-
---
-
-.pull-right[ 
-
-### Operadores relacionais
-
-&lt;br&gt;
-
-| Operador |       Descrição       |   Uso   |
-|:--------:|:---------------------:|:-------:|
-|     &lt;    | Menor                 |  a &lt; b  |
-|     &gt;    | Maior                 |  a &gt; b  |
-|    ==    | Igual                 |  a == b |
-|    &lt;=    | Menor ou igual        |  a &lt;= b |
-|    &gt;=    | Maior ou igual        | a &gt; = b |
-|    !=    | Não igual (diferente) |   a!=b  |
-]
 
 ---
 
@@ -1666,7 +1632,7 @@ background-position: 80% 90%
 
 # 3.6 Objetos
 
-### Vamos atribuir o **valor 10** à palavra **obj10**
+## Vamos atribuir o **valor 10** à palavra **obj10**
 
 --
 
@@ -1678,9 +1644,9 @@ obj10 &lt;- 10
 
 --
 
-### Agora a palavra **obj10** vale **10**
+## Agora a palavra **obj10** vale **10**
 
-#### Mas não aconteceu nada....
+### Mas não aconteceu nada....
 
 --
 
@@ -1721,13 +1687,6 @@ obj2
 ```
 ## [1] 2
 ```
-
----
-
-
-class: inverse, center, middle
-
-# Os objetos podem ser visualizados no painel *Environment*
 
 ---
 
@@ -1823,7 +1782,7 @@ obj_sum &lt;- sum(obj10, obj2)
 
 class: inverse, center, middle
 
-# Nesse momento vocês devem estar se perguntando: como vou saber o nome das funções?!
+# Nesse momento vocês devem estar se perguntando: como raios vou saber o nome das funções?!
 
 ---
 
@@ -1851,6 +1810,7 @@ background-position: 50% 50%
 class: inverse, center, middle
 
 # E de onde vêm as funções?!
+
 ---
 
 background-image: url(img/package_r.png)
@@ -1978,8 +1938,8 @@ library(vegan)
 ---
 
 background-image: url(img/package_r.png)
-background-size: 250px
-background-position: 90% 105%
+background-size: 150px
+background-position: 97% 7%
 
 # 3.8 Pacotes
 
@@ -2035,7 +1995,7 @@ background-position: 90% 90%
 
 # 3.10 Diretório de trabalho
 
-### O diretório de trabalho é o endereço da pasta (ou diretório) de onde o R importará ou exportará nossos dados
+### O diretório de trabalho é o endereço da pasta (diretório) de onde o R importará ou para onde exportará nossos dados
 
 &lt;br&gt;
 
@@ -2094,7 +2054,7 @@ Fonte: [@allison_horst](https://twitter.com/allison_horst)
 ---
 
 background-image: url(img/tidyverse_funcionalidades.png)
-background-size: 1000px
+background-size: 1100px
 background-position: 50% 55%
 
 # 3.11 *tidyverse*
@@ -2118,12 +2078,6 @@ background-position: 50% 55%
 &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
 
 [Wickham &amp; Grolemund (2017)](https://r4ds.had.co.nz/)
-
----
-
-class: clear
-background-image: url(img/package_magrittr.png)
-background-size: 400px 
 
 ---
 
@@ -2183,9 +2137,9 @@ sqrt(sum(1:100))
 
 ---
 
-background-image: url(img/gif_mario.gif)
-background-size: 300px
-background-position: 50% 90%
+background-image: url(img/gif_mario.gif), url(img/waterfall.gif)
+background-size: 300px, 460px
+background-position: 30% 90%, 87% 90%
 
 # 3.11 *tidyverse*
 
@@ -2207,32 +2161,542 @@ background-position: 50% 90%
 
 ---
 
-# 3.12 Dados geoespaciais
+class: inverse, center, middle
+
+# Dúvidas?
 
 ---
 
+background-image: url(img/sdm_zurell_standard.png), url(img/sdm_geral.png)
+background-size: 700px, 300px
+background-position: 5% 45%, 80% 60%
+
+# 2.4 Padronização para criação dos modelos
+
+## Um protocolo padrão para modelos de distribuição de espécies
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+[Brown &amp; Yoder (2015)](https://doi.org/10.1002/ece3.1418),
+[Zurell et al. (2020)](https://onlinelibrary.wiley.com/doi/10.1111/ecog.04960)
+
 ---
 
-background-image: url(img/sdm_general.jpg)
+background-image: url(img/sdm_zurell_standard.png), url(img/sdm_conceitualizacao.png)
+background-size: 500px, 380px
+background-position: 5% 55%, 90% 70%
+
+# 2.4 Padronização para criação dos modelos
+
+## 1. Conceitualização
+
+### **Objetivo**: Modelar a distribuição potencial de uma espécie
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+[Adaptado de Gonçalves-Souza et al. (2019)](http://link.springer.com/10.1007/978-1-4939-8919-5_7),
+[Zurell et al. (2020)](https://onlinelibrary.wiley.com/doi/10.1111/ecog.04960)
+
+---
+
+background-image: url(img/sdm_zurell_standard.png), url(img/sdm_geral_dados.png), url(img/sdm_dados.png)
+background-size: 500px, 500px, 500px
+background-position: 5% 55%, 80% 10%, 80% 85%
+
+# 2.4 Padronização para criação dos modelos 
+
+## 2. Preparação dos dados
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+[Brown &amp; Yoder (2015)](https://doi.org/10.1002/ece3.1418)
+
+---
+
+class: inverse, center, middle
+
+# 4 Preparação dos dados (ocorrências e variáveis)
+
+---
+
+background-image: url(img/general_sig.jpg), url(img/geo_data.jpg)
+background-size: 300px, 480px
+background-position: 32% 70%, 80% 70%
+
+# 4.1 Dados geoespaciais
+
+## Vetor e raster
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+[Campbell &amp; Shin (2012)](https://2012books.lardbucket.org/books/geographic-information-system-basics/index.html),
+&lt;br&gt;
+[ESRI (2019)](https://learn.arcgis.com/en/arcgis-book/)
+
+
+---
+
+background-image: url(img/geo_vetor_dados.png), url(img/geo_vetor.png)
+background-size: 650px, 400px
+background-position: 8% 68%, 90% 70%
+
+# 4.1 Dados geoespaciais
+
+## Vetores 
+
+## Pontos, linhas e polígonos + Tabela de atributos
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+[Silva et al. (in prep.)](https://paternogbc.github.io/livro_aer/), 
+[Tennekes &amp; Nowosad (in prep.)](https://r-tmap.github.io/tmap-book/index.html)
+
+---
+
+background-image: url(img/geo_shp_logo.png), url(img/geo_shp_formats.png)
+background-size: 150px, 650px
+background-position: 95% 10%, 50% 80%
+
+# 4.1 Dados geoespaciais
+
+## Formato de arquivos vetoriais
+
+### Shapefile
+
+#### **.shp**: contém as informações da feição (desenho)
+#### **.dbf**: tabela que contém as informações (colunas) sobre cada feição (linhas)
+#### **.shx**: arquivo de índice que une o .shp ao .dbf
+#### **.prj**: contém as informações do sistema de referências de coordenadas
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+[ESRI (1998)](https://www.esri.com/content/dam/esrisites/sitecore-archive/Files/Pdfs/library/whitepapers/pdfs/shapefile.pdf),
+[GIS Resources (2014)](https://gisresources.com/understanding-shapefile-shp-file-format/)
+
+---
+
+background-image: url(img/geo_raster.png), url(img/geo_raster_cont_cat.png)
+background-size: 400px, 600px
+background-position: 10% 65%, 85% 65%
+
+# 4.1 Dados geoespaciais
+
+## Gride ou raster
+
+### Matriz de valores - contínuos ou categóricos
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+[National Ecological Observatory Network (NEON)](https://www.neonscience.org/resources/learning-hub/tutorials/dc-raster-data-r),
+[Lovelace eta all (2020)](https://geocompr.robinlovelace.net/)
+
+---
+
+background-image: url(img/geo_raster.png), url(img/geo_raster_extent.png), url(img/geo_raster_resolution.png), url(img/geo_raster_resolution_diff.png)
+background-size: 400px, 250px, 350px, 600px
+background-position: 10% 65%, 55% 35%, 95% 39%, 85% 90%
+
+# 4.1 Dados geoespaciais
+
+## Gride ou raster
+
+### Propriedades - Extensão e resolução
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+[National Ecological Observatory Network (NEON)](https://www.neonscience.org/resources/learning-hub/tutorials/dc-raster-data-r)
+
+---
+
+background-image: url(img/geo_geotiff_logo.png)
+background-size: 600px
+background-position: 50% 55%
+
+# 4.1 Dados geoespaciais
+
+## Gride ou raster - Formato - GeoTiff
+
+### **.tif**: arquivo matricial georreferenciamento com informações de georreferenciamento
+
+.footnote[
+[LuminFire Developers](https://luminfire.com/technologies/geotiff/),
+[GeoTIFF](https://trac.osgeo.org/geotiff)
+]
+
+---
+
+background-image: url(img/geo_geographic.png)
+background-size: 600px
+background-position: 85% 60%
+
+# 4.1 Dados geoespaciais
+
+## Sistema de coordenadas 
+
+### Geográficas (graus)
+
+**1. Graus, minutos e segundos**
+- Longitude: 42°42’42”O
+- Latitude: 23°23’23”S
+
+**2. Graus decimais**
+- Longitude: -42.71167
+- Latitude: -23.38972
+
+**Conversão**: 42 + (42/60) + (42/3600) = 42.71167 &lt;br&gt;
+**Conversão**: 23 + (23/60) + (23/3600) = 23.38972
+
+&lt;br&gt;
+
+[Guia do Usuário QGIS 3.16](https://docs.qgis.org/3.16/pt_BR/docs/gentle_gis_introduction/coordinate_reference_systems.html)
+
+---
+
+background-image: url(img/geo_projection_families01.png), url(img/geo_orange_world.png), url(img/geo_proj.png)
+background-size: 450px, 200px, 500px
+background-position: 15% 65%, 78% 30%, 90% 85%
+
+# 4.1 Dados geoespaciais
+
+## Sistema de coordenadas 
+
+### Projetadas (metros)
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+[Guia do Usuário QGIS 3.16](https://docs.qgis.org/3.16/pt_BR/docs/gentle_gis_introduction/coordinate_reference_systems.html),
+[Tennekes &amp; Nowosad (in prep.)](https://r-tmap.github.io/tmap-book/index.html)
+
+---
+
+background-image: url(img/geo_utm_coords.png), url(img/geo_utm_zones.png)
+background-size: 300px, 600px
+background-position: 25% 75%, 90% 45%
+
+# 4.1 Dados geoespaciais
+
+## Sistema de coordenadas 
+
+### Projetadas (metros) - UTM
+
+**1. Zona e metros**
+- X UTM: 706832 m E
+- Y UTM: 4344683 m N
+- Zona: 10S
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+[Guia do Usuário QGIS 3.16](https://docs.qgis.org/3.16/pt_BR/docs/gentle_gis_introduction/coordinate_reference_systems.html)
+
+---
+
+background-image: url(img/geo_datum01.jpeg)
+background-size: 700px
+background-position: 70% 65%
+
+# 4.1 Dados geoespaciais
+
+## Datum
+
+### Relação do sistema de coordenadas (geográfica/projetada) com a superfície da Terra
+
+### **1. Geocêntricos**
+- WGS 84
+- SIRGAS 2000
+
+### **2. Topocêntricos**
+- SAD 69
+- Córrego Alegre
+
+&lt;br&gt;
+
+### **Conversão**: não é trivial e requer muita trigonometria
+
+---
+
+background-image: url(img/geo_datum_sad_sirgas.jpg)
 background-size: 500px
-background-position: 85% 70%
+background-position: 75% 80%
 
-# 4 Dados de entrada
+# 4.1 Dados geoespaciais
 
-## Ocorrências e variáveis
+## Datum
 
-1. Dados de ocorrências
-1. Conjunto de dados de ocorrência
-1. Download de dados de ocorrência
-1. Limpeza de dados de ocorrência
-1. Dados ambientais
-1. Conjunto de dados ambientais
-1. Download de variáveis ambientais
-1. Colinearidade de variáveis ambientais
+### Relação do sistema de coordenadas (geográfica/projetada) com a superfície da Terra
+
+### **1. Geocêntricos**
+- SIRGAS 2000
+
+### **2. Topocêntricos**
+- SAD 69
+
+&lt;br&gt;
+
+### **Diferença**: cerca de 65 metros
+
+---
+
+class: inverse, center, middle
+
+# Recapitulando: o Sistema de Referência de Coordenadas (CRS) é composto por:
+&lt;br&gt;&lt;br&gt;&lt;br&gt;
+# 1. Sistema de coordendas (geográfico ou projetado)
+&lt;br&gt;&lt;br&gt;
+# 2. Datum (relação do sistema de coordenadas com a superfície da Terra)
+
+---
+
+background-image: url(img/geo_epsg.png)
+background-size: 1000px
+background-position: 50% 80%
+
+# 4.1 Dados geoespaciais
+
+## EPSG (*European Petroleum Survey Group*)
+
+### Possui códigos numéricos para quase todos os CRSs
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+
+[EPSG](https://epsg.io/)
+
+---
+
+background-image: url(img/geo_epsg.png)
+background-size: 500px
+background-position: 90% 85%
+
+# 4.1 Dados geoespaciais
+
+## EPSG (*European Petroleum Survey Group*)
+
+&lt;br&gt;
+
+### EPSG:4326 [CRS WGS84 Geográfico](https://epsg.io/4326)
+
+### EPSG:4674 [CRS SIRGAS2000 Geográfico](https://epsg.io/4674)
+
+### EPSG:31983 [CRS WGS84 UTM23S](https://epsg.io/31983)
 
 &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
 
-[Jarnevich et al. (2015)](https://www.sciencedirect.com/science/article/pii/S1574954115000977)
+[EPSG](https://epsg.io/)
+
+---
+
+# 4.1 Dados geoespaciais
+
+## Principais fontes de dados vetoriais
+
+- **[IBGE](https://www.ibge.gov.br/geociencias/downloads-geociencias.html)**: limites territoriais e censitários do Brasil
+- **[FBDS](http://geo.fbds.org.br)**: uso da terra, APP e hidrografia - Mata Atlântica e Cerrado
+- **[GeoBank](http://geosgb.cprm.gov.br/)**: dados geológicos do Brasil
+- **[Pastagem.org](http://maps.lapig.iesa.ufg.br)**: dados de pastagens e gado para o Brasil
+- **[CanaSat](http://www.dsr.inpe.br/laf/canasat/)**: dados de cana-de-açúcar para o Brasil
+- **[CSR Maps](http://maps.csr.ufmg.br)**: diversos dados vetoriais para o Brasil
+- **[Ecoregions](https://ecoregions2017.appspot.com/)**: dados de biorregiões e biomas do mundo  
+- **[GADM](https://gadm.org/)**: limites de áreas administrativas do mundo
+- **[Natural Earth](https://www.naturalearthdata.com/):** diversos limites para o mundo
+- **[Protected Planet](https://www.protectedplanet.net/en):** áreas protegidas para o mundo
+- **[UN Biodiversity Lab](https://www.unbiodiversitylab.org/)**: Diversas bases de dados para o mundo                        	|
+- **[HydroSHEDS](https://www.hydrosheds.org/)**: informações hidrológicas do mundo
+- **[Global Roads Inventory Project (GRIP)](https://www.globio.info/download-grip-dataset)**: dados de estradas do mundo todo 
+
+---
+
+# 4.1 Dados geoespaciais
+
+## Principais fontes de dados matriciais (raster)
+
+- **[MapBiomas](https://mapbiomas.org)**: uso e cobertura da terra para o Brasil, diversos anos
+- **[Bahlu](ftp://madeira.dea.ufv.br/bdados/bhalu/)**: Distribuições históricas de terras agrícolas e pastagens para todo o Brasil de 1940 a 2012
+- **[USGS](https://www.usgs.gov)**: dados de diversos satélites livres para o mundo
+- **[SRTM](http://srtm.csi.cgiar.org/)**: dados de elevação para o mundo
+- **[Global Forest Watch](https://www.globalforestwatch.org/)**: dados de uso e cobertura para todo o planeta
+- **[Geoservice Maps](https://geoservice.dlr.de/web/maps)**: dados de elevação e florestas para o mundo
+- **[GlobCover](http://due.esrin.esa.int/page_globcover.php)**: dados de uso e cobertura da terra para todo o planeta
+- **[Global Human Footprint](https://wcshumanfootprint.org/)**: dados de pegada ecológica para o mundo
+- **[Land-Use Harmonization (LUH2)](https://luh.umd.edu/)**: dados atuais e previsões de uso da terra
+- **[SoilGrids](https://soilgrids.org/)**: dados de solo para o mundo                         
+- **[WorldClim](https://www.worldclim.org/)**: dados climáticos para o mundo
+- **[CHELSA](https://chelsa-climate.org/)**: dados climáticos para o mundo
+- **[EarthEnv](https://www.earthenv.org/)**: dados de cobertura da terra, nuvens, relevo e hidrografia
+- **[MARSPEC](http://www.marspec.org)**: dados de condições do oceano para o mundo
+- **[Bio-ORACLE](https://www.bio-oracle.org/)**: dados de condições do oceano para o mundo    
+
+---
+
+# 4.1 Dados geoespaciais
+
+## Principais fontes de dados vetoriais em pacotes no R
+
+- **[geobr](https://cran.r-project.org/web/packages/geobr/index.html)**: carrega Shapefiles de Conjuntos de Dados Espaciais Oficiais do Brasil
+- **[rnaturalearth](https://cran.r-project.org/web/packages/rnaturalearth/index.html)**: dados do mapa mundial da Natural Earth
+- **[rworldmap](https://cran.r-project.org/web/packages/rworldmap/index.html)**: mapeando Dados Globais
+- **[spData](https://cran.r-project.org/web/packages/spData/index.html)**: conjuntos de dados para análise espacial
+- **[OpenStreetMap](https://cran.r-project.org/web/packages/OpenStreetMap/index.html)**: acesso para abrir imagens raster de mapas de ruas
+- **[osmdata](https://cran.r-project.org/web/packages/osmdata/index.html)**: baixe e importe dados do OpenStreetMap
+- **[geonames](https://cran.r-project.org/web/packages/geonames/index.html)**: interface para o serviço da Web de consulta espacial "Geonames"
+- **[rgbif](https://cran.r-project.org/web/packages/rgbif/index.html)**: interface para o Global 'Biodiversity' Information Facility API
+- **[maptools](https://cran.r-project.org/web/packages/maptools/index.html)**: ferramentas para lidar com objetos espaciais
+- **[marmap](https://cran.r-project.org/web/packages/marmap/index.html)**: importar, traçar e analisar dados batimétricos e topográficos
+- **[envirem](https://cran.r-project.org/web/packages/envirem/index.html)**: geração de Variáveis ENVIREM
+- **[sdmpredictors](https://cran.r-project.org/web/packages/sdmpredictors/index.html)**: conjuntos de dados preditor de modelagem de distribuição de espécies
+
+---
+
+class: inverse, center, middle
+
+# Dúvidas?
+
+---
+
+class: inverse, center, middle
+
+# 4.2 Dados de ocorrências
+
+---
+
+background-image: url(img/sdm_ocorrencias_formato.png)
+background-size: 700px
+background-position: 50% 65%
+
+# 4.2 Dados de ocorrências
+
+## Formato
+
+---
+
+background-image: url(img/sdm_occ_gbif.png), url(img/sdm_occ_vertnet.png), url(img/sdm_occ_bien.png), url(img/sdm_occ_specieslink.png)
+background-size: 500px, 500px, 500px, 500px
+background-position: 90% 15%, 90% 58%, 90% 95%, 10% 80%
+
+# 4.2 Dados de ocorrências
+
+## Banco de dados
+
+- [Global Biodiversity Information Facility (GBIF)](https://www.gbif.org/)
+- [iNaturalist](https://www.inaturalist.org/)
+- [VertNet](http://vertnet.org/)
+- [eBird](https://ebird.org/home)
+- [iDigBio](https://www.idigbio.org/)
+- [Ocean Biogeographic Information System (OBIS)](https://obis.org/)
+- [Botanical Information and Ecology Network (BIEN)](https://bien.nceas.ucsb.edu/bien/)
+- [speciesLink](https://specieslink.net/)
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+[Maitner et al. (2017)](https://doi.org/10.1111/2041-210X.12861)
+
+---
+
+background-image: url(img/sdm_occ_rgbif.png), url(img/sdm_occ_spocc.png)
+background-size: 300px, 300px
+background-position: 55% 60%, 90% 60%
+
+# 4.2 Dados de ocorrências
+
+## Pacotes no R
+
+- [spocc](https://docs.ropensci.org/spocc/)
+- [rgbif](https://docs.ropensci.org/rgbif/)
+- [rvertnet](https://docs.ropensci.org/rvertnet/)
+- [rebird](https://docs.ropensci.org/rebird/)
+- [ridigbio](https://github.com/iDigBio/ridigbio)
+- [BIEN](https://bien.nceas.ucsb.edu/bien/tools/rbien/)
+- [taxize](https://docs.ropensci.org/taxize/)
+- [CoordinateCleaner](https://docs.ropensci.org/CoordinateCleaner/)
+- [sampbias](https://github.com/azizka/sampbias)
+- [spThin](https://github.com/mlammens/spThin)
+- [occCite](https://hannahlowens.github.io/occCite/)
+
+&lt;br&gt;&lt;br&gt;
+[Maitner et al. (2017)](https://doi.org/10.1111/2041-210X.12861),
+[Aiello-Lammens et al. (2015)](https://doi.org/10.1111/ecog.01132),
+[Zizka et al. (2019)](https://doi.org/10.1111/2041-210X.13152),
+[Zizka et al. (2020)](https://doi.org/10.1111/ecog.05102),
+[Owens et al. (2021)](https://doi.org/10.1111/ecog.05618)
+
+---
+
+background-image: url(img/sdm_occ_vies_brasil02.jpg), url(img/sdm_occ_vies_brasil01.jpg)
+background-size: 600px, 500px
+background-position: 7% 70%, 93% 60%
+
+# 4.2 Dados de ocorrências
+
+## Viés de amostragem - Brasil
+
+- Zilhões (1.144.629) de ocorrências para o Brasil
+- Vertebrados 
+- Artropodes
+- Angiospermas
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+[Oliveira et al. (2016)](https://doi.org/10.1111/ddi.12489)
+
+---
+
+background-image: url(img/sdm_occ_vies_mundo01.jpg), url(img/sdm_occ_vies_mundo02.jpg)
+background-size: 500px, 600px
+background-position: 7% 65%, 90% 65%
+
+# 4.2 Dados de ocorrências
+
+## Viés de amostragem - Mundo
+
+- Ignoramentes 742 milhões de registros de 374.900 espécies
+- Representando 6,74% do globo amostrado
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+[Hughes et al. (2021)](https://doi.org/10.1111/ecog.05926)
+
+---
+
+class: inverse, center, middle
+
+# Bora de volta para o R para baixar ocorrências!
+
+---
+
+class: inverse, center, middle
+
+# 4.3 Dados Ambientais
+
+---
+
+background-image: url(img/sdm_ocorrencias_formato.png)
+background-size: 700px
+background-position: 50% 55%
+
+# 4.3 Dados ambientais
+
+## Formato
+
+---
+
+background-image: url(img/sdm_ocorrencias_formato.png)
+background-size: 700px
+background-position: 50% 55%
+
+# 4.3 Dados ambientais
+
+## Banco de dados
+
+---
+
+background-image: url(img/sdm_ocorrencias_formato.png)
+background-size: 700px
+background-position: 50% 55%
+
+# 4.3 Dados ambientais
+
+## Pacotes no R
+
+---
+
+background-image: url(img/sdm_ocorrencias_formato.png)
+background-size: 700px
+background-position: 50% 55%
+
+# 4.3 Dados ambientais
+
+## Colinearidade
+
+---
+
+class: inverse, center, middle
+
+# Dúvidas?
 
 ---
 
@@ -2276,7 +2740,7 @@ background-position: 50% 90%
 ---
 
 class: clear, middle
-background-image: url(img/gif_frog.gif),url(img/gif_frogs.gif), url(img/package_xaringan.png)
+background-image: url(img/gif_frog.gif), url(img/gif_frogs.gif), url(img/package_xaringan.png)
 background-size: 250px, 500px, 130px
 background-position: 35% 50%, 90% 55%, 5% 86%
 
