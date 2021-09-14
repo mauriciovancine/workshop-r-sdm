@@ -64,18 +64,40 @@ tm_shape(env$bio02) +
   tm_bubbles(size = .1, col = "red") +
   tm_layout(legend.position = c("right", "bottom"))
 
+# criar mascara sem ocorrencias
+buffer_100km_pr <- occ %>%
+  sf::st_as_sf(coords = c("longitude", "latitude"), crs = 4326) %>%
+  sf::st_buffer(dist = 100000) %>%
+  sf::st_union() %>%
+  sf::as_Spatial()
+buffer_100km_pr
+
+plot(li)
+plot(buffer_100km_pr, col = "gray", add= TRUE)
+
+env_mask_pr <- raster::mask(env$bio02, buffer_100km_pr, inverse = TRUE)
+env_mask_pr
+
+tm_shape(env_mask_pr) +
+  tm_raster() +
+  tm_shape(occ %>% sf::st_as_sf(coords = c("longitude", "latitude"), crs = 4326)) +
+  tm_bubbles(size = .1, col = "red") +
+  tm_layout(legend.show = FALSE)
+
 # selecting presence and pseudo-absence data ----
 pr_specie <- occ %>%
   dplyr::select(longitude, latitude) %>%
   dplyr::mutate(id = seq(nrow(.)))
 pr_specie
 
-pa_specie <- dismo::randomPoints(mask = env, n = nrow(pr_specie)) %>%
+set.seed(42)
+pa_specie <- dismo::randomPoints(mask = env_mask_pr, n = nrow(pr_specie)) %>%
   tibble::as_tibble() %>%
   dplyr::rename(longitude = x, latitude = y) %>%
   dplyr::mutate(id = seq(nrow(.)))
 pa_specie
 
+set.seed(42)
 bkg <- dismo::randomPoints(mask = env, n = 1e3, warn = FALSE) %>%
   tibble::as_tibble() %>%
   dplyr::rename(longitude = x, latitude = y)
@@ -89,6 +111,18 @@ tm_shape(li) +
   tm_bubbles(size = .1, col = "red") +
   tm_shape(pa_specie %>% sf::st_as_sf(coords = c("longitude", "latitude"), crs = 4326)) +
   tm_bubbles(size = .1, col = "blue")
+
+tm_shape(env_mask_pr) +
+  tm_raster()+
+  tm_shape(li) +
+  tm_borders(col = "black") +
+  tm_shape(bkg %>% sf::st_as_sf(coords = c("longitude", "latitude"), crs = 4326)) +
+  tm_bubbles(size = .1, col = "gray") +
+  tm_shape(pr_specie %>% sf::st_as_sf(coords = c("longitude", "latitude"), crs = 4326)) +
+  tm_bubbles(size = .1, col = "red") +
+  tm_shape(pa_specie %>% sf::st_as_sf(coords = c("longitude", "latitude"), crs = 4326)) +
+  tm_bubbles(size = .1, col = "blue") +
+  tm_layout(legend.show = FALSE)
 
 # partitioning data ----
 pr_sample_train <- pr_specie %>%
@@ -108,20 +142,29 @@ train_pa <- dismo::prepareData(x = env,
                                p = pr_specie[pr_specie$id %in% pr_sample_train, 1:2],
                                b = pa_specie[pr_specie$id %in% pr_sample_train, 1:2])
 train_pa
+nrow(train_pa)
+table(train_pa$pb)
 
 train_pb <- dismo::prepareData(x = env,
                                p = pr_specie[pr_specie$id %in% pr_sample_train, 1:2],
                                b = bkg)
 train_pb
+nrow(train_pb)
+table(train_pb$pb)
 
 test_pa <- dismo::prepareData(x = env,
                               p = pr_specie[!pr_specie$id %in% pr_sample_train, 1:2],
                               b = pa_specie[!pr_specie$id %in% pr_sample_train, 1:2])
 test_pa
+nrow(test_pa)
+table(test_pa$pb)
 
 # model fitting ----
 # presence-only - envelope
 BIO <- dismo::bioclim(x = train_pa[train_pa$pb == 1, -1])
+plot(BIO, a = 1, b = 2, p = 0.85)
+plot(BIO, a = 1, b = 2, p = 0.95)
+plot(BIO, a = 1, b = 2, p = 1)
 
 # presence-only - distance-based
 DOM <- dismo::domain(x = train_pa[train_pa$pb == 1, -1])
@@ -354,7 +397,7 @@ ens_freq_sd <- raster::calc(models_bin, sd)
 ens_freq_sd
 plot(ens_freq_sd, col = viridis::turbo(100), main = "Ensemble - Frequência - Desvio padrão")
 
-par(mfrow = c(2, 2))
+par(mfrow = c(1, 2))
 plot(ens_freq, col = viridis::turbo(100), main = "Ensemble - Frequência")
 plot(ens_freq_sd, col = viridis::turbo(100), main = "Ensemble - Frequência - Desvio padrão")
 dev.off()
@@ -424,7 +467,7 @@ sdm_fit <- sdm::sdm(species ~ .,
                     replication = "boot",
                     n = 10,
                     test.percent = 30,
-                    parallelSetting = list(ncores = 6, method = "parallel"),
+                    parallelSetting = list(ncores = 3, method = "parallel"),
                     methods = c(
                       #"bioclim",
                       "bioclim.dismo",
@@ -437,7 +480,7 @@ sdm_fit <- sdm::sdm(species ~ .,
                       #"mahal.dismo",
                       #"mars",
                       "maxent",
-                      "maxlike",
+                      # "maxlike",
                       #"mda",
                       #"rpart",
                       "rf",
@@ -527,7 +570,7 @@ ens_thr <- ens >= thr
 ens_thr
 
 # plot
-plot(ens_cut, col = c("gray", "darkorange"))
+plot(ens_thr, col = c("gray", "darkorange"))
 
 # 6. maps -----------------------------------------------------------------
 # data

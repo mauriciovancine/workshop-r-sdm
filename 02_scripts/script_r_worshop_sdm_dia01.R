@@ -214,8 +214,11 @@ occ_data_filter
 mapview::mapview(occ_data_filter)
 
 # manual editing ----
-occ_data_filter_edit <-  mapedit::editFeatures(occ_data_filter)
+occ_data_filter_edit <-  mapedit::editFeatures(occ_data_filter) # atencao para o Done!
 occ_data_filter_edit
+
+# verificar
+mapview::mapview(occ_data_filter_edit)
 
 # export ----
 # vetor
@@ -230,14 +233,14 @@ occ_data_filter_edit %>%
 # 2. variables ------------------------------------------------------------
 # download variables ----
 download.file(url = "https://biogeo.ucdavis.edu/data/worldclim/v2.1/base/wc2.1_10m_bio.zip",
-              destfile = "03_dados/02_variaveis/wc2.1_10m_bio.zip", mode = "wb")
+              destfile = "04_dados_reserva/02_variaveis/wc2.1_10m_bio.zip", mode = "wb")
 
 # unzip
-unzip(zipfile = "03_dados/02_variaveis/wc2.1_10m_bio.zip",
-      exdir = "03_dados/02_variaveis/00_raw")
+unzip(zipfile = "04_dados_reserva/02_variaveis/wc2.1_10m_bio.zip",
+      exdir = "04_dados_reserva/02_variaveis/00_raw")
 
 # import
-env <- dir(path = "03_dados/02_variaveis/00_raw", pattern = ".tif$", full.names = TRUE) %>%
+env <- dir(path = "04_dados_reserva/02_variaveis/00_raw", pattern = ".tif$", full.names = TRUE) %>%
   raster::stack() %>%
   raster::brick()
 env
@@ -261,12 +264,16 @@ env_li
 
 # plot
 tm_shape(env_li$bio01) +
-  tm_raster(palette = "-RdBu") +
+  tm_raster(palette = "-RdBu", n = 10) +
   tm_shape(li) +
   tm_borders(col = "black") +
   tm_layout(legend.position = c("right", "bottom"))
 
 # collinearity ----
+# correlation
+ENMTools::raster.cor.matrix(env_li, method = "pearson")
+ENMTools::raster.cor.plot(env_li)
+
 # vif
 env_li_vif <- usdm::vif(env_li)
 env_li_vif
@@ -274,10 +281,6 @@ env_li_vif
 # vifstep
 env_li_vifstep <- usdm::vifstep(env_li, th = 2)
 env_li_vifstep
-
-# correlation
-ENMTools::raster.cor.matrix(env_li, method = "pearson")
-ENMTools::raster.cor.plot(env_li)
 
 # vifcor
 env_li_vifcor <- usdm::vifcor(env_li, th = .7)
@@ -300,7 +303,7 @@ plot(env_li_vif_scale, col = viridis::viridis(100))
 
 # export ----
 raster::writeRaster(x = env_li_vif_scale,
-                    filename = paste0("03_dados/02_variaveis/", names(env_li_vif_scale)),
+                    filename = paste0("04_dados_reserva/02_variaveis/", names(env_li_vif_scale)),
                     bylayer = TRUE,
                     format = "GTiff")
 

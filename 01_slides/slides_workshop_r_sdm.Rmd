@@ -2,7 +2,7 @@
 title: "Introdução à modelagem de distribuição de espécies usando a linguagem R <br><br><br>"
 subtitle: "Mastozóologos Organizados em uma Conferência Online (MOCÓ)"
 author: "Maurício H. Vancine"
-institute: "UNESP - Rio Claro <br> Laborário de Ecologia Espacial e Conservação (LEEC)"
+institute: "UNESP - Rio Claro <br> Laboratório de Ecologia Espacial e Conservação (LEEC)"
 date: "25-26/09/2021"
 output:
   xaringan::moon_reader:
@@ -199,7 +199,6 @@ background-position: 75% 65%
 1. Ajuda
 1. Diretório de trabalho
 1. tidyverse (pipe - %>%)
-1. Dados geoespaciais
 
 [R](https://www.r-project.org/), [RStudio](https://www.rstudio.com/)
 
@@ -227,25 +226,77 @@ background-position: 80% 80%
 
 ---
 
-background-image: url(img/sdm_wegmman_predict.png), url(img/sdm_fletcher_fortin_ensemble.png)
-background-size: 700px, 350px
-background-position: 10% 80%, 90% 80%
+background-image: url(img/sdm_metodos_bioclim.png), url(img/sdm_metodos_rf.png), url(img/sdm_metodos_maxent.png)
+background-size: 260px, 350px, 400px
+background-position: 9% 80%, 41% 80%, 87% 86%
 
 # 1.2 Oficina
 
 ## Conteúdo
 
-### 5 Ajuste, avaliação e predição dos modelos (100 min)
+### 5 Ajuste dos modelos (30 min)
 
-1. Ajuste dos modelos
-1. Avaliação dos modelos
+1. Tipos de métodos ou algoritmos (Somente-presença, presença-background, presença-ausência)
+1. Presenças, ausências e pseudo-ausências
+1. Somente-presença (BIOCLIM, DOMAIN e Mahalanobis)
+1. Presença-background (MaxEnt)
+1. Presença-ausência estatístico (GLM e GAM)
+1. Presença-ausência aprendizado de máquina (Random Forest e SVM)
+
+<br><br><br><br><br><br>
+
+[Elith et al. (2011)](https://www.springer.com/gp/book/9783030019884),
+[Booth et al. (2014)](https://onlinelibrary.wiley.com/doi/10.1111/ddi.12144),
+[BCCVL](https://support.bccvl.org.au/support/home)
+
+---
+
+background-image: url(img/sdm_ribeiro_diniz_avaliacao.png)
+background-size: 600px
+background-position: 70% 70%
+
+# 1.2 Oficina
+
+## Conteúdo
+
+### 6 Avaliação dos modelos (30 min)
+
+1. Partição dos dados (treino e teste)
+1. Tipos de partição dos dados (cross-validation, bootstrap, jackknife)
+1. Matriz de confusão
+1. Métricas de avaliação
+1. ROC e AUC
+1. Kappa e TSS
+
+.footnote[
+[Lima-Ribeiro & Diniz-Filho (2013)](https://files.cercomp.ufg.br/weby/up/672/o/Paleoecologia_completo.pdf)
+]
+
+---
+
+background-image: url(img/sdm_wegmman_predict.png), url(img/sdm_fletcher_fortin_ensemble.png)
+background-size: 500px, 350px
+background-position: 30% 80%, 85% 70%
+
+# 1.2 Oficina
+
+## Conteúdo
+
+### 7 Predição e consenso dos modelos (30 min)
+
 1. Predição dos modelos
+1. Limiar de corte dos modelos
 1. Consenso dos modelos
+1. Consenso por frequência
+1. Consenso por média
+1. Consenso por média ponderada
+1. Incertezas
 
-<br><br><br><br><br><br><br><br>
+<br><br><br><br><br>
 
 [Fletcher & Fortin (2018)](https://www.springer.com/gp/book/9783030019884),
 [Tennekes & Nowosad (2021)](https://r-tmap.github.io/tmap-book)
+
 
 ---
 
@@ -257,7 +308,7 @@ background-position: 8% 70%, 30% 70%, 90% 70%
 
 ## Conteúdo
 
-### 6 Composição de mapas (20 min)
+### 8 Composição de mapas (20 min)
 
 1. Composição de mapas
 1. Mapas estáticos
@@ -277,7 +328,7 @@ background-position: 50% 70%
 
 # 1.3 Material
 
-## O material da oficina pode ser acessado nesse respositório
+## O material da oficina pode ser acessado nesse repositório
 
 .footnote[
 [Repositório no GitHub](https://github.com/mauriciovancine/workshop-r-sdm)
@@ -370,7 +421,7 @@ background-position: 80% 59%
 
 # 2.1 Visão geral dos SDMs
 
-## Modelos Científicos
+## Modelos [científicos]
 
 ### *Idealizações da realidade* e não a própria *realidade*
 
@@ -498,7 +549,7 @@ background-position: 60% 90%, 95% 5%
 
 ### 2. Coexistência entre espécies
 
-### 3. Metacommunidades
+### 3. Metacomunidades
 
 .footnote[
 [Sales et al. (2021)](https://doi.org/10.1016/j.actao.2020.103701)
@@ -546,26 +597,32 @@ background-position: 98% 5%
 
 - Requisitos: componente abiótico, biótico e dispersão
 
-$$\dfrac{1}{x_{i,j}} \dfrac{d x_{i,j}}{dt} = r_{i,j}(\vec e_j) - \varphi_{i,j}(\vec x_j; \vec R_{i,j}; \vec e_j) + \psi_{i,j}(\vec x_i; \mathbf{T})$$
+$$\dfrac{1}{x_{i,g}} \dfrac{d x_{i,g}}{dt} = r_{i,g}(\vec e_g) - \varphi_{i,g}(\vec e_g, \vec R_{i,g}; \vec x_g) + \Psi_{i,g}(\vec x_i; \mathbf{T}_i)$$
 
 --
 
-- $\dfrac{1}{x_{i,j}} \dfrac{d x_{i,j}}{dt}$: taxa de crescimento per capita de uma população da espécie i na célula j
+- $\dfrac{1}{x_{i,g}} \dfrac{d x_{i,g}}{dt}$: taxa de crescimento per capita de uma população, onde $x_{i,g}$ é a densidadeda espécie i na célula g
 
 --
 
-- $r_{i,j}(\vec e_j)$: crescimento da população da espécie i na célula j em função das condições abióticas $\vec e_j$
+- $r_{i,g}(\vec e_g)$: termo de crescimento intríseco da população da espécie i na célula g, onde $\vec e_g$ são as condições abióticas
 
 --
 
-- $\varphi_{i,j}(\vec x_j; \vec R_{i,j}; \vec e_j)$: interações com outras espécies e uso de recursos, definido em termos de densidade de cada espécie $\vec x_j$, interações $\vec R_{i,j}$, e densidade-independente $\vec e_j$
+- $\varphi_{i,g}(\vec e_g, \vec R_{i,g}; \vec x_g)$: termo de regulação, onde $\vec R_{i,g}$ são as interações com outras espécies (incluindo recursos), e $\vec x_g$ densidades populacionais das espécies ocorrendo na célula g
 
 --
 
-- $\psi_{i,j}(\vec x_i; \mathbf{T})$: movimento dos indivíduos da espécie i de outras células em j de acordo com uma matriz de transição $\mathbf{T}$ 
-
+- $\Psi_{i,j}(\vec x_i; \mathbf{T}_i)$: termo de movimento, onde $\vec x_i$ representa a densidade populacional da espécie i em cada célula de **G**, e $\mathbf{T_i}$ expressa os movimentos intercelulares da espécie i
+<br>
 [Soberón (2010)](https://onlinelibrary.wiley.com/doi/10.1111/j.1600-0587.2009.06074.x),
 [Peterson et al. (2011)](https://www.degruyter.com/document/doi/10.1515/9781400840670/html)
+
+---
+
+class: inverse, center, middle
+
+# Meio complicado, não?
 
 ---
 
@@ -611,7 +668,7 @@ background-position: 60% 50%
 
 ## Condições abióticas (A)
 
-## $+r_{i,j}(\vec e_j)$
+## $+r_{i,g}(\vec e_g)$
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br>
 [Grinnell (1917)](https://www.jstor.org/stable/info/10.2307/4072271),
@@ -629,7 +686,7 @@ background-position: 60% 50%, 3% 75%
 
 ## Condições bióticas (B)
 
-### $-\varphi_{i,j}(\vec x_j; \vec R_{i,j}; \vec e_j)$
+### $-\varphi_{i,g}(\vec e_g, \vec R_{i,g}; \vec x_g)$
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br>
 [Elton (1927)](http://www.biodiversitylibrary.org/bibliography/7435),
@@ -649,9 +706,9 @@ background-position: 60% 50%
 
 ## Condições abióticas (A) e bióticas (B)
 
-### $+r_{i,j}(\vec e_j)$
+### $+r_{i,g}(\vec e_g)$
 
-### $-\varphi_{i,j}(\vec x_j; \vec R_{i,j}; \vec e_j)$
+### $-\varphi_{i,g}(\vec e_g, \vec R_{i,g}; \vec x_g)$
 
 <br><br><br><br><br><br><br><br><br><br><br>
 [Hutchinson (1957)](http://symposium.cshlp.org/cgi/doi/10.1101/SQB.1957.022.01.039),
@@ -669,7 +726,7 @@ background-position: 60% 50%
 
 ## **Nicho fundamental**: todas as condições ambientais favoráveis
 
-### $+r_{i,j}(\vec e_j)$
+### $+r_{i,g}(\vec e_g)$
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br>
 [Hutchinson (1957)](http://symposium.cshlp.org/cgi/doi/10.1101/SQB.1957.022.01.039),
@@ -687,9 +744,9 @@ background-position: 60% 50%
 
 ### **Nicho realizado**: todas as condições ambientais favoráveis limitadas pela interação
 
-### $+r_{i,j}(\vec e_j)$
+### $+r_{i,g}(\vec e_g)$
 
-### $-\varphi_{i,j}(\vec x_j; \vec R_{i,j}; \vec e_j)$
+### $-\varphi_{i,g}(\vec e_g, \vec R_{i,g}; \vec x_g)$
 
 <br><br><br><br><br><br><br><br><br><br><br>
 [Hutchinson (1957)](http://symposium.cshlp.org/cgi/doi/10.1101/SQB.1957.022.01.039),
@@ -713,9 +770,9 @@ background-position: 60% 50%
 
 ## **Nicho**: Hipervolume n-dimensional
 
-### $+r_{i,j}(\vec e_j)$
+### $+r_{i,g}(\vec e_g)$
 
-### $-\varphi_{i,j}(\vec x_j; \vec R_{i,j}; \vec e_j)$
+### $-\varphi_{i,g}(\vec e_g, \vec R_{i,g}; \vec x_g)$
 
 <br><br><br><br><br><br><br><br><br><br><br>
 [Hutchinson (1957)](http://symposium.cshlp.org/cgi/doi/10.1101/SQB.1957.022.01.039),
@@ -846,11 +903,11 @@ background-position: 60% 50%
 
 ## Limitações pela área acessível (dispersão) (M)
 
-### $+r_{i,j}(\vec e_j)$
+### $+r_{i,g}(\vec e_g)$
 
-### $-\varphi_{i,j}(\vec x_j; \vec R_{i,j}; \vec e_j)$
+### $-\varphi_{i,g}(\vec e_g, \vec R_{i,g}; \vec x_g)$
 
-### $+\psi_{i,j}(\vec x_i; \mathbf{T})$
+### $+\Psi_{i,j}(\vec x_i; \mathbf{T}_i)$
 
 <br><br><br><br><br><br><br><br><br>
 [Hutchinson (1957)](http://symposium.cshlp.org/cgi/doi/10.1101/SQB.1957.022.01.039),
@@ -867,15 +924,15 @@ background-position: 60% 50%
 
 # 2.2 Nicho ecológico e distribuição de espécies
 
-## Limitações pela área acessível (dispersão) (M)
+## Limitações pela área acessível (dispersão ou movimento) (M)
 
-### $\dfrac{1}{x_{i,j}} \dfrac{d x_{i,j}}{dt}=$
+### $\dfrac{1}{x_{i,g}} \dfrac{d x_{i,g}}{dt}=$
 
-### $+r_{i,j}(\vec e_j)$
+### $+r_{i,g}(\vec e_g)$
 
-### $-\varphi_{i,j}(\vec x_j; \vec R_{i,j}; \vec e_j)$
+### $-\varphi_{i,g}(\vec e_g, \vec R_{i,g}; \vec x_g)$
 
-### $+\psi_{i,j}(\vec x_i; \mathbf{T})$
+### $+\Psi_{i,j}(\vec x_i; \mathbf{T_i})$
 
 <br><br><br><br><br>
 [Hutchinson (1957)](http://symposium.cshlp.org/cgi/doi/10.1101/SQB.1957.022.01.039),
@@ -922,20 +979,25 @@ background-position: 60% 50%
 
 background-image: url(img/sdm_nicho_distribuicao11.png), url(img/sdm_nicho_realizado_expandido.png)
 background-size: 650px, 200px
-background-position: 60% 50%, 98% 45%
+background-position: 60% 49%, 98% 45%
 
 # 2.2 Nicho ecológico e distribuição de espécies
 
 ## Populações fonte e ralo (*source-sink*)
 
-### Facilitação
-- Mutualismo (+ +)
-- Cooperação (+ +)
-- Comensalismo (+ 0)
-- Inquilismo (+ 0)
-- Epifitismo (+ 0)
+### Inibição
+- Competição
+- Predação
+- Parasitismo
+- Amensalismo
 
-<br><br><br><br><br><br><br>
+### Facilitação
+- Mutualismo
+- Cooperação
+- Comensalismo
+- Inquilinismo
+- Epifitismo
+
 [Hutchinson (1957)](http://symposium.cshlp.org/cgi/doi/10.1101/SQB.1957.022.01.039),
 [Bruno et al. (2003)](https://www.sciencedirect.com/science/article/pii/S0169534702000459),
 [Soberón & Peterson (2005)](https://doi.org/10.1016/j.actao.2020.103701),
@@ -958,6 +1020,55 @@ background-position: 60% 75%
 
 ---
 
+background-image: url(img/sdm_nicho_distribuicao12.png)
+background-size: 650px
+background-position: 60% 50%
+
+# 2.2 Nicho ecológico e distribuição de espécies
+
+## O que de fato modelamos?
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+[Soberón & Peterson (2005)](https://doi.org/10.1016/j.actao.2020.103701),
+[Soberón (2007)](https://onlinelibrary.wiley.com/doi/10.1111/j.1461-0248.2007.01107.x),
+[Peterson et al. (2011)](https://www.degruyter.com/document/doi/10.1515/9781400840670/html)
+
+---
+
+background-image: url(img/sdm_biotico01.png), url(img/sdm_biotico02.png), url(img/sdm_biotico03.png)
+background-size: 450px, 550px, 550px
+background-position: 10% 45%, 85% 79%, 85% 20%
+
+# 2.2 Nicho ecológico e distribuição de espécies
+
+## "Ruído Eltoniano": desconsideramos as condições bióticas 
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+[Colwell & Rangel (2009)](http://www.pnas.org/cgi/doi/10.1073/pnas.0901650106),
+[Soberón & Nakamura (2009)](http://www.pnas.org/cgi/doi/10.1073/pnas.0901637106),
+[Wisz et al. (2013)](https://doi.org/10.1111/j.1469-185X.2012.00235.x)
+[Dormann et al. (2017)](https://onlinelibrary.wiley.com/doi/10.1111/geb.12759)
+
+---
+
+background-image: url(img/sdm_interacao_biotica01.jpg), url(img/sdm_interacao_biotica02.jpg), url(img/sdm_recursos02.jpg), url(img/sdm_recursos02.jpg), url(img/sdm_recursos01.jpg), url(img/sdm_recursos03.jpg)
+background-size: 600px, 260px, 150px, 150px, 180px, 150px
+background-position: 25% 65%, 85% 65%, 20% 17%, 43% 17%, 59% 17%, 82% 17%
+
+# 2.2 Nicho ecológico e distribuição de espécies
+
+## Entretanto...
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+* Esquilo: *Sciurus aestuans* (catinguelê); Palmeira: *Syagrus romanzoffiana* (jerivá)
+<br>
+Imagens:
+[Wikipedia](https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:P%C3%A1gina_principal),
+[Aves e Árvores](https://www.avesarvores.com.br/2016/07/os-esquilos-e-as-arvores.html),
+[Preuss & Padial (2021)](https://doi.org/10.3897/neotropical.16.e64892)
+
+---
+
 background-image: url(img/sdm_niche_distribution_soberon_nakamura_2009.jpg)
 background-size: 400px
 background-position: 80% 40%
@@ -968,7 +1079,7 @@ background-position: 80% 40%
 
 .pull-left[
 - **Estabilidade do nicho ecológico**: as espécies mantêm o mesmo nicho ecológico ao
-longo do tempo, ou pelo menos entre os períodos utilizados na modelagem
+longo do tempo, ou, pelo menos, entre os períodos utilizados na modelagem
 - **Equilíbio espécie-clima**: distribuição de uma espécie é considerada em equilíbrio com o clima
 quando ela está presente em todas as áreas climaticamente adequadas à sua
 ocorrência e não ocorre nas regiões inadequadas
@@ -1013,6 +1124,25 @@ background-position: 10% 55%, 90% 80%
 .footnote[
 [Kearney (2006)](https://onlinelibrary.wiley.com/doi/10.1111/j.2006.0030-1299.14908.x),
 [Guisan et al. (2017)](https://www.cambridge.org/br/academic/subjects/life-sciences/ecology-and-conservation/habitat-suitability-and-distribution-models-applications-r)
+]
+
+---
+
+background-image: url(img/sdm_mecanistico.png), url(img/sdm_mecanistico_milho.png)
+background-size: 450px, 200px
+background-position: 75% 90%, 35% 95%
+
+# 2.3 Outros tipos de modelos
+
+## Modelos mecanísticos
+
+- (a) Produtividade de *Zea mays* nos municípios brasileiros
+- (b) Modelo correlativo (MaxEnt)
+- (c) Híbrido (MaxEnt + Saída do Plantgro)
+- (d) Modelo mecanístico (Plantgro - DIVA-GIS)
+
+.footnote[
+[Nabout et al. (2012)](http://doi.editoracubo.com.br/10.4322/natcon.2012.034)
 ]
 
 ---
@@ -1078,7 +1208,7 @@ background-position: 50% 60%
 
 # 2.4 Padronização para criação dos modelos
 
-## Um protocolo padrão para modelos de distribuição de espécies
+## Protocolo padrão para modelos de distribuição de espécies
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 [Zurell et al. (2020)](https://onlinelibrary.wiley.com/doi/10.1111/ecog.04960)
@@ -1091,7 +1221,7 @@ background-position: 5% 55%, 90% 55%
 
 # 2.4 Padronização para criação dos modelos
 
-## Um protocolo padrão para modelos de distribuição de espécies
+## Protocolo padrão para modelos de distribuição de espécies
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 [Zurell et al. (2020)](https://onlinelibrary.wiley.com/doi/10.1111/ecog.04960), 
@@ -1105,7 +1235,7 @@ background-position: 50% 70%
 
 # 2.4 Padronização para criação dos modelos
 
-## Um protocolo padrão para modelos de distribuição de espécies
+## Protocolo padrão para modelos de distribuição de espécies
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 [Zurell et al. (2020)](https://onlinelibrary.wiley.com/doi/10.1111/ecog.04960)
@@ -1125,7 +1255,7 @@ background-position: 90% 10%, 90% 83%
 1. Distribuição de espécies
 1. Padrões de diversidade
 1. Mudanças climáticas (passado e futuro)
-1. Invasão de espécies
+1. Invasão biológicas
 1. Transmissão de doenças
 1. Interações entre espécies
 1. Processos de extinção
@@ -1153,7 +1283,7 @@ background-position: 80% 70%
 1. Distribuição de espécies
 1. Padrões de diversidade
 1. Mudanças climáticas (passado e futuro)
-1. Invasão de espécies
+1. Invasão biológicas
 1. Transmissão de doenças
 1. Interações entre espécies
 1. Processos de extinção
@@ -1193,8 +1323,8 @@ background-position: 10% 55%, 75% 55%
 ---
 
 background-image: url(img/sdm_geral.png), url(img/sdm_geral_avaliacao.png), url(img/sdm_ribeiro_diniz_avaliacao_tabela.png), url(img/sdm_ribeiro_diniz_avaliacao_auc.png)
-background-size: 300px, 200px, 300px, 300px
-background-position: 10% 55%, 55% 55%, 87% 10%, 87% 93%
+background-size: 300px, 200px, 230px, 300px
+background-position: 10% 55%, 55% 55%, 84% 25%, 87% 93%
 
 # 2.4 Padronização para criação dos modelos
 
@@ -1272,7 +1402,7 @@ background-position: 25% 80%, 90% 90%
 1. Os focos da linguagem são modelagem, visualização e análise de dados
 
 .footnote[
-[Curso-R](https://www.r-project.org/)
+[Curso-R](https://blog.curso-r.com/posts/2021-07-23-por-que-usar-r/)
 ]
 
 ---
@@ -1412,7 +1542,7 @@ background-position: 50% 100%
 
 ## Script (.R)
 
-**Atalho**: `ctrl + shift + N`
+**Atalho**: `Ctrl + Shift + N`
 
 - São **rascunhos** dos códigos
 - Será neles que os **códigos serão escritos** e depois **enviados ao console do R**
@@ -1428,7 +1558,7 @@ background-position: 50% 100%
 
 ### Deixem o **cursor** em **qualquer local da linha** e executem essa linha utilizando essa **combinação**: 
 
-### **Atalho**: `ctrl + Enter`
+### **Atalho**: `Ctrl + Enter`
 
 --
 
@@ -1466,7 +1596,7 @@ class: inverse, center, middle
 
 <br>
 
-### Informações sobre os código
+### Informações sobre os códigos
 
 ```{r}
 ## comentarios
@@ -1555,7 +1685,7 @@ class: inverse, center, middle
 ```
 
 ```{r}
-# especificando - segue os parênteses
+# especificando - segue a ordem dos parênteses
 ((1 * 2) + (2 / 2)) ^ 2
 ```
 
@@ -1565,11 +1695,11 @@ class: inverse, center, middle
 
 ## Atribuição (<-)
 
-### Objetos são palavras que atribuímos dados
+### Objetos são palavras que **atribuímos** dados
 
 --
 
-### A atribuição possibilita a manipulação de dados ou resultados de análises
+### A atribuição possibilita a **manipulação** de dados ou resultados de análises
 
 --
 
@@ -1581,7 +1711,7 @@ class: inverse, center, middle
 
 ## **palavra <- dados**
 
-### Atalho: `alt + -`
+### **Atalho**: `Alt + -`
 
 --
 
@@ -1920,7 +2050,7 @@ background-position: 90% 90%
 
 <br>
 
-### Atalho: `ctrl + shift + H`
+### **Atalho**: `Ctrl + Shift + H`
 
 ---
 
@@ -2013,7 +2143,7 @@ background-position: 50% 90%
 
 ## magrittr (pipe - %>%)
 
-### Atalho: `Crtl + Shift + M`
+### **Atalho**: `Ctrl + Shift + M`
 
 ```{r}
 # sem pipe
@@ -2030,7 +2160,7 @@ background-position: 50% 90%
 
 ## magrittr (pipe - %>%)
 
-### Atalho: `Crtl + Shift + M`
+### **Atalho**: `Ctrl + Shift + M`
 
 ```{r}
 # sem pipe
@@ -2047,7 +2177,7 @@ background-position: 30% 90%, 87% 90%
 
 ## magrittr (pipe - %>%)
 
-### Atalho: `Crtl + Shift + M`
+### **Atalho**: `Ctrl + Shift + M`
 
 ```{r}
 # com pipe
@@ -2070,7 +2200,7 @@ background-position: 5% 45%, 80% 60%
 
 # 2.4 Padronização para criação dos modelos
 
-## Um protocolo padrão para modelos de distribuição de espécies
+## Protocolo padrão para modelos de distribuição de espécies
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 [Brown & Yoder (2015)](https://doi.org/10.1002/ece3.1418),
@@ -2091,6 +2221,21 @@ background-position: 5% 55%, 90% 70%
 <br><br><br><br><br><br><br><br><br><br><br><br><br>
 [Adaptado de Gonçalves-Souza et al. (2019)](http://link.springer.com/10.1007/978-1-4939-8919-5_7),
 [Zurell et al. (2020)](https://onlinelibrary.wiley.com/doi/10.1111/ecog.04960)
+
+---
+
+background-image: url(img/sdm_pe_grande01.png), url(img/sdm_pe_grande02.png), url(img/sdm_pe_grande03.png)
+background-size: 250px, 350px, 300px
+background-position: 23% 70%, 56% 70%, 93% 80%
+
+# 2.4 Padronização para criação dos modelos
+
+## 1. Conceitualização
+
+### **Objetivo**: Modelar a distribuição potencial de uma espécie
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+* Sasquatch (pé-grande), *Ursus americanus* (urso-negro), [Lozier et al. (2009)](https://onlinelibrary.wiley.com/doi/10.1111/j.1365-2699.2009.02152.x), [Sykes et al. (2014)](https://web.archive.org/web/20160314040711/http://rspb.royalsocietypublishing.org/content/281/1789/20140161.short?rss=1)
 
 ---
 
@@ -2225,8 +2370,8 @@ background-position: 85% 60%
 ### Geográficas (graus)
 
 **1. Graus, minutos e segundos**
-- Longitude: 42°42’42”O
-- Latitude: 23°23’23”S
+- Longitude: 42°42'42" O
+- Latitude: 23°23'23" S
 
 **2. Graus decimais**
 - Longitude: -42.71167
@@ -2279,13 +2424,13 @@ background-position: 25% 75%, 90% 45%
 
 background-image: url(img/geo_datum01.jpeg)
 background-size: 700px
-background-position: 70% 65%
+background-position: 70% 60%
 
 # 4.1 Dados geoespaciais
 
 ## Datum
 
-### Relação do sistema de coordenadas (geográfica/projetada) com a superfície da Terra
+### Relação do sistema de coordenadas com a superfície da Terra
 
 ### **1. Geocêntricos**
 - WGS 84
@@ -2309,7 +2454,7 @@ background-position: 75% 80%
 
 ## Datum
 
-### Relação do sistema de coordenadas (geográfica/projetada) com a superfície da Terra
+### Relação do sistema de coordenadas com a superfície da Terra
 
 ### **1. Geocêntricos**
 - SIRGAS 2000
@@ -2317,7 +2462,7 @@ background-position: 75% 80%
 ### **2. Topocêntricos**
 - SAD 69
 
-<br>
+<br><br><br>
 
 ### **Diferença**: cerca de 65 metros
 
@@ -2327,7 +2472,7 @@ class: inverse, center, middle
 
 # Recapitulando: o Sistema de Referência de Coordenadas (CRS) é composto por:
 <br><br><br>
-# 1. Sistema de coordendas (geográfico ou projetado)
+# 1. Sistema de coordenadas (geográfico ou projetado)
 <br><br>
 # 2. Datum (relação do sistema de coordenadas com a superfície da Terra)
 
@@ -2454,6 +2599,28 @@ background-position: 50% 65%
 
 ---
 
+background-image: url(img/sdm_occ_fogomuseu.webp)
+background-size: 450px
+background-position: 85% 80%
+
+# 4.2 Dados de ocorrências
+
+## Fontes
+
+- Coletas em campo (amostragens em campo)
+- Literatura (artigos, data papers, ...)
+- Naturalistas e ciência cidadã (e-Bird, iNaturalist, …)
+- Coleções científicas e museus (Museu Nacional, MZUSP, CFHB, ...)
+- Banco de dados (GBIF, SpeciesLink, ...)
+
+<br><br><br><br><br><br><br>
+
+**Museu Nacional (RJ) em chamas no dia 02/09/2018**
+
+[Foto: Ricardo Moraes/Reuters](https://g1.globo.com/pop-arte/noticia/2018/09/03/principais-museus-do-mundo-utilizam-patrocinio-privado-para-manter-estrutura-e-expandir-acervo-veja-lista.ghtml)
+
+---
+
 background-image: url(img/sdm_occ_gbif.png), url(img/sdm_occ_vertnet.png), url(img/sdm_occ_bien.png), url(img/sdm_occ_specieslink.png)
 background-size: 500px, 500px, 500px, 500px
 background-position: 90% 15%, 90% 58%, 90% 95%, 10% 80%
@@ -2496,7 +2663,7 @@ background-position: 55% 60%, 90% 60%
 - [spThin](https://github.com/mlammens/spThin)
 - [occCite](https://hannahlowens.github.io/occCite/)
 
-<br><br>
+<br><br><br>
 [Maitner et al. (2017)](https://doi.org/10.1111/2041-210X.12861),
 [Aiello-Lammens et al. (2015)](https://doi.org/10.1111/ecog.01132),
 [Zizka et al. (2019)](https://doi.org/10.1111/2041-210X.13152),
@@ -2505,20 +2672,25 @@ background-position: 55% 60%, 90% 60%
 
 ---
 
+class: inverse, center, middle
+
+# Mas o mundo não é tão simples e coletar dados em campo é complicado...
+
+---
+
 background-image: url(img/sdm_occ_vies_brasil02.jpg), url(img/sdm_occ_vies_brasil01.jpg)
 background-size: 600px, 500px
-background-position: 7% 70%, 93% 60%
+background-position: 8% 70%, 94% 63%
 
 # 4.2 Dados de ocorrências
 
 ## Viés de amostragem - Brasil
 
-- Zilhões (1.144.629) de ocorrências para o Brasil
-- Vertebrados 
-- Artropodes
-- Angiospermas
+- 1.144.629 (total) e 882.468 (válidos) ocorrências para 4345 espécies
+- Grupos: vertebrados , artropodes e angiospermas
+- Todos as ocorrências < 1km de rotas de acesso (estradas e rios)
 
-<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br>
 [Oliveira et al. (2016)](https://doi.org/10.1111/ddi.12489)
 
 ---
@@ -2531,7 +2703,7 @@ background-position: 7% 65%, 90% 65%
 
 ## Viés de amostragem - Mundo
 
-- Ignoramentes 742 milhões de registros de 374.900 espécies
+- 742 milhões de ocorrências de 374.900 espécies
 - Representando 6,74% do globo amostrado
 
 <br><br><br><br><br><br><br><br><br><br><br><br>
@@ -2541,59 +2713,335 @@ background-position: 7% 65%, 90% 65%
 
 class: inverse, center, middle
 
-# Bora de volta para o R para baixar ocorrências!
+# Bora voltar para o R para baixar as ocorrências!
 
 ---
 
 class: inverse, center, middle
 
-# 4.3 Dados Ambientais
+# 4.3 Dados ambientais
 
 ---
 
-background-image: url(img/sdm_ocorrencias_formato.png)
-background-size: 700px
-background-position: 50% 55%
+background-image: url(img/geo_raster.png)
+background-size: 550px
+background-position: 50% 65%
 
 # 4.3 Dados ambientais
 
-## Formato
+## Formato: gride ou raster ou matricial
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+[National Ecological Observatory Network (NEON)](https://www.neonscience.org/resources/learning-hub/tutorials/dc-raster-data-r)
 
 ---
 
-background-image: url(img/sdm_ocorrencias_formato.png)
-background-size: 700px
-background-position: 50% 55%
+background-image: url(img/sdm_var_wc.png), url(img/sdm_var_chelsa.gif), url(img/sdm_var_soilgrids.png), url(img/sdm_var_biooracle.jpg)
+background-size: 500px, 450px, 480px, 300px
+background-position: 85% 15%, 83% 45%, 87% 91%, 34% 90%
 
 # 4.3 Dados ambientais
 
-## Banco de dados
+## Bases de dados
+
+- [WorldClim](https://www.worldclim.org/)
+- [CHELSA](https://chelsa-climate.org/)
+- [MERRAclim](https://datadryad.org/stash/dataset/doi:10.5061/dryad.s2v81)
+- [PaleoClim](http://www.paleoclim.org/)
+- [ecoClimate](https://www.ecoclimate.org/)
+- [EarthEnv](https://www.earthenv.org/)
+- [SRTM](http://srtm.csi.cgiar.org/)
+- [Land-Use Harmonization (LUH2)](https://luh.umd.edu/)
+- [GlobCover](http://due.esrin.esa.int/page_globcover.php)
+- [Global Human Footprint](https://wcshumanfootprint.org/)
+- [SoilGrids](https://soilgrids.org/)
+- [MARSPEC](http://www.marspec.org)
+- [Bio-ORACLE](https://www.bio-oracle.org/)
 
 ---
 
-background-image: url(img/sdm_ocorrencias_formato.png)
-background-size: 700px
-background-position: 50% 55%
+class: inverse, center, middle
 
-# 4.3 Dados ambientais
-
-## Pacotes no R
+# E tem muita diferença entre as bases de dados?
 
 ---
 
-background-image: url(img/sdm_ocorrencias_formato.png)
-background-size: 700px
-background-position: 50% 55%
+background-image: url(img/sdm_var_diff01.png), url(img/sdm_var_diff03.png), url(img/sdm_var_diff02.jpg)
+background-size: 380px, 500px, 550px
+background-position: 13% 38%, 7% 85%, 90% 60%
 
 # 4.3 Dados ambientais
 
-## Colinearidade
+## Diferenças entre as bases de dados bioclimáticas
+
+### Correlação
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+[Morales-Barbero & Vega-Álvarez (2018)](https://www.bio-oracle.org/)
+
+---
+
+background-image: url(img/sdm_var_wc02.webp), url(img/sdm_var_interpolacao01.gif), url(img/sdm_var_interpolacao03.png)
+background-size: 500px, 300px, 500px
+background-position: 10% 40%, 81% 15%, 90% 85%
+
+# 4.3 Dados ambientais
+
+## Interpolação
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+[Biodiversity and Climate Change Virtual Laboratory (BCCVL)](https://support.bccvl.org.au/support/home),
+<br>
+[National Ecological Observatory Network (NEON)](https://www.neonscience.org/resources/learning-hub/tutorials/spatial-interpolation-basics),
+<br>
+[Fick & Hijmans (2017)](https://onlinelibrary.wiley.com/doi/10.1002/joc.5086)
+
+---
+
+# 4.3 Dados ambientais
+
+## Variáveis Bioclimáticas
+
+.pull-left[
+| Variável | Tipo         | Descrição                        |
+| -------- | ------------ | -------------------------------- |
+| BIO01    | Temperatura  | Temp. média anual                |
+| BIO02    | Temperatura  | Variação diurna média da temp.   |
+| BIO03    | Temperatura  | Isotermalidade                   |
+| BIO04    | Temperatura  | Sazonalidade da temp.            |
+| BIO05    | Temperatura  | Temp. máx. do mês mais quente    |
+| BIO06    | Temperatura  | Temp. mín do mês mais frio       |
+| BIO07    | Temperatura  | Amplitude térmica anual          |
+| BIO08    | Temperatura  | Temp. média do trim. mais úmido  |
+| BIO09    | Temperatura  | Temp. média do trim. mais seco   |
+| BIO10    | Temperatura  | Temp. média do trim. mais quente |
+| BIO11    | Temperatura  | Temp. média do trim. mais frio   |
+]
+
+.pull-right[
+
+| Variável | Tipo         | Descrição                   |
+| -------- | ------------ | --------------------------- |
+| BIO12    | Precipitação | Prec. anual                 |
+| BIO13    | Precipitação | Prec. do mês mais chuvoso   |
+| BIO14    | Precipitação | Precip. do mês mais seco    |
+| BIO15    | Precipitação | Sazonalidade da prec.       |
+| BIO16    | Precipitação | Prec. do trim. mais chuvoso |
+| BIO17    | Precipitação | Prec. do trim. mais seco    |
+| BIO18    | Precipitação | Prec. do trim. mais quente  |
+| BIO19    | Precipitação | Prec. do trim. mais frio    |
+
+*Temp. = Temperatura; Prec. = Precipitação; <br>
+trim. = Trimestre; 
+
+[O’Donnell & Ignizio (2012)](https://pubs.usgs.gov/ds/691/ds691.pdf)
+]
+
+---
+
+class: inverse, center, middle
+
+# Mas informação demais quase sempre atrapalha...
+
+---
+
+background-image: url(img/sdm_var_parcimonia.jpg), url(img/sdm_var_ockham_razor.jpg)
+background-size: 350px, 350px
+background-position: 15% 69%, 80% 70%
+
+# 4.3 Dados ambientais
+
+## Princípio da Parcimônia (Por que complicar esse modelo aí?)
+
+- William of Ockham's (1285–1348)
+- "É fútil fazer com mais o que pode ser feito com menos"
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
+[Coelho et al. (2018)](https://doi.org/10.1111/ecog.04228),
+[What does Occam’s razor mean? (2019)](https://englishtalkzone.com/what-does-occams-razor-mean/)
+
+---
+
+background-image: url(img/sdm_var_correlacao01.webp), url(img/sdm_var_correlacao02.webp)
+background-size: 600px, 600px
+background-position: 55% 40%, 55% 80%
+
+# 4.3 Dados ambientais
+
+## Colinearidade - Correlação (Pearson ou Spearman)
+
+- Mede o grau de relação (positiva ou negativa) entre duas variáveis
+<br><br>
+- r > |0.7|: indica alta correlação
+<br><br>
+- $r = \dfrac{cov(X, Y)}{\sqrt{var(X) . var(Y)}}$
+
+<br><br><br><br><br><br><br><br>
+[Zuur et al. (2010)](https://onlinelibrary.wiley.com/doi/10.1111/j.2041-210X.2009.00001.x),
+[Dormann et al. (2012)](https://doi.org/10.1111/j.1600-0587.2012.07348.x),
+[Naimi et al. (2014)](https://doi.org/10.1111/j.1600-0587.2013.00205.x),
+[Coeficientes de correlação](https://operdata.com.br/blog/coeficientes-de-correlacao/)
+
+---
+
+background-image: url(img/sdm_var_vif.jpg)
+background-size: 600px
+background-position: 80% 75%
+
+# 4.3 Dados ambientais
+
+## Colinearidade - Fator de Inflação de Variância (VIF)
+
+- Medida da quantidade de multicolinearidade em um conjunto de múltiplas variáveis
+<br><br>
+- VIF = 1: não há multicolinearidade entre as variáveis
+- VIF > 2 ou VIF > 5 ou VIF > 10: indica alta multicolinearidade (depende do autor)
+<br><br>
+- $VIF_i = \dfrac{1}{1 - R_i^2}$
+
+- (a) r = 0.8946 e VIF = 5.007
+- (b) r = 0.7697 e VIF = 2.453
+
+<br><br><br><br>
+[Zuur et al. (2010)](https://onlinelibrary.wiley.com/doi/10.1111/j.2041-210X.2009.00001.x),
+[Dormann et al. (2012)]( https://doi.org/10.1111/j.1600-0587.2012.07348.x),
+[Naimi et al. (2014)]( https://doi.org/10.1111/j.1600-0587.2013.00205.x),
+[VIF](https://www.sciencedirect.com/topics/mathematics/variance-inflation-factor)
 
 ---
 
 class: inverse, center, middle
 
 # Dúvidas?
+
+---
+
+class: inverse, center, middle
+
+# Bora voltar para o R para baixar as variáveis!
+
+---
+
+class: inverse, center, middle
+
+# Encerramos por hoje =]
+
+---
+
+class: inverse, center, middle
+
+# Bom dia povo! Vamos recapitular!
+
+---
+
+background-image: url(img/sdm_zurell_standard.png), url(img/sdm_geral.png)
+background-size: 700px, 300px
+background-position: 5% 45%, 80% 60%
+
+# 2.4 Padronização para criação dos modelos
+
+## Protocolo padrão para modelos de distribuição de espécies
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+[Brown & Yoder (2015)](https://doi.org/10.1002/ece3.1418),
+[Zurell et al. (2020)](https://onlinelibrary.wiley.com/doi/10.1111/ecog.04960)
+
+---
+
+background-image: url(img/sdm_geral.png), url(img/sdm_geral_ajuste.png)
+background-size: 300px, 500px
+background-position: 10% 55%, 75% 55%
+
+# 2.4 Padronização para criação dos modelos
+
+## 3. Ajuste dos modelos
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+[Brown & Yoder (2015)](https://doi.org/10.1002/ece3.1418)
+
+---
+
+class: inverse, center, middle
+
+# 5 Ajuste dos modelos
+
+---
+
+background-image: url(img/sdm_tipos_metodos.png)
+background-size: 900px
+background-position: 50% 85%
+
+# 5.1 Tipos de métodos ou algoritmos
+
+## Dependente dos dados de entrada sobre as espécies
+
+- Somente-presença
+- Presença-background
+- Presença-ausência
+
+<br><br><br><br><br><br><br><br><br><br><br>
+[Modificado com autorização de Esser (2021)](https://luizfesser.wordpress.com/2021/06/08/are-pseudoabsences-and-background-the-same-thing/)
+
+---
+
+background-image: url(img/sdm_metodos_ausencia.jpg)
+background-size: 700px
+background-position: 55% 60%
+
+# 5.1 Tipos de métodos ou algoritmos
+
+## Ausências em Ecologia...
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+[Blasco‐Moreno et al. (2019)](https://doi.org/10.1111/2041-210X.13185)
+
+---
+
+# 5.2 Somente-presença
+
+## BIOCLIM
+
+---
+
+# 5.2 Somente-presença
+
+## DOMAIN (Distântica de Gower)
+
+---
+
+# 5.2 Somente-presença
+
+## Mahalanobis (Distância de Mahalanobis)
+
+---
+
+# 5.3 Presença-background 
+
+## MaxEnt (Máxima Entropia)
+
+---
+
+# 5.4 Presença-ausência (estatístico)
+
+## GLM ()
+
+---
+
+# 5.4 Presença-ausência (estatístico)
+
+## GAM ()
+
+---
+
+# 5.5 Presença-ausência (aprendizado de máquina)
+
+## Random Forest
+
+---
+
+# 5.5 Presença-ausência (aprendizado de máquina)
+
+## SVM ()
 
 ---
 

@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Resumo
 
-A ampla disponibilidade de dados sobre a biodiversidade e variáveis ambientais propiciam o uso de análises espaciais, dentre elas, os Modelos de Distribuição de Espécies (ou do inglês *Species Distribution Modeling* — SDM). Nessa oficina, oferecerei uma introdução teórica e prática à técnica de SDM utilizando a linguagem R. Primeiramente, apresentarei brevemente os principais conceitos da teoria de nicho ecológico (Grinnell, Elton e Hutchinson) e da teoria de MDEs (espaço geográfico (G), espaço ambiental (E) e diagrama Biótico-Abiótico-Movimentação (BAM)). Seguida à parte teórica, apresentarei as principais bases de dados (ocorrências e variáveis ambientais), tipos de algoritmos (BIOCLIM, Mahalanobis, Gower, GLM, GAM, Random Forest, SVM e MaxEnt), avaliação dos modelos (ROC, AUC e TSS), limites de corte (*thresholds*) e consenso de modelos (*ensemble*). A parte prática será focada na construção dos modelos através da linguagem R, onde abordarei: (1) introdução à linguagem R, (2) obtenção e seleção de dados de ocorrências e variáveis ambientais, (3) ajuste e predição dos modelos, (4) métricas de avaliação, (5) consenso dos modelos (ensemble) e (6) composição dos mapas.
+A ampla disponibilidade de dados sobre a biodiversidade e variáveis ambientais propiciam o uso de análises espaciais, dentre elas, os Modelos de Distribuição de Espécies (ou do inglês *Species Distribution Modeling* — SDM). Nessa oficina, oferecerei uma introdução teórica e prática à técnica de SDM utilizando a linguagem R. Primeiramente, apresentarei brevemente os principais conceitos da teoria de nicho ecológico (Grinnell, Elton e Hutchinson) e da teoria de SDMs (espaço geográfico (G), espaço ambiental (E) e diagrama Biótico-Abiótico-Movimentação (BAM)). Seguida à parte teórica, apresentarei as principais bases de dados (ocorrências e variáveis ambientais), tipos de algoritmos (BIOCLIM, Mahalanobis, Gower, GLM, GAM, Random Forest, SVM e MaxEnt), avaliação dos modelos (ROC, AUC e TSS), limites de corte (*thresholds*) e consenso de modelos (*ensemble*). A parte prática será focada na construção dos modelos através da linguagem R, onde abordarei: (1) introdução à linguagem R, (2) obtenção e seleção de dados de ocorrências e variáveis ambientais, (3) ajuste e predição dos modelos, (4) métricas de avaliação, (5) consenso dos modelos (ensemble) e (6) composição dos mapas.
 
 ## Carga horária
 
@@ -29,12 +29,7 @@ A ampla disponibilidade de dados sobre a biodiversidade e variáveis ambientais 
 ## Ministrante
 
 Maurício Vancine é Bacharel em Ecologia, Mestre em Zoologia e Doutorando em Ecologia, Evolução e Biodiversidade pela UNESP de Rio Claro. Possui experiência em Ecologia Espacial, Ecologia da Paisagem, Modelos de Distribuição de Espécies e Ecologia de Anfíbios.
-
-Mais informações:
-
-- Website: [https://mauriciovancine.github.io/](https://mauriciovancine.github.io/) 
-- Twitter: [https://twitter.com/mauriciovancine](https://twitter.com/mauriciovancine)
-- GitHub: [https://github.com/mauriciovancine](https://github.com/mauriciovancine)
+Mais informações: [https://mauriciovancine.github.io/](https://mauriciovancine.github.io/).
 
 ## Conteúdo
 
@@ -50,12 +45,13 @@ Mais informações:
 
 1. Visão geral dos Modelos de Distribuição de Espécies
 1. Nicho ecológico e distribuição de espécies
-1. Dados de entrada (ocorrências e variáveis)
-1. Ajuste dos modelos (métodos)
-1. Avaliação dos modelos
-1. Predição dos modelos
-1. Consenso de modelos
-1. Aplicações dos modelos
+1. Outros tipos de modelos
+1. Padronização para criação dos modelos  
+4.1. Conceituação  
+4.2. Preparação dos dados  
+4.3. Ajuste dos modelos  
+4.4. Avaliação dos modelos  
+4.5. Predições no tempo e no espaço  
 
 ### 3 Funcionamento da linguagem R (20 min)
 
@@ -70,27 +66,48 @@ Mais informações:
 1. Ajuda
 1. Diretório de trabalho
 1. tidyverse (pipe - %>%)
-1. Dados geoespaciais no R
 
 ### 4 Dados de entrada (ocorrências e variáveis) (60 min)
 
+1. Dados geoespaciais
 1. Dados de ocorrências
-1. Conjunto de dados de ocorrência
+1. Bases de dados de ocorrências
 1. Download de dados de ocorrência
 1. Limpeza de dados de ocorrência
 1. Dados ambientais
-1. Conjunto de dados ambientais
-1. Download de variáveis ambientais
-1. Colinearidade de variáveis ambientais
+1. Base de dados ambientais
+1. Download de dados ambientais
+1. Colinearidade de dados ambientais
 
-### 5 Ajuste, avaliação e predição dos modelos (100 min)
+### 5 Ajuste dos modelos (30 min)
 
-1. Ajuste dos modelos
-1. Avaliação dos modelos
+1. Tipos de métodos ou algoritmos (apenas-presença, presença-background, presença-ausência)
+1. Presenças, ausências e pseudo-ausências
+1. Apenas-presença (BIOCLIM, DOMAIN e Mahalanobis)
+1. Presença-background (MaxEnt)
+1. Presença-ausência estatístico (GLM e GAM)
+1. Presença-ausência aprendizado de máquina (Random Forest e SVM)
+
+### 6 Avaliação dos modelos (30 min)
+
+1. Partição dos dados (treino e teste)
+1. Tipos de partição dos dados (cross-validation, bootstrap, jackknife)
+1. Matriz de confusão
+1. Métricas de avaliação
+1. ROC e AUC
+1. Kappa e TSS
+
+### 7 Predição e consenso dos modelos (30 min)
+
 1. Predição dos modelos
-1. Consensos dos modelos
+1. Limiar de corte dos modelos
+1. Consenso dos modelos
+1. Consenso por frequência
+1. Consenso por média
+1. Consenso por média ponderada
+1. Incertezas
 
-### 6 Composição dos mapas (20 min)
+### 8 Composição de mapas (20 min)
 
 1. Composição de mapas
 1. Mapas estáticos
@@ -148,6 +165,6 @@ Thuiller, W., B. Lafourcade, R. Engler, and M. B. Araujo. 2009. “BIOMOD - a Pl
 
 Urban, M. C., G. Bocedi, A. P. Hendry, J.-B. Mihoub, G. Pe’er, A. Singer, J. R. Bridle, et al. 2016. “Improving the Forecast for Biodiversity Under Climate Change.” Science 353: aad8466.
 
-Zurell, D., J. Elith, and B. Schroeder. 2012. “Predicting to New Environments: Tools for Visualising Model Behaviour and Impacts on Mapped Distributions.” Diversity and Distributions 18: 628–34.
+Zurell, D., J. Elith, and B. Schroeder. 2012. “Predicting to New Environments: Tools for Visualizing Model Behavior and Impacts on Mapped Distributions.” Diversity and Distributions 18: 628–34.
 
 Zurell, D., and J.O. Engler. 2019. “Ecological Niche Modelling.” In Effects of Climate Change on Birds, edited by P.O. Dunn and A.P. Moller, 60–73. Oxford University Press.
