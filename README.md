@@ -1,4 +1,3 @@
-```
 # Repositório da Oficina 3 - MOCÓ - Mastozóologos Organizados em uma Conferência Online
 
 ## MINICURSO 3: Introdução à modelagem de distribuição de espécies usando a linguagem R 
@@ -22,7 +21,7 @@ A ampla disponibilidade de dados sobre a biodiversidade e variáveis ambientais 
 **Contato**: 
 Para mais informações ou dúvidas, envie e-mail para:
 
-- Organização da IX CBH (9cbh@criandoelo.com.br)
+- [Organização do MOCÓ](https://moco2021.com.br/home/comissao-organizadora/)
 - Maurício Vancine (mauricio.vancine@gmail.com)
 
 ---
@@ -30,18 +29,18 @@ Para mais informações ou dúvidas, envie e-mail para:
 ### Instruções aos participantes
 
 **Hardware** <br>
-Será necessário que todos tragam seus próprios notebooks.
+Será necessário que todas e todos usem seus próprios notebooks.
 
 **Softwares**<br>R e RStudio <br>
-Instalar a versão mais recente do R (3.6.1): https://www.r-project.org/ <br>
+Instalar a versão mais recente do R (4.1.1): https://www.r-project.org/ <br>
 Instalar o RStudio: https://www.rstudio.com/ <br>
 Vídeo de instalação do R e do RStudio: https://youtu.be/l1bWvZMNMCM <br>
 
-Para quem não tem familiaridade com a linguagem R, sugerimos que se possível, assistam algumas aulas desse curso (recomendado): http://www.bosontreinamentos.com.br/category/programacao-em-r/
+Para quem não tem familiaridade com a linguagem R, sugiro que se possível, assistam algumas aulas desse curso: http://www.bosontreinamentos.com.br/category/programacao-em-r/
 
 **Instalar os pacotes no R** <br>
-Com o R e o RStudio instalados, baixe esse [script](https://gitlab.com/mauriciovancine/course-sdm/blob/master/00_scripts/00_script_install_packages.R) (scripts são roteiros que possuem comandos, como um rascunho). <br>
-Abra o script baixado (**00_script_install_packages.R**) no software RStudio e rode cada linha de comando para instalar os pacotes. <br>
+Com o R e o RStudio instalados, baixe esse [script](https://github.com/mauriciovancine/workshop-r-sdm/blob/master/02_scripts/script_r_instalar_pacotes.R) (scripts são roteiros que possuem comandos, como um rascunho). <br>
+Abra o script baixado (**script_r_instalar_pacotes.R**) no software RStudio e rode cada linha de comando para instalar os pacotes. <br>
 Para rodar as linhas, basta colocar o cursor na linha de código a ser executada e precionar: `Crtl + Enter`, como mostra o gif abaixo:
 
 ![Alt Text](https://appsilon.com/wp-content/uploads/2019/03/blog_code_execution_optimized.gif)
@@ -50,7 +49,3 @@ Para rodar as linhas, basta colocar o cursor na linha de código a ser executada
 Para ajuda, envie e-mail para: <br>
 
 - Maurício Vancine (mauricio.vancine@gmail.com)
-- João Giovanelli (jgiovanelli@gmail.com)
-
----
-```
