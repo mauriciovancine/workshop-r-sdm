@@ -23,6 +23,7 @@ if(!require(ENMTools)) install.packages("ENMTools")
 
 # options
 options(timeout = 1e5)
+options(scipen = 50)
 
 # directories
 dir.create("03_dados")
@@ -95,8 +96,9 @@ occ_data_vector
 tm_shape(li, bbox = occ_data_vector) +
   tm_polygons() +
   tm_shape(occ_data_vector) +
-  tm_dots(size = .2, shape = 21, col = "red") +
+  tm_dots(size = .2, shape = 21, col = "steelblue") +
   tm_graticules(lines = FALSE)
+
 
 # spatial limit filter ----
 # crop to limit
@@ -109,7 +111,7 @@ tm_shape(li) +
   tm_polygons() +
   tm_shape(occ_data_sptlim %>%
              filter(sptlim_filter == TRUE)) +
-  tm_dots(size = .2, shape = 21, col = "red")
+  tm_dots(size = .2, shape = 21, col = "steelblue")
 
 # date filter ----
 # verify
@@ -131,7 +133,7 @@ tm_shape(li) +
   tm_shape(occ_data_sptlim_date %>%
              filter(sptlim_filter == TRUE,
                     date_filter == TRUE)) +
-  tm_dots(size = .2, shape = 21, col = "red")
+  tm_dots(size = .2, shape = 21, col = "steelblue")
 
 # bias filter ----
 # flag data
@@ -164,14 +166,14 @@ tm_shape(li) +
              filter(sptlim_filter == TRUE,
                     date_filter == TRUE,
                     .summary == TRUE)) +
-  tm_dots(size = .2, shape = 21, col = "red")
+  tm_dots(size = .2, shape = 21, col = "steelblue")
 
 # spatial distance filter ----
 filter_thin <- spThin::thin(loc.data = occ_data_sptlim_date_bias,
                             lat.col = "latitude",
                             long.col = "longitude",
                             spec.col = "species",
-                            thin.par = 22,
+                            thin.par = 50,
                             reps = 1,
                             write.files = FALSE,
                             write.log.file = FALSE,
@@ -200,7 +202,7 @@ tm_shape(li) +
                     date_filter == TRUE,
                     sptdist_filter == TRUE,
                     .summary == TRUE)) +
-  tm_dots(size = .2, shape = 21, col = "red")
+  tm_dots(size = .2, shape = 21, col = "steelblue")
 
 # apply filters ----
 occ_data_filter <- occ_data_sptlim_date_bias_sptdist %>%
@@ -233,14 +235,14 @@ occ_data_filter_edit %>%
 # 2. variables ------------------------------------------------------------
 # download variables ----
 download.file(url = "https://biogeo.ucdavis.edu/data/worldclim/v2.1/base/wc2.1_10m_bio.zip",
-              destfile = "04_dados_reserva/02_variaveis/wc2.1_10m_bio.zip", mode = "wb")
+              destfile = "03_dados/02_variaveis/wc2.1_10m_bio.zip", mode = "wb")
 
 # unzip
-unzip(zipfile = "04_dados_reserva/02_variaveis/wc2.1_10m_bio.zip",
-      exdir = "04_dados_reserva/02_variaveis/00_raw")
+unzip(zipfile = "03_dados/02_variaveis/wc2.1_10m_bio.zip",
+      exdir = "03_dados/02_variaveis/00_raw")
 
 # import
-env <- dir(path = "04_dados_reserva/02_variaveis/00_raw", pattern = ".tif$", full.names = TRUE) %>%
+env <- dir(path = "03_dados/02_variaveis/00_raw", pattern = ".tif$", full.names = TRUE) %>%
   raster::stack() %>%
   raster::brick()
 env
@@ -303,7 +305,7 @@ plot(env_li_vif_scale, col = viridis::viridis(100))
 
 # export ----
 raster::writeRaster(x = env_li_vif_scale,
-                    filename = paste0("04_dados_reserva/02_variaveis/", names(env_li_vif_scale)),
+                    filename = paste0("03_dados/02_variaveis/", names(env_li_vif_scale)),
                     bylayer = TRUE,
                     format = "GTiff")
 

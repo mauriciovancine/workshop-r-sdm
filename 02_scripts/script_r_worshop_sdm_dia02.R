@@ -61,27 +61,27 @@ tm_shape(env$bio02) +
   tm_shape(li) +
   tm_borders(col = "black") +
   tm_shape(occ %>% sf::st_as_sf(coords = c("longitude", "latitude"), crs = 4326)) +
-  tm_bubbles(size = .1, col = "red") +
+  tm_bubbles(size = .1, col = "steelblue") +
   tm_layout(legend.position = c("right", "bottom"))
 
 # criar mascara sem ocorrencias
-buffer_100km_pr <- occ %>%
+pr_buffer <- occ %>%
   sf::st_as_sf(coords = c("longitude", "latitude"), crs = 4326) %>%
-  sf::st_buffer(dist = 100000) %>%
+  sf::st_buffer(dist = 50000) %>%
   sf::st_union() %>%
   sf::as_Spatial()
-buffer_100km_pr
+pr_buffer
 
 plot(li)
-plot(buffer_100km_pr, col = "gray", add= TRUE)
+plot(pr_buffer, col = "gray", add= TRUE)
 
-env_mask_pr <- raster::mask(env$bio02, buffer_100km_pr, inverse = TRUE)
-env_mask_pr
+env_mask_buffer <- raster::mask(env$bio02, pr_buffer, inverse = TRUE)
+env_mask_buffer
 
-tm_shape(env_mask_pr) +
+tm_shape(env_mask_buffer) +
   tm_raster() +
   tm_shape(occ %>% sf::st_as_sf(coords = c("longitude", "latitude"), crs = 4326)) +
-  tm_bubbles(size = .1, col = "red") +
+  tm_bubbles(size = .02, col = "steelblue") +
   tm_layout(legend.show = FALSE)
 
 # selecting presence and pseudo-absence data ----
@@ -91,14 +91,14 @@ pr_specie <- occ %>%
 pr_specie
 
 set.seed(42)
-pa_specie <- dismo::randomPoints(mask = env_mask_pr, n = nrow(pr_specie)) %>%
+pa_specie <- dismo::randomPoints(mask = env_mask_buffer, n = nrow(pr_specie)) %>%
   tibble::as_tibble() %>%
   dplyr::rename(longitude = x, latitude = y) %>%
   dplyr::mutate(id = seq(nrow(.)))
 pa_specie
 
 set.seed(42)
-bkg <- dismo::randomPoints(mask = env, n = 1e3, warn = FALSE) %>%
+bkg <- dismo::randomPoints(mask = env, n = 7000, warn = FALSE) %>%
   tibble::as_tibble() %>%
   dplyr::rename(longitude = x, latitude = y)
 bkg
@@ -108,21 +108,9 @@ tm_shape(li) +
   tm_shape(bkg %>% sf::st_as_sf(coords = c("longitude", "latitude"), crs = 4326)) +
   tm_bubbles(size = .1, col = "gray") +
   tm_shape(pr_specie %>% sf::st_as_sf(coords = c("longitude", "latitude"), crs = 4326)) +
-  tm_bubbles(size = .1, col = "red") +
+  tm_bubbles(size = .1, col = "steelblue") +
   tm_shape(pa_specie %>% sf::st_as_sf(coords = c("longitude", "latitude"), crs = 4326)) +
-  tm_bubbles(size = .1, col = "blue")
-
-tm_shape(env_mask_pr) +
-  tm_raster()+
-  tm_shape(li) +
-  tm_borders(col = "black") +
-  tm_shape(bkg %>% sf::st_as_sf(coords = c("longitude", "latitude"), crs = 4326)) +
-  tm_bubbles(size = .1, col = "gray") +
-  tm_shape(pr_specie %>% sf::st_as_sf(coords = c("longitude", "latitude"), crs = 4326)) +
-  tm_bubbles(size = .1, col = "red") +
-  tm_shape(pa_specie %>% sf::st_as_sf(coords = c("longitude", "latitude"), crs = 4326)) +
-  tm_bubbles(size = .1, col = "blue") +
-  tm_layout(legend.show = FALSE)
+  tm_bubbles(size = .1, col = "orange")
 
 # partitioning data ----
 pr_sample_train <- pr_specie %>%
@@ -184,10 +172,8 @@ summary(GAM)
 
 # presence-absence - machine learning
 RFR <- randomForest::randomForest(formula = pb ~ ., data = train_pa)
-RFR
 
 SVM <- e1071::svm(formula = pb ~ ., data = train_pa)
-SVM
 
 # presence-background
 Sys.setenv(NOAWT = TRUE)
@@ -294,7 +280,7 @@ eval <- tibble::tibble(method = c("BIO", "DOM", "MAH", "GLM", "GAM", "RFR", "SVM
                                dismo::threshold(eval_SVM, "spec_sens"), dismo::threshold(eval_MAX, "spec_sens")))
 eval
 
-# prediction ----
+# predict ----
 # bioclim
 model_predict_bio <- dismo::predict(env, BIO, progress = "text")
 model_predict_bio
@@ -303,7 +289,8 @@ model_predict_bio_thr <- model_predict_bio >= eval[1, ]$thr
 model_predict_bio_thr
 
 plot(model_predict_bio, col = viridis::turbo(100), main = "BIOCLIM - Contínuo")
-plot(model_predict_bio_thr, col = c("gray", "darkorange"), main = "BIOCLIM - Contínuo")
+plot(model_predict_bio_thr, col = c("gray", "red"), main = "BIOCLIM - Contínuo")
+points(occ$longitude, occ$latitude, pch = 20, col = "steelblue")
 
 # domain
 model_predict_dom <- dismo::predict(env, DOM, progress = "text")
@@ -313,7 +300,8 @@ model_predict_dom_thr <- model_predict_dom >= eval[2, ]$thr
 model_predict_dom_thr
 
 plot(model_predict_dom, col = viridis::turbo(100), main = "DOMAIN - Contínuo")
-plot(model_predict_dom_thr, col = c("gray", "darkorange"), main = "DOMAIN - Binário")
+plot(model_predict_dom_thr, col = c("gray", "red"), main = "DOMAIN - Binário")
+points(occ$longitude, occ$latitude, pch = 20, col = "steelblue")
 
 # mahalanobis
 model_predict_mah <- dismo::predict(env, MAH, progress = "text")
@@ -323,7 +311,8 @@ model_predict_mah_thr <- model_predict_mah >= eval[3, ]$thr
 model_predict_mah_thr
 
 plot(model_predict_mah, col = viridis::turbo(100), main = "Mahalanobis - Contínuo")
-plot(model_predict_mah_thr, col = c("gray", "darkorange"), main = "Mahalanobis - Binário")
+plot(model_predict_mah_thr, col = c("gray", "red"), main = "Mahalanobis - Binário")
+points(occ$longitude, occ$latitude, pch = 20, col = "steelblue")
 
 # glm
 model_predict_glm <- dismo::predict(env, GLM, progress = "text")
@@ -333,7 +322,8 @@ model_predict_glm_thr <- model_predict_glm >= eval[4, ]$thr
 model_predict_glm_thr
 
 plot(model_predict_glm, col = viridis::turbo(100), main = "GLM - Contínuo")
-plot(model_predict_glm_thr, col = c("gray", "darkorange"), main = "GLM - Binário")
+plot(model_predict_glm_thr, col = c("gray", "red"), main = "GLM - Binário")
+points(occ$longitude, occ$latitude, pch = 20, col = "steelblue")
 
 # gam
 model_predict_gam <- dismo::predict(env, GAM, progress = "text")
@@ -343,7 +333,8 @@ model_predict_gam_thr <- model_predict_gam >= eval[5, ]$thr
 model_predict_gam_thr
 
 plot(model_predict_gam, col = viridis::turbo(100), main = "GAM - Contínuo")
-plot(model_predict_gam_thr, col = c("gray", "darkorange"), main = "GAM - Binário")
+plot(model_predict_gam_thr, col = c("gray", "red"), main = "GAM - Binário")
+points(occ$longitude, occ$latitude, pch = 20, col = "steelblue")
 
 # random forest
 model_predict_rfr <- dismo::predict(env, RFR, progress = "text", type = "response")
@@ -353,7 +344,8 @@ model_predict_rfr_thr <- model_predict_rfr >= eval[6, ]$thr
 model_predict_rfr_thr
 
 plot(model_predict_rfr, col = viridis::turbo(100), main = "Random Forest - Contínuo")
-plot(model_predict_rfr_thr, col = c("gray", "darkorange"), main = "Random Forest - Binário")
+plot(model_predict_rfr_thr, col = c("gray", "red"), main = "Random Forest - Binário")
+points(occ$longitude, occ$latitude, pch = 20, col = "steelblue")
 
 # svm
 model_predict_svm <- dismo::predict(env, SVM, progress = "text", type = "response")
@@ -363,7 +355,8 @@ model_predict_svm_thr <- model_predict_svm >= eval[7, ]$thr
 model_predict_svm_thr
 
 plot(model_predict_svm, col = viridis::turbo(100), main = "SVM - Contínuo")
-plot(model_predict_svm_thr, col = c("gray", "darkorange"), main = "SVM - Binário")
+plot(model_predict_svm_thr, col = c("gray", "red"), main = "SVM - Binário")
+points(occ$longitude, occ$latitude, pch = 20, col = "steelblue")
 
 # maxent
 model_predict_max <- dismo::predict(env, MAX, progress = "text", type = "response")
@@ -373,7 +366,8 @@ model_predict_max_thr <- model_predict_max >= eval[8, ]$thr
 model_predict_max_thr
 
 plot(model_predict_max, col = viridis::turbo(100), main = "MaxEnt - Contínuo")
-plot(model_predict_max_thr, col = c("gray", "darkorange"), main = "MaxEnt - Binário")
+plot(model_predict_max_thr, col = c("gray", "red"), main = "MaxEnt - Binário")
+points(occ$longitude, occ$latitude, pch = 20, col = "steelblue")
 
 # 4. ensembles ------------------------------------------------------------
 # models ----
@@ -391,17 +385,18 @@ models_bin
 ens_freq <- sum(models_bin)/nlayers(models_bin)
 ens_freq
 plot(ens_freq, col = viridis::turbo(100), main = "Ensemble - Frequência")
+points(occ$longitude, occ$latitude, pch = 20, col = "steelblue")
 
 # standard deviation
 ens_freq_sd <- raster::calc(models_bin, sd)
 ens_freq_sd
 plot(ens_freq_sd, col = viridis::turbo(100), main = "Ensemble - Frequência - Desvio padrão")
+points(occ$longitude, occ$latitude, pch = 20, col = "steelblue")
 
 par(mfrow = c(1, 2))
 plot(ens_freq, col = viridis::turbo(100), main = "Ensemble - Frequência")
 plot(ens_freq_sd, col = viridis::turbo(100), main = "Ensemble - Frequência - Desvio padrão")
 dev.off()
-
 
 # mean ----
 ens_mean <- mean(models_cont)
@@ -420,17 +415,31 @@ models_cont_pad
 ens_mean_pad <- mean(models_cont_pad)
 ens_mean_pad
 plot(ens_mean_pad, col = viridis::turbo(100), main = "Ensemble - Média")
+points(occ$longitude, occ$latitude, pch = 20, col = "steelblue")
 
 # standard deviation
 ens_mean_pad_sd <- raster::calc(models_cont_pad, sd)
 ens_mean_pad_sd
 plot(ens_mean_pad_sd, col = viridis::turbo(100), main = "Ensemble - Média - Desvio padrão")
+points(occ$longitude, occ$latitude, pch = 20, col = "steelblue")
 
 # weighted.mean
-w <- (eval$auc-0.5)^2 # retirar 0.5 (aleatorio) e eleva ao quadrado para valores muito altos
-ens_wei_mean <- weighted.mean(models_cont_pad, w)
-plot(ens_wei_mean, col = viridis::turbo(100), main = "Ensemble - Média pondera pelo AUC")
+w_auc <- (eval$auc-0.5)^2 # retirar 0.5 (aleatorio) e eleva ao quadrado para valores muito altos
+ens_wei_mean_auc <- weighted.mean(models_cont_pad, w_auc)
+plot(ens_wei_mean_auc, col = viridis::turbo(100), main = "Ensemble - Média pondera pelo AUC")
+points(occ$longitude, occ$latitude, pch = 20, col = "steelblue")
 
+w_tss <- (eval$tss-0.5)^2 # retirar 0.5 (aleatorio) e eleva ao quadrado para valores muito altos
+ens_wei_mean_tss <- weighted.mean(models_cont_pad, w_tss)
+plot(ens_wei_mean_tss, col = viridis::turbo(100), main = "Ensemble - Média pondera pelo AUC")
+points(occ$longitude, occ$latitude, pch = 20, col = "steelblue")
+
+par(mfrow = c(1, 4))
+plot(ens_freq, col = viridis::turbo(100), main = "Ensemble - Frequência")
+plot(ens_mean_pad, col = viridis::turbo(100), main = "Ensemble - Média")
+plot(ens_wei_mean_auc, col = viridis::turbo(100), main = "Ensemble - Média ponderada AUC")
+plot(ens_wei_mean_tss, col = viridis::turbo(100), main = "Ensemble - Média ponderada TSS")
+dev.off()
 
 # 5. sdm ---------------------------------------------------------------------
 # occurrence
@@ -452,7 +461,7 @@ env
 sdm_data <- sdm::sdmData(formula = species~.,
                          train = occ_sp,
                          predictors = env,
-                         bg = list(n = 1e3,
+                         bg = list(n = 7000,
                                    method = "gRandom", # "eRandom"
                                    remove = TRUE))
 sdm_data
@@ -480,7 +489,7 @@ sdm_fit <- sdm::sdm(species ~ .,
                       #"mahal.dismo",
                       #"mars",
                       "maxent",
-                      # "maxlike",
+                      #"maxlike",
                       #"mda",
                       #"rpart",
                       "rf",
@@ -513,28 +522,28 @@ sdm_var_import
 
 plot(sdm_var_import) + theme_bw()
 
-# prediction --------------------------------------------------------------
-# predition
-sdm_pred <- predict(object = sdm_fit,
-                    newdata = env,
-                    filename = "prediction.tif",
-                    mean = TRUE,
-                    nc = 6,
-                    overwrite = TRUE)
-sdm_pred
+# predict --------------------------------------------------------------
+# predict
+sdm_predict <- predict(object = sdm_fit,
+                       newdata = env,
+                       filename = "04_modelos/predict.tif",
+                       mean = TRUE,
+                       nc = 3,
+                       overwrite = TRUE)
+sdm_predict
 
 # names
-names(sdm_pred)
+names(sdm_predict)
 
 # map
-plot(sdm_pred, col = viridis::turbo(100))
+plot(sdm_predict, col = viridis::turbo(100))
 
 # ensemble ----------------------------------------------------------------
 # ensemble
 ens <- sdm::ensemble(x = sdm_fit,
                      newdata = env,
-                     filename = "ensemble.tif",
-                     parallelSetting = list(ncores = 6, method = "parallel"),
+                     filename = "04_modelos/ensemble.tif",
+                     parallelSetting = list(ncores = 3, method = "parallel"),
                      setting = list(
                        method = "weighted",
                        stat = "TSS",
@@ -546,7 +555,7 @@ plot(ens, col = viridis::turbo(100))
 # uncertainty
 unc <- sdm::ensemble(x = sdm_fit,
                      newdata = env,
-                     filename = "uncertainty.tif",
+                     filename = "04_modelos/uncertainty.tif",
                      setting = list(
                        #id = c(1:14, 19:32),
                        method = "uncertainty",
@@ -570,7 +579,7 @@ ens_thr <- ens >= thr
 ens_thr
 
 # plot
-plot(ens_thr, col = c("gray", "darkorange"))
+plot(ens_thr, col = c("gray", "steelblue"))
 
 # 6. maps -----------------------------------------------------------------
 # data

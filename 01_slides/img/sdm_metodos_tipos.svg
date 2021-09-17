@@ -1,0 +1,2585 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="sdm_metodos_tipos.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.53165938"
+     inkscape:cx="189.97126"
+     inkscape:cy="679.94663"
+     inkscape:window-width="1851"
+     inkscape:window-height="1016"
+     inkscape:window-x="1989"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       inkscape:label="GridCartesian:X5:Y5"
+       transform="matrix(0.85033355,0,0,0.85033355,134.24552,125.27997)"
+       id="g3339-7-6-1"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_pseudoausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <g
+         inkscape:label="MajorXGridlines"
+         id="g3325-5-10-5">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 15,0 V 75"
+           inkscape:label="MajorXDiv1"
+           id="path3317-3-6-9" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 30,0 V 75"
+           inkscape:label="MajorXDiv2"
+           id="path3319-5-3-4" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 45,0 V 75"
+           inkscape:label="MajorXDiv3"
+           id="path3321-6-20-9" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 60,0 V 75"
+           inkscape:label="MajorXDiv4"
+           id="path3323-2-61-0" />
+      </g>
+      <g
+         inkscape:label="MajorYGridlines"
+         id="g3335-9-55-9">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 0,15 H 75"
+           inkscape:label="MajorYDiv1"
+           id="path3327-1-47-1" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 0,30 H 75"
+           inkscape:label="MajorYDiv2"
+           id="path3329-2-65-7" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 0,45 H 75"
+           inkscape:label="MajorYDiv3"
+           id="path3331-7-6-7" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 0,60 H 75"
+           inkscape:label="MajorYDiv4"
+           id="path3333-0-9-1" />
+      </g>
+      <rect
+         x="0"
+         y="0"
+         width="75"
+         height="75"
+         style="fill:none;stroke:#000000;stroke-width:0.264583"
+         inkscape:label="Border"
+         id="rect3337-9-3-1" />
+    </g>
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-74-5"
+       cx="141.75838"
+       cy="131.55833"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_pseudoausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-3-5-9"
+       cx="153.35979"
+       cy="131.55833"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_pseudoausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-7-2-7"
+       cx="165.90005"
+       cy="131.55833"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_pseudoausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-5-54-7"
+       cx="178.80005"
+       cy="131.55833"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_pseudoausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-9-7-6"
+       cx="191.80005"
+       cy="131.55833"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_pseudoausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-2-44-7"
+       cx="191.80005"
+       cy="144.15834"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_pseudoausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-28-3-3"
+       cx="191.80005"
+       cy="157.25835"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_pseudoausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-97-0-6"
+       cx="191.80005"
+       cy="170.15834"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_pseudoausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-36-7-5"
+       cx="191.80005"
+       cy="182.95834"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_pseudoausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-1-8-6"
+       cx="140.70006"
+       cy="144.15834"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_pseudoausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-29-68-3"
+       cx="153.36005"
+       cy="157.25835"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_pseudoausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-31-8-9"
+       cx="154.94756"
+       cy="144.15834"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_pseudoausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-94-4-4"
+       cx="165.90005"
+       cy="144.15834"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_pseudoausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-78-3-8"
+       cx="178.80005"
+       cy="144.15834"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_pseudoausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-4-1-1"
+       cx="178.80005"
+       cy="157.25835"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_pseudoausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-50-4-2"
+       cx="167.48755"
+       cy="157.25835"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_pseudoausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-361-92-9"
+       cx="140.70006"
+       cy="157.25835"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_pseudoausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-0-0-3"
+       cx="140.70006"
+       cy="170.15834"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_pseudoausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-6-6-9"
+       cx="154.94753"
+       cy="170.15834"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_pseudoausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-32-8-0"
+       cx="167.48755"
+       cy="170.15834"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_pseudoausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-06-9-8"
+       cx="178.80005"
+       cy="170.15834"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_pseudoausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-15-2-8"
+       cx="178.80005"
+       cy="182.95834"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_pseudoausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-54-6-5"
+       cx="165.90005"
+       cy="182.95834"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_pseudoausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-76-6-0"
+       cx="153.36005"
+       cy="182.95834"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_pseudoausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-56-4-9"
+       cx="141.75839"
+       cy="182.95834"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_pseudoausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-8-7-9-6"
+       cx="139.17436"
+       cy="182.98515"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_pseudoausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-94-8-2-5-3"
+       cx="152.20354"
+       cy="144.25592"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_pseudoausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-50-6-7-0-8"
+       cx="164.90353"
+       cy="157.35591"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_pseudoausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-6-9-2-48-5"
+       cx="164.53438"
+       cy="170.25592"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_pseudoausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <g
+       id="g20394-7-6"
+       transform="translate(93.146334,72.267763)"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_pseudoausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <circle
+         style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="path6165-2-50-6-9-0-17-1"
+         cx="47.5"
+         cy="137.32033"
+         r="4.5" />
+      <circle
+         style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="path6165-2-9-9-2-1"
+         cx="47.5"
+         cy="124.35133"
+         r="4.5" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="53.781826"
+         y="139.98349"
+         id="text10848-1-7-5"><tspan
+           sodipodi:role="line"
+           id="tspan10846-0-22-9"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="53.781826"
+           y="139.98349">Background</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="53.532448"
+         y="126.47514"
+         id="text10848-1-6-61-8"><tspan
+           sodipodi:role="line"
+           id="tspan10846-0-2-0-4"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="53.532448"
+           y="126.47514">Presença</tspan></text>
+    </g>
+    <g
+       inkscape:label="GridCartesian:X5:Y5"
+       transform="matrix(0.85033355,0,0,0.85033355,134.24552,226.09665)"
+       id="g3339-7-6-1-9"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <g
+         inkscape:label="MajorXGridlines"
+         id="g3325-5-10-5-6">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 15,0 V 75"
+           inkscape:label="MajorXDiv1"
+           id="path3317-3-6-9-4" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 30,0 V 75"
+           inkscape:label="MajorXDiv2"
+           id="path3319-5-3-4-3" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 45,0 V 75"
+           inkscape:label="MajorXDiv3"
+           id="path3321-6-20-9-3" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 60,0 V 75"
+           inkscape:label="MajorXDiv4"
+           id="path3323-2-61-0-3" />
+      </g>
+      <g
+         inkscape:label="MajorYGridlines"
+         id="g3335-9-55-9-8">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 0,15 H 75"
+           inkscape:label="MajorYDiv1"
+           id="path3327-1-47-1-6" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 0,30 H 75"
+           inkscape:label="MajorYDiv2"
+           id="path3329-2-65-7-0" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 0,45 H 75"
+           inkscape:label="MajorYDiv3"
+           id="path3331-7-6-7-4" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 0,60 H 75"
+           inkscape:label="MajorYDiv4"
+           id="path3333-0-9-1-8" />
+      </g>
+      <rect
+         x="0"
+         y="0"
+         width="75"
+         height="75"
+         style="fill:none;stroke:#000000;stroke-width:0.264583"
+         inkscape:label="Border"
+         id="rect3337-9-3-1-8" />
+    </g>
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-74-5-8"
+       cx="141.75838"
+       cy="232.37502"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-3-5-9-9"
+       cx="153.35979"
+       cy="232.37502"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-7-2-7-7"
+       cx="165.90005"
+       cy="232.37502"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-5-54-7-7"
+       cx="178.80005"
+       cy="232.37502"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-9-7-6-6"
+       cx="191.80005"
+       cy="232.37502"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-2-44-7-4"
+       cx="191.80005"
+       cy="244.97502"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-28-3-3-3"
+       cx="191.80005"
+       cy="258.07501"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-97-0-6-0"
+       cx="191.80005"
+       cy="270.97501"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-36-7-5-3"
+       cx="191.80005"
+       cy="283.77502"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-1-8-6-0"
+       cx="140.70006"
+       cy="244.97502"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-29-68-3-9"
+       cx="153.36005"
+       cy="258.07501"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-31-8-9-2"
+       cx="154.94756"
+       cy="244.97502"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-94-4-4-5"
+       cx="165.90005"
+       cy="244.97502"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-78-3-8-4"
+       cx="178.80005"
+       cy="244.97502"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-4-1-1-0"
+       cx="178.80005"
+       cy="258.07501"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-50-4-2-5"
+       cx="167.48755"
+       cy="258.07501"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-361-92-9-9"
+       cx="140.70006"
+       cy="258.07501"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-0-0-3-4"
+       cx="140.70006"
+       cy="270.97501"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-6-6-9-6"
+       cx="154.41837"
+       cy="270.97501"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-32-8-0-9"
+       cx="167.48755"
+       cy="270.97501"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-06-9-8-2"
+       cx="178.80005"
+       cy="270.97501"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-15-2-8-2"
+       cx="178.80005"
+       cy="283.77502"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-54-6-5-4"
+       cx="165.90005"
+       cy="283.77502"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-76-6-0-7"
+       cx="153.36005"
+       cy="283.77502"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-56-4-9-7"
+       cx="141.75839"
+       cy="283.77502"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-8-7-9-6-5"
+       cx="139.17436"
+       cy="283.80182"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-94-8-2-5-3-4"
+       cx="152.20354"
+       cy="245.0726"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-94-8-2-5-3-4-6"
+       cx="138.99284"
+       cy="232.5264"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-50-6-7-0-8-8"
+       cx="164.90353"
+       cy="258.17258"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-6-9-2-48-5-1"
+       cx="164.53438"
+       cy="271.0726"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-6-9-2-48-5-1-3"
+       cx="152.23831"
+       cy="270.97089"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <g
+       id="g20394-7-6-2"
+       transform="translate(93.146334,173.08444)"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <circle
+         style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="path6165-2-50-6-9-0-17-1-8"
+         cx="47.5"
+         cy="137.32033"
+         r="4.5" />
+      <circle
+         style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="path6165-2-9-9-2-1-9"
+         cx="47.5"
+         cy="124.35133"
+         r="4.5" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="53.781826"
+         y="139.98349"
+         id="text10848-1-7-5-3"><tspan
+           sodipodi:role="line"
+           id="tspan10846-0-22-9-6"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="53.781826"
+           y="139.98349">Background</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="53.532448"
+         y="126.47514"
+         id="text10848-1-6-61-8-8"><tspan
+           sodipodi:role="line"
+           id="tspan10846-0-2-0-4-0"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="53.532448"
+           y="126.47514">Presença</tspan></text>
+    </g>
+    <g
+       id="g2218-8"
+       transform="translate(-79.650032)"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_pseudoausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <circle
+         style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="path6165-2-8-2-6-1"
+         cx="140.70004"
+         cy="183.03102"
+         r="4.5"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_pseudoausencia.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="path6165-2-94-8-6-1-0"
+         cx="153.36005"
+         cy="144.30257"
+         r="4.5"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_pseudoausencia.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="path6165-2-50-6-1-8-30"
+         cx="165.90005"
+         cy="157.40259"
+         r="4.5"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_pseudoausencia.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="path6165-2-6-9-0-7-4"
+         cx="165.90005"
+         cy="170.3026"
+         r="4.5"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_pseudoausencia.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <g
+         inkscape:label="GridCartesian:X5:Y5"
+         transform="matrix(0.85033355,0,0,0.85033355,134.24552,125.27997)"
+         id="g3339-7-3-9-44"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_pseudoausencia.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">
+        <g
+           inkscape:label="MajorXGridlines"
+           id="g3325-5-6-2-4">
+          <path
+             style="fill:none;stroke:#000000;stroke-width:0.264583"
+             d="M 15,0 V 75"
+             inkscape:label="MajorXDiv1"
+             id="path3317-3-0-0-7" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:0.264583"
+             d="M 30,0 V 75"
+             inkscape:label="MajorXDiv2"
+             id="path3319-5-6-2-6" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:0.264583"
+             d="M 45,0 V 75"
+             inkscape:label="MajorXDiv3"
+             id="path3321-6-2-3-3" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:0.264583"
+             d="M 60,0 V 75"
+             inkscape:label="MajorXDiv4"
+             id="path3323-2-6-7-1" />
+        </g>
+        <g
+           inkscape:label="MajorYGridlines"
+           id="g3335-9-1-5-7">
+          <path
+             style="fill:none;stroke:#000000;stroke-width:0.264583"
+             d="M 0,15 H 75"
+             inkscape:label="MajorYDiv1"
+             id="path3327-1-8-9-5" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:0.264583"
+             d="M 0,30 H 75"
+             inkscape:label="MajorYDiv2"
+             id="path3329-2-7-2-9" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:0.264583"
+             d="M 0,45 H 75"
+             inkscape:label="MajorYDiv3"
+             id="path3331-7-9-2-62" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:0.264583"
+             d="M 0,60 H 75"
+             inkscape:label="MajorYDiv4"
+             id="path3333-0-2-8-1" />
+        </g>
+        <rect
+           x="0"
+           y="0"
+           width="75"
+           height="75"
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           inkscape:label="Border"
+           id="rect3337-9-0-9-7" />
+      </g>
+      <circle
+         style="fill:#ff8e00;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="path6165-2-5-6-7-8"
+         cx="178.80005"
+         cy="131.52985"
+         r="4.5"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_pseudoausencia.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         style="fill:#ff8e00;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="path6165-2-28-5-6-2-5"
+         cx="191.54703"
+         cy="144.40271"
+         r="4.5"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_pseudoausencia.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         style="fill:#ff8e00;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="path6165-2-28-5-6-9-74"
+         cx="191.89969"
+         cy="169.14601"
+         r="4.5"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_pseudoausencia.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         style="fill:#ff8e00;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="path6165-2-36-9-1-18"
+         cx="191.80005"
+         cy="182.92986"
+         r="4.5"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_pseudoausencia.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <g
+         id="g20402-9-5"
+         transform="translate(92.81535,-2.6018561)"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_pseudoausencia.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">
+        <circle
+           style="fill:#ff8e00;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+           id="path6165-2-50-6-9-0-1-5-9"
+           cx="47.990337"
+           cy="211.29515"
+           r="4.5" />
+        <circle
+           style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+           id="path6165-2-9-9-7-0-75"
+           cx="47.990337"
+           cy="198.85533"
+           r="4.5" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="54.664917"
+           y="213.8681"
+           id="text10848-1-8-4-3"><tspan
+             sodipodi:role="line"
+             id="tspan10846-0-5-8-8"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+             x="54.664917"
+             y="213.8681">Pseudo-ausência</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="54.484093"
+           y="201.28441"
+           id="text10848-1-8-0-7-8"><tspan
+             sodipodi:role="line"
+             id="tspan10846-0-5-6-1-3"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+             x="54.484093"
+             y="201.28441">Presença</tspan></text>
+      </g>
+      <ellipse
+         style="fill:none;fill-opacity:1;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+         id="path2330-1"
+         cx="158.63934"
+         cy="157.58014"
+         rx="23.326271"
+         ry="31.474854"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_pseudoausencia.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+    </g>
+    <circle
+       style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-56-2-6"
+       cx="60.791706"
+       cy="81.959663"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-32-2-7"
+       cx="86.520912"
+       cy="69.15966"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-50-7-5"
+       cx="86.520912"
+       cy="56.259674"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-31-2-3"
+       cx="73.980873"
+       cy="43.159668"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <g
+       inkscape:label="GridCartesian:X5:Y5"
+       transform="matrix(0.85033355,0,0,0.85033355,54.595485,24.46328)"
+       id="g3339-7-3-5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <g
+         inkscape:label="MajorXGridlines"
+         id="g3325-5-6-6">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 15,0 V 75"
+           inkscape:label="MajorXDiv1"
+           id="path3317-3-0-2" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 30,0 V 75"
+           inkscape:label="MajorXDiv2"
+           id="path3319-5-6-9" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 45,0 V 75"
+           inkscape:label="MajorXDiv3"
+           id="path3321-6-2-1" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 60,0 V 75"
+           inkscape:label="MajorXDiv4"
+           id="path3323-2-6-2" />
+      </g>
+      <g
+         inkscape:label="MajorYGridlines"
+         id="g3335-9-1-7">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 0,15 H 75"
+           inkscape:label="MajorYDiv1"
+           id="path3327-1-8-0" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 0,30 H 75"
+           inkscape:label="MajorYDiv2"
+           id="path3329-2-7-9" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 0,45 H 75"
+           inkscape:label="MajorYDiv3"
+           id="path3331-7-9-36" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 0,60 H 75"
+           inkscape:label="MajorYDiv4"
+           id="path3333-0-2-0" />
+      </g>
+      <rect
+         x="0"
+         y="0"
+         width="75"
+         height="75"
+         style="fill:none;stroke:#000000;stroke-width:0.264583"
+         inkscape:label="Border"
+         id="rect3337-9-0-6" />
+    </g>
+    <circle
+       style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-35-2"
+       cx="60.791691"
+       cy="30.559666"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-3-62-61"
+       cx="73.451454"
+       cy="30.559666"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-7-9-8"
+       cx="85.991737"
+       cy="30.559666"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-5-1-7"
+       cx="98.891747"
+       cy="30.559666"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-9-2-9"
+       cx="111.89176"
+       cy="30.559666"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-2-7-2"
+       cx="111.89176"
+       cy="43.159668"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-28-0-0"
+       cx="111.89176"
+       cy="56.259674"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-97-9-2"
+       cx="111.89176"
+       cy="69.15966"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-36-3-3"
+       cx="111.89176"
+       cy="81.959663"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-1-60-7"
+       cx="60.791691"
+       cy="43.159668"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-29-6-5"
+       cx="73.451714"
+       cy="56.259674"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-94-6-9"
+       cx="85.991737"
+       cy="43.159668"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-78-1-2"
+       cx="98.891747"
+       cy="43.159668"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-4-8-2"
+       cx="98.891747"
+       cy="56.259674"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-361-9-8"
+       cx="60.791691"
+       cy="56.259674"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-0-2-9"
+       cx="60.791691"
+       cy="69.15966"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-6-0-73"
+       cx="73.451714"
+       cy="69.15966"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-06-3-6"
+       cx="98.891747"
+       cy="69.15966"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-15-7-1"
+       cx="98.891747"
+       cy="81.959663"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-54-5-29"
+       cx="85.991737"
+       cy="81.959663"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-76-9-3"
+       cx="73.451714"
+       cy="81.959663"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <g
+       id="g20402-1"
+       transform="translate(13.165314,-103.41854)"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <circle
+         style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="path6165-2-50-6-9-0-1-9"
+         cx="47.990337"
+         cy="211.29515"
+         r="4.5"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="path6165-2-9-9-7-47"
+         cx="47.990337"
+         cy="198.85533"
+         r="4.5"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="54.664917"
+         y="213.8681"
+         id="text10848-1-8-8"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan10846-0-5-4"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="54.664917"
+           y="213.8681">Ausência</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="54.484093"
+         y="201.28441"
+         id="text10848-1-8-0-5"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan10846-0-5-6-0"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="54.484093"
+           y="201.28441">Presença</tspan></text>
+    </g>
+    <g
+       inkscape:label="GridCartesian:X5:Y5"
+       transform="matrix(0.85033355,0,0,0.85033355,134.24552,24.463279)"
+       id="g3339-7-6"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <g
+         inkscape:label="MajorXGridlines"
+         id="g3325-5-10">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 15,0 V 75"
+           inkscape:label="MajorXDiv1"
+           id="path3317-3-6" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 30,0 V 75"
+           inkscape:label="MajorXDiv2"
+           id="path3319-5-3" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 45,0 V 75"
+           inkscape:label="MajorXDiv3"
+           id="path3321-6-20" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 60,0 V 75"
+           inkscape:label="MajorXDiv4"
+           id="path3323-2-61" />
+      </g>
+      <g
+         inkscape:label="MajorYGridlines"
+         id="g3335-9-55">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 0,15 H 75"
+           inkscape:label="MajorYDiv1"
+           id="path3327-1-47" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 0,30 H 75"
+           inkscape:label="MajorYDiv2"
+           id="path3329-2-65" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 0,45 H 75"
+           inkscape:label="MajorYDiv3"
+           id="path3331-7-6" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 0,60 H 75"
+           inkscape:label="MajorYDiv4"
+           id="path3333-0-9" />
+      </g>
+      <rect
+         x="0"
+         y="0"
+         width="75"
+         height="75"
+         style="fill:none;stroke:#000000;stroke-width:0.264583"
+         inkscape:label="Border"
+         id="rect3337-9-3" />
+    </g>
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-74"
+       cx="141.75838"
+       cy="30.741648"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-3-5"
+       cx="153.35979"
+       cy="30.741648"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-7-2"
+       cx="165.90005"
+       cy="30.741648"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-5-54"
+       cx="178.80005"
+       cy="30.741648"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-9-7"
+       cx="191.80005"
+       cy="30.741648"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-2-44"
+       cx="191.80005"
+       cy="43.341648"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-28-3"
+       cx="191.80005"
+       cy="56.441654"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-97-0"
+       cx="191.80005"
+       cy="69.341644"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-36-7"
+       cx="191.80005"
+       cy="82.141647"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-1-8"
+       cx="140.70006"
+       cy="43.341648"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-29-68"
+       cx="153.36005"
+       cy="56.441654"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-31-8"
+       cx="154.94756"
+       cy="43.341648"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-94-4"
+       cx="165.90005"
+       cy="43.341648"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-78-3"
+       cx="178.80005"
+       cy="43.341648"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-4-1"
+       cx="178.80005"
+       cy="56.441654"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-50-4"
+       cx="167.48755"
+       cy="56.441654"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-361-92"
+       cx="140.70006"
+       cy="56.441654"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-0-0"
+       cx="140.70006"
+       cy="69.341644"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-6-6"
+       cx="154.41837"
+       cy="69.341644"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-32-8"
+       cx="167.48755"
+       cy="69.341644"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-06-9"
+       cx="178.80005"
+       cy="69.341644"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-15-2"
+       cx="178.80005"
+       cy="82.141647"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-54-6"
+       cx="165.90005"
+       cy="82.141647"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-76-6"
+       cx="153.36005"
+       cy="82.141647"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-56-4"
+       cx="141.75839"
+       cy="82.141647"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-8-7-9"
+       cx="139.17436"
+       cy="82.168457"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-94-8-2-5"
+       cx="152.20354"
+       cy="43.439228"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-94-8-2-5-5"
+       cx="139.08447"
+       cy="30.742001"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-94-8-2-5-35"
+       cx="152.0538"
+       cy="69.5"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-94-8-2-5-5-0"
+       cx="139.40231"
+       cy="131.56061"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_pseudoausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-94-8-2-5-35-9"
+       cx="151.84248"
+       cy="170.31866"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_pseudoausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-50-6-7-0"
+       cx="164.90353"
+       cy="56.539219"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-6-9-2-48"
+       cx="164.53438"
+       cy="69.5"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <g
+       id="g20394-7"
+       transform="translate(93.146334,-28.548927)"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <circle
+         style="fill:#818181;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="path6165-2-50-6-9-0-17"
+         cx="47.5"
+         cy="137.32033"
+         r="4.5" />
+      <circle
+         style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="path6165-2-9-9-2"
+         cx="47.5"
+         cy="124.35133"
+         r="4.5" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="53.781826"
+         y="139.98349"
+         id="text10848-1-7"><tspan
+           sodipodi:role="line"
+           id="tspan10846-0-22"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="53.781826"
+           y="139.98349">Background</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="53.532448"
+         y="126.47514"
+         id="text10848-1-6-61"><tspan
+           sodipodi:role="line"
+           id="tspan10846-0-2-0"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="53.532448"
+           y="126.47514">Presença</tspan></text>
+    </g>
+    <g
+       inkscape:label="GridCartesian:X5:Y5"
+       transform="matrix(0.85033355,0,0,0.85033355,-25.054532,24.463279)"
+       id="g3339-7-9"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <g
+         inkscape:label="MajorXGridlines"
+         id="g3325-5-3">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 15,0 V 75"
+           inkscape:label="MajorXDiv1"
+           id="path3317-3-7" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 30,0 V 75"
+           inkscape:label="MajorXDiv2"
+           id="path3319-5-4" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 45,0 V 75"
+           inkscape:label="MajorXDiv3"
+           id="path3321-6-5" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 60,0 V 75"
+           inkscape:label="MajorXDiv4"
+           id="path3323-2-2" />
+      </g>
+      <g
+         inkscape:label="MajorYGridlines"
+         id="g3335-9-5">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 0,15 H 75"
+           inkscape:label="MajorYDiv1"
+           id="path3327-1-4" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 0,30 H 75"
+           inkscape:label="MajorYDiv2"
+           id="path3329-2-74" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 0,45 H 75"
+           inkscape:label="MajorYDiv3"
+           id="path3331-7-4" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 0,60 H 75"
+           inkscape:label="MajorYDiv4"
+           id="path3333-0-3" />
+      </g>
+      <rect
+         x="0"
+         y="0"
+         width="75"
+         height="75"
+         style="fill:none;stroke:#000000;stroke-width:0.264583"
+         inkscape:label="Border"
+         id="rect3337-9-07" />
+    </g>
+    <circle
+       style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-8"
+       cx="-18.6"
+       cy="82.025009"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-94-8"
+       cx="-5.9400001"
+       cy="43.341499"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-94-8-36"
+       cx="-18.972385"
+       cy="31.301001"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-94-8-7"
+       cx="-5.4856567"
+       cy="69.512733"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-94-8-36-6"
+       cx="-19.260818"
+       cy="131.61967"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_pseudoausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-94-8-7-2"
+       cx="-5.7740884"
+       cy="169.83147"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_pseudoausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-94-8-36-9"
+       cx="60.277534"
+       cy="232.99802"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-94-8-7-1"
+       cx="73.764259"
+       cy="271.20975"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-94-8-36-2"
+       cx="60.15329"
+       cy="131.99553"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_pseudoausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-94-8-7-7"
+       cx="73.640022"
+       cy="170.20737"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_pseudoausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-50-6"
+       cx="6.5999985"
+       cy="56.441654"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-6-9"
+       cx="6.5999999"
+       cy="68.93576"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <g
+       id="g20303"
+       transform="translate(-66.96519,40.12206)"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <circle
+         style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="path6165-2-50-6-9"
+         cx="48.254669"
+         cy="56.5"
+         r="4.5" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="54.993"
+         y="58.841549"
+         id="text10848"><tspan
+           sodipodi:role="line"
+           id="tspan10846"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="54.993"
+           y="58.841549">Presença</tspan></text>
+    </g>
+    <circle
+       style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-56-2-3"
+       cx="-18.858309"
+       cy="283.59326"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-32-2-6"
+       cx="6.8708944"
+       cy="270.79327"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-50-7-1"
+       cx="6.8708944"
+       cy="257.89328"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-31-2-2"
+       cx="-5.6691446"
+       cy="244.79327"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <g
+       inkscape:label="GridCartesian:X5:Y5"
+       transform="matrix(0.85033355,0,0,0.85033355,-25.05453,226.09688)"
+       id="g3339-7-3-93"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <g
+         inkscape:label="MajorXGridlines"
+         id="g3325-5-6-1">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 15,0 V 75"
+           inkscape:label="MajorXDiv1"
+           id="path3317-3-0-9" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 30,0 V 75"
+           inkscape:label="MajorXDiv2"
+           id="path3319-5-6-4" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 45,0 V 75"
+           inkscape:label="MajorXDiv3"
+           id="path3321-6-2-7" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 60,0 V 75"
+           inkscape:label="MajorXDiv4"
+           id="path3323-2-6-8" />
+      </g>
+      <g
+         inkscape:label="MajorYGridlines"
+         id="g3335-9-1-4">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 0,15 H 75"
+           inkscape:label="MajorYDiv1"
+           id="path3327-1-8-5" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 0,30 H 75"
+           inkscape:label="MajorYDiv2"
+           id="path3329-2-7-0" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 0,45 H 75"
+           inkscape:label="MajorYDiv3"
+           id="path3331-7-9-3" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 0,60 H 75"
+           inkscape:label="MajorYDiv4"
+           id="path3333-0-2-6" />
+      </g>
+      <rect
+         x="0"
+         y="0"
+         width="75"
+         height="75"
+         style="fill:none;stroke:#000000;stroke-width:0.264583"
+         inkscape:label="Border"
+         id="rect3337-9-0-1" />
+    </g>
+    <circle
+       style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-35-0"
+       cx="-18.858324"
+       cy="232.19327"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-3-62-6"
+       cx="-6.1985636"
+       cy="232.19327"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-7-9-3"
+       cx="6.3417196"
+       cy="232.19327"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-5-1-2"
+       cx="19.241728"
+       cy="232.19327"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-9-2-0"
+       cx="32.241745"
+       cy="232.19327"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-2-7-6"
+       cx="32.241745"
+       cy="244.79327"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-28-0-1"
+       cx="32.241745"
+       cy="257.89328"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-97-9-5"
+       cx="32.241745"
+       cy="270.79327"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-36-3-5"
+       cx="32.241745"
+       cy="283.59326"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-1-60-4"
+       cx="-18.858324"
+       cy="244.79327"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-29-6-7"
+       cx="-6.1983042"
+       cy="257.89328"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-94-6-6"
+       cx="6.3417196"
+       cy="244.79327"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-78-1-5"
+       cx="19.241728"
+       cy="244.79327"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-4-8-6"
+       cx="19.241728"
+       cy="257.89328"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-361-9-9"
+       cx="-18.858324"
+       cy="257.89328"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-0-2-3"
+       cx="-18.858324"
+       cy="270.79327"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-6-0-7"
+       cx="-6.1983042"
+       cy="270.79327"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-06-3-4"
+       cx="19.241728"
+       cy="270.79327"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-15-7-5"
+       cx="19.241728"
+       cy="283.59326"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-54-5-2"
+       cx="6.3417196"
+       cy="283.59326"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-76-9-5"
+       cx="-6.1983042"
+       cy="283.59326"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <g
+       id="g20402-4"
+       transform="translate(-66.484701,98.21506)"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <circle
+         style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="path6165-2-50-6-9-0-1-7"
+         cx="47.990337"
+         cy="211.29515"
+         r="4.5"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="path6165-2-9-9-7-4"
+         cx="47.990337"
+         cy="198.85533"
+         r="4.5"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="54.664917"
+         y="213.8681"
+         id="text10848-1-8-43"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan10846-0-5-0"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="54.664917"
+           y="213.8681">Ausência</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="54.484093"
+         y="201.28441"
+         id="text10848-1-8-0-78"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan10846-0-5-6-6"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="54.484093"
+           y="201.28441">Presença</tspan></text>
+    </g>
+    <g
+       id="g20321-3"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_pseudoausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       transform="translate(0,100.81668)">
+      <g
+         inkscape:label="GridCartesian:X5:Y5"
+         transform="matrix(0.85033355,0,0,0.85033355,-25.054532,24.463279)"
+         id="g3339-7-9-6">
+        <g
+           inkscape:label="MajorXGridlines"
+           id="g3325-5-3-7">
+          <path
+             style="fill:none;stroke:#000000;stroke-width:0.264583"
+             d="M 15,0 V 75"
+             inkscape:label="MajorXDiv1"
+             id="path3317-3-7-5" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:0.264583"
+             d="M 30,0 V 75"
+             inkscape:label="MajorXDiv2"
+             id="path3319-5-4-3" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:0.264583"
+             d="M 45,0 V 75"
+             inkscape:label="MajorXDiv3"
+             id="path3321-6-5-5" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:0.264583"
+             d="M 60,0 V 75"
+             inkscape:label="MajorXDiv4"
+             id="path3323-2-2-6" />
+        </g>
+        <g
+           inkscape:label="MajorYGridlines"
+           id="g3335-9-5-2">
+          <path
+             style="fill:none;stroke:#000000;stroke-width:0.264583"
+             d="M 0,15 H 75"
+             inkscape:label="MajorYDiv1"
+             id="path3327-1-4-9" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:0.264583"
+             d="M 0,30 H 75"
+             inkscape:label="MajorYDiv2"
+             id="path3329-2-74-1" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:0.264583"
+             d="M 0,45 H 75"
+             inkscape:label="MajorYDiv3"
+             id="path3331-7-4-2" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:0.264583"
+             d="M 0,60 H 75"
+             inkscape:label="MajorYDiv4"
+             id="path3333-0-3-7" />
+        </g>
+        <rect
+           x="0"
+           y="0"
+           width="75"
+           height="75"
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           inkscape:label="Border"
+           id="rect3337-9-07-0" />
+      </g>
+      <circle
+         style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="path6165-2-8-9"
+         cx="-18.6"
+         cy="82.025009"
+         r="4.5" />
+      <circle
+         style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="path6165-2-94-8-3"
+         cx="-5.9400001"
+         cy="43.341499"
+         r="4.5" />
+      <circle
+         style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="path6165-2-50-6-6"
+         cx="6.5999985"
+         cy="56.441654"
+         r="4.5" />
+      <circle
+         style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="path6165-2-6-9-06"
+         cx="6.5999999"
+         cy="68.93576"
+         r="4.5" />
+    </g>
+    <g
+       id="g20303-3"
+       transform="translate(-66.96519,140.93876)"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_pseudoausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <circle
+         style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="path6165-2-50-6-9-1"
+         cx="48.254669"
+         cy="56.5"
+         r="4.5" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="54.993"
+         y="58.841549"
+         id="text10848-4"><tspan
+           sodipodi:role="line"
+           id="tspan10846-9"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="54.993"
+           y="58.841549">Presença</tspan></text>
+    </g>
+    <circle
+       style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-8-2-6-8"
+       cx="61.050011"
+       cy="283.84793"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-94-8-6-1-4"
+       cx="73.710014"
+       cy="245.11948"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-50-6-1-8-3"
+       cx="86.250023"
+       cy="258.21951"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-6-9-0-7-1"
+       cx="86.250023"
+       cy="271.11951"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <g
+       inkscape:label="GridCartesian:X5:Y5"
+       transform="matrix(0.85033355,0,0,0.85033355,54.595487,226.09688)"
+       id="g3339-7-3-9-4"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <g
+         inkscape:label="MajorXGridlines"
+         id="g3325-5-6-2-9">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 15,0 V 75"
+           inkscape:label="MajorXDiv1"
+           id="path3317-3-0-0-2" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 30,0 V 75"
+           inkscape:label="MajorXDiv2"
+           id="path3319-5-6-2-0" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 45,0 V 75"
+           inkscape:label="MajorXDiv3"
+           id="path3321-6-2-3-6" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 60,0 V 75"
+           inkscape:label="MajorXDiv4"
+           id="path3323-2-6-7-8" />
+      </g>
+      <g
+         inkscape:label="MajorYGridlines"
+         id="g3335-9-1-5-9">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 0,15 H 75"
+           inkscape:label="MajorYDiv1"
+           id="path3327-1-8-9-2" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 0,30 H 75"
+           inkscape:label="MajorYDiv2"
+           id="path3329-2-7-2-6" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 0,45 H 75"
+           inkscape:label="MajorYDiv3"
+           id="path3331-7-9-2-6" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 0,60 H 75"
+           inkscape:label="MajorYDiv4"
+           id="path3333-0-2-8-4" />
+      </g>
+      <rect
+         x="0"
+         y="0"
+         width="75"
+         height="75"
+         style="fill:none;stroke:#000000;stroke-width:0.264583"
+         inkscape:label="Border"
+         id="rect3337-9-0-9-9" />
+    </g>
+    <circle
+       style="fill:#ff8e00;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-5-6-7-5"
+       cx="99.150017"
+       cy="232.34676"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#ff8e00;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-28-5-6-2-8"
+       cx="111.897"
+       cy="245.21962"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#ff8e00;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-28-5-6-9-7"
+       cx="112.24966"
+       cy="269.96292"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#ff8e00;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path6165-2-36-9-1-1"
+       cx="112.15002"
+       cy="283.74677"
+       r="4.5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <g
+       id="g20402-9-7"
+       transform="translate(13.165317,98.215054)"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <circle
+         style="fill:#ff8e00;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="path6165-2-50-6-9-0-1-5-2"
+         cx="47.990337"
+         cy="211.29515"
+         r="4.5" />
+      <circle
+         style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="path6165-2-9-9-7-0-7"
+         cx="47.990337"
+         cy="198.85533"
+         r="4.5" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="54.664917"
+         y="213.8681"
+         id="text10848-1-8-4-2"><tspan
+           sodipodi:role="line"
+           id="tspan10846-0-5-8-2"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="54.664917"
+           y="213.8681">Pseudo-ausência</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="54.484093"
+         y="201.28441"
+         id="text10848-1-8-0-7-6"><tspan
+           sodipodi:role="line"
+           id="tspan10846-0-5-6-1-1"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="54.484093"
+           y="201.28441">Presença</tspan></text>
+    </g>
+    <ellipse
+       style="fill:none;fill-opacity:1;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+       id="path2330-0"
+       cx="78.989311"
+       cy="258.39706"
+       rx="23.326271"
+       ry="31.474854"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#0072bd;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 54.595487,226.09688 h 38.26501 l 0.0394,12.79698 12.776573,-0.0638 -0.061,51.0418 H 54.595457 Z"
+       id="path3228-6"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_ausencia_pseudoausencia.png.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#0072bd;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 54.595488,125.27997 h 38.26501 l 0.0394,12.79698 12.776572,-0.0638 -0.061,51.0418 H 54.595458 Z"
+       id="path3228-6-3"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_tipos_metodos_pseudoausencia.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+  </g>
+</svg>

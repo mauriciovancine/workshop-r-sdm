@@ -1,0 +1,3404 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="sdm_avaliacao.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.7362437"
+     inkscape:cx="505.26748"
+     inkscape:cy="1352.1338"
+     inkscape:window-width="1851"
+     inkscape:window-height="1016"
+     inkscape:window-x="1989"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g15010"
+       transform="translate(-7.571632,-39.110312)">
+      <path
+         sodipodi:type="star"
+         style="opacity:0.957804;fill:#ff8e00;fill-opacity:1;stroke:none;stroke-width:3.19769;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+         id="path12242-6-9-4"
+         inkscape:flatsided="false"
+         sodipodi:sides="2"
+         sodipodi:cx="-170.81335"
+         sodipodi:cy="240.24219"
+         sodipodi:r1="44.083618"
+         sodipodi:r2="18.788546"
+         sodipodi:arg1="0.052536835"
+         sodipodi:arg2="1.6233332"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         transform="matrix(0.01245869,0.10196515,-0.23918768,0.00484204,127.30617,101.81947)"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_treino_teste.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"
+         d="m -126.79056,242.55714 -45.00943,16.44767 -43.03616,-21.07757 45.00943,-16.44767 z" />
+      <path
+         sodipodi:type="star"
+         style="opacity:0.957804;fill:#ff8e00;fill-opacity:1;stroke:none;stroke-width:3.19769;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+         id="path12242-6"
+         inkscape:flatsided="false"
+         sodipodi:sides="2"
+         sodipodi:cx="-170.81335"
+         sodipodi:cy="240.24219"
+         sodipodi:r1="44.083618"
+         sodipodi:r2="18.788546"
+         sodipodi:arg1="0.052536835"
+         sodipodi:arg2="1.6233332"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         transform="matrix(0.01245869,0.10196515,-0.23918768,0.00484204,76.164511,164.85775)"
+         d="m -126.79056,242.55714 -45.00943,16.44767 -43.03616,-21.07757 45.00943,-16.44767 z"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_treino_teste.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <path
+         sodipodi:type="star"
+         style="opacity:0.957804;fill:#ff8e00;fill-opacity:1;stroke:none;stroke-width:3.19769;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+         id="path12242-6-9"
+         inkscape:flatsided="false"
+         sodipodi:sides="2"
+         sodipodi:cx="-170.81335"
+         sodipodi:cy="240.24219"
+         sodipodi:r1="44.083618"
+         sodipodi:r2="18.788546"
+         sodipodi:arg1="0.052536835"
+         sodipodi:arg2="1.6233332"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         transform="matrix(0.01245869,0.10196515,-0.23918768,0.00484204,113.61325,64.016126)"
+         d="m -126.79056,242.55714 -45.00943,16.44767 -43.03616,-21.07757 45.00943,-16.44767 z"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_treino_teste.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <path
+         sodipodi:type="star"
+         style="opacity:0.957804;fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:3.19769;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+         id="path12242"
+         inkscape:flatsided="false"
+         sodipodi:sides="2"
+         sodipodi:cx="-170.81335"
+         sodipodi:cy="240.24219"
+         sodipodi:r1="44.083618"
+         sodipodi:r2="18.788546"
+         sodipodi:arg1="0.052536835"
+         sodipodi:arg2="1.6233332"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="m -126.79056,242.55714 -45.00943,16.44767 -43.03616,-21.07757 45.00943,-16.44767 z"
+         transform="matrix(0.01245869,0.10196515,-0.23918768,0.00484204,76.03278,152.45199)"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_treino_teste.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <path
+         sodipodi:type="star"
+         style="opacity:0.957804;fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:3.19769;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+         id="path12242-2"
+         inkscape:flatsided="false"
+         sodipodi:sides="2"
+         sodipodi:cx="-170.81335"
+         sodipodi:cy="240.24219"
+         sodipodi:r1="44.083618"
+         sodipodi:r2="18.788546"
+         sodipodi:arg1="0.052536835"
+         sodipodi:arg2="1.6233332"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         transform="matrix(0.01245869,0.10196515,-0.23918768,0.00484204,101.41522,89.531597)"
+         d="m -126.79056,242.55714 -45.00943,16.44767 -43.03616,-21.07757 45.00943,-16.44767 z"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_treino_teste.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <path
+         sodipodi:type="star"
+         style="opacity:0.957804;fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:3.19769;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+         id="path12242-2-5"
+         inkscape:flatsided="false"
+         sodipodi:sides="2"
+         sodipodi:cx="-170.81335"
+         sodipodi:cy="240.24219"
+         sodipodi:r1="44.083618"
+         sodipodi:r2="18.788546"
+         sodipodi:arg1="0.052536835"
+         sodipodi:arg2="1.6233332"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         transform="matrix(0.01245869,0.10196515,-0.23918768,0.00484204,75.617271,63.835252)"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_treino_teste.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"
+         d="m -126.79056,242.55714 -45.00943,16.44767 -43.03616,-21.07757 45.00943,-16.44767 z" />
+      <circle
+         style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="path6165-2-8-2-6-1"
+         cx="16.372522"
+         cy="99.110245"
+         r="4.5"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_treino_teste.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="path6165-2-94-8-6-1-0"
+         cx="29.032526"
+         cy="60.38179"
+         r="4.5"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_treino_teste.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="path6165-2-94-8-6-1-0-1"
+         cx="28.887606"
+         cy="86"
+         r="4.5"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_treino_teste.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="path6165-2-6-9-0-7-4"
+         cx="42.101704"
+         cy="86"
+         r="4.5"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_treino_teste.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <g
+         inkscape:label="GridCartesian:X5:Y5"
+         transform="matrix(0.85033355,0,0,0.85033355,9.918,41.359194)"
+         id="g3339-7-3-9-44"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_treino_teste.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">
+        <g
+           inkscape:label="MajorXGridlines"
+           id="g3325-5-6-2-4">
+          <path
+             style="fill:none;stroke:#000000;stroke-width:0.264583"
+             d="M 15,0 V 75"
+             inkscape:label="MajorXDiv1"
+             id="path3317-3-0-0-7" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:0.264583"
+             d="M 30,0 V 75"
+             inkscape:label="MajorXDiv2"
+             id="path3319-5-6-2-6" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:0.264583"
+             d="M 45,0 V 75"
+             inkscape:label="MajorXDiv3"
+             id="path3321-6-2-3-3" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:0.264583"
+             d="M 60,0 V 75"
+             inkscape:label="MajorXDiv4"
+             id="path3323-2-6-7-1" />
+        </g>
+        <g
+           inkscape:label="MajorYGridlines"
+           id="g3335-9-1-5-7">
+          <path
+             style="fill:none;stroke:#000000;stroke-width:0.264583"
+             d="M 0,15 H 75"
+             inkscape:label="MajorYDiv1"
+             id="path3327-1-8-9-5" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:0.264583"
+             d="M 0,30 H 75"
+             inkscape:label="MajorYDiv2"
+             id="path3329-2-7-2-9" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:0.264583"
+             d="M 0,45 H 75"
+             inkscape:label="MajorYDiv3"
+             id="path3331-7-9-2-62" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:0.264583"
+             d="M 0,60 H 75"
+             inkscape:label="MajorYDiv4"
+             id="path3333-0-2-8-1" />
+        </g>
+        <rect
+           x="0"
+           y="0"
+           width="75"
+           height="75"
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           inkscape:label="Border"
+           id="rect3337-9-0-9-7" />
+      </g>
+      <circle
+         style="fill:#ff8e00;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="path6165-2-28-5-6-2-5"
+         cx="67.219505"
+         cy="60.481934"
+         r="4.5"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_treino_teste.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         style="fill:#ff8e00;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="path6165-2-28-5-6-2-5-4"
+         cx="67.573364"
+         cy="47.890598"
+         r="4.5"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_treino_teste.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         style="fill:#ff8e00;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="path6165-2-28-5-6-2-5-78"
+         cx="67.428131"
+         cy="72.948227"
+         r="4.5"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_treino_teste.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         style="fill:#ff8e00;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="path6165-2-36-9-1-18"
+         cx="67.472527"
+         cy="99.009079"
+         r="4.5"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_treino_teste.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         style="fill:#ff8e00;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="path6165-2-50-6-9-0-1-5-9"
+         cx="16.478167"
+         cy="124.77252"
+         r="4.5"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_treino_teste.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="path6165-2-9-9-7-0-75"
+         cx="16.513079"
+         cy="112.33936"
+         r="4.5"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_treino_teste.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="23.152746"
+         y="127.34547"
+         id="text10848-1-8-4-3"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_treino_teste.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan10846-0-5-8-8"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="23.152746"
+           y="127.34547">Pseudo-ausência (treino)</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="22.971922"
+         y="114.76178"
+         id="text10848-1-8-0-7-8"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_treino_teste.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan10846-0-5-6-1-3"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="22.971922"
+           y="114.76178">Presença (treino)</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="23.1499"
+         y="151.21101"
+         id="text10848-1-8-4-3-7"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_treino_teste.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan10846-0-5-8-8-5"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="23.1499"
+           y="151.21101">Pseudo-ausência (teste)</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="22.969076"
+         y="138.62732"
+         id="text10848-1-8-0-7-8-3"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_treino_teste.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan10846-0-5-6-1-3-5"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="22.969076"
+           y="138.62732">Presença (teste)</tspan></text>
+      <ellipse
+         style="fill:none;fill-opacity:1;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+         id="path2330-1"
+         cx="34.311825"
+         cy="73.659363"
+         rx="23.326271"
+         ry="31.474854"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_treino_teste.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+    </g>
+    <g
+       id="g15077"
+       transform="translate(104.26823,-160.1915)">
+      <rect
+         style="opacity:0.957804;fill:#550000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+         id="rect29183"
+         width="12.755003"
+         height="12.755009"
+         x="9.9180002"
+         y="163.34258"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <rect
+         style="opacity:0.957804;fill:#800000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+         id="rect29183-6"
+         width="12.755003"
+         height="12.755009"
+         x="9.9180002"
+         y="214.36258"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <rect
+         style="opacity:0.957804;fill:#550000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+         id="rect29183-3"
+         width="12.755003"
+         height="12.755009"
+         x="22.673004"
+         y="201.60757"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <rect
+         style="opacity:0.957804;fill:#800000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+         id="rect29183-2"
+         width="12.755003"
+         height="12.755009"
+         x="35.428009"
+         y="201.60757"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <rect
+         style="opacity:0.957804;fill:#ff8080;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+         id="rect29183-0"
+         width="12.755003"
+         height="12.755009"
+         x="35.428009"
+         y="188.85257"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <rect
+         style="opacity:0.957804;fill:#800000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+         id="rect29183-61"
+         width="12.755003"
+         height="12.755009"
+         x="22.673004"
+         y="176.09758"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <rect
+         style="opacity:0.957804;fill:#ffd5d5;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+         id="rect29183-5"
+         width="12.755003"
+         height="12.755009"
+         x="48.18301"
+         y="163.34258"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <rect
+         style="opacity:0.957804;fill:#ff8080;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+         id="rect29183-54"
+         width="12.755003"
+         height="12.755009"
+         x="60.938011"
+         y="163.34258"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <rect
+         style="opacity:0.957804;fill:#ffd5d5;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+         id="rect29183-7"
+         width="12.755003"
+         height="12.755009"
+         x="60.938011"
+         y="176.09758"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <rect
+         style="opacity:0.957804;fill:#ff8080;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+         id="rect29183-65"
+         width="12.755003"
+         height="12.755009"
+         x="60.938011"
+         y="188.85258"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <rect
+         style="opacity:0.957804;fill:#800000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+         id="rect29183-69"
+         width="12.755003"
+         height="12.755009"
+         x="60.938011"
+         y="201.60759"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <rect
+         style="opacity:0.957804;fill:#ffd5d5;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+         id="rect29183-37"
+         width="12.755003"
+         height="12.755009"
+         x="60.938011"
+         y="214.36259"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <path
+         sodipodi:type="star"
+         style="opacity:0.957804;fill:#ff8e00;fill-opacity:1;stroke:none;stroke-width:3.19769;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+         id="path12242-6-1"
+         inkscape:flatsided="false"
+         sodipodi:sides="2"
+         sodipodi:cx="-170.81335"
+         sodipodi:cy="240.24219"
+         sodipodi:r1="44.083618"
+         sodipodi:r2="18.788546"
+         sodipodi:arg1="0.052536835"
+         sodipodi:arg2="1.6233332"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         transform="matrix(0.01245869,0.10196515,-0.23918768,0.00484204,76.16451,286.84113)"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"
+         d="m -126.79056,242.55714 -45.00943,16.44767 -43.03616,-21.07757 45.00943,-16.44767 z" />
+      <path
+         sodipodi:type="star"
+         style="opacity:0.957804;fill:#ff8e00;fill-opacity:1;stroke:none;stroke-width:3.19769;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+         id="path12242-6-9-2"
+         inkscape:flatsided="false"
+         sodipodi:sides="2"
+         sodipodi:cx="-170.81335"
+         sodipodi:cy="240.24219"
+         sodipodi:r1="44.083618"
+         sodipodi:r2="18.788546"
+         sodipodi:arg1="0.052536835"
+         sodipodi:arg2="1.6233332"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         transform="matrix(0.01245869,0.10196515,-0.23918768,0.00484204,113.61325,185.99951)"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"
+         d="m -126.79056,242.55714 -45.00943,16.44767 -43.03616,-21.07757 45.00943,-16.44767 z" />
+      <path
+         sodipodi:type="star"
+         style="opacity:0.957804;fill:#ff8e00;fill-opacity:1;stroke:none;stroke-width:3.19769;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+         id="path12242-6-9-2-3"
+         inkscape:flatsided="false"
+         sodipodi:sides="2"
+         sodipodi:cx="-170.81335"
+         sodipodi:cy="240.24219"
+         sodipodi:r1="44.083618"
+         sodipodi:r2="18.788546"
+         sodipodi:arg1="0.052536835"
+         sodipodi:arg2="1.6233332"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         transform="matrix(0.01245869,0.10196515,-0.23918768,0.00484204,126.83565,224.55288)"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"
+         d="m -126.79056,242.55714 -45.00943,16.44767 -43.03616,-21.07757 45.00943,-16.44767 z" />
+      <path
+         sodipodi:type="star"
+         style="opacity:0.957804;fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:3.19769;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+         id="path12242-7"
+         inkscape:flatsided="false"
+         sodipodi:sides="2"
+         sodipodi:cx="-170.81335"
+         sodipodi:cy="240.24219"
+         sodipodi:r1="44.083618"
+         sodipodi:r2="18.788546"
+         sodipodi:arg1="0.052536835"
+         sodipodi:arg2="1.6233332"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         transform="matrix(0.01245869,0.10196515,-0.23918768,0.00484204,76.03278,274.43537)"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"
+         d="m -126.79056,242.55714 -45.00943,16.44767 -43.03616,-21.07757 45.00943,-16.44767 z" />
+      <path
+         sodipodi:type="star"
+         style="opacity:0.957804;fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:3.19769;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+         id="path12242-2-0"
+         inkscape:flatsided="false"
+         sodipodi:sides="2"
+         sodipodi:cx="-170.81335"
+         sodipodi:cy="240.24219"
+         sodipodi:r1="44.083618"
+         sodipodi:r2="18.788546"
+         sodipodi:arg1="0.052536835"
+         sodipodi:arg2="1.6233332"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         transform="matrix(0.01245869,0.10196515,-0.23918768,0.00484204,101.41522,211.51498)"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"
+         d="m -126.79056,242.55714 -45.00943,16.44767 -43.03616,-21.07757 45.00943,-16.44767 z" />
+      <path
+         sodipodi:type="star"
+         style="opacity:0.957804;fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:3.19769;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+         id="path12242-2-0-0"
+         inkscape:flatsided="false"
+         sodipodi:sides="2"
+         sodipodi:cx="-170.81335"
+         sodipodi:cy="240.24219"
+         sodipodi:r1="44.083618"
+         sodipodi:r2="18.788546"
+         sodipodi:arg1="0.052536835"
+         sodipodi:arg2="1.6233332"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         transform="matrix(0.01245869,0.10196515,-0.23918768,0.00484204,75.926982,186.06044)"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"
+         d="m -126.79056,242.55714 -45.00943,16.44767 -43.03616,-21.07757 45.00943,-16.44767 z" />
+      <circle
+         style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="path6165-2-8-2-6-1-9"
+         cx="16.372522"
+         cy="221.09366"
+         r="4.5"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="path6165-2-94-8-6-1-0-3"
+         cx="29.032526"
+         cy="182.36519"
+         r="4.5"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="path6165-2-6-9-0-7-4-6"
+         cx="41.572536"
+         cy="208.36523"
+         r="4.5"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="path6165-2-6-9-0-7-4-6-6"
+         cx="28.790512"
+         cy="207.68292"
+         r="4.5"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <g
+         inkscape:label="MajorXGridlines"
+         id="g3325-5-6-2-4-6"
+         transform="matrix(0.85033355,0,0,0.85033355,9.918,163.34258)"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 15,0 V 75"
+           inkscape:label="MajorXDiv1"
+           id="path3317-3-0-0-7-2" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 30,0 V 75"
+           inkscape:label="MajorXDiv2"
+           id="path3319-5-6-2-6-6" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 45,0 V 75"
+           inkscape:label="MajorXDiv3"
+           id="path3321-6-2-3-3-1" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 60,0 V 75"
+           inkscape:label="MajorXDiv4"
+           id="path3323-2-6-7-1-8" />
+      </g>
+      <g
+         inkscape:label="MajorYGridlines"
+         id="g3335-9-1-5-7-7"
+         transform="matrix(0.85033355,0,0,0.85033355,9.918,163.34258)"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 0,15 H 75"
+           inkscape:label="MajorYDiv1"
+           id="path3327-1-8-9-5-9" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 0,30 H 75"
+           inkscape:label="MajorYDiv2"
+           id="path3329-2-7-2-9-2" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 0,45 H 75"
+           inkscape:label="MajorYDiv3"
+           id="path3331-7-9-2-62-0" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 0,60 H 75"
+           inkscape:label="MajorYDiv4"
+           id="path3333-0-2-8-1-2" />
+      </g>
+      <circle
+         style="fill:#ff8e00;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="path6165-2-28-5-6-2-5-7"
+         cx="67.219505"
+         cy="182.46533"
+         r="4.5"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         style="fill:#ff8e00;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="path6165-2-28-5-6-2-5-7-1"
+         cx="67.429771"
+         cy="169.80748"
+         r="4.5"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         style="fill:#ff8e00;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="path6165-2-28-5-6-2-5-7-0"
+         cx="67.117996"
+         cy="194.76712"
+         r="4.5"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         style="fill:#ff8e00;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="path6165-2-36-9-1-18-9"
+         cx="67.472527"
+         cy="220.99249"
+         r="4.5"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         style="fill:#ff8e00;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="path6165-2-50-6-9-0-1-5-9-2"
+         cx="16.478167"
+         cy="246.75592"
+         r="4.5"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         style="fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="path6165-2-9-9-7-0-75-2"
+         cx="16.513079"
+         cy="234.32277"
+         r="4.5"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="23.15275"
+         y="249.32886"
+         id="text10848-1-8-4-3-8"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan10846-0-5-8-8-9"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="23.15275"
+           y="249.32886">Pseudo-ausência (0) (treino)</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="22.971933"
+         y="236.74518"
+         id="text10848-1-8-0-7-8-7"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan10846-0-5-6-1-3-3"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="22.971933"
+           y="236.74518">Presença (1) (treino)</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="77.383026"
+         y="172.2076"
+         id="text10848-1-8-0-7-8-7-49"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan10846-0-5-6-1-3-3-2"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="77.383026"
+           y="172.2076">Adequabilidade</tspan></text>
+      <rect
+         style="opacity:0.957804;fill:#550000;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect29183-5-4"
+         width="7.500001"
+         height="7.5000048"
+         x="77.971458"
+         y="176.57739"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <rect
+         style="opacity:0.958;fill:#800000;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect29183-5-5"
+         width="7.500001"
+         height="7.5000043"
+         x="77.971458"
+         y="184.07739"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <rect
+         style="opacity:0.957804;fill:#ff2a2a;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect29183-5-2"
+         width="7.500001"
+         height="7.5000043"
+         x="77.971458"
+         y="191.57739"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <rect
+         style="opacity:0.957804;fill:#ff8080;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect29183-5-54"
+         width="7.500001"
+         height="7.5000043"
+         x="77.971458"
+         y="199.07739"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <rect
+         style="opacity:0.957804;fill:#ffd5d5;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect29183-5-7"
+         width="7.500001"
+         height="7.5000043"
+         x="77.971458"
+         y="206.57739"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="86.484917"
+         y="182.60591"
+         id="text10848-1-8-0-7-8-7-4"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan10846-0-5-6-1-3-3-4"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="86.484917"
+           y="182.60591">0.8-1.0</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="86.484917"
+         y="190.37354"
+         id="text10848-1-8-0-7-8-7-3"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan10846-0-5-6-1-3-3-0"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="86.484917"
+           y="190.37354">0.6-0.8</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="86.484917"
+         y="198.14117"
+         id="text10848-1-8-0-7-8-7-7"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan10846-0-5-6-1-3-3-8"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="86.484917"
+           y="198.14117">0.4-0.6</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="86.484917"
+         y="205.9088"
+         id="text10848-1-8-0-7-8-7-6"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan10846-0-5-6-1-3-3-88"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="86.484917"
+           y="205.9088">0.2-0.4</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="86.484917"
+         y="213.67642"
+         id="text10848-1-8-0-7-8-7-43"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan10846-0-5-6-1-3-3-1"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="86.484917"
+           y="213.67642">0.0-0.2</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="23.149897"
+         y="273.19437"
+         id="text10848-1-8-4-3-7-6"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan10846-0-5-8-8-5-1"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="23.149897"
+           y="273.19437">Pseudo-ausência (0) (teste)</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="22.96908"
+         y="260.61072"
+         id="text10848-1-8-0-7-8-3-2"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan10846-0-5-6-1-3-5-9"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="22.96908"
+           y="260.61072">Presença (1) (teste)</tspan></text>
+      <ellipse
+         style="fill:none;fill-opacity:1;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+         id="path2330-1-3"
+         cx="34.311825"
+         cy="195.64278"
+         rx="23.326271"
+         ry="31.474854"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <rect
+         x="9.9180002"
+         y="163.34258"
+         width="63.775017"
+         height="63.775017"
+         style="fill:none;stroke:#000000;stroke-width:0.224984"
+         inkscape:label="Border"
+         id="rect3337-9-0-9-7-3"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+    </g>
+    <g
+       id="g15122"
+       transform="translate(-143.06653,-36.65764)">
+      <rect
+         style="opacity:0.957804;fill:#550000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+         id="rect29183-06"
+         width="12.755003"
+         height="12.755009"
+         x="143.6053"
+         y="163.56363"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <rect
+         style="opacity:0.957804;fill:#ff8080;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+         id="rect29183-0-6"
+         width="12.755003"
+         height="12.755009"
+         x="169.11531"
+         y="189.07362"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <rect
+         style="opacity:0.957804;fill:#ffd5d5;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+         id="rect29183-5-49"
+         width="12.755003"
+         height="12.755009"
+         x="181.8703"
+         y="163.56363"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <rect
+         style="opacity:0.957804;fill:#800000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+         id="rect29183-69-8"
+         width="12.755003"
+         height="12.755009"
+         x="194.62531"
+         y="201.82864"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <path
+         sodipodi:type="star"
+         style="opacity:0.957804;fill:#ff8e00;fill-opacity:1;stroke:none;stroke-width:3.19769;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+         id="path12242-6-1-1"
+         inkscape:flatsided="false"
+         sodipodi:sides="2"
+         sodipodi:cx="-170.81335"
+         sodipodi:cy="240.24219"
+         sodipodi:r1="44.083618"
+         sodipodi:r2="18.788546"
+         sodipodi:arg1="0.052536835"
+         sodipodi:arg2="1.6233332"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         transform="matrix(0.01245869,0.10196515,-0.23918768,0.00484204,209.8518,262.7205)"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"
+         d="m -126.79056,242.55714 -45.00943,16.44767 -43.03616,-21.07757 45.00943,-16.44767 z" />
+      <path
+         sodipodi:type="star"
+         style="opacity:0.957804;fill:#ff8e00;fill-opacity:1;stroke:none;stroke-width:3.19769;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+         id="path12242-6-9-2-7"
+         inkscape:flatsided="false"
+         sodipodi:sides="2"
+         sodipodi:cx="-170.81335"
+         sodipodi:cy="240.24219"
+         sodipodi:r1="44.083618"
+         sodipodi:r2="18.788546"
+         sodipodi:arg1="0.052536835"
+         sodipodi:arg2="1.6233332"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         transform="matrix(0.01245869,0.10196515,-0.23918768,0.00484204,247.30054,186.22058)"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"
+         d="m -126.79056,242.55714 -45.00943,16.44767 -43.03616,-21.07757 45.00943,-16.44767 z" />
+      <path
+         sodipodi:type="star"
+         style="opacity:0.957804;fill:#ff8e00;fill-opacity:1;stroke:none;stroke-width:3.19769;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+         id="path12242-6-9-2-3-2"
+         inkscape:flatsided="false"
+         sodipodi:sides="2"
+         sodipodi:cx="-170.81335"
+         sodipodi:cy="240.24219"
+         sodipodi:r1="44.083618"
+         sodipodi:r2="18.788546"
+         sodipodi:arg1="0.052536835"
+         sodipodi:arg2="1.6233332"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         transform="matrix(0.01245869,0.10196515,-0.23918768,0.00484204,260.52294,224.77395)"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"
+         d="m -126.79056,242.55714 -45.00943,16.44767 -43.03616,-21.07757 45.00943,-16.44767 z" />
+      <path
+         sodipodi:type="star"
+         style="opacity:0.957804;fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:3.19769;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+         id="path12242-7-7"
+         inkscape:flatsided="false"
+         sodipodi:sides="2"
+         sodipodi:cx="-170.81335"
+         sodipodi:cy="240.24219"
+         sodipodi:r1="44.083618"
+         sodipodi:r2="18.788546"
+         sodipodi:arg1="0.052536835"
+         sodipodi:arg2="1.6233332"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         transform="matrix(0.01245869,0.10196515,-0.23918768,0.00484204,209.72007,250.31474)"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"
+         d="m -126.79056,242.55714 -45.00943,16.44767 -43.03616,-21.07757 45.00943,-16.44767 z" />
+      <path
+         sodipodi:type="star"
+         style="opacity:0.957804;fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:3.19769;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+         id="path12242-2-0-2"
+         inkscape:flatsided="false"
+         sodipodi:sides="2"
+         sodipodi:cx="-170.81335"
+         sodipodi:cy="240.24219"
+         sodipodi:r1="44.083618"
+         sodipodi:r2="18.788546"
+         sodipodi:arg1="0.052536835"
+         sodipodi:arg2="1.6233332"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         transform="matrix(0.01245869,0.10196515,-0.23918768,0.00484204,235.10251,211.73605)"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"
+         d="m -126.79056,242.55714 -45.00943,16.44767 -43.03616,-21.07757 45.00943,-16.44767 z" />
+      <path
+         sodipodi:type="star"
+         style="opacity:0.957804;fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:3.19769;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+         id="path12242-2-0-0-2"
+         inkscape:flatsided="false"
+         sodipodi:sides="2"
+         sodipodi:cx="-170.81335"
+         sodipodi:cy="240.24219"
+         sodipodi:r1="44.083618"
+         sodipodi:r2="18.788546"
+         sodipodi:arg1="0.052536835"
+         sodipodi:arg2="1.6233332"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         transform="matrix(0.01245869,0.10196515,-0.23918768,0.00484204,209.61428,186.28151)"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"
+         d="m -126.79056,242.55714 -45.00943,16.44767 -43.03616,-21.07757 45.00943,-16.44767 z" />
+      <g
+         inkscape:label="MajorXGridlines"
+         id="g3325-5-6-2-4-6-1"
+         transform="matrix(0.85033355,0,0,0.85033355,143.6053,163.56365)"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 15,0 V 75"
+           inkscape:label="MajorXDiv1"
+           id="path3317-3-0-0-7-2-5" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 30,0 V 75"
+           inkscape:label="MajorXDiv2"
+           id="path3319-5-6-2-6-6-9" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 45,0 V 75"
+           inkscape:label="MajorXDiv3"
+           id="path3321-6-2-3-3-1-4" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 60,0 V 75"
+           inkscape:label="MajorXDiv4"
+           id="path3323-2-6-7-1-8-9" />
+      </g>
+      <g
+         inkscape:label="MajorYGridlines"
+         id="g3335-9-1-5-7-7-0"
+         transform="matrix(0.85033355,0,0,0.85033355,143.6053,163.56365)"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 0,15 H 75"
+           inkscape:label="MajorYDiv1"
+           id="path3327-1-8-9-5-9-9" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 0,30 H 75"
+           inkscape:label="MajorYDiv2"
+           id="path3329-2-7-2-9-2-1" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 0,45 H 75"
+           inkscape:label="MajorYDiv3"
+           id="path3331-7-9-2-62-0-7" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 0,60 H 75"
+           inkscape:label="MajorYDiv4"
+           id="path3333-0-2-8-1-2-7" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="211.07031"
+         y="172.42865"
+         id="text10848-1-8-0-7-8-7-49-3"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan10846-0-5-6-1-3-3-2-9"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="211.07031"
+           y="172.42865">Adequabilidade</tspan></text>
+      <rect
+         style="opacity:0.957804;fill:#550000;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect29183-5-4-8"
+         width="7.500001"
+         height="7.5000048"
+         x="211.65875"
+         y="176.79846"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <rect
+         style="opacity:0.958;fill:#800000;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect29183-5-5-1"
+         width="7.500001"
+         height="7.5000043"
+         x="211.65875"
+         y="184.29846"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <rect
+         style="opacity:0.957804;fill:#ff2a2a;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect29183-5-2-2"
+         width="7.500001"
+         height="7.5000043"
+         x="211.65875"
+         y="191.79846"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <rect
+         style="opacity:0.957804;fill:#ff8080;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect29183-5-54-9"
+         width="7.500001"
+         height="7.5000043"
+         x="211.65875"
+         y="199.29846"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <rect
+         style="opacity:0.957804;fill:#ffd5d5;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect29183-5-7-3"
+         width="7.500001"
+         height="7.5000043"
+         x="211.65875"
+         y="206.79846"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="220.17221"
+         y="182.82698"
+         id="text10848-1-8-0-7-8-7-4-9"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan10846-0-5-6-1-3-3-4-0"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="220.17221"
+           y="182.82698">0.8-1.0</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="220.17221"
+         y="190.5946"
+         id="text10848-1-8-0-7-8-7-3-8"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan10846-0-5-6-1-3-3-0-8"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="220.17221"
+           y="190.5946">0.6-0.8</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="220.17221"
+         y="198.36224"
+         id="text10848-1-8-0-7-8-7-7-5"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan10846-0-5-6-1-3-3-8-0"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="220.17221"
+           y="198.36224">0.4-0.6</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="220.17221"
+         y="206.12987"
+         id="text10848-1-8-0-7-8-7-6-9"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan10846-0-5-6-1-3-3-88-6"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="220.17221"
+           y="206.12987">0.2-0.4</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="220.17221"
+         y="213.89749"
+         id="text10848-1-8-0-7-8-7-43-3"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan10846-0-5-6-1-3-3-1-8"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="220.17221"
+           y="213.89749">0.0-0.2</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="156.83719"
+         y="249.07384"
+         id="text10848-1-8-4-3-7-6-5"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan10846-0-5-8-8-5-1-6"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="156.83719"
+           y="249.07384">Pseudo-ausência (0) (teste)</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="156.65639"
+         y="236.49014"
+         id="text10848-1-8-0-7-8-3-2-1"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan10846-0-5-6-1-3-5-9-1"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="156.65639"
+           y="236.49014">Presença (1) (teste)</tspan></text>
+      <ellipse
+         style="fill:none;fill-opacity:1;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+         id="path2330-1-3-5"
+         cx="167.99911"
+         cy="195.86383"
+         rx="23.326271"
+         ry="31.474854"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <rect
+         x="143.6053"
+         y="163.56363"
+         width="63.775017"
+         height="63.775017"
+         style="fill:none;stroke:#000000;stroke-width:0.224984"
+         inkscape:label="Border"
+         id="rect3337-9-0-9-7-3-9"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+    </g>
+    <rect
+       style="opacity:0.957804;fill:#000080;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+       id="rect29183-06-8"
+       width="12.755003"
+       height="12.755009"
+       x="134.71254"
+       y="125.35477"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="opacity:0.957804;fill:#000080;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+       id="rect29183-0-6-4"
+       width="12.755003"
+       height="12.755009"
+       x="160.22255"
+       y="150.86476"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="opacity:0.957804;fill:#000080;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+       id="rect29183-5-49-8"
+       width="12.755003"
+       height="12.755009"
+       x="172.97754"
+       y="125.35477"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="opacity:0.957804;fill:#000080;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+       id="rect29183-69-8-1"
+       width="12.755003"
+       height="12.755009"
+       x="185.73256"
+       y="163.6198"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       sodipodi:type="star"
+       style="opacity:0.957804;fill:#ff8e00;fill-opacity:1;stroke:none;stroke-width:3.19769;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+       id="path12242-6-1-1-0"
+       inkscape:flatsided="false"
+       sodipodi:sides="2"
+       sodipodi:cx="-170.81335"
+       sodipodi:cy="240.24219"
+       sodipodi:r1="44.083618"
+       sodipodi:r2="18.788546"
+       sodipodi:arg1="0.052536835"
+       sodipodi:arg2="1.6233332"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       transform="matrix(0.01245869,0.10196515,-0.23918768,0.00484204,200.95905,224.51163)"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       d="m -126.79056,242.55714 -45.00943,16.44767 -43.03616,-21.07757 45.00943,-16.44767 z" />
+    <path
+       sodipodi:type="star"
+       style="opacity:0.957804;fill:#ff8e00;fill-opacity:1;stroke:none;stroke-width:3.19769;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+       id="path12242-6-9-2-7-3"
+       inkscape:flatsided="false"
+       sodipodi:sides="2"
+       sodipodi:cx="-170.81335"
+       sodipodi:cy="240.24219"
+       sodipodi:r1="44.083618"
+       sodipodi:r2="18.788546"
+       sodipodi:arg1="0.052536835"
+       sodipodi:arg2="1.6233332"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       transform="matrix(0.01245869,0.10196515,-0.23918768,0.00484204,238.93695,148.01171)"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       d="m -126.79056,242.55714 -45.00943,16.44767 -43.03616,-21.07757 45.00943,-16.44767 z" />
+    <path
+       sodipodi:type="star"
+       style="opacity:0.957804;fill:#ff8e00;fill-opacity:1;stroke:none;stroke-width:3.19769;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+       id="path12242-6-9-2-3-2-0"
+       inkscape:flatsided="false"
+       sodipodi:sides="2"
+       sodipodi:cx="-170.81335"
+       sodipodi:cy="240.24219"
+       sodipodi:r1="44.083618"
+       sodipodi:r2="18.788546"
+       sodipodi:arg1="0.052536835"
+       sodipodi:arg2="1.6233332"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       transform="matrix(0.01245869,0.10196515,-0.23918768,0.00484204,251.63018,186.56508)"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       d="m -126.79056,242.55714 -45.00943,16.44767 -43.03616,-21.07757 45.00943,-16.44767 z" />
+    <path
+       sodipodi:type="star"
+       style="opacity:0.957804;fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:3.19769;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+       id="path12242-7-7-4"
+       inkscape:flatsided="false"
+       sodipodi:sides="2"
+       sodipodi:cx="-170.81335"
+       sodipodi:cy="240.24219"
+       sodipodi:r1="44.083618"
+       sodipodi:r2="18.788546"
+       sodipodi:arg1="0.052536835"
+       sodipodi:arg2="1.6233332"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       transform="matrix(0.01245869,0.10196515,-0.23918768,0.00484204,200.82731,212.10587)"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       d="m -126.79056,242.55714 -45.00943,16.44767 -43.03616,-21.07757 45.00943,-16.44767 z" />
+    <path
+       sodipodi:type="star"
+       style="opacity:0.957804;fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:3.19769;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+       id="path12242-2-0-2-4"
+       inkscape:flatsided="false"
+       sodipodi:sides="2"
+       sodipodi:cx="-170.81335"
+       sodipodi:cy="240.24219"
+       sodipodi:r1="44.083618"
+       sodipodi:r2="18.788546"
+       sodipodi:arg1="0.052536835"
+       sodipodi:arg2="1.6233332"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       transform="matrix(0.01245869,0.10196515,-0.23918768,0.00484204,226.20975,173.52718)"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       d="m -126.79056,242.55714 -45.00943,16.44767 -43.03616,-21.07757 45.00943,-16.44767 z" />
+    <path
+       sodipodi:type="star"
+       style="opacity:0.957804;fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:3.19769;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+       id="path12242-2-0-0-2-4"
+       inkscape:flatsided="false"
+       sodipodi:sides="2"
+       sodipodi:cx="-170.81335"
+       sodipodi:cy="240.24219"
+       sodipodi:r1="44.083618"
+       sodipodi:r2="18.788546"
+       sodipodi:arg1="0.052536835"
+       sodipodi:arg2="1.6233332"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       transform="matrix(0.01245869,0.10196515,-0.23918768,0.00484204,200.72152,148.07264)"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       d="m -126.79056,242.55714 -45.00943,16.44767 -43.03616,-21.07757 45.00943,-16.44767 z" />
+    <g
+       inkscape:label="MajorXGridlines"
+       id="g3325-5-6-2-4-6-1-4"
+       transform="matrix(0.85033355,0,0,0.85033355,134.71254,125.35478)"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583"
+         d="M 15,0 V 75"
+         inkscape:label="MajorXDiv1"
+         id="path3317-3-0-0-7-2-5-7" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583"
+         d="M 30,0 V 75"
+         inkscape:label="MajorXDiv2"
+         id="path3319-5-6-2-6-6-9-6" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583"
+         d="M 45,0 V 75"
+         inkscape:label="MajorXDiv3"
+         id="path3321-6-2-3-3-1-4-3" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583"
+         d="M 60,0 V 75"
+         inkscape:label="MajorXDiv4"
+         id="path3323-2-6-7-1-8-9-1" />
+    </g>
+    <g
+       inkscape:label="MajorYGridlines"
+       id="g3335-9-1-5-7-7-0-7"
+       transform="matrix(0.85033355,0,0,0.85033355,134.71254,125.35478)"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583"
+         d="M 0,15 H 75"
+         inkscape:label="MajorYDiv1"
+         id="path3327-1-8-9-5-9-9-5" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583"
+         d="M 0,30 H 75"
+         inkscape:label="MajorYDiv2"
+         id="path3329-2-7-2-9-2-1-9" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583"
+         d="M 0,45 H 75"
+         inkscape:label="MajorYDiv3"
+         id="path3331-7-9-2-62-0-7-6" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583"
+         d="M 0,60 H 75"
+         inkscape:label="MajorYDiv4"
+         id="path3333-0-2-8-1-2-7-2" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:0.75;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="202.17757"
+       y="134.2198"
+       id="text10848-1-8-0-7-8-7-49-3-1"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan10846-0-5-6-1-3-3-2-9-7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="202.17757"
+         y="134.2198">Adequabilidade </tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="202.17757"
+         y="142.15727"
+         id="tspan1024">(thr = 0.0)</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="202.17757"
+         y="150.09476"
+         id="tspan1022" /></text>
+    <g
+       id="g2120"
+       transform="translate(-12.177916,-131.71844)"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <rect
+         style="opacity:0.957804;fill:#000080;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect29183-5-4-8-5"
+         width="7.500001"
+         height="7.5000048"
+         x="214.94392"
+         y="278.77472"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <rect
+         style="opacity:0.957804;fill:#666666;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect29183-5-7-3-8"
+         width="7.500001"
+         height="7.5000043"
+         x="214.94392"
+         y="286.27472"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="223.45738"
+         y="284.80322"
+         id="text10848-1-8-0-7-8-7-4-9-5"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan10846-0-5-6-1-3-3-4-0-9"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="223.45738"
+           y="284.80322">1</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="223.45738"
+         y="292.3154"
+         id="text10848-1-8-0-7-8-7-43-3-1"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan10846-0-5-6-1-3-3-1-8-8"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="223.45738"
+           y="292.3154">0</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="147.94443"
+       y="210.86497"
+       id="text10848-1-8-4-3-7-6-5-9"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan10846-0-5-8-8-5-1-6-6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="147.94443"
+         y="210.86497">Pseudo-ausência (0) (teste)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="147.76363"
+       y="198.2813"
+       id="text10848-1-8-0-7-8-3-2-1-4"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan10846-0-5-6-1-3-5-9-1-3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="147.76363"
+         y="198.2813">Presença (1) (teste)</tspan></text>
+    <ellipse
+       style="fill:none;fill-opacity:1;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+       id="path2330-1-3-5-3"
+       cx="159.10635"
+       cy="157.65498"
+       rx="23.326271"
+       ry="31.474854"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       x="134.71254"
+       y="125.35477"
+       width="63.775017"
+       height="63.775017"
+       style="fill:none;stroke:#000000;stroke-width:0.224984"
+       inkscape:label="Border"
+       id="rect3337-9-0-9-7-3-9-3"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="opacity:0.957804;fill:#000080;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+       id="rect29183-06-8-6"
+       width="12.755003"
+       height="12.755009"
+       x="2.3812971"
+       y="228.78976"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="opacity:0.957804;fill:#000080;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+       id="rect29183-0-6-4-7"
+       width="12.755003"
+       height="12.755009"
+       x="27.891308"
+       y="254.29974"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="opacity:0.957804;fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+       id="rect29183-5-49-8-5"
+       width="12.755003"
+       height="12.755009"
+       x="40.646297"
+       y="228.78976"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="opacity:0.957804;fill:#000080;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+       id="rect29183-69-8-1-3"
+       width="12.755003"
+       height="12.755009"
+       x="53.401318"
+       y="267.05478"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       sodipodi:type="star"
+       style="opacity:0.957804;fill:#ff8e00;fill-opacity:1;stroke:none;stroke-width:3.19769;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+       id="path12242-6-1-1-0-5"
+       inkscape:flatsided="false"
+       sodipodi:sides="2"
+       sodipodi:cx="-170.81335"
+       sodipodi:cy="240.24219"
+       sodipodi:r1="44.083618"
+       sodipodi:r2="18.788546"
+       sodipodi:arg1="0.052536835"
+       sodipodi:arg2="1.6233332"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       transform="matrix(0.01245869,0.10196515,-0.23918768,0.00484204,68.62781,327.94661)"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       d="m -126.79056,242.55714 -45.00943,16.44767 -43.03616,-21.07757 45.00943,-16.44767 z" />
+    <path
+       sodipodi:type="star"
+       style="opacity:0.957804;fill:#ff8e00;fill-opacity:1;stroke:none;stroke-width:3.19769;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+       id="path12242-6-9-2-7-3-6"
+       inkscape:flatsided="false"
+       sodipodi:sides="2"
+       sodipodi:cx="-170.81335"
+       sodipodi:cy="240.24219"
+       sodipodi:r1="44.083618"
+       sodipodi:r2="18.788546"
+       sodipodi:arg1="0.052536835"
+       sodipodi:arg2="1.6233332"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       transform="matrix(0.01245869,0.10196515,-0.23918768,0.00484204,106.60571,251.44669)"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       d="m -126.79056,242.55714 -45.00943,16.44767 -43.03616,-21.07757 45.00943,-16.44767 z" />
+    <path
+       sodipodi:type="star"
+       style="opacity:0.957804;fill:#ff8e00;fill-opacity:1;stroke:none;stroke-width:3.19769;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+       id="path12242-6-9-2-3-2-0-2"
+       inkscape:flatsided="false"
+       sodipodi:sides="2"
+       sodipodi:cx="-170.81335"
+       sodipodi:cy="240.24219"
+       sodipodi:r1="44.083618"
+       sodipodi:r2="18.788546"
+       sodipodi:arg1="0.052536835"
+       sodipodi:arg2="1.6233332"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       transform="matrix(0.01245869,0.10196515,-0.23918768,0.00484204,119.29894,290.00006)"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       d="m -126.79056,242.55714 -45.00943,16.44767 -43.03616,-21.07757 45.00943,-16.44767 z" />
+    <path
+       sodipodi:type="star"
+       style="opacity:0.957804;fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:3.19769;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+       id="path12242-7-7-4-9"
+       inkscape:flatsided="false"
+       sodipodi:sides="2"
+       sodipodi:cx="-170.81335"
+       sodipodi:cy="240.24219"
+       sodipodi:r1="44.083618"
+       sodipodi:r2="18.788546"
+       sodipodi:arg1="0.052536835"
+       sodipodi:arg2="1.6233332"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       transform="matrix(0.01245869,0.10196515,-0.23918768,0.00484204,68.49607,315.54085)"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       d="m -126.79056,242.55714 -45.00943,16.44767 -43.03616,-21.07757 45.00943,-16.44767 z" />
+    <path
+       sodipodi:type="star"
+       style="opacity:0.957804;fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:3.19769;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+       id="path12242-2-0-2-4-1"
+       inkscape:flatsided="false"
+       sodipodi:sides="2"
+       sodipodi:cx="-170.81335"
+       sodipodi:cy="240.24219"
+       sodipodi:r1="44.083618"
+       sodipodi:r2="18.788546"
+       sodipodi:arg1="0.052536835"
+       sodipodi:arg2="1.6233332"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       transform="matrix(0.01245869,0.10196515,-0.23918768,0.00484204,93.87851,276.96216)"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       d="m -126.79056,242.55714 -45.00943,16.44767 -43.03616,-21.07757 45.00943,-16.44767 z" />
+    <path
+       sodipodi:type="star"
+       style="opacity:0.957804;fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:3.19769;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+       id="path12242-2-0-0-2-4-2"
+       inkscape:flatsided="false"
+       sodipodi:sides="2"
+       sodipodi:cx="-170.81335"
+       sodipodi:cy="240.24219"
+       sodipodi:r1="44.083618"
+       sodipodi:r2="18.788546"
+       sodipodi:arg1="0.052536835"
+       sodipodi:arg2="1.6233332"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       transform="matrix(0.01245869,0.10196515,-0.23918768,0.00484204,68.39028,251.50762)"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       d="m -126.79056,242.55714 -45.00943,16.44767 -43.03616,-21.07757 45.00943,-16.44767 z" />
+    <g
+       inkscape:label="MajorXGridlines"
+       id="g3325-5-6-2-4-6-1-4-7"
+       transform="matrix(0.85033355,0,0,0.85033355,2.3813,228.78976)"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583"
+         d="M 15,0 V 75"
+         inkscape:label="MajorXDiv1"
+         id="path3317-3-0-0-7-2-5-7-0" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583"
+         d="M 30,0 V 75"
+         inkscape:label="MajorXDiv2"
+         id="path3319-5-6-2-6-6-9-6-9" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583"
+         d="M 45,0 V 75"
+         inkscape:label="MajorXDiv3"
+         id="path3321-6-2-3-3-1-4-3-3" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583"
+         d="M 60,0 V 75"
+         inkscape:label="MajorXDiv4"
+         id="path3323-2-6-7-1-8-9-1-6" />
+    </g>
+    <g
+       inkscape:label="MajorYGridlines"
+       id="g3335-9-1-5-7-7-0-7-0"
+       transform="matrix(0.85033355,0,0,0.85033355,2.3813,228.78976)"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583"
+         d="M 0,15 H 75"
+         inkscape:label="MajorYDiv1"
+         id="path3327-1-8-9-5-9-9-5-6" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583"
+         d="M 0,30 H 75"
+         inkscape:label="MajorYDiv2"
+         id="path3329-2-7-2-9-2-1-9-2" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583"
+         d="M 0,45 H 75"
+         inkscape:label="MajorYDiv3"
+         id="path3331-7-9-2-62-0-7-6-6" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583"
+         d="M 0,60 H 75"
+         inkscape:label="MajorYDiv4"
+         id="path3333-0-2-8-1-2-7-2-1" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:0.75;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="69.846321"
+       y="237.65479"
+       id="text10848-1-8-0-7-8-7-49-3-1-8"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan10846-0-5-6-1-3-3-2-9-7-7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="69.846321"
+         y="237.65479">Adequabilidade </tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="69.846321"
+         y="245.59225"
+         id="tspan1024-9">(thr &gt; 0.2)</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="69.846321"
+         y="253.52974"
+         id="tspan1022-2" /></text>
+    <g
+       id="g2120-0"
+       transform="translate(-144.50916,-28.283462)"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <rect
+         style="opacity:0.957804;fill:#000080;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect29183-5-4-8-5-2"
+         width="7.500001"
+         height="7.5000048"
+         x="214.94392"
+         y="278.77472"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <rect
+         style="opacity:0.957804;fill:#666666;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect29183-5-7-3-8-3"
+         width="7.500001"
+         height="7.5000043"
+         x="214.94392"
+         y="286.27472"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="223.45738"
+         y="284.80322"
+         id="text10848-1-8-0-7-8-7-4-9-5-7"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan10846-0-5-6-1-3-3-4-0-9-5"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="223.45738"
+           y="284.80322">1</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="223.45738"
+         y="292.3154"
+         id="text10848-1-8-0-7-8-7-43-3-1-9"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan10846-0-5-6-1-3-3-1-8-8-2"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="223.45738"
+           y="292.3154">0</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="15.613185"
+       y="314.29996"
+       id="text10848-1-8-4-3-7-6-5-9-2"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan10846-0-5-8-8-5-1-6-6-8"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="15.613185"
+         y="314.29996">Pseudo-ausência (0) (teste)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="15.432384"
+       y="301.71628"
+       id="text10848-1-8-0-7-8-3-2-1-4-9"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan10846-0-5-6-1-3-5-9-1-3-7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="15.432384"
+         y="301.71628">Presença (1) (teste)</tspan></text>
+    <ellipse
+       style="fill:none;fill-opacity:1;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+       id="path2330-1-3-5-3-3"
+       cx="26.775112"
+       cy="261.08997"
+       rx="23.326271"
+       ry="31.474854"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       x="2.3812971"
+       y="228.78976"
+       width="63.775017"
+       height="63.775017"
+       style="fill:none;stroke:#000000;stroke-width:0.224984"
+       inkscape:label="Border"
+       id="rect3337-9-0-9-7-3-9-3-6"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <g
+       id="g15161-1"
+       transform="translate(-13.645484,-37.735529)">
+      <rect
+         style="opacity:0.957804;fill:#000080;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+         id="rect29183-06-8-2"
+         width="12.755003"
+         height="12.755009"
+         x="146.89046"
+         y="265.53989"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <rect
+         style="opacity:0.957804;fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+         id="rect29183-0-6-4-9"
+         width="12.755003"
+         height="12.755009"
+         x="172.40047"
+         y="291.04987"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <rect
+         style="opacity:0.957804;fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+         id="rect29183-5-49-8-3"
+         width="12.755003"
+         height="12.755009"
+         x="185.15546"
+         y="265.53989"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <rect
+         style="opacity:0.957804;fill:#000080;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+         id="rect29183-69-8-1-1"
+         width="12.755003"
+         height="12.755009"
+         x="197.91048"
+         y="303.8049"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <path
+         sodipodi:type="star"
+         style="opacity:0.957804;fill:#ff8e00;fill-opacity:1;stroke:none;stroke-width:3.19769;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+         id="path12242-6-1-1-0-9"
+         inkscape:flatsided="false"
+         sodipodi:sides="2"
+         sodipodi:cx="-170.81335"
+         sodipodi:cy="240.24219"
+         sodipodi:r1="44.083618"
+         sodipodi:r2="18.788546"
+         sodipodi:arg1="0.052536835"
+         sodipodi:arg2="1.6233332"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         transform="matrix(0.01245869,0.10196515,-0.23918768,0.00484204,213.13697,364.69674)"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"
+         d="m -126.79056,242.55714 -45.00943,16.44767 -43.03616,-21.07757 45.00943,-16.44767 z" />
+      <path
+         sodipodi:type="star"
+         style="opacity:0.957804;fill:#ff8e00;fill-opacity:1;stroke:none;stroke-width:3.19769;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+         id="path12242-6-9-2-7-3-4"
+         inkscape:flatsided="false"
+         sodipodi:sides="2"
+         sodipodi:cx="-170.81335"
+         sodipodi:cy="240.24219"
+         sodipodi:r1="44.083618"
+         sodipodi:r2="18.788546"
+         sodipodi:arg1="0.052536835"
+         sodipodi:arg2="1.6233332"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         transform="matrix(0.01245869,0.10196515,-0.23918768,0.00484204,251.11487,288.19682)"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"
+         d="m -126.79056,242.55714 -45.00943,16.44767 -43.03616,-21.07757 45.00943,-16.44767 z" />
+      <path
+         sodipodi:type="star"
+         style="opacity:0.957804;fill:#ff8e00;fill-opacity:1;stroke:none;stroke-width:3.19769;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+         id="path12242-6-9-2-3-2-0-7"
+         inkscape:flatsided="false"
+         sodipodi:sides="2"
+         sodipodi:cx="-170.81335"
+         sodipodi:cy="240.24219"
+         sodipodi:r1="44.083618"
+         sodipodi:r2="18.788546"
+         sodipodi:arg1="0.052536835"
+         sodipodi:arg2="1.6233332"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         transform="matrix(0.01245869,0.10196515,-0.23918768,0.00484204,263.8081,326.75019)"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"
+         d="m -126.79056,242.55714 -45.00943,16.44767 -43.03616,-21.07757 45.00943,-16.44767 z" />
+      <path
+         sodipodi:type="star"
+         style="opacity:0.957804;fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:3.19769;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+         id="path12242-7-7-4-8"
+         inkscape:flatsided="false"
+         sodipodi:sides="2"
+         sodipodi:cx="-170.81335"
+         sodipodi:cy="240.24219"
+         sodipodi:r1="44.083618"
+         sodipodi:r2="18.788546"
+         sodipodi:arg1="0.052536835"
+         sodipodi:arg2="1.6233332"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         transform="matrix(0.01245869,0.10196515,-0.23918768,0.00484204,213.00523,352.29098)"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"
+         d="m -126.79056,242.55714 -45.00943,16.44767 -43.03616,-21.07757 45.00943,-16.44767 z" />
+      <path
+         sodipodi:type="star"
+         style="opacity:0.957804;fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:3.19769;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+         id="path12242-2-0-2-4-4"
+         inkscape:flatsided="false"
+         sodipodi:sides="2"
+         sodipodi:cx="-170.81335"
+         sodipodi:cy="240.24219"
+         sodipodi:r1="44.083618"
+         sodipodi:r2="18.788546"
+         sodipodi:arg1="0.052536835"
+         sodipodi:arg2="1.6233332"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         transform="matrix(0.01245869,0.10196515,-0.23918768,0.00484204,238.38767,313.71229)"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"
+         d="m -126.79056,242.55714 -45.00943,16.44767 -43.03616,-21.07757 45.00943,-16.44767 z" />
+      <path
+         sodipodi:type="star"
+         style="opacity:0.957804;fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:3.19769;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+         id="path12242-2-0-0-2-4-5"
+         inkscape:flatsided="false"
+         sodipodi:sides="2"
+         sodipodi:cx="-170.81335"
+         sodipodi:cy="240.24219"
+         sodipodi:r1="44.083618"
+         sodipodi:r2="18.788546"
+         sodipodi:arg1="0.052536835"
+         sodipodi:arg2="1.6233332"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         transform="matrix(0.01245869,0.10196515,-0.23918768,0.00484204,212.89944,288.25775)"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"
+         d="m -126.79056,242.55714 -45.00943,16.44767 -43.03616,-21.07757 45.00943,-16.44767 z" />
+      <g
+         inkscape:label="MajorXGridlines"
+         id="g3325-5-6-2-4-6-1-4-0"
+         transform="matrix(0.85033355,0,0,0.85033355,146.89046,265.53989)"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 15,0 V 75"
+           inkscape:label="MajorXDiv1"
+           id="path3317-3-0-0-7-2-5-7-3" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 30,0 V 75"
+           inkscape:label="MajorXDiv2"
+           id="path3319-5-6-2-6-6-9-6-6" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 45,0 V 75"
+           inkscape:label="MajorXDiv3"
+           id="path3321-6-2-3-3-1-4-3-1" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 60,0 V 75"
+           inkscape:label="MajorXDiv4"
+           id="path3323-2-6-7-1-8-9-1-0" />
+      </g>
+      <g
+         inkscape:label="MajorYGridlines"
+         id="g3335-9-1-5-7-7-0-7-6"
+         transform="matrix(0.85033355,0,0,0.85033355,146.89046,265.53989)"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 0,15 H 75"
+           inkscape:label="MajorYDiv1"
+           id="path3327-1-8-9-5-9-9-5-3" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 0,30 H 75"
+           inkscape:label="MajorYDiv2"
+           id="path3329-2-7-2-9-2-1-9-20" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 0,45 H 75"
+           inkscape:label="MajorYDiv3"
+           id="path3331-7-9-2-62-0-7-6-61" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 0,60 H 75"
+           inkscape:label="MajorYDiv4"
+           id="path3333-0-2-8-1-2-7-2-5" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:0.75;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="214.35548"
+         y="274.40491"
+         id="text10848-1-8-0-7-8-7-49-3-1-5"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan10846-0-5-6-1-3-3-2-9-7-4"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="214.35548"
+           y="274.40491">Adequabilidade </tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="214.35548"
+           y="282.34238"
+           id="tspan1024-7">(thr &gt; 0.4)</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="214.35548"
+           y="290.27985"
+           id="tspan1022-6" /></text>
+      <g
+         id="g2120-5"
+         transform="translate(0,8.4666659)"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">
+        <rect
+           style="opacity:0.957804;fill:#000080;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-opacity:1;paint-order:markers fill stroke"
+           id="rect29183-5-4-8-5-6"
+           width="7.500001"
+           height="7.5000048"
+           x="214.94392"
+           y="278.77472"
+           inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300" />
+        <rect
+           style="opacity:0.957804;fill:#666666;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-opacity:1;paint-order:markers fill stroke"
+           id="rect29183-5-7-3-8-9"
+           width="7.500001"
+           height="7.5000043"
+           x="214.94392"
+           y="286.27472"
+           inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="223.45738"
+           y="284.80322"
+           id="text10848-1-8-0-7-8-7-4-9-5-3"
+           inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300"><tspan
+             sodipodi:role="line"
+             id="tspan10846-0-5-6-1-3-3-4-0-9-7"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+             x="223.45738"
+             y="284.80322">1</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="223.45738"
+           y="292.3154"
+           id="text10848-1-8-0-7-8-7-43-3-1-4"
+           inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300"><tspan
+             sodipodi:role="line"
+             id="tspan10846-0-5-6-1-3-3-1-8-8-5"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+             x="223.45738"
+             y="292.3154">0</tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="160.12234"
+         y="351.05008"
+         id="text10848-1-8-4-3-7-6-5-9-25"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan10846-0-5-8-8-5-1-6-6-4"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="160.12234"
+           y="351.05008">Pseudo-ausência (0) (teste)</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="159.94154"
+         y="338.4664"
+         id="text10848-1-8-0-7-8-3-2-1-4-7"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan10846-0-5-6-1-3-5-9-1-3-4"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="159.94154"
+           y="338.4664">Presença (1) (teste)</tspan></text>
+      <ellipse
+         style="fill:none;fill-opacity:1;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+         id="path2330-1-3-5-3-4"
+         cx="171.28427"
+         cy="297.84009"
+         rx="23.326271"
+         ry="31.474854"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <rect
+         x="146.89046"
+         y="265.53989"
+         width="63.775017"
+         height="63.775017"
+         style="fill:none;stroke:#000000;stroke-width:0.224984"
+         inkscape:label="Border"
+         id="rect3337-9-0-9-7-3-9-3-3"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+    </g>
+    <rect
+       style="opacity:0.957804;fill:#000080;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+       id="rect29183-06-8-7"
+       width="12.755003"
+       height="12.755009"
+       x="-5.0709729"
+       y="327.98196"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="opacity:0.957804;fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+       id="rect29183-0-6-4-8"
+       width="12.755003"
+       height="12.755009"
+       x="20.439037"
+       y="353.49194"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="opacity:0.957804;fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+       id="rect29183-5-49-8-6"
+       width="12.755003"
+       height="12.755009"
+       x="33.194027"
+       y="327.98196"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="opacity:0.957804;fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+       id="rect29183-69-8-1-8"
+       width="12.755003"
+       height="12.755009"
+       x="45.949047"
+       y="366.24698"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       sodipodi:type="star"
+       style="opacity:0.957804;fill:#ff8e00;fill-opacity:1;stroke:none;stroke-width:3.19769;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+       id="path12242-6-1-1-0-8"
+       inkscape:flatsided="false"
+       sodipodi:sides="2"
+       sodipodi:cx="-170.81335"
+       sodipodi:cy="240.24219"
+       sodipodi:r1="44.083618"
+       sodipodi:r2="18.788546"
+       sodipodi:arg1="0.052536835"
+       sodipodi:arg2="1.6233332"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       transform="matrix(0.01245869,0.10196515,-0.23918768,0.00484204,61.17554,427.1388)"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       d="m -126.79056,242.55714 -45.00943,16.44767 -43.03616,-21.07757 45.00943,-16.44767 z" />
+    <path
+       sodipodi:type="star"
+       style="opacity:0.957804;fill:#ff8e00;fill-opacity:1;stroke:none;stroke-width:3.19769;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+       id="path12242-6-9-2-7-3-43"
+       inkscape:flatsided="false"
+       sodipodi:sides="2"
+       sodipodi:cx="-170.81335"
+       sodipodi:cy="240.24219"
+       sodipodi:r1="44.083618"
+       sodipodi:r2="18.788546"
+       sodipodi:arg1="0.052536835"
+       sodipodi:arg2="1.6233332"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       transform="matrix(0.01245869,0.10196515,-0.23918768,0.00484204,99.15344,350.63888)"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       d="m -126.79056,242.55714 -45.00943,16.44767 -43.03616,-21.07757 45.00943,-16.44767 z" />
+    <path
+       sodipodi:type="star"
+       style="opacity:0.957804;fill:#ff8e00;fill-opacity:1;stroke:none;stroke-width:3.19769;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+       id="path12242-6-9-2-3-2-0-1"
+       inkscape:flatsided="false"
+       sodipodi:sides="2"
+       sodipodi:cx="-170.81335"
+       sodipodi:cy="240.24219"
+       sodipodi:r1="44.083618"
+       sodipodi:r2="18.788546"
+       sodipodi:arg1="0.052536835"
+       sodipodi:arg2="1.6233332"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       transform="matrix(0.01245869,0.10196515,-0.23918768,0.00484204,111.84667,389.19225)"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       d="m -126.79056,242.55714 -45.00943,16.44767 -43.03616,-21.07757 45.00943,-16.44767 z" />
+    <path
+       sodipodi:type="star"
+       style="opacity:0.957804;fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:3.19769;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+       id="path12242-7-7-4-4"
+       inkscape:flatsided="false"
+       sodipodi:sides="2"
+       sodipodi:cx="-170.81335"
+       sodipodi:cy="240.24219"
+       sodipodi:r1="44.083618"
+       sodipodi:r2="18.788546"
+       sodipodi:arg1="0.052536835"
+       sodipodi:arg2="1.6233332"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       transform="matrix(0.01245869,0.10196515,-0.23918768,0.00484204,61.0438,414.73304)"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       d="m -126.79056,242.55714 -45.00943,16.44767 -43.03616,-21.07757 45.00943,-16.44767 z" />
+    <path
+       sodipodi:type="star"
+       style="opacity:0.957804;fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:3.19769;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+       id="path12242-2-0-2-4-9"
+       inkscape:flatsided="false"
+       sodipodi:sides="2"
+       sodipodi:cx="-170.81335"
+       sodipodi:cy="240.24219"
+       sodipodi:r1="44.083618"
+       sodipodi:r2="18.788546"
+       sodipodi:arg1="0.052536835"
+       sodipodi:arg2="1.6233332"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       transform="matrix(0.01245869,0.10196515,-0.23918768,0.00484204,86.42624,376.15435)"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       d="m -126.79056,242.55714 -45.00943,16.44767 -43.03616,-21.07757 45.00943,-16.44767 z" />
+    <path
+       sodipodi:type="star"
+       style="opacity:0.957804;fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:3.19769;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+       id="path12242-2-0-0-2-4-20"
+       inkscape:flatsided="false"
+       sodipodi:sides="2"
+       sodipodi:cx="-170.81335"
+       sodipodi:cy="240.24219"
+       sodipodi:r1="44.083618"
+       sodipodi:r2="18.788546"
+       sodipodi:arg1="0.052536835"
+       sodipodi:arg2="1.6233332"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       transform="matrix(0.01245869,0.10196515,-0.23918768,0.00484204,60.93801,350.69981)"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       d="m -126.79056,242.55714 -45.00943,16.44767 -43.03616,-21.07757 45.00943,-16.44767 z" />
+    <g
+       inkscape:label="MajorXGridlines"
+       id="g3325-5-6-2-4-6-1-4-6"
+       transform="matrix(0.85033355,0,0,0.85033355,-5.07097,327.98195)"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583"
+         d="M 15,0 V 75"
+         inkscape:label="MajorXDiv1"
+         id="path3317-3-0-0-7-2-5-7-8" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583"
+         d="M 30,0 V 75"
+         inkscape:label="MajorXDiv2"
+         id="path3319-5-6-2-6-6-9-6-92" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583"
+         d="M 45,0 V 75"
+         inkscape:label="MajorXDiv3"
+         id="path3321-6-2-3-3-1-4-3-6" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583"
+         d="M 60,0 V 75"
+         inkscape:label="MajorXDiv4"
+         id="path3323-2-6-7-1-8-9-1-64" />
+    </g>
+    <g
+       inkscape:label="MajorYGridlines"
+       id="g3335-9-1-5-7-7-0-7-9"
+       transform="matrix(0.85033355,0,0,0.85033355,-5.07097,327.98195)"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583"
+         d="M 0,15 H 75"
+         inkscape:label="MajorYDiv1"
+         id="path3327-1-8-9-5-9-9-5-5" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583"
+         d="M 0,30 H 75"
+         inkscape:label="MajorYDiv2"
+         id="path3329-2-7-2-9-2-1-9-0" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583"
+         d="M 0,45 H 75"
+         inkscape:label="MajorYDiv3"
+         id="path3331-7-9-2-62-0-7-6-4" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583"
+         d="M 0,60 H 75"
+         inkscape:label="MajorYDiv4"
+         id="path3333-0-2-8-1-2-7-2-8" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:0.75;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="62.394054"
+       y="336.84698"
+       id="text10848-1-8-0-7-8-7-49-3-1-7"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan10846-0-5-6-1-3-3-2-9-7-1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="62.394054"
+         y="336.84698">Adequabilidade </tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="62.394054"
+         y="344.78445"
+         id="tspan1024-72">(thr &gt; 0.6)</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="62.394054"
+         y="352.72192"
+         id="tspan1022-7" /></text>
+    <g
+       id="g2120-2"
+       transform="translate(-151.96143,70.908729)"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <rect
+         style="opacity:0.957804;fill:#000080;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect29183-5-4-8-5-26"
+         width="7.500001"
+         height="7.5000048"
+         x="214.94392"
+         y="278.77472"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <rect
+         style="opacity:0.957804;fill:#666666;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect29183-5-7-3-8-1"
+         width="7.500001"
+         height="7.5000043"
+         x="214.94392"
+         y="286.27472"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="223.45738"
+         y="284.80322"
+         id="text10848-1-8-0-7-8-7-4-9-5-0"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan10846-0-5-6-1-3-3-4-0-9-6"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="223.45738"
+           y="284.80322">1</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="223.45738"
+         y="292.3154"
+         id="text10848-1-8-0-7-8-7-43-3-1-1"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan10846-0-5-6-1-3-3-1-8-8-59"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="223.45738"
+           y="292.3154">0</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="8.1609154"
+       y="413.49216"
+       id="text10848-1-8-4-3-7-6-5-9-4"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan10846-0-5-8-8-5-1-6-6-9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="8.1609154"
+         y="413.49216">Pseudo-ausência (0) (teste)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="7.9801135"
+       y="400.90848"
+       id="text10848-1-8-0-7-8-3-2-1-4-0"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan10846-0-5-6-1-3-5-9-1-3-9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="7.9801135"
+         y="400.90848">Presença (1) (teste)</tspan></text>
+    <ellipse
+       style="fill:none;fill-opacity:1;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+       id="path2330-1-3-5-3-1"
+       cx="19.322842"
+       cy="360.28217"
+       rx="23.326271"
+       ry="31.474854"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       x="-5.0709729"
+       y="327.98196"
+       width="63.775017"
+       height="63.775017"
+       style="fill:none;stroke:#000000;stroke-width:0.224984"
+       inkscape:label="Border"
+       id="rect3337-9-0-9-7-3-9-3-7"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="opacity:0.957804;fill:#000080;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+       id="rect29183-06-8-1"
+       width="12.755003"
+       height="12.755009"
+       x="131.52376"
+       y="328.52084"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="opacity:0.957804;fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+       id="rect29183-0-6-4-1"
+       width="12.755003"
+       height="12.755009"
+       x="157.03377"
+       y="354.03082"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="opacity:0.957804;fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+       id="rect29183-5-49-8-59"
+       width="12.755003"
+       height="12.755009"
+       x="169.78876"
+       y="328.52084"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="opacity:0.957804;fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+       id="rect29183-69-8-1-7"
+       width="12.755003"
+       height="12.755009"
+       x="182.54378"
+       y="366.78586"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       sodipodi:type="star"
+       style="opacity:0.957804;fill:#ff8e00;fill-opacity:1;stroke:none;stroke-width:3.19769;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+       id="path12242-6-1-1-0-7"
+       inkscape:flatsided="false"
+       sodipodi:sides="2"
+       sodipodi:cx="-170.81335"
+       sodipodi:cy="240.24219"
+       sodipodi:r1="44.083618"
+       sodipodi:r2="18.788546"
+       sodipodi:arg1="0.052536835"
+       sodipodi:arg2="1.6233332"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       transform="matrix(0.01245869,0.10196515,-0.23918768,0.00484204,197.77027,427.6777)"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       d="m -126.79056,242.55714 -45.00943,16.44767 -43.03616,-21.07757 45.00943,-16.44767 z" />
+    <path
+       sodipodi:type="star"
+       style="opacity:0.957804;fill:#ff8e00;fill-opacity:1;stroke:none;stroke-width:3.19769;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+       id="path12242-6-9-2-7-3-67"
+       inkscape:flatsided="false"
+       sodipodi:sides="2"
+       sodipodi:cx="-170.81335"
+       sodipodi:cy="240.24219"
+       sodipodi:r1="44.083618"
+       sodipodi:r2="18.788546"
+       sodipodi:arg1="0.052536835"
+       sodipodi:arg2="1.6233332"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       transform="matrix(0.01245869,0.10196515,-0.23918768,0.00484204,235.74817,351.17778)"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       d="m -126.79056,242.55714 -45.00943,16.44767 -43.03616,-21.07757 45.00943,-16.44767 z" />
+    <path
+       sodipodi:type="star"
+       style="opacity:0.957804;fill:#ff8e00;fill-opacity:1;stroke:none;stroke-width:3.19769;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+       id="path12242-6-9-2-3-2-0-3"
+       inkscape:flatsided="false"
+       sodipodi:sides="2"
+       sodipodi:cx="-170.81335"
+       sodipodi:cy="240.24219"
+       sodipodi:r1="44.083618"
+       sodipodi:r2="18.788546"
+       sodipodi:arg1="0.052536835"
+       sodipodi:arg2="1.6233332"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       transform="matrix(0.01245869,0.10196515,-0.23918768,0.00484204,248.4414,389.73115)"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       d="m -126.79056,242.55714 -45.00943,16.44767 -43.03616,-21.07757 45.00943,-16.44767 z" />
+    <path
+       sodipodi:type="star"
+       style="opacity:0.957804;fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:3.19769;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+       id="path12242-7-7-4-6"
+       inkscape:flatsided="false"
+       sodipodi:sides="2"
+       sodipodi:cx="-170.81335"
+       sodipodi:cy="240.24219"
+       sodipodi:r1="44.083618"
+       sodipodi:r2="18.788546"
+       sodipodi:arg1="0.052536835"
+       sodipodi:arg2="1.6233332"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       transform="matrix(0.01245869,0.10196515,-0.23918768,0.00484204,197.63853,415.27194)"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       d="m -126.79056,242.55714 -45.00943,16.44767 -43.03616,-21.07757 45.00943,-16.44767 z" />
+    <path
+       sodipodi:type="star"
+       style="opacity:0.957804;fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:3.19769;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+       id="path12242-2-0-2-4-5"
+       inkscape:flatsided="false"
+       sodipodi:sides="2"
+       sodipodi:cx="-170.81335"
+       sodipodi:cy="240.24219"
+       sodipodi:r1="44.083618"
+       sodipodi:r2="18.788546"
+       sodipodi:arg1="0.052536835"
+       sodipodi:arg2="1.6233332"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       transform="matrix(0.01245869,0.10196515,-0.23918768,0.00484204,223.02097,376.69325)"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       d="m -126.79056,242.55714 -45.00943,16.44767 -43.03616,-21.07757 45.00943,-16.44767 z" />
+    <path
+       sodipodi:type="star"
+       style="opacity:0.957804;fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:3.19769;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+       id="path12242-2-0-0-2-4-6"
+       inkscape:flatsided="false"
+       sodipodi:sides="2"
+       sodipodi:cx="-170.81335"
+       sodipodi:cy="240.24219"
+       sodipodi:r1="44.083618"
+       sodipodi:r2="18.788546"
+       sodipodi:arg1="0.052536835"
+       sodipodi:arg2="1.6233332"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       transform="matrix(0.01245869,0.10196515,-0.23918768,0.00484204,197.53274,351.23871)"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       d="m -126.79056,242.55714 -45.00943,16.44767 -43.03616,-21.07757 45.00943,-16.44767 z" />
+    <g
+       inkscape:label="MajorXGridlines"
+       id="g3325-5-6-2-4-6-1-4-3"
+       transform="matrix(0.85033355,0,0,0.85033355,131.52376,328.52085)"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583"
+         d="M 15,0 V 75"
+         inkscape:label="MajorXDiv1"
+         id="path3317-3-0-0-7-2-5-7-9" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583"
+         d="M 30,0 V 75"
+         inkscape:label="MajorXDiv2"
+         id="path3319-5-6-2-6-6-9-6-4" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583"
+         d="M 45,0 V 75"
+         inkscape:label="MajorXDiv3"
+         id="path3321-6-2-3-3-1-4-3-8" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583"
+         d="M 60,0 V 75"
+         inkscape:label="MajorXDiv4"
+         id="path3323-2-6-7-1-8-9-1-1" />
+    </g>
+    <g
+       inkscape:label="MajorYGridlines"
+       id="g3335-9-1-5-7-7-0-7-2"
+       transform="matrix(0.85033355,0,0,0.85033355,131.52376,328.52085)"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583"
+         d="M 0,15 H 75"
+         inkscape:label="MajorYDiv1"
+         id="path3327-1-8-9-5-9-9-5-9" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583"
+         d="M 0,30 H 75"
+         inkscape:label="MajorYDiv2"
+         id="path3329-2-7-2-9-2-1-9-3" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583"
+         d="M 0,45 H 75"
+         inkscape:label="MajorYDiv3"
+         id="path3331-7-9-2-62-0-7-6-9" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583"
+         d="M 0,60 H 75"
+         inkscape:label="MajorYDiv4"
+         id="path3333-0-2-8-1-2-7-2-0" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:0.75;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="198.98878"
+       y="337.38586"
+       id="text10848-1-8-0-7-8-7-49-3-1-88"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan10846-0-5-6-1-3-3-2-9-7-5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="198.98878"
+         y="337.38586">Adequabilidade </tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="198.98878"
+         y="345.32333"
+         id="tspan1024-0">(thr &gt; 0.8)</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="198.98878"
+         y="353.2608"
+         id="tspan1022-9" /></text>
+    <g
+       id="g2120-6"
+       transform="translate(-15.3667,71.447627)"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <rect
+         style="opacity:0.957804;fill:#000080;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect29183-5-4-8-5-3"
+         width="7.500001"
+         height="7.5000048"
+         x="214.94392"
+         y="278.77472"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <rect
+         style="opacity:0.957804;fill:#666666;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect29183-5-7-3-8-8"
+         width="7.500001"
+         height="7.5000043"
+         x="214.94392"
+         y="286.27472"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="223.45738"
+         y="284.80322"
+         id="text10848-1-8-0-7-8-7-4-9-5-5"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan10846-0-5-6-1-3-3-4-0-9-61"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="223.45738"
+           y="284.80322">1</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="223.45738"
+         y="292.3154"
+         id="text10848-1-8-0-7-8-7-43-3-1-15"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan10846-0-5-6-1-3-3-1-8-8-9"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="223.45738"
+           y="292.3154">0</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="144.75565"
+       y="414.03104"
+       id="text10848-1-8-4-3-7-6-5-9-8"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan10846-0-5-8-8-5-1-6-6-48"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="144.75565"
+         y="414.03104">Pseudo-ausência (0) (teste)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="144.57484"
+       y="401.44736"
+       id="text10848-1-8-0-7-8-3-2-1-4-1"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan10846-0-5-6-1-3-5-9-1-3-0"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="144.57484"
+         y="401.44736">Presença (1) (teste)</tspan></text>
+    <ellipse
+       style="fill:none;fill-opacity:1;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+       id="path2330-1-3-5-3-30"
+       cx="155.91757"
+       cy="360.82104"
+       rx="23.326271"
+       ry="31.474854"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       x="131.52376"
+       y="328.52084"
+       width="63.775017"
+       height="63.775017"
+       style="fill:none;stroke:#000000;stroke-width:0.224984"
+       inkscape:label="Border"
+       id="rect3337-9-0-9-7-3-9-3-4"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="opacity:0.957804;fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+       id="rect29183-06-8-1-4"
+       width="12.755003"
+       height="12.755009"
+       x="-9.6828079"
+       y="427.57309"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="opacity:0.957804;fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+       id="rect29183-0-6-4-1-4"
+       width="12.755003"
+       height="12.755009"
+       x="15.827202"
+       y="453.08307"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="opacity:0.957804;fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+       id="rect29183-5-49-8-59-4"
+       width="12.755003"
+       height="12.755009"
+       x="28.582191"
+       y="427.57309"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="opacity:0.957804;fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+       id="rect29183-69-8-1-7-7"
+       width="12.755003"
+       height="12.755009"
+       x="41.337227"
+       y="465.8381"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       sodipodi:type="star"
+       style="opacity:0.957804;fill:#ff8e00;fill-opacity:1;stroke:none;stroke-width:3.19769;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+       id="path12242-6-1-1-0-7-6"
+       inkscape:flatsided="false"
+       sodipodi:sides="2"
+       sodipodi:cx="-170.81335"
+       sodipodi:cy="240.24219"
+       sodipodi:r1="44.083618"
+       sodipodi:r2="18.788546"
+       sodipodi:arg1="0.052536835"
+       sodipodi:arg2="1.6233332"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       transform="matrix(0.01245869,0.10196515,-0.23918768,0.00484204,56.563711,526.72996)"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       d="m -126.79056,242.55714 -45.00943,16.44767 -43.03616,-21.07757 45.00943,-16.44767 z" />
+    <path
+       sodipodi:type="star"
+       style="opacity:0.957804;fill:#ff8e00;fill-opacity:1;stroke:none;stroke-width:3.19769;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+       id="path12242-6-9-2-7-3-67-3"
+       inkscape:flatsided="false"
+       sodipodi:sides="2"
+       sodipodi:cx="-170.81335"
+       sodipodi:cy="240.24219"
+       sodipodi:r1="44.083618"
+       sodipodi:r2="18.788546"
+       sodipodi:arg1="0.052536835"
+       sodipodi:arg2="1.6233332"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       transform="matrix(0.01245869,0.10196515,-0.23918768,0.00484204,94.541611,450.23004)"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       d="m -126.79056,242.55714 -45.00943,16.44767 -43.03616,-21.07757 45.00943,-16.44767 z" />
+    <path
+       sodipodi:type="star"
+       style="opacity:0.957804;fill:#ff8e00;fill-opacity:1;stroke:none;stroke-width:3.19769;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+       id="path12242-6-9-2-3-2-0-3-1"
+       inkscape:flatsided="false"
+       sodipodi:sides="2"
+       sodipodi:cx="-170.81335"
+       sodipodi:cy="240.24219"
+       sodipodi:r1="44.083618"
+       sodipodi:r2="18.788546"
+       sodipodi:arg1="0.052536835"
+       sodipodi:arg2="1.6233332"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       transform="matrix(0.01245869,0.10196515,-0.23918768,0.00484204,107.23484,488.78341)"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       d="m -126.79056,242.55714 -45.00943,16.44767 -43.03616,-21.07757 45.00943,-16.44767 z" />
+    <path
+       sodipodi:type="star"
+       style="opacity:0.957804;fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:3.19769;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+       id="path12242-7-7-4-6-7"
+       inkscape:flatsided="false"
+       sodipodi:sides="2"
+       sodipodi:cx="-170.81335"
+       sodipodi:cy="240.24219"
+       sodipodi:r1="44.083618"
+       sodipodi:r2="18.788546"
+       sodipodi:arg1="0.052536835"
+       sodipodi:arg2="1.6233332"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       transform="matrix(0.01245869,0.10196515,-0.23918768,0.00484204,56.431971,514.3242)"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       d="m -126.79056,242.55714 -45.00943,16.44767 -43.03616,-21.07757 45.00943,-16.44767 z" />
+    <path
+       sodipodi:type="star"
+       style="opacity:0.957804;fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:3.19769;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+       id="path12242-2-0-2-4-5-5"
+       inkscape:flatsided="false"
+       sodipodi:sides="2"
+       sodipodi:cx="-170.81335"
+       sodipodi:cy="240.24219"
+       sodipodi:r1="44.083618"
+       sodipodi:r2="18.788546"
+       sodipodi:arg1="0.052536835"
+       sodipodi:arg2="1.6233332"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       transform="matrix(0.01245869,0.10196515,-0.23918768,0.00484204,81.814411,475.74551)"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       d="m -126.79056,242.55714 -45.00943,16.44767 -43.03616,-21.07757 45.00943,-16.44767 z" />
+    <path
+       sodipodi:type="star"
+       style="opacity:0.957804;fill:#0072bd;fill-opacity:1;stroke:none;stroke-width:3.19769;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+       id="path12242-2-0-0-2-4-6-9"
+       inkscape:flatsided="false"
+       sodipodi:sides="2"
+       sodipodi:cx="-170.81335"
+       sodipodi:cy="240.24219"
+       sodipodi:r1="44.083618"
+       sodipodi:r2="18.788546"
+       sodipodi:arg1="0.052536835"
+       sodipodi:arg2="1.6233332"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       transform="matrix(0.01245869,0.10196515,-0.23918768,0.00484204,56.326181,450.29097)"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       d="m -126.79056,242.55714 -45.00943,16.44767 -43.03616,-21.07757 45.00943,-16.44767 z" />
+    <g
+       inkscape:label="MajorXGridlines"
+       id="g3325-5-6-2-4-6-1-4-3-6"
+       transform="matrix(0.85033355,0,0,0.85033355,-9.6827986,427.57311)"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583"
+         d="M 15,0 V 75"
+         inkscape:label="MajorXDiv1"
+         id="path3317-3-0-0-7-2-5-7-9-2" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583"
+         d="M 30,0 V 75"
+         inkscape:label="MajorXDiv2"
+         id="path3319-5-6-2-6-6-9-6-4-1" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583"
+         d="M 45,0 V 75"
+         inkscape:label="MajorXDiv3"
+         id="path3321-6-2-3-3-1-4-3-8-7" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583"
+         d="M 60,0 V 75"
+         inkscape:label="MajorXDiv4"
+         id="path3323-2-6-7-1-8-9-1-1-8" />
+    </g>
+    <g
+       inkscape:label="MajorYGridlines"
+       id="g3335-9-1-5-7-7-0-7-2-5"
+       transform="matrix(0.85033355,0,0,0.85033355,-9.6827986,427.57311)"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583"
+         d="M 0,15 H 75"
+         inkscape:label="MajorYDiv1"
+         id="path3327-1-8-9-5-9-9-5-9-7" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583"
+         d="M 0,30 H 75"
+         inkscape:label="MajorYDiv2"
+         id="path3329-2-7-2-9-2-1-9-3-4" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583"
+         d="M 0,45 H 75"
+         inkscape:label="MajorYDiv3"
+         id="path3331-7-9-2-62-0-7-6-9-1" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583"
+         d="M 0,60 H 75"
+         inkscape:label="MajorYDiv4"
+         id="path3333-0-2-8-1-2-7-2-0-8" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:0.75;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="57.782234"
+       y="436.43811"
+       id="text10848-1-8-0-7-8-7-49-3-1-88-5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan10846-0-5-6-1-3-3-2-9-7-5-9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="57.782234"
+         y="436.43811">Adequabilidade </tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="57.782234"
+         y="444.37558"
+         id="tspan1024-0-7">(thr &gt; 1.0)</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="57.782234"
+         y="452.31305"
+         id="tspan1022-9-5" /></text>
+    <g
+       id="g2120-6-3"
+       transform="translate(-156.57326,170.49988)"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <rect
+         style="opacity:0.957804;fill:#000080;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect29183-5-4-8-5-3-8"
+         width="7.500001"
+         height="7.5000048"
+         x="214.94392"
+         y="278.77472"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <rect
+         style="opacity:0.957804;fill:#666666;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect29183-5-7-3-8-8-8"
+         width="7.500001"
+         height="7.5000043"
+         x="214.94392"
+         y="286.27472"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="223.45738"
+         y="284.80322"
+         id="text10848-1-8-0-7-8-7-4-9-5-5-3"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan10846-0-5-6-1-3-3-4-0-9-61-1"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="223.45738"
+           y="284.80322">1</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="223.45738"
+         y="292.3154"
+         id="text10848-1-8-0-7-8-7-43-3-1-15-8"
+         inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan10846-0-5-6-1-3-3-1-8-8-9-9"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="223.45738"
+           y="292.3154">0</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="3.5490801"
+       y="513.08325"
+       id="text10848-1-8-4-3-7-6-5-9-8-6"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan10846-0-5-8-8-5-1-6-6-48-4"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="3.5490801"
+         y="513.08325">Pseudo-ausência (0) (teste)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="3.3682787"
+       y="500.4996"
+       id="text10848-1-8-0-7-8-3-2-1-4-1-3"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan10846-0-5-6-1-3-5-9-1-3-0-3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="3.3682787"
+         y="500.4996">Presença (1) (teste)</tspan></text>
+    <ellipse
+       style="fill:none;fill-opacity:1;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+       id="path2330-1-3-5-3-30-3"
+       cx="14.711006"
+       cy="459.87329"
+       rx="23.326271"
+       ry="31.474854"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       x="-9.6828079"
+       y="427.57309"
+       width="63.775017"
+       height="63.775017"
+       style="fill:none;stroke:#000000;stroke-width:0.224984"
+       inkscape:label="Border"
+       id="rect3337-9-0-9-7-3-9-3-4-8"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_observados_preditos_teste_limiar.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+  </g>
+</svg>
