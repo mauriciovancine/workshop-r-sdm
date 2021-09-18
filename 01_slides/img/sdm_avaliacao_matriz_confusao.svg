@@ -23,15 +23,16 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="2.1266375"
-     inkscape:cx="264.26695"
-     inkscape:cy="704.63348"
+     inkscape:zoom="1.0633188"
+     inkscape:cx="342.32443"
+     inkscape:cy="896.72072"
      inkscape:window-width="1851"
      inkscape:window-height="1016"
      inkscape:window-x="1989"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="layer1"
+     showguides="false" />
   <defs
      id="defs2" />
   <g
@@ -106,8 +107,65 @@
          y="108.48513">Predito</tspan></text>
     <text
        xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="19.504843"
+       y="64.332558"
+       id="text2043-3-7"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2041-9-17"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="19.504843"
+         y="64.332558">Matriz de </tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="19.504843"
+         y="73.152008"
+         id="tspan14350">confusão (2x2)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="18.614637"
+       y="158.8878"
+       id="text2043-3-7-2"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao_letras.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2041-9-17-7"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="18.614637"
+         y="158.8878">Matriz de </tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="18.614637"
+         y="167.70724"
+         id="tspan14350-2">confusão (2x2)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="19.022142"
+       y="266.36142"
+       id="text2043-3-7-26"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2041-9-17-1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="19.022142"
+         y="266.36142">Matriz de </tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="19.022142"
+         y="275.18088"
+         id="tspan14350-0">confusão (2x2)</tspan></text>
+    <text
+       xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="93.50988"
+       x="95.511421"
        y="75.353683"
        id="text2043-3-1"
        inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao.png"
@@ -116,12 +174,12 @@
          sodipodi:role="line"
          id="tspan2041-9-2"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
-         x="93.50988"
-         y="75.353683">Presente (1)</tspan></text>
+         x="95.511421"
+         y="75.353683">Presença (1)</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="111.68346"
+       x="112.24684"
        y="88.200287"
        id="text2043-3-1-84"
        inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao.png"
@@ -130,17 +188,17 @@
          sodipodi:role="line"
          id="tspan2041-9-2-81"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
-         x="111.68346"
-         y="88.200287">(a) Presença </tspan><tspan
+         x="112.24684"
+         y="88.200287">Presença </tspan><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
-         x="111.68346"
+         x="112.24684"
          y="94.814873"
          id="tspan11363">verdadeira (TP)</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="154.88327"
+       x="154.97066"
        y="88.200287"
        id="text2043-3-1-84-3"
        inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao.png"
@@ -149,17 +207,17 @@
          sodipodi:role="line"
          id="tspan2041-9-2-81-0"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
-         x="154.88327"
-         y="88.200287">(c) Presença </tspan><tspan
+         x="154.97066"
+         y="88.200287">Presença </tspan><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
-         x="154.88327"
+         x="154.97066"
          y="94.814873"
          id="tspan11363-4">falsa (FP)</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="181.37262"
+       x="181.98419"
        y="91.8564"
        id="text2043-3-1-84-3-4"
        inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao.png"
@@ -167,13 +225,13 @@
        inkscape:export-ydpi="300"><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
-         x="181.37262"
+         x="181.98419"
          y="91.8564"
          id="tspan11363-4-4">TP+FP</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="111.70365"
+       x="112.26493"
        y="105.14936"
        id="text2043-3-1-84-7"
        inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao.png"
@@ -181,12 +239,12 @@
        inkscape:export-ydpi="300"><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
-         x="111.70365"
+         x="112.26493"
          y="105.14936"
-         id="tspan11363-3">(b) Ausência</tspan><tspan
+         id="tspan11363-3">Ausência</tspan><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
-         x="111.70365"
+         x="112.26493"
          y="111.76395"
          id="tspan23341">falsa (FA)</tspan></text>
     <text
@@ -202,7 +260,7 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
          x="154.90347"
          y="105.14936"
-         id="tspan11363-4-5">(d) Ausência</tspan><tspan
+         id="tspan11363-4-5">Ausência</tspan><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
          x="154.90347"
@@ -211,7 +269,7 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="181.05611"
+       x="181.66768"
        y="108.80548"
        id="text2043-3-1-84-3-4-9"
        inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao.png"
@@ -219,13 +277,13 @@
        inkscape:export-ydpi="300"><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
-         x="181.05611"
+         x="181.66768"
          y="108.80548"
          id="tspan11363-4-4-6">FA+TA</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="111.85078"
+       x="112.12798"
        y="123.9593"
        id="text2043-3-1-84-2"
        inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao.png"
@@ -233,13 +291,13 @@
        inkscape:export-ydpi="300"><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
-         x="111.85078"
+         x="112.12798"
          y="123.9593"
          id="tspan11363-7">TP+FA</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="155.0506"
+       x="154.5172"
        y="123.9593"
        id="text2043-3-1-84-3-8"
        inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao.png"
@@ -247,13 +305,13 @@
        inkscape:export-ydpi="300"><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
-         x="155.0506"
+         x="154.5172"
          y="123.9593"
          id="tspan11363-4-7">FP+TA</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="179.34561"
+       x="179.95718"
        y="120.65201"
        id="text2043-3-1-84-3-4-4"
        inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao.png"
@@ -261,12 +319,12 @@
        inkscape:export-ydpi="300"><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
-         x="179.34561"
+         x="179.95718"
          y="120.65201"
          id="tspan11363-4-4-1">TP+FP+</tspan><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
-         x="179.34561"
+         x="179.95718"
          y="127.26659"
          id="tspan27119">FA+TA</tspan></text>
     <text
@@ -282,11 +340,11 @@
          id="tspan2041-9-2-5"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
          x="53.46772"
-         y="92.391159">Presente (1)</tspan></text>
+         y="92.391159">Presença (1)</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="138.5273"
+       x="138.39156"
        y="75.353683"
        id="text2043-3-1-9"
        inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao.png"
@@ -295,8 +353,8 @@
          sodipodi:role="line"
          id="tspan2041-9-2-3"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
-         x="138.5273"
-         y="75.353683">Ausente (0)</tspan></text>
+         x="138.39156"
+         y="75.353683">Ausência (0)</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
@@ -310,11 +368,11 @@
          id="tspan2041-9-2-3-9"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
          x="53.945728"
-         y="108.7617">Ausente (0)</tspan></text>
+         y="108.7617">Ausência (0)</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="182.75923"
+       x="183.00093"
        y="75.236549"
        id="text2043-3-1-90"
        inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao.png"
@@ -323,7 +381,7 @@
          sodipodi:role="line"
          id="tspan2041-9-2-8"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
-         x="182.75923"
+         x="183.00093"
          y="75.236549">Soma</tspan></text>
     <text
        xml:space="preserve"
@@ -355,129 +413,422 @@
        inkscape:export-ydpi="300" />
     <rect
        style="opacity:0.958;fill:none;stroke:#000000;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
-       id="rect846-8"
+       id="rect846-0"
        width="195.93221"
        height="79.543694"
-       x="8.7291756"
-       y="145.79904"
-       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao.png"
+       x="8.7291784"
+       y="145.79903"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao_letras.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 8.729177,177.25656 H 204.66137"
-       id="path1085-3-6-5"
-       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao.png"
+       d="M 8.7291784,177.25654 H 204.66137"
+       id="path1085-3-6-6"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao_letras.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 93.999997,160.551 H 199.64765"
-       id="path1085-3-5-9"
-       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao.png"
+       d="M 94,160.55098 H 199.64765"
+       id="path1085-3-5-3"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao_letras.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 93.999997,193.95321 H 199.64765"
-       id="path1085-3-5-6-7"
-       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao.png"
+       d="M 94,193.9532 H 199.64765"
+       id="path1085-3-5-6-2"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao_letras.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 93.999997,210.86994 H 199.64765"
-       id="path1085-3-5-1-5"
-       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao.png"
+       d="M 94,210.86992 H 199.64765"
+       id="path1085-3-5-1-0"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao_letras.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="126.04203"
-       y="155.36133"
+       y="155.36131"
+       id="text2043-6"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao_letras.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2041-1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="126.04203"
+         y="155.36131">Observado</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="14.851627"
+       y="203.90382"
+       id="text2043-3-5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao_letras.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2041-9-5"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="14.851627"
+         y="203.90382">Predito</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="93.50988"
+       y="170.77237"
+       id="text2043-3-1-4"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao_letras.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2041-9-2-7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="93.50988"
+         y="170.77237">Presença (1)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="110.17812"
+       y="186.96364"
+       id="text2043-3-1-84-6"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao_letras.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="110.17812"
+         y="186.96364"
+         id="tspan11363-6">a</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="154.90874"
+       y="186.96364"
+       id="text2043-3-1-84-3-9"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao_letras.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="154.90874"
+         y="186.96364"
+         id="tspan11363-4-74">b</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="182.72694"
+       y="187.31763"
+       id="text2043-3-1-84-3-4-5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao_letras.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="182.72694"
+         y="187.31763"
+         id="tspan11363-4-4-2">a+b</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="110.00113"
+       y="204.02043"
+       id="text2043-3-1-84-7-5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao_letras.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="110.00113"
+         y="204.02043"
+         id="tspan23341-7">c</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="154.98495"
+       y="204.02043"
+       id="text2043-3-1-84-3-1-4"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao_letras.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="154.98495"
+         y="204.02043"
+         id="tspan23639-3">d</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="182.58742"
+       y="204.02043"
+       id="text2043-3-1-84-3-4-9-0"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao_letras.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="182.58742"
+         y="204.02043"
+         id="tspan11363-4-4-6-7">c+d</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="110.08252"
+       y="219.02043"
+       id="text2043-3-1-84-2-8"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao_letras.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="110.08252"
+         y="219.02043"
+         id="tspan11363-7-68">a+c</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="154.98495"
+       y="219.02043"
+       id="text2043-3-1-84-3-8-8"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao_letras.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="154.98495"
+         y="219.02043"
+         id="tspan11363-4-7-4">b+d</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="186.03554"
+       y="218.85765"
+       id="text2043-3-1-84-3-4-4-3"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao_letras.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="186.03554"
+         y="218.85765"
+         id="tspan27119-4">N</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="53.46772"
+       y="188.01526"
+       id="text2043-3-1-8-9"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao_letras.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2041-9-2-5-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="53.46772"
+         y="188.01526">Presença (1)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="138.5273"
+       y="170.77237"
+       id="text2043-3-1-9-06"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao_letras.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2041-9-2-3-8"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="138.5273"
+         y="170.77237">Ausência (0)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="53.945728"
+       y="204.2323"
+       id="text2043-3-1-9-0-9"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao_letras.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2041-9-2-3-9-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="53.945728"
+         y="204.2323">Ausência (0)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="180.58366"
+       y="170.65524"
+       id="text2043-3-1-90-66"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao_letras.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2041-9-2-8-4"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="180.58366"
+         y="170.65524">Soma</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="53.638252"
+       y="218.92741"
+       id="text2043-3-1-90-6-9"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao_letras.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2041-9-2-8-3-50"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="53.638252"
+         y="218.92741">Soma</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 89.162517,145.79903 v 79.54369"
+       id="path8808-4"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao_letras.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 48.209632,179.82628 v 43.75731"
+       id="path8808-9-8"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao_letras.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="opacity:0.958;fill:none;stroke:#000000;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
+       id="rect846-8"
+       width="195.93221"
+       height="79.543694"
+       x="8.7291756"
+       y="251.80106"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao_valores.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 8.729177,283.25858 H 204.66137"
+       id="path1085-3-6-5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao_valores.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 93.999997,266.55302 H 199.64765"
+       id="path1085-3-5-9"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao_valores.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 93.999997,299.95523 H 199.64765"
+       id="path1085-3-5-6-7"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao_valores.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 93.999997,316.87196 H 199.64765"
+       id="path1085-3-5-1-5"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao_valores.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="126.04203"
+       y="261.36334"
        id="text2043-38"
-       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao.png"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao_valores.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          sodipodi:role="line"
          id="tspan2041-8"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
          x="126.04203"
-         y="155.36133">Observado</tspan></text>
+         y="261.36334">Observado</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="14.851627"
-       y="203.90384"
+       y="309.90585"
        id="text2043-3-3"
-       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao.png"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao_valores.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          sodipodi:role="line"
          id="tspan2041-9-1"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
          x="14.851627"
-         y="203.90384">Predito</tspan></text>
+         y="309.90585">Predito</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="93.50988"
-       y="170.77238"
+       y="276.77441"
        id="text2043-3-1-89"
-       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao.png"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao_valores.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          sodipodi:role="line"
          id="tspan2041-9-2-6"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
          x="93.50988"
-         y="170.77238">Presente (1)</tspan></text>
+         y="276.77441">Presença (1)</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="138.5273"
-       y="170.77238"
+       y="276.77441"
        id="text2043-3-1-9-6"
-       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao.png"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao_valores.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          sodipodi:role="line"
          id="tspan2041-9-2-3-92"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
          x="138.5273"
-         y="170.77238">Ausente (0)</tspan></text>
+         y="276.77441">Ausência (0)</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="182.75922"
-       y="170.65524"
+       y="276.65726"
        id="text2043-3-1-90-7"
-       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao.png"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao_valores.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          sodipodi:role="line"
          id="tspan2041-9-2-8-7"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
          x="182.75922"
-         y="170.65524">Soma</tspan></text>
+         y="276.65726">Soma</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 89.162517,145.79904 v 79.5437"
+       d="m 89.162517,251.80106 v 79.5437"
        id="path8808-8"
-       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao.png"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao_valores.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 48.209627,179.8263 v 43.75731"
+       d="m 48.209627,285.82832 v 43.75731"
        id="path8808-9-1"
-       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao.png"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao_valores.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <g
        id="g35237"
-       transform="translate(-0.23946381,-0.14549255)">
+       transform="translate(-0.5202322,105.85653)"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao_valores.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <rect
          style="opacity:0.957804;fill:#000080;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
          id="rect29183-06-8"
@@ -510,7 +861,10 @@
     </g>
     <g
        id="g35241"
-       transform="translate(0.14801025,-0.13468933)">
+       transform="translate(-0.33884094,105.86733)"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao_valores.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <rect
          style="opacity:0.957804;fill:#000080;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
          id="rect29183-69-8-1"
@@ -543,7 +897,10 @@
     </g>
     <g
        id="g35267"
-       transform="translate(-0.02185059,0.02540588)">
+       transform="translate(-0.50870178,106.02743)"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao_valores.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <rect
          style="opacity:0.957804;fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
          id="rect29183-5-49-8"
@@ -576,7 +933,10 @@
     </g>
     <g
        id="g35271"
-       transform="translate(-0.30272675,-0.66624451)">
+       transform="translate(-0.58349514,105.33578)"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao_valores.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <rect
          style="opacity:0.957804;fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;paint-order:markers fill stroke"
          id="rect29183-0-6-4"
@@ -610,114 +970,114 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="189.61243"
-       y="188.42914"
+       x="188.57799"
+       y="293.34323"
        id="text2043-3-1-84-3-4-1"
-       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao.png"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao_valores.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
-         x="189.61243"
-         y="188.42914"
+         x="188.57799"
+         y="293.34323"
          id="tspan11363-4-4-10">2</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="189.61243"
-       y="205.37822"
+       x="188.57799"
+       y="310.34323"
        id="text2043-3-1-84-3-4-9-8"
-       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao.png"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao_valores.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
-         x="189.61243"
-         y="205.37822"
+         x="188.57799"
+         y="310.34323"
          id="tspan11363-4-4-6-5">2</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="110.07104"
-       y="219.92741"
+       x="110.16779"
+       y="325.27075"
        id="text2043-3-1-84-2-0"
-       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao.png"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao_valores.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
-         x="110.07104"
-         y="219.92741"
+         x="110.16779"
+         y="325.27075"
          id="tspan11363-7-6">2</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="155.38756"
-       y="219.92741"
+       x="154.9617"
+       y="325.27075"
        id="text2043-3-1-84-3-8-4"
-       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao.png"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao_valores.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
-         x="155.38756"
-         y="219.92741"
+         x="154.9617"
+         y="325.27075"
          id="tspan11363-4-7-6">2</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="189.74162"
-       y="219.85765"
+       x="188.52631"
+       y="325.23587"
        id="text2043-3-1-84-3-4-4-2"
-       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao.png"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao_valores.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
-         x="189.74162"
-         y="219.85765"
+         x="188.52631"
+         y="325.23587"
          id="tspan27119-8">4</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="52.779846"
-       y="187.01515"
+       y="292.87686"
        id="text2043-3-1-8-3"
-       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao.png"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao_valores.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          sodipodi:role="line"
          id="tspan2041-9-2-5-6"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
          x="52.779846"
-         y="187.01515">Presente (1)</tspan></text>
+         y="292.87686">Presença (1)</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="53.257858"
-       y="203.3857"
+       y="310.14685"
        id="text2043-3-1-9-0-7"
-       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao.png"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao_valores.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          sodipodi:role="line"
          id="tspan2041-9-2-3-9-5"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
          x="53.257858"
-         y="203.3857">Ausente (0)</tspan></text>
+         y="310.14685">Ausência (0)</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="52.950378"
-       y="218.61005"
+       y="325.23328"
        id="text2043-3-1-90-6-3"
-       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao.png"
+       inkscape:export-filename="/home/mude/data/github/workshop-r-sdm/01_slides/img/sdm_avaliacao_matriz_confusao_valores.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          sodipodi:role="line"
          id="tspan2041-9-2-8-3-5"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
          x="52.950378"
-         y="218.61005">Soma</tspan></text>
+         y="325.23328">Soma</tspan></text>
   </g>
 </svg>

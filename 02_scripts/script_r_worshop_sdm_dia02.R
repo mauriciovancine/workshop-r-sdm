@@ -165,7 +165,7 @@ GLM <- glm(formula = pb ~ ., data = train_pa, family = "binomial")
 GLM
 summary(GLM)
 
-GAM <- gam::gam(formula = paste0("pb", "~", paste0("s(", colnames(train_pa)[-1], ")", collapse = "+")) %>% as.formula,
+GAM <- gam::gam(formula = as.formula(paste0("pb", "~", paste0("gam::s(", colnames(train_pa)[-1], ")", collapse = "+"))),
                 family = "binomial", data = train_pa, warning = FALSE)
 GAM
 summary(GAM)
@@ -189,6 +189,7 @@ eval_BIO <- dismo::evaluate(p = test_pa[test_pa$pb == 1, -1],
 eval_BIO
 plot(eval_BIO, "ROC")
 
+dismo::threshold(eval_BIO, "spec_sens")
 id_eval_spec_sens_BIO <- which(eval_BIO@t == dismo::threshold(eval_BIO, "spec_sens"))
 tss_spec_sens_BIO <- eval_BIO@TPR[id_eval_spec_sens_BIO] + eval_BIO@TNR[id_eval_spec_sens_BIO] - 1
 tss_spec_sens_BIO
@@ -200,6 +201,7 @@ eval_DOM <- dismo::evaluate(p = test_pa[test_pa$pb == 1, -1],
 eval_DOM
 plot(eval_DOM, "ROC")
 
+dismo::threshold(eval_DOM, "spec_sens")
 id_eval_spec_sens_DOM <- which(eval_DOM@t == dismo::threshold(eval_DOM, "spec_sens"))
 tss_spec_sens_DOM <- eval_DOM@TPR[id_eval_spec_sens_DOM] + eval_DOM@TNR[id_eval_spec_sens_DOM] - 1
 tss_spec_sens_DOM
@@ -211,6 +213,7 @@ eval_MAH <- dismo::evaluate(p = test_pa[test_pa$pb == 1, -1],
 eval_MAH
 plot(eval_MAH, "ROC")
 
+dismo::threshold(eval_MAH, "spec_sens")
 id_eval_spec_sens_MAH <- which(eval_MAH@t == dismo::threshold(eval_MAH, "spec_sens"))
 tss_spec_sens_MAH <- eval_MAH@TPR[id_eval_spec_sens_MAH] + eval_MAH@TNR[id_eval_spec_sens_MAH] - 1
 tss_spec_sens_MAH
@@ -222,6 +225,7 @@ eval_GLM <- dismo::evaluate(p = test_pa[test_pa$pb == 1, -1],
 eval_GLM
 plot(eval_GLM, "ROC")
 
+dismo::threshold(eval_GLM, "spec_sens")
 id_eval_spec_sens_GLM <- which(eval_GLM@t == dismo::threshold(eval_GLM, "spec_sens"))
 tss_spec_sens_GLM <- eval_GLM@TPR[id_eval_spec_sens_GLM] + eval_GLM@TNR[id_eval_spec_sens_GLM] - 1
 tss_spec_sens_GLM
@@ -233,6 +237,7 @@ eval_GAM <- dismo::evaluate(p = test_pa[test_pa$pb == 1, -1],
 eval_GAM
 plot(eval_GAM, "ROC")
 
+dismo::threshold(eval_GAM, "spec_sens")
 id_eval_spec_sens_GAM <- which(eval_GAM@t == dismo::threshold(eval_GAM, "spec_sens"))
 tss_spec_sens_GAM <- eval_GAM@TPR[id_eval_spec_sens_GAM] + eval_GAM@TNR[id_eval_spec_sens_GAM] - 1
 tss_spec_sens_GAM
@@ -244,6 +249,7 @@ eval_RFR <- dismo::evaluate(p = test_pa[test_pa$pb == 1, -1],
 eval_RFR
 plot(eval_RFR, "ROC")
 
+dismo::threshold(eval_RFR, "spec_sens")
 id_eval_spec_sens_RFR <- which(eval_RFR@t == dismo::threshold(eval_RFR, "spec_sens"))
 tss_spec_sens_RFR <- eval_RFR@TPR[id_eval_spec_sens_RFR] + eval_RFR@TNR[id_eval_spec_sens_RFR] - 1
 tss_spec_sens_RFR
@@ -255,6 +261,7 @@ eval_SVM <- dismo::evaluate(p = test_pa[test_pa$pb == 1, -1],
 eval_SVM
 plot(eval_SVM, "ROC")
 
+dismo::threshold(eval_SVM, "spec_sens")
 id_eval_spec_sens_SVM <- which(eval_SVM@t == dismo::threshold(eval_SVM, "spec_sens"))
 tss_spec_sens_SVM <- eval_SVM@TPR[id_eval_spec_sens_SVM] + eval_SVM@TNR[id_eval_spec_sens_SVM] - 1
 tss_spec_sens_SVM
@@ -266,6 +273,7 @@ eval_MAX <-dismo::evaluate(p = test_pa[test_pa$pb == 1, -1],
 eval_MAX
 plot(eval_MAX, "ROC")
 
+dismo::threshold(eval_MAX, "spec_sens")
 id_eval_spec_sens_MAX <- which(eval_MAX@t == dismo::threshold(eval_MAX, "spec_sens"))
 tss_spec_sens_MAX <- eval_MAX@TPR[id_eval_spec_sens_MAX] + eval_MAX@TNR[id_eval_spec_sens_MAX] - 1
 tss_spec_sens_MAX
@@ -289,7 +297,7 @@ model_predict_bio_thr <- model_predict_bio >= eval[1, ]$thr
 model_predict_bio_thr
 
 plot(model_predict_bio, col = viridis::turbo(100), main = "BIOCLIM - Contínuo")
-plot(model_predict_bio_thr, col = c("gray", "red"), main = "BIOCLIM - Contínuo")
+plot(model_predict_bio_thr, col = c("gray", "blue"), main = "BIOCLIM - Contínuo")
 points(occ$longitude, occ$latitude, pch = 20, col = "steelblue")
 
 # domain
@@ -300,7 +308,7 @@ model_predict_dom_thr <- model_predict_dom >= eval[2, ]$thr
 model_predict_dom_thr
 
 plot(model_predict_dom, col = viridis::turbo(100), main = "DOMAIN - Contínuo")
-plot(model_predict_dom_thr, col = c("gray", "red"), main = "DOMAIN - Binário")
+plot(model_predict_dom_thr, col = c("gray", "blue"), main = "DOMAIN - Binário")
 points(occ$longitude, occ$latitude, pch = 20, col = "steelblue")
 
 # mahalanobis
@@ -311,7 +319,7 @@ model_predict_mah_thr <- model_predict_mah >= eval[3, ]$thr
 model_predict_mah_thr
 
 plot(model_predict_mah, col = viridis::turbo(100), main = "Mahalanobis - Contínuo")
-plot(model_predict_mah_thr, col = c("gray", "red"), main = "Mahalanobis - Binário")
+plot(model_predict_mah_thr, col = c("gray", "blue"), main = "Mahalanobis - Binário")
 points(occ$longitude, occ$latitude, pch = 20, col = "steelblue")
 
 # glm
@@ -322,7 +330,7 @@ model_predict_glm_thr <- model_predict_glm >= eval[4, ]$thr
 model_predict_glm_thr
 
 plot(model_predict_glm, col = viridis::turbo(100), main = "GLM - Contínuo")
-plot(model_predict_glm_thr, col = c("gray", "red"), main = "GLM - Binário")
+plot(model_predict_glm_thr, col = c("gray", "blue"), main = "GLM - Binário")
 points(occ$longitude, occ$latitude, pch = 20, col = "steelblue")
 
 # gam
@@ -333,7 +341,7 @@ model_predict_gam_thr <- model_predict_gam >= eval[5, ]$thr
 model_predict_gam_thr
 
 plot(model_predict_gam, col = viridis::turbo(100), main = "GAM - Contínuo")
-plot(model_predict_gam_thr, col = c("gray", "red"), main = "GAM - Binário")
+plot(model_predict_gam_thr, col = c("gray", "blue"), main = "GAM - Binário")
 points(occ$longitude, occ$latitude, pch = 20, col = "steelblue")
 
 # random forest
@@ -344,7 +352,7 @@ model_predict_rfr_thr <- model_predict_rfr >= eval[6, ]$thr
 model_predict_rfr_thr
 
 plot(model_predict_rfr, col = viridis::turbo(100), main = "Random Forest - Contínuo")
-plot(model_predict_rfr_thr, col = c("gray", "red"), main = "Random Forest - Binário")
+plot(model_predict_rfr_thr, col = c("gray", "blue"), main = "Random Forest - Binário")
 points(occ$longitude, occ$latitude, pch = 20, col = "steelblue")
 
 # svm
@@ -355,7 +363,7 @@ model_predict_svm_thr <- model_predict_svm >= eval[7, ]$thr
 model_predict_svm_thr
 
 plot(model_predict_svm, col = viridis::turbo(100), main = "SVM - Contínuo")
-plot(model_predict_svm_thr, col = c("gray", "red"), main = "SVM - Binário")
+plot(model_predict_svm_thr, col = c("gray", "blue"), main = "SVM - Binário")
 points(occ$longitude, occ$latitude, pch = 20, col = "steelblue")
 
 # maxent
@@ -366,7 +374,7 @@ model_predict_max_thr <- model_predict_max >= eval[8, ]$thr
 model_predict_max_thr
 
 plot(model_predict_max, col = viridis::turbo(100), main = "MaxEnt - Contínuo")
-plot(model_predict_max_thr, col = c("gray", "red"), main = "MaxEnt - Binário")
+plot(model_predict_max_thr, col = c("gray", "blue"), main = "MaxEnt - Binário")
 points(occ$longitude, occ$latitude, pch = 20, col = "steelblue")
 
 # 4. ensembles ------------------------------------------------------------
@@ -386,6 +394,7 @@ ens_freq <- sum(models_bin)/nlayers(models_bin)
 ens_freq
 plot(ens_freq, col = viridis::turbo(100), main = "Ensemble - Frequência")
 points(occ$longitude, occ$latitude, pch = 20, col = "steelblue")
+points(occ$longitude, occ$latitude, cex = .7, pch = 20, col = "black")
 
 # standard deviation
 ens_freq_sd <- raster::calc(models_bin, sd)
@@ -461,19 +470,20 @@ env
 sdm_data <- sdm::sdmData(formula = species~.,
                          train = occ_sp,
                          predictors = env,
-                         bg = list(n = 7000,
+                         bg = list(n = nrow(occ),
                                    method = "gRandom", # "eRandom"
                                    remove = TRUE))
 sdm_data
 
 # models ------------------------------------------------------------------
 # methods
+sdm::getmethodNames()
 sdm::getmethodNames() %>% names()
 
 # models
 sdm_fit <- sdm::sdm(species ~ .,
                     data = sdm_data,
-                    replication = "boot",
+                    replication = "subsampling",
                     n = 10,
                     test.percent = 30,
                     parallelSetting = list(ncores = 3, method = "parallel"),
@@ -579,7 +589,7 @@ ens_thr <- ens >= thr
 ens_thr
 
 # plot
-plot(ens_thr, col = c("gray", "steelblue"))
+plot(ens_thr, col = c("gray", "blue"))
 
 # 6. maps -----------------------------------------------------------------
 # data
@@ -592,7 +602,7 @@ map_sui <- ggplot() +
   geom_sf(data = li, fill = NA, color = "gray30") +
   geom_point(data = occ, aes(x = longitude, y = latitude)) +
   scale_color_manual(values = "black", guide = guide_legend(order = 1)) +
-  scale_fill_gradientn(colours = wesanderson::wes_palette("Zissou1", n = 100, type = "continuous")) +
+  scale_fill_gradientn(colours = viridis::turbo(100)) +
   coord_sf(xlim = sf::st_bbox(li)[c(1, 3)], ylim = sf::st_bbox(li)[c(2, 4)]) +
   labs(x = "Longitude", y = "Latitude", fill = "Suitability") +
   annotation_scale(location = "br", width_hint = .3) +
@@ -622,7 +632,7 @@ map_sui_thr <- ggplot() +
   geom_sf(data = li, fill = NA, color = "gray30") +
   geom_point(data = occ, aes(x = longitude, y = latitude)) +
   scale_color_manual(values = "black", guide = guide_legend(order = 1)) +
-  scale_fill_gradientn(colours = wesanderson::wes_palette("Zissou1", n = 2, type = "continuous")) +
+  scale_fill_gradientn(colours = c("gray", "blue")) +
   coord_sf(xlim = sf::st_bbox(li)[c(1, 3)], ylim = sf::st_bbox(li)[c(2, 4)]) +
   labs(x = "Longitude", y = "Latitude", fill = "Suitability") +
   annotation_scale(location = "br", width_hint = .3) +

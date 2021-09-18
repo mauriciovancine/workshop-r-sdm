@@ -14,7 +14,11 @@ A ampla disponibilidade de dados sobre a biodiversidade e variáveis ambientais 
 
 ### Informações aos participantes
 
-**Datas**: 25/09/2019 (9:00 h - 12:00 h)  26/09/2019 (9:00 h - 12:00 h)
+**Datas**:
+<br>
+25/09/2019 (9:00 h - 12:00 h)
+<br> 
+26/09/2019 (9:00 h - 12:00 h)
 
 **Ementa**: [Ementa](https://github.com/mauriciovancine/workshop-r-sdm/blob/master/00_plano_ensino/plano_ensino_workshop_r_sdm.pdf)
 
