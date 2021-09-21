@@ -38,7 +38,7 @@ dir(system.file("java", package = "dismo"))
 # directories
 dir.create("04_modelos")
 
-# 3. sdm ------------------------------------------------------------------
+# dismo ------------------------------------------------------------------
 # data ----
 li <- rnaturalearth::ne_countries(scale = 50, continent = "South America", returnclass = "sf") %>%
   sf::st_union(rnaturalearth::ne_countries(scale = 50, country = "France", returnclass = "sf")) %>%
@@ -147,7 +147,7 @@ test_pa
 nrow(test_pa)
 table(test_pa$pb)
 
-# model fitting ----
+# 3. model fitting ----
 # presence-only - envelope
 BIO <- dismo::bioclim(x = train_pa[train_pa$pb == 1, -1])
 plot(BIO, a = 1, b = 2, p = 0.85)
@@ -181,7 +181,7 @@ MAX <- dismo::maxent(x = train_pb[, -1], p = train_pb[, 1])
 MAX
 plot(MAX)
 
-# evaluation ----
+# 4. evaluation ----
 # eval bioclim
 eval_BIO <- dismo::evaluate(p = test_pa[test_pa$pb == 1, -1],
                             a = test_pa[test_pa$pb == 0, -1],
@@ -288,7 +288,7 @@ eval <- tibble::tibble(method = c("BIO", "DOM", "MAH", "GLM", "GAM", "RFR", "SVM
                                dismo::threshold(eval_SVM, "spec_sens"), dismo::threshold(eval_MAX, "spec_sens")))
 eval
 
-# predict ----
+# 5.  predict ----
 # bioclim
 model_predict_bio <- dismo::predict(env, BIO, progress = "text")
 model_predict_bio
@@ -297,7 +297,7 @@ model_predict_bio_thr <- model_predict_bio >= eval[1, ]$thr
 model_predict_bio_thr
 
 plot(model_predict_bio, col = viridis::turbo(100), main = "BIOCLIM - Contínuo")
-plot(model_predict_bio_thr, col = c("gray", "blue"), main = "BIOCLIM - Contínuo")
+plot(model_predict_bio_thr, col = c("gray", "blue"), main = "BIOCLIM - Binário")
 points(occ$longitude, occ$latitude, pch = 20, col = "steelblue")
 
 # domain
@@ -377,7 +377,7 @@ plot(model_predict_max, col = viridis::turbo(100), main = "MaxEnt - Contínuo")
 plot(model_predict_max_thr, col = c("gray", "blue"), main = "MaxEnt - Binário")
 points(occ$longitude, occ$latitude, pch = 20, col = "steelblue")
 
-# 4. ensembles ------------------------------------------------------------
+# 6. ensembles ----
 # models ----
 models_cont <- raster::stack(model_predict_bio, model_predict_dom, model_predict_mah,
                              model_predict_glm, model_predict_gam, model_predict_rfr,
@@ -450,7 +450,8 @@ plot(ens_wei_mean_auc, col = viridis::turbo(100), main = "Ensemble - Média pond
 plot(ens_wei_mean_tss, col = viridis::turbo(100), main = "Ensemble - Média ponderada TSS")
 dev.off()
 
-# 5. sdm ---------------------------------------------------------------------
+# sdm ---------------------------------------------------------------------
+# 1. import data ----
 # occurrence
 occ <- readr::read_csv("03_dados/01_ocorrencias/occ_data_filter_edit.csv")
 
@@ -465,7 +466,8 @@ env <- dir(path = "03_dados/02_variaveis", pattern = ".tif", full.names = TRUE) 
   raster::brick()
 env
 
-# prepare data -------------------------------------------------------------
+
+# 2. data preparation -----------------------------------------------------
 # prepare data
 sdm_data <- sdm::sdmData(formula = species~.,
                          train = occ_sp,
@@ -475,12 +477,15 @@ sdm_data <- sdm::sdmData(formula = species~.,
                                    remove = TRUE))
 sdm_data
 
-# models ------------------------------------------------------------------
+# 3. model fitting --------------------------------------------------------
 # methods
 sdm::getmethodNames()
 sdm::getmethodNames() %>% names()
 
-# models
+# parallel
+parallel::detectCores()
+
+# fit
 sdm_fit <- sdm::sdm(species ~ .,
                     data = sdm_data,
                     replication = "subsampling",
@@ -510,6 +515,7 @@ sdm_fit
 # information
 sdm::getModelInfo(sdm_fit)
 
+# 4. assessment of model -------------------------------------------------
 # evaluation
 sdm::getEvaluation(sdm_fit, opt = 2)
 
@@ -532,7 +538,7 @@ sdm_var_import
 
 plot(sdm_var_import) + theme_bw()
 
-# predict --------------------------------------------------------------
+# 5. predictions -----------------------------------------------------------
 # predict
 sdm_predict <- predict(object = sdm_fit,
                        newdata = env,
@@ -548,7 +554,7 @@ names(sdm_predict)
 # map
 plot(sdm_predict, col = viridis::turbo(100))
 
-# ensemble ----------------------------------------------------------------
+# 6. ensemble ----------------------------------------------------------------
 # ensemble
 ens <- sdm::ensemble(x = sdm_fit,
                      newdata = env,
@@ -575,7 +581,7 @@ unc <- sdm::ensemble(x = sdm_fit,
 unc
 plot(unc, col = viridis::turbo(100))
 
-# threshold ---------------------------------------------------------------
+# 7. threshold ---------------------------------------------------------------
 # evaluations
 evaluation <- sdm::getEvaluation(sdm_fit, stat = c("AUC", "TSS", "threshold"), opt = 2)
 evaluation
@@ -591,7 +597,7 @@ ens_thr
 # plot
 plot(ens_thr, col = c("gray", "blue"))
 
-# 6. maps -----------------------------------------------------------------
+# 8. maps -----------------------------------------------------------------
 # data
 da <- raster::rasterToPoints(ens) %>%
   tibble::as_tibble()

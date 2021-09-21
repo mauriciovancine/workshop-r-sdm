@@ -336,10 +336,8 @@ background-position: 30% 80%, 85% 70%
 1. Incertezas
 
 &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
-
-[Fletcher &amp; Fortin (2018)](https://www.springer.com/gp/book/9783030019884),
-[Tennekes &amp; Nowosad (2021)](https://r-tmap.github.io/tmap-book)
-
+[Wegmann et al. (2016)](http://book.ecosens.org/),
+[Fletcher &amp; Fortin (2018)](https://www.springer.com/gp/book/9783030019884)
 
 ---
 
@@ -2646,6 +2644,21 @@ class: inverse, center, middle
 
 ---
 
+background-image: url(img/crs.png)
+background-size: 600px
+background-position: 50% 75%
+
+# 4.1 Dados geoespaciais
+
+### Sistemas de Referência de Coordenadas (*Coordinate Reference Systems*)
+
+### Datum + Sistema de Coordenadas
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+[Overview of Coordinate Reference Systems (CRS) in R](https://www.nceas.ucsb.edu/sites/default/files/2020-04/OverviewCoordinateReferenceSystems.pdf)
+
+---
+
 background-image: url(img/geo_epsg.png)
 background-size: 1000px
 background-position: 50% 80%
@@ -2672,11 +2685,11 @@ background-position: 90% 85%
 
 &lt;br&gt;
 
-### EPSG:4326 [CRS WGS84 Geográfico](https://epsg.io/4326)
+### EPSG: 4326 [WGS84 Geográfico](https://epsg.io/4326)
 
-### EPSG:4674 [CRS SIRGAS2000 Geográfico](https://epsg.io/4674)
+### EPSG: 4674 [SIRGAS2000 Geográfico](https://epsg.io/4674)
 
-### EPSG:31983 [CRS WGS84 UTM23S](https://epsg.io/31983)
+### EPSG: 31983 [WGS84 UTM23S](https://epsg.io/31983)
 
 &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
 
@@ -2808,9 +2821,9 @@ background-position: 90% 15%, 90% 58%, 90% 95%, 10% 80%
 
 ---
 
-background-image: url(img/sdm_occ_rgbif.png), url(img/sdm_occ_spocc.png)
-background-size: 250px, 250px
-background-position: 60% 60%, 90% 60%
+background-image: url(img/sdm_occ_auk.png), url(img/sdm_occ_rgbif.png), url(img/sdm_occ_spocc.png)
+background-size: 200px, 200px, 200px
+background-position: 75% 20%, 60% 70%, 90% 70%
 
 # 4.2 Dados de ocorrências
 
@@ -2820,6 +2833,7 @@ background-position: 60% 60%, 90% 60%
 - [rgbif](https://docs.ropensci.org/rgbif/)
 - [rvertnet](https://docs.ropensci.org/rvertnet/)
 - [rebird](https://docs.ropensci.org/rebird/)
+- [auk](https://cornelllabofornithology.github.io/auk/)
 - [ridigbio](https://github.com/iDigBio/ridigbio)
 - [BIEN](https://bien.nceas.ucsb.edu/bien/tools/rbien/)
 - [taxize](https://docs.ropensci.org/taxize/)
@@ -2828,7 +2842,7 @@ background-position: 60% 60%, 90% 60%
 - [spThin](https://github.com/mlammens/spThin)
 - [occCite](https://hannahlowens.github.io/occCite/)
 
-&lt;br&gt;&lt;br&gt;&lt;br&gt;
+&lt;br&gt;&lt;br&gt;
 [Maitner et al. (2017)](https://doi.org/10.1111/2041-210X.12861),
 [Aiello-Lammens et al. (2015)](https://doi.org/10.1111/ecog.01132),
 [Zizka et al. (2019)](https://doi.org/10.1111/2041-210X.13152),
@@ -2965,7 +2979,7 @@ background-position: 10% 40%, 81% 15%, 90% 85%
 
 # 4.3 Dados ambientais
 
-## Variáveis Bioclimáticas
+## Variáveis bioclimáticas
 
 .pull-left[
 | Variável | Tipo         | Descrição                        |
@@ -3152,7 +3166,7 @@ background-position: 50% 55%
 
 # 5.1 Tipos de métodos ou algoritmos
 
-## Dependente dos dados de presença e ausência da espécie
+## Depende dos dados de presença e ausência da espécie
 
 &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
 [Modificado com autorização de Esser (2021)](https://luizfesser.wordpress.com/2021/06/08/are-pseudoabsences-and-background-the-same-thing/)
@@ -3181,7 +3195,7 @@ background-position: 50% 55%
 
 # 5.1 Tipos de métodos ou algoritmos
 
-## Dependente dos dados de presença e (pseudo)ausência da espécie
+## Depende dos dados de presença e ausência da espécie
 
 &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
 [Modificado com autorização de Esser (2021)](https://luizfesser.wordpress.com/2021/06/08/are-pseudoabsences-and-background-the-same-thing/)
@@ -3196,9 +3210,9 @@ background-position: 50% 75%
 
 ## Ausência vs pseudo-ausência vs background
 
-- **Ausência**: dados de ausência verdadeiro (quando disponíveis)
-- **Pseudo-ausência**: dados de ausência gerados por amostragem aleatória (seguindo ou não regras), mas geralmente em número igual ao número de presenças
-- **Background**: dados gerados para amostrar as condições da área de estudo
+- **Ausência**: dados de "ausências verdadeiras" (quando disponíveis)
+- **Pseudo-ausência**: dados de ausência gerados por amostragem aleatória (seguindo ou não regras geográficas ou ambientais), geralmente em número igual ao número de presenças
+- **Background**: dados gerados para amostrar as condições da área de estudo (quanto mais, melhor)
 
 &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
 [Modificado com autorização de Esser (2021)](https://luizfesser.wordpress.com/2021/06/08/are-pseudoabsences-and-background-the-same-thing/)
@@ -3211,7 +3225,7 @@ background-position: 25% 65%, 75% 65%
 
 # 5.2 Somente-presença
 
-## Bioclim (Envelope Score)
+## Bioclim (*Envelope score*)
 
 - Envelope climático com escores
 
@@ -3229,7 +3243,7 @@ background-position: 50% 75%
 
 ## Domain (Distântica de Gower)
 
-- Distância ponto-a-ponto
+- Distância ponto a ponto
 
 &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
 [Carpenter et al. (1993)](http://link.springer.com/10.1007/BF00051966)
@@ -3335,7 +3349,7 @@ background-position: 5% 65%, 95% 65%
 
 - Encontra parâmetros que **aproximam a forma da distribuição** (maximiza a entropia) dos valores ambientais do background e em função dos valores ambientais das presenças
 - Usa diferentes curvas ('features') para **ajustar a máxima entropia** e achar os valores de adequabilidade ambiental
-- Dependente de **parâmetros** [prevalência (0.5) e regularização (ajuste)] e **tamanho do background** 
+- Dependente de **parâmetros** [prevalência (0.5) e regularização (ajuste)] e **limite do background** 
 
 &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
 [Phillips et al. (2006)](https://linkinghub.elsevier.com/retrieve/pii/S030438000500267X),
@@ -3373,8 +3387,8 @@ background-position: 95% 65%
 ---
 
 background-image: url(img/sdm_metodos_logo_enmtml.png), url(img/sdm_metodos_logo_modler.png), url(img/sdm_metodos_logo_sdmtune.png), url(img/sdm_metodos_logo_shinybiomod.jpeg)
-background-size: 260px, 250px, 250px, 270px
-background-position: 30% 25%, 50% 95%, 70% 26%, 90% 95%
+background-size: 210px, 200px, 200px, 220px
+background-position: 45% 30%, 60% 90%, 75% 30%, 90% 90%
 
 # 5.5 Principais pacotes no R
 
@@ -3398,7 +3412,7 @@ background-position: 30% 25%, 50% 95%, 70% 26%, 90% 95%
 
 class: inverse, center, middle
 
-# Uma vez ajustado nossos modelos, devemos avaliar seu **desempenho** antes de fazer as predições para todo o Espaço Geográfico (G)
+# Uma vez ajustados nossos modelos, devemos avaliar seu **desempenho** antes de fazer as predições para todo o Espaço Geográfico (G)
 
 ---
 
@@ -3436,10 +3450,10 @@ background-position: 90% 62%
 
 ## Partição dos dados de presença (ou pseudo-ausência)
 
-### Treino (flexa superior)
+### Treino (flecha superior)
 - Dados usados para **ajustar** o modelo
 
-### Teste (flexa inferior)
+### Teste (flecha inferior)
 - Dados usados para **avaliar** o modelo
 
 &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
@@ -3455,10 +3469,10 @@ background-position: 90% 59%
 
 ## Partição dos dados de presença (ou pseudo-ausência)
 
-### Treino (flexa superior)
+### Treino (flecha superior)
 - Dados usados para **ajustar** o modelo
 
-### Teste (flexa inferior)
+### Teste (flecha inferior)
 - Dados usados para **avaliar** o modelo
 
 ### Tipos de avaliação
@@ -3485,13 +3499,13 @@ background-position: 90% 52%
 Divide aleatoriamente as ocorrências em dois conjuntos, &lt;br&gt; geralmente 70% para treino e 30% para teste e &lt;br&gt; faz repetições aleatórias desses conjuntos
 
 - **K-fold cross-validation**  
-Divide as ocorrências em conjuntos iguais (k), &lt;br&gt; um dos conjuntos vai para teste e as outras para treino, &lt;br&gt; alternando até todas as partes irem para teste
+Divide as ocorrências em conjuntos iguais (k), &lt;br&gt; um dos conjuntos vai para teste e os outros para treino, &lt;br&gt; alternando até todas as partes irem para teste
 
 - **Leave one-out CV (Jackknife)**  
 Uma ocorrência para teste e o restante para treino, &lt;br&gt; alterando até todas as ocorrências irem para teste
 
 - **Bootstrap**  
-Reamostragem (mesmas ocorrências podem ir para  &lt;br&gt;treino e teste), usado mais para medir incertezas dos ajustes
+Reamostragem (mesmas ocorrências podem ir para  &lt;br&gt;treino e teste), usado mais para medir incertezas dos ajustes dos modelos
 &lt;br&gt;
 [Guisan et al. (2017)](https://www.cambridge.org/br/academic/subjects/life-sciences/ecology-and-conservation/habitat-suitability-and-distribution-models-applications-r)
 
@@ -3536,7 +3550,7 @@ Divide as ocorrências em conjuntos iguais (k), &lt;br&gt; um dos conjuntos vai 
 Uma ocorrência para teste e o restante para treino, &lt;br&gt; alterando até todas as ocorrências irem para teste
 
 - **Bootstrap**  
-Reamostragem (mesmas ocorrências podem ir para  &lt;br&gt;treino e teste), usado mais para medir incertezas dos ajustes
+Reamostragem (mesmas ocorrências podem ir para  &lt;br&gt;treino e teste), usado mais para medir incertezas dos ajustes dos modelos
 &lt;br&gt;
 [Guisan et al. (2017)](https://www.cambridge.org/br/academic/subjects/life-sciences/ecology-and-conservation/habitat-suitability-and-distribution-models-applications-r)
 
@@ -3544,7 +3558,7 @@ Reamostragem (mesmas ocorrências podem ir para  &lt;br&gt;treino e teste), usad
 
 class: inverse, center, middle
 
-# Avaliar a calibração dos modelos (meu modelo acerta as ocorrências e ausências - teste)
+# Avaliar a calibração dos modelos (meu modelo acerta as ocorrências e (pseudo)ausências, geralmente do conjunto de **teste**)
 
 ---
 
@@ -3574,7 +3588,25 @@ background-position: 10% 62%, 90% 58%
 
 ---
 
-background-image: url(img/sdm_metodos_glm.png)
+background-image: url(img/sdm_metodos_glm_predicao.png), url(img/sdm_avaliacao_observados_preditos_teste_prec.png)
+background-size: 500px, 500px
+background-position: 10% 62%, 90% 90%
+
+# 6.2 Calibração dos modelos
+
+## Valores preditos (P(x)) a partir dos valores da variável preditora (x)
+
+.pull-left[]
+.pull-right[
+`$$Modelo: P(x) = \dfrac{1}{1 + e^{-(\beta_0+\beta_1 x)}}$$`
+`\(Parâmetros :\beta_1 = 1.169; \beta_0 = -0.733\)`
+`$$Modelo: P(x) = \dfrac{1}{1 + e^{-(-0.733+1.169 x)}}$$`
+
+]
+
+---
+
+background-image: url(img/sdm_metodos_glm_predicao.png)
 background-size: 500px
 background-position: 10% 62%
 
@@ -3718,36 +3750,38 @@ background-position: 10% 60%, 50% 50%, 90% 55%
 ---
 
 background-image: url(img/sdm_avaliacao_kappa_tss.png)
-background-size: 300px
-background-position: 90% 40%
+background-size: 350px
+background-position: 80% 40%
 
 # 6.5 Métricas de avaliação
 
 ## Métricas dependentes de limiares
 
-### Kappa
+### Kappa (K) [-1 a +1]
 
-`\(Kappa = \frac{\frac{a+d}{N}-\frac{(a+b)(a+c)+(c+d)(b+d)}{N^2}}{1-\frac{(a+b)(a+c)+(c+d)(d+b)}{N^2}} = \frac{P_o - P_e}{1 - P_e}\)`
+`\(K = \frac{\frac{a+d}{N}-\frac{(a+b)(a+c)+(c+d)(b+d)}{N^2}}{1-\frac{(a+b)(a+c)+(c+d)(d+b)}{N^2}} = \frac{P_o - P_e}{1 - P_e}\)`, onde P = acurácia
 
-### TSS (*True Skill Statistic*)
+- K &gt; 0.75: Excelente
+- 0.40 &gt; K &gt; 0.75: Bom
+- K &lt; 0.40: pobre
+
+### TSS (*True Skill Statistic*) [-1 a +1]
 
 `\(TSS = \frac{ad-bc}{(a+c)(b+d)} = Sensitividade + Especificidade - 1\)`
 
-### Avaliação
-
-$&lt;0: $ predições piores que aleatórias
-$0: $ predições aleatórias
-$&gt;0: $ predições piores que aleatórias
-
-&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+- TSS ≅ +1: concordância perfeita
+- TSS &lt;= 0: desempenho não melhor do que aleatório
+- Indicativos: TSS &gt; 0.5, TSS &gt; 0.7, TSS &gt; 0.8 e TSS &gt; 0.9
+&lt;br&gt;
+[Landis &amp; Koch (1977)](),
 [Fielding &amp; Bell (1997)](https://www.cambridge.org/core/product/identifier/S0376892997000088/type/journal_article),
 [Allouche et al. (2006)](https://onlinelibrary.wiley.com/doi/10.1111/j.1365-2664.2006.01214.x)
 
 ---
 
 background-image: url(img/sdm_avaliacao_kappa_tss_maximo.png)
-background-size: 500px
-background-position: 90% 50%
+background-size: 600px
+background-position: 95% 65%
 
 # 6.5 Métricas de avaliação
 
@@ -3755,15 +3789,23 @@ background-position: 90% 50%
 
 ### Valores máximos de Kappa e TSS
 
-&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+.pull-left[
+- Calcular **vários valores das estatísticas** para diferentes liminares
+- Liu et al. (2013) mostraram que o limiar que maximiza as estatísticas (max-TSS ou max-Kappa) é equivalente ao limiar de **máxima soma da sensibilidade e especificidade** (max-SSS)
+- Essa estratégia gera o **mesmo limiar** para métodos de somente-presença, presença-pseudo-ausência e presença-background
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;
 [Allouche et al. (2006)](https://onlinelibrary.wiley.com/doi/10.1111/j.1365-2664.2006.01214.x),
+[Liu et al. (2013)](https://onlinelibrary.wiley.com/doi/10.1111/jbi.12058),
 [Guisan et al. (2017)](https://www.cambridge.org/br/academic/subjects/life-sciences/ecology-and-conservation/habitat-suitability-and-distribution-models-applications-r),
+
+]
 
 ---
 
 class: inverse, center, middle
 
-# Uma vez que avaliei meus modelos (acertam pelos menos as presenças e pseudo-ausências) posso fazer a predição para áreas desconhecidas
+# Uma vez que **avaliamos a calibração dos modelos** (acertam as presenças e pseudo-ausências) podemos fazer a predição para áreas desconhecidas
 
 ---
 
@@ -3786,11 +3828,19 @@ class: inverse, center, middle
 
 ---
 
+background-image: url(img/sdm_metodos_glm_predicao.png), url(img/sdm_predicao01.png), url(img/sdm_predicao02.png)
+background-size: 500px, 500px, 300px
+background-position: 10% 62%, 90% 30%, 80% 90%
+
 # 7.1 Predição dos modelos
 
 ## Predição para a área modelada
 
 ---
+
+background-image: url(img/sdm_metodos_glm_predicao.png), url(img/sdm_predicao_prec_espaco.png), url(img/sdm_predicao_espaco.png)
+background-size: 500px, 300px, 300px
+background-position: 10% 62%, 80% 30%, 80% 90%
 
 # 7.1 Predição dos modelos
 
@@ -3798,48 +3848,189 @@ class: inverse, center, middle
 
 ---
 
+background-image: url(img/sdm_metodos_glm_predicao.png), url(img/sdm_predicao_prec_tempo.png), url(img/sdm_predicao_tempo.png)
+background-size: 500px, 300px, 300px
+background-position: 10% 62%, 80% 30%, 80% 90%
+
 # 7.1 Predição dos modelos
 
 ## Predição para outros períodos no passado ou no futuro (tempo)
 
 ---
 
+background-image: url(img/sdm_ensemble_nichos.png), url(img/sdm_ensemble.jpg)
+background-size: 500px, 500px
+background-position: 10% 60%, 85% 60%
+
 # 7.2 Consenso dos modelos
 
+## Diferentes estimativas do nicho - diferentes predições geográficas
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+[Araújo &amp; New (2007)](https://doi.org/10.1016/j.tree.2006.09.010://doi.org/10.1002/ece3.1418)
+[Qiao et al. (2015)](https://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12397)
+
 ---
+
+background-image: url(img/sdm_fletcher_fortin_ensemble.png)
+background-size: 400px
+background-position: 60% 60%
+
+# 7.2 Consenso dos modelos
+
+## Tipos de consensos
+
+- Frequência
+- Média
+- Média ponderada (AUC ou TSS)
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+[Fletcher &amp; Fortin (2018)](https://www.springer.com/gp/book/9783030019884)
+
+---
+
+background-image: url(img/sdm_ensemble_freq.png)
+background-size: 1000px
+background-position: 50% 90%
 
 # 7.3 Consenso por frequência
 
+## Contabilizar quantas vezes um pixel foi previsto como presença
+
+### 1. Uso de um **limiar de corte para binarizar** os modelos [0 e 1]
+
+### 2. **Soma** da quantidade de pixels e divisão pelo total de modelos [0 a 1]
+
+$$ consenso = \sum_{i=1}^{N} (pixel_i \geq limiar_j) $$
+
 ---
+
+background-image: url(img/sdm_ensemble_media.png)
+background-size: 800px
+background-position: 50% 90%
 
 # 7.4 Consenso por média
 
+## Calcular a média dos valores de adequabilidade para cada pixel
+
+### 1. **Padronização** dos valores de adequabilidade [0 a 1]
+
+### 2. Cálculo da **média aritmética** para cada pixel
+
+$$ consenso = \frac{1}{N}\sum_{i=1}^{N} (pixel_i) $$
+
 ---
+
+background-image: url(img/sdm_ensemble_media_ponderada.png)
+background-size: 800px
+background-position: 50% 90%
 
 # 7.5 Consenso por média ponderada
 
+## Calcular a média ponderada dos valores de adeq. para cada pixel
+
+### 1. **Padronização** dos valores de adequabilidade [0 a 1]
+
+### 2. Cálculo da **média ponderada** pelos valores de AUC ou TSS para cada pixel
+
+`$$consenso = \frac{\sum_{i=1}^{N}(w_i . pixel_i)}{\sum_{i=1}^N(w_i)}$$`
+
 ---
 
+background-image: url(img/sdm_consenso_incertezas.png), url(img/sdm_consenso_incertezas_mapa.png)
+background-size: 500px, 600px
+background-position: 7% 70%, 93% 70%
+
 # 7.6 Incertezas
+
+## Calcular um valor de incerteza para cada pixel
+
+### 1. Padronização dos valores de adequabilidade [0 a 1]
+
+### 2. Cálculo do desvio padrão ou partição da variância para cada pixel
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+[Diniz-Filho et al. (2009)](https://onlinelibrary.wiley.com/doi/10.1111/j.1600-0587.2009.06196.x)
+
+---
+
+background-image: url(img/sdm_ensemble_desvio.png)
+background-size: 800px
+background-position: 50% 90%
+# 7.6 Incertezas
+
+## Calcular um valor de incerteza para cada pixel
+
+### 1. **Padronização** dos valores de adequabilidade [0 a 1]
+
+### 2. Cálculo do **desvio padrão** ou **partição da variância** para cada pixel
+
+$$ desvio = \sqrt{\frac{1}{N}\sum_{i=1}^{N} (pixel_i - \overline{pixel_i})^2} $$
+---
+
+# Principais artigos
+
+### Português
+
+- [De Marco, P., &amp; Siquera, M. F. (2009). Como determinar a distribuição potencial de espécies sob uma abordagem conservacionista? 5, 12.](https://www.conservation.org/docs/default-source/brasil/Megadiversidade_desafios_cientificos.pdf)
+
+- [Giannini, T. C. et al. (2012). Desafios atuais da modelagem preditiva de distribuição de espécies. Rodriguésia, 63(3), 733–749.](https://doi.org/10.1590/S2175-78602012000300017)
+
+### Inglês
+
+- [Araújo, M. B. et al. (2019). Standards for distribution models in biodiversity assessments. Science Advances, 5(1), eaat4858.](https://doi.org/10.1126/sciadv.aat4858)
+
+- [Feng, X. et al. (2019). A checklist for maximizing reproducibility of ecological niche models. Nature Ecology &amp; Evolution, 3(10), 1382–1395.](https://doi.org/10.1038/s41559-019-0972-5)
+
+- [Zurell, D. et al.. (2020). A standard protocol for reporting species distribution models. Ecography, 43(9), 1261–1277.](https://doi.org/10.1111/ecog.04960)
+
+- [Sillero, N., &amp; Barbosa, A. M. (2021). Common mistakes in ecological niche models. International Journal of Geographical Information Science, 35(2), 213–226.](https://doi.org/10.1080/13658816.2020.1798968)
+
+- [Sillero, N. et al. (2021). Want to model a species niche? A step-by-step guideline on correlative ecological niche modelling. Ecological Modelling, 456, 109671.](https://doi.org/10.1016/j.ecolmodel.2021.109671)
 
 ---
 
 # Livros
 
+### Português
+
+- [Lima-Ribeiro M &amp; Diniz-Filho J. 2013. Modelos ecológicos ea extinção da megafauna: Clima e homem na América do Sul](https://files.cercomp.ufg.br/weby/up/672/o/Paleoecologia_completo.pdf)
+
+### Inglês
+
+- [Franklin J, Miller JA. 2009. Mapping species distributions: Spatial inference and prediction. Cambridge University Press.](https://doi.org/10.1017/CBO9780511810602)
+
+- [Peterson AT., et al. 2011. Ecological niches and geographic distributions. Princeton University Press.](https://press.princeton.edu/books/paperback/9780691136882/ecological-niches-and-geographic-distributions-mpb-49)
+
+- [Peterson AT. 2014. Mapping disease transmission risk: Enriching models using biogeography and ecology. Johns Hopkins University Press.](https://jhupbooks.press.jhu.edu/title/mapping-disease-transmission-risk)
+
+- [Wegmann M, Leutner B, Dech S. 2016. Remote sensing and GIS for ecologists: Using open source software. Pelagic Publishing.](http://book.ecosens.org/RSEbook/)
+
+- [Guisan A, Thuiller W, Zimmermann NE. 2017. Habitat Suitability and Distribution Models: With Applications in R. Cambridge University Press.](https://doi.org/10.1017/9781139028271)
+
+- [Fletcher, R., &amp; Fortin, M.-J. (2018). Spatial Ecology and Conservation Modeling: Applications with R. Springer International Publishing.](https://doi.org/10.1007/978-3-030-01989-1)
 
 ---
 
-# Cursos
+# Cursos on-line
 
-https://ubiologia.wixsite.com/biogeografia/modelos-de-distribuicao-de-especies
+## Português
 
-https://ubiologia.wixsite.com/biogeografia/biogeografia-integrativa
+- [Prof. Ubirajara de Oliveira](https://ubiologia.wixsite.com/biogeografia/modelos-de-distribuicao-de-especies)
 
-https://appliedsciences.nasa.gov/join-mission/training/english/arset-species-distribution-modeling-remote-sensing
+- [Profa. Luara Tourinho](https://www.youtube.com/playlist?list=PLo25BjoudnByh9PGT8JqqFtwf2M5w8CxU)
 
-https://www.facebook.com/groups/ENM2020/
+## Inglês
 
-https://damariszurell.github.io/SDM-Intro/
+- [Prof. Townsend Peterson](https://www.facebook.com/groups/ENM2020/)
+
+- [Profa. Damaris Zurell](https://damariszurell.github.io/SDM-Intro/)
+
+- [Prof. Babak Naimi](https://youtu.be/83dMS3bcjJM)
+
+- [Species Distribution Modeling Remote with  Sensing (NASA)](https://appliedsciences.nasa.gov/join-mission/training/english/arset-species-distribution-modeling-remote-sensing)
+
+- [BCCVL Training](https://app.bccvl.org.au/training)
 
 ---
 

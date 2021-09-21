@@ -168,6 +168,7 @@ tm_shape(li) +
                     .summary == TRUE)) +
   tm_dots(size = .2, shape = 21, col = "steelblue")
 
+
 # spatial distance filter ----
 filter_thin <- spThin::thin(loc.data = occ_data_sptlim_date_bias,
                             lat.col = "latitude",
@@ -225,12 +226,12 @@ mapview::mapview(occ_data_filter_edit)
 # export ----
 # vetor
 occ_data_filter_edit %>%
-  sf::st_write(here::here("03_dados/01_ocorrencias/occ_data_filter_edit.shp"))
+  sf::st_write("03_dados/01_ocorrencias/occ_data_filter_edit.shp")
 
 # tabela
 occ_data_filter_edit %>%
   sf::st_drop_geometry() %>%
-  readr::write_csv(here::here("03_dados/01_ocorrencias/occ_data_filter_edit.csv"))
+  readr::write_csv("03_dados/01_ocorrencias/occ_data_filter_edit.csv")
 
 # 2. variables ------------------------------------------------------------
 # download variables ----
