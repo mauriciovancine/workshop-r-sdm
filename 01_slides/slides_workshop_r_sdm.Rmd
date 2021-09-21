@@ -3496,7 +3496,7 @@ background-position: 10% 62%, 90% 90%
 .pull-left[]
 .pull-right[
 $$Modelo: P(x) = \dfrac{1}{1 + e^{-(\beta_0+\beta_1 x)}}$$
-$Parâmetros :\beta_1 = 1.169; \beta_0 = -0.733$
+$Parametros :\beta_1 = 1.169; \beta_0 = -0.733$
 $$Modelo: P(x) = \dfrac{1}{1 + e^{-(-0.733+1.169 x)}}$$
 
 ]
@@ -3842,9 +3842,9 @@ background-position: 7% 70%, 93% 70%
 
 ## Calcular um valor de incerteza para cada pixel
 
-### 1. Padronização dos valores de adequabilidade [0 a 1]
+### 1. **Padronização** dos valores de adequabilidade [0 a 1]
 
-### 2. Cálculo do desvio padrão ou partição da variância para cada pixel
+### 2. Cálculo do **desvio padrão** ou **partição da variância** para cada pixel
 
 <br><br><br><br><br><br><br><br><br><br><br>
 [Diniz-Filho et al. (2009)](https://onlinelibrary.wiley.com/doi/10.1111/j.1600-0587.2009.06196.x)
