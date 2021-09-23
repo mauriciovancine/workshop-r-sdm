@@ -2484,7 +2484,7 @@ background-position: 85% 60%
 
 ## Sistema de coordenadas 
 
-### Geográficas (graus)
+### Geográfico (graus)
 
 **1. Graus, minutos e segundos**
 - Longitude: 42°42'42" O
@@ -2511,7 +2511,7 @@ background-position: 15% 65%, 78% 30%, 90% 85%
 
 ## Sistema de coordenadas 
 
-### Projetadas (metros)
+### Projetado (metros)
 
 &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
 [Guia do Usuário QGIS 3.16](https://docs.qgis.org/3.16/pt_BR/docs/gentle_gis_introduction/coordinate_reference_systems.html),
@@ -2527,7 +2527,7 @@ background-position: 25% 75%, 90% 45%
 
 ## Sistema de coordenadas 
 
-### Projetadas (metros) - Universal Transversa de Mercator (UTM)
+### Projetado (metros) - Universal Transversa de Mercator (UTM)
 
 **1. Zona e metros**
 - X UTM: 706832 m E
@@ -3514,6 +3514,12 @@ Reamostragem (mesmas ocorrências podem ir para  &lt;br&gt;treino e teste), usad
 
 class: inverse, center, middle
 
+# Vamos para o R preparar e particionar os nossos dados, e ajustar nossos modelos
+
+---
+
+class: inverse, center, middle
+
 # Avaliar a **calibração dos modelos**: meu modelo acerta as ocorrências e (pseudo)ausências do conjunto de **teste**?
 
 ---
@@ -3841,6 +3847,12 @@ background-position: 95% 65%
 
 class: inverse, center, middle
 
+# Vamos para o R avaliar nossos modelos
+
+---
+
+class: inverse, center, middle
+
 # Uma vez que **avaliamos a calibração dos modelos** (acertam as presenças e pseudo-ausências) podemos fazer a **predição** para áreas desconhecidas
 
 ---
@@ -4002,6 +4014,13 @@ background-position: 50% 90%
 ### 2. Cálculo do **desvio padrão** ou **partição da variância** para cada pixel
 
 $$ desvio = \sqrt{\frac{1}{N}\sum_{i=1}^{N} (pixel_i - \overline{pixel_i})^2} $$
+
+---
+
+class: inverse, center, middle
+
+# Vamos para o R predizer e fazer o consenso dos nossos modelos
+
 ---
 
 # Principais artigos
