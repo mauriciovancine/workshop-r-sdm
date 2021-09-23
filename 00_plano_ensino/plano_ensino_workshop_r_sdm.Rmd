@@ -81,26 +81,22 @@ Mais informações: [https://mauriciovancine.github.io/](https://mauriciovancine
 
 ### 5 Ajuste dos modelos (30 min)
 
-1. Tipos de métodos ou algoritmos (apenas-presença, presença-background, presença-ausência)
-1. Presenças, ausências e pseudo-ausências
-1. Apenas-presença (BIOCLIM, DOMAIN e Mahalanobis)
+1. Tipos de métodos ou algoritmos
+1. Somente-presença (BIOCLIM, DOMAIN e Mahalanobis)
+1. Presença-(pseudo)ausência (GLM, GAM, Random Forest e SVM)
 1. Presença-background (MaxEnt)
-1. Presença-ausência estatístico (GLM e GAM)
-1. Presença-ausência aprendizado de máquina (Random Forest e SVM)
+1. Outros métodos ou algoritmos
 
 ### 6 Avaliação dos modelos (30 min)
 
 1. Partição dos dados (treino e teste)
-1. Tipos de partição dos dados (cross-validation, bootstrap, jackknife)
+1. Limiar de corte dos modelos
 1. Matriz de confusão
 1. Métricas de avaliação
-1. ROC e AUC
-1. Kappa e TSS
 
 ### 7 Predição e consenso dos modelos (30 min)
 
 1. Predição dos modelos
-1. Limiar de corte dos modelos
 1. Consenso dos modelos
 1. Consenso por frequência
 1. Consenso por média
@@ -115,56 +111,240 @@ Mais informações: [https://mauriciovancine.github.io/](https://mauriciovancine
 
 ### Bibliografia
 
-Allouche, O., Tsoar, A., & Kadmon, R. (2006). Assessing the accuracy of species distribution models: Prevalence, kappa and the true skill statistic (Tss): Assessing the accuracy of distribution models. Journal of Applied Ecology, 43(6), 1223–1232. https://doi.org/10.1111/j.1365-2664.2006.01214.x
+Allouche, O., Tsoar, A., & Kadmon, R. (2006). Assessing the accuracy of species distribution models: Prevalence, kappa and the true skill statistic (TSS): Assessing the accuracy of distribution models. Journal of Applied Ecology, 43(6), 1223–1232. https://doi.org/10.1111/j.1365-2664.2006.01214.x
 
-Araújo, M. B., R. P. Anderson, A. M. Barbosa, C. M. Beale, C. F. Dormann, R. Early, R. A. Garcia, et al. 2019. “Standards for Distribution Models in Biodiversity Assessments.” Science Advances 5: eaat4858.
+Araújo, M. B., Pearson, R. G., Thuiller, W., & Erhard, M. (2005). Validation of species–climate impact models under climate change. Global Change Biology, 11(9), 1504–1513. https://doi.org/10.1111/j.1365-2486.2005.01000.x
 
-Dormann, C. F., J. Elith, S. Bacher, C. Buchmann, G. Carl, G. Carre, J. R. Garcia Marquez, et al. 2013. “Collinearity: A Review of Methods to Deal with It and a Simulation Study Evaluating Their Performance.” Ecography 36: 27–46.
+Araújo, M., & New, M. (2007). Ensemble forecasting of species distributions. Trends in Ecology & Evolution, 22(1), 42–47. https://doi.org/10.1016/j.tree.2006.09.010
 
-Elith, J., C. H. Graham, R. P. Anderson, M. Dudik, S. Ferrier, A. Guisan, R. J. Hijmans, et al. 2006. “Novel Methods Improve Prediction of Species’ Distribution from Occurence Data.” Ecography 29: 129–51.
+Araújo, M. B., Anderson, R. P., Márcia Barbosa, A., Beale, C. M., Dormann, C. F., Early, R., Garcia, R. A., Guisan, A., Maiorano, L., Naimi, B., O’Hara, R. B., Zimmermann, N. E., & Rahbek, C. (2019). Standards for distribution models in biodiversity assessments. Science Advances, 5(1), eaat4858. https://doi.org/10.1126/sciadv.aat4858
 
-Elith, J., and J. R. Leathwick. 2009. “Species Distribution Models: Ecological Explanation and Prediction Across Space and Time.” Annual Review of Ecology, Evolution, and Systematics 40: 677–97.
+Assis, J., Tyberghein, L., Bosch, S., Verbruggen, H., Serrão, E. A., & Clerck, O. D. (2018). Bio-ORACLE v2.0: Extending marine data layers for bioclimatic modelling. Global Ecology and Biogeography, 27(3), 277–284. https://doi.org/10.1111/geb.12693
 
-Elith, J., S. J. Phillips, T. Hastie, M. Dudik, Y. E. Chee, and C. J. Yates. 2011. “A Statistical Explanation of Maxent for Ecologists.” Diversity and Distributions 17: 43–57.
+Aiello-Lammens, M. E., Boria, R. A., Radosavljevic, A., Vilela, B., & Anderson, R. P. (2015). spThin: An R package for spatial thinning of species occurrence records for use in ecological niche models. Ecography, 38(5), 541–545. https://doi.org/10.1111/ecog.01132
 
-Franklin, J. 2010. Mapping Species Distributions: Spatial Inference and Prediction. Cambride University Press.
+Araújo, M. B., & Peterson, A. T. (2012). Uses and misuses of bioclimatic envelope modeling. Ecology, 93(7), 1527–1539. https://doi.org/10.1890/11-1930.1
 
-Freeman, E. A., and G. Moisen. 2008. “PresenceAbsence: An R Package for Presence Absence Analysis.” Journal of Statistical Software 23: 1–31.
+Bahn, V., & McGill, B. J. (2007). Can niche-based distribution models outperform spatial interpolation? Global Ecology and Biogeography, 16(6), 733–742. https://doi.org/10.1111/j.1466-8238.2007.00331.x
 
-Guillera-Arroita, G. 2017. “Modelling of Species Distributions, Range Dynamics and Communities Under Imperfect Detection: Advances, Challenges and Opportunities.” Ecography 40: 281–95.
+Barve, N., Barve, V., Jiménez-Valverde, A., Lira-Noriega, A., Maher, S. P., Peterson, A. T., Soberón, J., & Villalobos, F. (2011). The crucial role of the accessible area in ecological niche modeling and species distribution modeling. Ecological Modelling, 222(11), 1810–1819. https://doi.org/10.1016/j.ecolmodel.2011.02.011
 
-Guisan, A., and W. Thuiller. 2005. “Predicting Species Distribution: Offering More Than Simple Habitat Models.” Ecology Letters 8: 993–1009.
+Blasco‐Moreno, A., Pérez‐Casany, M., Puig, P., Morante, M., & Castells, E. (2019). What does a zero mean? Understanding false, random and structural zeros in ecology. Methods in Ecology and Evolution, 10(7), 949–959. https://doi.org/10.1111/2041-210X.13185
 
-Guisan, A., W. Thuiller, and N. E. Zimmermann. 2017. Habitat Suitability and Distribution Models with Applications in R. Cambride University Press.
+Booth, T. H., Nix, H. A., Busby, J. R., & Hutchinson, M. F. (2014). BIOCLIM: the first species distribution modelling package, its early applications and relevance to most current MaxEnt studies. Diversity and Distributions, 20(1), 1–9. https://doi.org/10.1111/ddi.12144
 
-Guisan, A., and N. E. Zimmermann. 2000. “Predictive Habitat Distribution Models in Ecology.” Ecological Modelling 135: 147–86.
+Breiman, L. (2001). Random Forests. Machine Learning, 45(1), 5–32. https://doi.org/10.1023/A:1010933404324
 
-Hijmans, R. J. 2019. Raster: Geographic Data Analysis and Modeling. https://CRAN.R-project.org/package=raster.
+Brown, J. L., & Yoder, A. D. (2015). Shifting ranges and conservation challenges for lemurs in the face of climate change. Ecology and Evolution, 5(6), 1131–1142. https://doi.org/10.1002/ece3.1418
 
-Hutchinson, G. E. 1957. “Concluding Remarks, Cold Spring Harbor Symposium.” Quantitative Biology 22: 415–27.
+Brown, J. L., Hill, D. J., Dolan, A. M., Carnaval, A. C., & Haywood, A. M. (2018). PaleoClim, high spatial resolution paleoclimate surfaces for global land areas. Scientific Data, 5(1), 180254. https://doi.org/10.1038/sdata.2018.254
 
-Liu, C., P. M. Berry, T. P. Dawson, and R. G. Pearson. 2005. “Selecting Thresholds of Occurrence in the Prediction of Species Distributions.” Ecography 28: 385–93.
+Bruno, J. F., Stachowicz, J. J., & Bertness, M. D. (2003). Inclusion of facilitation into ecological theory. Trends in Ecology & Evolution, 18(3), 119–125. https://doi.org/10.1016/S0169-5347(02)00045-9
 
-Merow, C., M. J. Smith, T. C. Edwards Jr, A. Guisan, S. M. McMahon, S. Normand, W. Thuiller, R. O. Wueest, N. E. Zimmermann, and J. Elith. 2014. “What Do We Gain from Simplicity Versus Complexity in Species Distribution Models?” Ecography 37: 1267–81.
+Carpenter, G., Gillison, A. N., & Winter, J. (1993). DOMAIN: A flexible modelling procedure for mapping potential distributions of plants and animals. Biodiversity and Conservation, 2(6), 667–680. https://doi.org/10.1007/BF00051966
 
-Merow, C., M. J. Smith, and J. A. Silander Jr. 2013. “A Practical Guide to Maxent for Modeling Species’ Distributions: What It Does, and Why Inputs and Settings Matter.” Ecography 36: 1058–69.
+Chase, J. M., & Leibold, M. A. (2003). Ecological niches: Linking classical and contemporary approaches. University of Chicago Press.
 
-Peterson, A. T., J. Soberon, R.G. Pearson, R. P. Anderson, E. Martinez-Meyer, M. Nakamura, and M. B. Araujo. 2011. Ecological Niches and Geographic Distributions. Princeton University Press.
+Coelho, M. T. P., Diniz‐Filho, J. A., & Rangel, T. F. (2019). A parsimonious view of the parsimony principle in ecology and evolution. Ecography, 42(5), 968–976. https://doi.org/10.1111/ecog.04228
 
-Phillips, S. J., R. P. Anderson, and R. E. Schapire. 2006. “Maximum Entropy Modeling of Species Geographic Distributions.” Ecological Modelling 190: 231–59.
+Colwell, R. K., & Rangel, T. F. (2009). Hutchinson’s duality: The once and future niche. Proceedings of the National Academy of Sciences, 106(Supplement_2), 19651–19658. https://doi.org/10.1073/pnas.0901650106
 
-R Core Team. 2021. R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. [https://www.r-project.org/](https://www.r-project.org/)
+Costa-Pereira, R., Araújo, M. S., Souza, F. L., & Ingram, T. (2019). Competition and resource breadth shape niche variation and overlap in multiple trophic dimensions. Proceedings of the Royal Society B: Biological Sciences, 286(1902), 20190369. https://doi.org/10.1098/rspb.2019.0369
 
-Roberts, D. R., V. Bahn, S. Ciuti, M. S. Boyce, J. Elith, G. Guillera-Arroita, S: Hauenstein, et al. 2017. “Cross-Validation Strategies for Data with Temporal, Spatial, Hierarchical, or Phylogenetic Structure.” Ecography 40: 913–29.
+Cutler, D. R., Edwards, T. C., Beard, K. H., Cutler, A., Hess, K. T., Gibson, J., & Lawler, J. J. (2007). Random forests for classification in ecology. Ecology, 88(11), 2783–2792. https://doi.org/10.1890/07-0539.1
 
-Soberon, J. 2007. “Grinellian and Eltonian Niches and Geographic Distributions of Species.” Ecology Letters 10: 1115–23.
+De Marco, P., & Marinez Ferreira de Siqueira. (2009). Como determinar a distribuição potencial de espécies sob uma abordagem conservacionista? Megadiversidade, 5, 12.
 
-Thuiller, W., M. Guéguen, J. Renaud, D. N. Karger, and N. E. Zimmermann. 2019. “Uncertainty in Ensembles of Global Biodiversity Scenarios.” Nature Communications 10: 1446.
+Diniz-Filho, J. A. F., Mauricio Bini, L., Fernando Rangel, T., Loyola, R. D., Hof, C., NoguÃ©s-Bravo, D., & AraÃºjo, M. B. (2009). Partitioning and mapping uncertainties in ensembles of forecasts of species turnover under climate change. Ecography, 32(6), 897–906. https://doi.org/10.1111/j.1600-0587.2009.06196.x
 
-Thuiller, W., B. Lafourcade, R. Engler, and M. B. Araujo. 2009. “BIOMOD - a Platform for Ensemble Forecasting of Species Distributions.” Ecography 32: 369–73.
+Dou, J., Yunus, A. P., Tien Bui, D., Sahana, M., Chen, C.-W., Zhu, Z., Wang, W., & Thai Pham, B. (2019). Evaluating GIS-Based Multiple Statistical Models and Data Mining for Earthquake and Rainfall-Induced Landslide Susceptibility Using the LiDAR DEM. Remote Sensing, 11(6), 638. https://doi.org/10.3390/rs11060638
 
-Urban, M. C., G. Bocedi, A. P. Hendry, J.-B. Mihoub, G. Pe’er, A. Singer, J. R. Bridle, et al. 2016. “Improving the Forecast for Biodiversity Under Climate Change.” Science 353: aad8466.
+Dormann, C. F., Bobrowski, M., Dehling, D. M., Harris, D. J., Hartig, F., Lischke, H., Moretti, M. D., Pagel, J., Pinkert, S., Schleuning, M., Schmidt, S. I., Sheppard, C. S., Steinbauer, M. J., Zeuss, D., & Kraan, C. (2018). Biotic interactions in species distribution modelling: 10 questions to guide interpretation and avoid false conclusions. Global Ecology and Biogeography, 27(9), 1004–1016. https://doi.org/10.1111/geb.12759
 
-Zurell, D., J. Elith, and B. Schroeder. 2012. “Predicting to New Environments: Tools for Visualizing Model Behavior and Impacts on Mapped Distributions.” Diversity and Distributions 18: 628–34.
+Drake, J. M., Randin, C., & Guisan, A. (2006). Modelling ecological niches with support vector machines. Journal of Applied Ecology, 43(3), 424–432. https://doi.org/10.1111/j.1365-2664.2006.01141.x
 
-Zurell, D., and J.O. Engler. 2019. “Ecological Niche Modelling.” In Effects of Climate Change on Birds, edited by P.O. Dunn and A.P. Moller, 60–73. Oxford University Press.
+Elith, J., Phillips, S. J., Hastie, T., Dudík, M., Chee, Y. E., & Yates, C. J. (2011). A statistical explanation of MaxEnt for ecologists: Statistical explanation of MaxEnt. Diversity and Distributions, 17(1), 43–57. https://doi.org/10.1111/j.1472-4642.2010.00725.x
+
+Elton, C. 1927. Animal Ecology, London: Sidgwick and Jackson.
+
+Elith, J., Phillips, S. J., Hastie, T., Dudík, M., Chee, Y. E., & Yates, C. J. (2011). A statistical explanation of MaxEnt for ecologists: Statistical explanation of MaxEnt. Diversity and Distributions, 17(1), 43–57. https://doi.org/10.1111/j.1472-4642.2010.00725.x
+
+Farber, O., & Kadmon, R. (2003). Assessment of alternative approaches for bioclimatic modeling with special emphasis on the Mahalanobis distance. Ecological Modelling, 160(1–2), 115–130. https://doi.org/10.1016/S0304-3800(02)00327-7
+
+Feng, X., Park, D. S., Walker, C., Peterson, A. T., Merow, C., & Papeş, M. (2019). A checklist for maximizing reproducibility of ecological niche models. Nature Ecology & Evolution, 3(10), 1382–1395. https://doi.org/10.1038/s41559-019-0972-5
+
+Feng, X., Park, D. S., Liang, Y., Pandey, R., & Papeş, M. (2019). Collinearity in ecological niche modeling: Confusions and challenges. Ecology and Evolution, 9(18), 10365–10376. https://doi.org/10.1002/ece3.5555
+
+Fick, S. E., & Hijmans, R. J. (2017). WorldClim 2: New 1‐km spatial resolution climate surfaces for global land areas. International Journal of Climatology, 37(12), 4302–4315. https://doi.org/10.1002/joc.5086
+
+Fielding, A. H., & Bell, J. F. (1997). A review of methods for the assessment of prediction errors in conservation presence/absence models. Environmental Conservation, 24(1), 38–49. https://doi.org/10.1017/S0376892997000088
+
+Fletcher, R., & Fortin, M.-J. (2018). Spatial Ecology and Conservation Modeling: Applications with R. Springer International Publishing. https://doi.org/10.1007/978-3-030-01989-1
+
+Franklin, J., & Miller, J. A. (2009). Mapping species distributions: Spatial inference and prediction. Cambridge University Press.
+
+Giannini, T. C., Siqueira, M. F., Acosta, A. L., Barreto, F. C. C., Saraiva, A. M., & Alves-dos-Santos, I. (2012). Desafios atuais da modelagem preditiva de distribuição de espécies. Rodriguésia, 63(3), 733–749. https://doi.org/10.1590/S2175-78602012000300017
+
+Gonçalves-Souza, T., Provete, D. B., Garey, M. V., da Silva, F. R., & Albuquerque, U. P. (2019). Going Back to Basics: How to Master the Art of Making Scientifically Sound Questions. In U. P. Albuquerque, R. F. P. de Lucena, L. V. F. Cruz da Cunha, & R. R. N. Alves (Orgs.), Methods and Techniques in Ethnobiology and Ethnoecology (p. 71–86). Springer New York. https://doi.org/10.1007/978-1-4939-8919-5_7
+
+Gravel, D., Baiser, B., Dunne, J. A., Kopelke, J.-P., Martinez, N. D., Nyman, T., Poisot, T., Stouffer, D. B., Tylianakis, J. M., Wood, S. A., & Roslin, T. (2019). Bringing Elton and Grinnell together: A quantitative framework to represent the biogeography of ecological interaction networks. Ecography, 42(3), 401–415. https://doi.org/10.1111/ecog.04006
+
+Grinnell, J. (1917). The Niche-Relationships of the California Thrasher. The Auk, 34(4), 427–433. https://doi.org/10.2307/4072271
+
+Guisan, A., Edwards, T. C., & Hastie, T. (2002). Generalized linear and generalized additive models in studies of species distributions: Setting the scene. Ecological Modelling, 157(2–3), 89–100. https://doi.org/10.1016/S0304-3800(02)00204-1
+
+Guisan, A., Thuiller, W., & Zimmermann, N. E. (2017). Habitat Suitability and Distribution Models: With Applications in R. Cambridge University Press. https://doi.org/10.1017/9781139028271
+
+Guo, Q., Kelly, M., & Graham, C. H. (2005). Support vector machines for predicting distribution of Sudden Oak Death in California. Ecological Modelling, 16.
+
+Hengl, T., Jesus, J. M. de, Heuvelink, G. B. M., Gonzalez, M. R., Kilibarda, M., Blagotić, A., Shangguan, W., Wright, M. N., Geng, X., Bauer-Marschallinger, B., Guevara, M. A., Vargas, R., MacMillan, R. A., Batjes, N. H., Leenaars, J. G. B., Ribeiro, E., Wheeler, I., Mantel, S., & Kempen, B. (2017). SoilGrids250m: Global gridded soil information based on machine learning. PLOS ONE, 12(2), e0169748. https://doi.org/10.1371/journal.pone.0169748
+
+Hijmans, R. J., Cameron, S. E., Parra, J. L., Jones, P. G., & Jarvis, A. (2005). Very high resolution interpolated climate surfaces for global land areas. International Journal of Climatology, 25(15), 1965–1978. https://doi.org/10.1002/joc.1276
+
+Hirzel, A. H., & Le Lay, G. (2008). Habitat suitability modelling and niche theory. Journal of Applied Ecology, 45(5), 1372–1381. https://doi.org/10.1111/j.1365-2664.2008.01524.x
+
+Holt, R. D. (2009). Bringing the Hutchinsonian niche into the 21st century: Ecological and evolutionary perspectives. Proceedings of the National Academy of Sciences, 106(Supplement 2), 19659–19665. https://doi.org/10.1073/pnas.0905137106
+
+Hughes, A. C., Orr, M. C., Ma, K., Costello, M. J., Waller, J., Provoost, P., Yang, Q., Zhu, C., & Qiao, H. (2021). Sampling biases shape our view of the natural world. Ecography, ecog.05926. https://doi.org/10.1111/ecog.05926
+
+Hutchinson, G. E. (1957). Concluding remarks. Cold Spring Harbor Symposia on Quantitative Biology, 22(0), 415–427. https://doi.org/10.1101/SQB.1957.022.01.039
+
+Ismay, C., & Kim, A. Y.-S. (2020). Statistical inference via data science: A ModernDive into R and the Tidyverse. CRC Press / Taylor & Francis Group.
+
+Jenkins, C. N., Pimm, S. L., & Joppa, L. N. (2013). Global patterns of terrestrial vertebrate diversity and conservation. Proceedings of the National Academy of Sciences, 110(28), E2602–E2610. https://doi.org/10.1073/pnas.1302251110
+
+Jiménez, L., Soberón, J., Christen, J. A., & Soto, D. (2019). On the problem of modeling a fundamental niche from occurrence data. Ecological Modelling, 397, 74–83. https://doi.org/10.1016/j.ecolmodel.2019.01.020
+
+Jiménez-Valverde, A. (2012). Insights into the area under the receiver operating characteristic curve (AUC) as a discrimination measure in species distribution modelling: Insights into the AUC. Global Ecology and Biogeography, 21(4), 498–507. https://doi.org/10.1111/j.1466-8238.2011.00683.x
+
+Karger, D. N., Conrad, O., Böhner, J., Kawohl, T., Kreft, H., Soria-Auza, R. W., Zimmermann, N. E., Linder, H. P., & Kessler, M. (2017). Climatologies at high resolution for the earth’s land surface areas. Scientific Data, 4(1), 170122. https://doi.org/10.1038/sdata.2017.122
+
+Karger, D. N., Schmatz, D. R., Dettling, G., & Zimmermann, N. E. (2020). High-resolution monthly precipitation and temperature time series from 2006 to 2100. Scientific Data, 7(1), 248. https://doi.org/10.1038/s41597-020-00587-y
+
+Kearney, M. (2006). Habitat, environment and niche: What are we modelling? Oikos, 115(1), 186–191. https://doi.org/10.1111/j.2006.0030-1299.14908.x
+
+Landis, J. R., & Koch, G. G. (1977). The Measurement of Observer Agreement for Categorical Data. Biometrics, 33(1), 159–174. https://doi.org/10.2307/2529310
+
+Liaw, A., & Wiener, M. (2002). Classiﬁcation and Regression by randomForest. 2, 5.
+
+Lima-Ribeiro, M., & Diniz-Filho, J. (2013). Modelos ecológicos ea extinção da megafauna: Clima e homem na América do Sul.
+
+Liu, C., Berry, P. M., Dawson, T. P., & Pearson, R. G. (2005). Selecting thresholds of occurrence in the prediction of species distributions. Ecography, 28(3), 385–393. https://doi.org/10.1111/j.0906-7590.2005.03957.x
+
+Liu, C., Newell, G., & White, M. (2016). On the selection of thresholds for predicting species occurrence with presence‐only data. Ecology and Evolution, 6(1), 337–348. https://doi.org/10.1002/ece3.1878
+
+Liu, C., White, M., & Newell, G. (2013). Selecting thresholds for the prediction of species occurrence with presence-only data. Journal of Biogeography, 40(4), 778–789. https://doi.org/10.1111/jbi.12058
+
+Lobo, J. M., Jiménez-Valverde, A., & Real, R. (2008). AUC: A misleading measure of the performance of predictive distribution models. Global Ecology and Biogeography, 17(2), 145–151. https://doi.org/10.1111/j.1466-8238.2007.00358.x
+
+Lozier, J. D., Aniello, P., & Hickerson, M. J. (2009). Predicting the distribution of Sasquatch in western North America: Anything goes with ecological niche modelling. Journal of Biogeography, 36(9), 1623–1627. https://doi.org/10.1111/j.1365-2699.2009.02152.x
+
+Lovelace, R., Nowosad, J., & Muenchow, J. (2020). Geocomputation with R (First issued in paperback). CRC Press, Taylor & Francis Group.
+
+Macarthur, R., & Levins, R. (1967). The Limiting Similarity, Convergence, and Divergence of Coexisting Species. The American Naturalist, 101(921), 377–385. https://doi.org/10.1086/282505
+
+Machado-Stredel, F., Cobos, M. E., & Peterson, A. T. (2021). A simulation-based method for selecting calibration areas for ecological niche models and species distribution models. Frontiers of Biogeography, 0(0). https://doi.org/10.21425/F5FBG48814
+
+Maitner, B. S., Boyle, B., Casler, N., Condit, R., Donoghue, J., Durán, S. M., Guaderrama, D., Hinchliff, C. E., Jørgensen, P. M., Kraft, N. J. B., McGill, B., Merow, C., Morueta-Holme, N., Peet, R. K., Sandel, B., Schildhauer, M., Smith, S. A., Svenning, J.-C., Thiers, B., … Enquist, B. J. (2018). The bien r package: A tool to access the Botanical Information and Ecology Network (BIEN) database. Methods in Ecology and Evolution, 9(2), 373–379. https://doi.org/10.1111/2041-210X.12861
+
+McInerny, G. J., & Etienne, R. S. (2012). Ditch the niche – is the niche a useful concept in ecology or species distribution modelling? Journal of Biogeography, 39(12), 2096–2102. https://doi.org/10.1111/jbi.12033
+
+Morales-Barbero, J., & Vega-Álvarez, J. (2019). Input matters matter: Bioclimatic consistency to map more reliable species distribution models. Methods in Ecology and Evolution, 10(2), 212–224. https://doi.org/10.1111/2041-210X.13124
+
+Murray, D., & Sandercock, B. K. (Orgs.). (2019). Population ecology in practice (First Edition). Wiley-Blackwell.
+
+Nabout, J. C., Caetano, J. M., Ferreira, R. B., Teixeira, I. R., & Alves, S. M. de F. (2012). Using correlative, mechanistic and hybrid niche models to predict the productivity and impact of global climate change on maize crop in Brazil. Natureza & Conservação, 10(2), 177–183. https://doi.org/10.4322/natcon.2012.034
+
+Naimi, B., & Araújo, M. B. (2016). sdm: A reproducible and extensible R platform for species distribution modelling. Ecography, 39(4), 368–375. https://doi.org/10.1111/ecog.01881
+
+Naimi, B., Hamm, N. A. S., Groen, T. A., Skidmore, A. K., & Toxopeus, A. G. (2014). Where is positional uncertainty a problem for species distribution modelling? Ecography, 37(2), 191–203. https://doi.org/10.1111/j.1600-0587.2013.00205.x
+
+Nix, H. A. & others. (1986). A biogeographic analysis of Australian elapid snakes. In Atlas of elapid snakes of Australia (Vol. 7, p. 4–15).
+
+Oliveira, U., Paglia, A. P., Brescovit, A. D., Carvalho, C. J. B., Silva, D. P., Rezende, D. T., Leite, F. S. F., Batista, J. A. N., Barbosa, J. P. P. P., Stehmann, J. R., Ascher, J. S., Vasconcelos, M. F., De Marco, P., Löwenberg‐Neto, P., Dias, P. G., Ferro, V. G., & Santos, A. J. (2016). The strong influence of collection bias on biodiversity knowledge shortfalls of B razilian terrestrial biodiversity. Diversity and Distributions, 22(12), 1232–1244. https://doi.org/10.1111/ddi.12489
+
+Ovaskainen, O., Knegt, H. J. de, & Delgado, M. del M. (2016). Quantitative ecology and evolutionary biology: Integrating models with data. Oxford University Press.
+
+Owens, H. L., Campbell, L. P., Dornak, L. L., Saupe, E. E., Barve, N., Soberón, J., Ingenloff, K., Lira-Noriega, A., Hensz, C. M., Myers, C. E., & Peterson, A. T. (2013). Constraints on interpretation of ecological niche models by limited environmental ranges on calibration areas. Ecological Modelling, 263, 10–18. https://doi.org/10.1016/j.ecolmodel.2013.04.011
+
+Owens, H. L., Merow, C., Maitner, B. S., Kass, J. M., Barve, V., & Guralnick, R. P. (2021). occCite: Tools for querying and managing large biodiversity occurrence datasets. Ecography, 44(8), 1228–1235. https://doi.org/10.1111/ecog.05618
+
+Prasad, A. M., Iverson, L. R., & Liaw, A. (2006). Newer Classification and Regression Tree Techniques: Bagging and Random Forests for Ecological Prediction. Ecosystems, 9(2), 181–199. https://doi.org/10.1007/s10021-005-0054-1
+
+Pearson, R. G., Raxworthy, C. J., Nakamura, M., & Townsend Peterson, A. (2007). Predicting species distributions from small numbers of occurrence records: A test case using cryptic geckos in Madagascar: Predicting species distributions with low sample sizes. Journal of Biogeography, 34(1), 102–117. https://doi.org/10.1111/j.1365-2699.2006.01594.x
+
+Peterson, A. T. (Org.). (2011). Ecological niches and geographic distributions. Princeton University Press.
+
+Peterson, A. T., & Soberón, J. (2012). Species Distribution Modeling and Ecological Niche Modeling: Getting the Concepts Right. Natureza & Conservação, 10(2), 102–107. https://doi.org/10.4322/natcon.2012.019
+
+Peterson, A. T. (2014). Mapping disease transmission risk: Enriching models using biogeography and ecology. Johns Hopkins University Press.
+
+Phillips, S. J., Anderson, R. P., Dudík, M., Schapire, R. E., & Blair, M. E. (2017). Opening the black box: An open-source release of Maxent. Ecography, 40(7), 887–893. https://doi.org/10.1111/ecog.03049
+
+Phillips, S. J., Anderson, R. P., & Schapire, R. E. (2006). Maximum entropy modeling of species geographic distributions. Ecological Modelling, 190(3–4), 231–259. https://doi.org/10.1016/j.ecolmodel.2005.03.026
+
+Phillips, S. J., & Dudík, M. (2008). Modeling of species distributions with Maxent: New extensions and a comprehensive evaluation. Ecography, 31(2), 161–175. https://doi.org/10.1111/j.0906-7590.2008.5203.x
+
+Preuss, G., & Padial, A. A. (2021). Increasing reality of species distribution models of consumers by including its food resources. Neotropical Biology and Conservation, 16(3), 411–425. https://doi.org/10.3897/neotropical.16.e64892
+
+Qiao, H., Soberón, J., & Peterson, A. T. (2015). No silver bullets in correlative ecological niche modelling: Insights from testing among many potential algorithms for niche estimation. Methods in Ecology and Evolution, 6(10), 1126–1136. https://doi.org/10.1111/2041-210X.12397
+
+R Core Team (2021). R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. URL https://www.R-project.org/.
+
+Sales, L. P., Hayward, M. W., & Loyola, R. (2021). What do you mean by “niche”? Modern ecological theories are not coherent on rhetoric about the niche concept. Acta Oecologica, 110, 103701. https://doi.org/10.1016/j.actao.2020.103701
+
+Sheykhmousa, M., Mahdianpari, M., Ghanbari, H., Mohammadimanesh, F., Ghamisi, P., & Homayouni, S. (2020). Support Vector Machine Versus Random Forest for Remote Sensing Image Classification: A Meta-Analysis and Systematic Review. IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 13, 6308–6325. https://doi.org/10.1109/JSTARS.2020.3026724
+
+Sillero, N. (2011). What does ecological modelling model? A proposed classification of ecological niche models based on their underlying methods. Ecological Modelling, 4.
+
+Sillero, N., Arenas-Castro, S., Enriquez‐Urzelai, U., Vale, C. G., Sousa-Guedes, D., Martínez-Freiría, F., Real, R., & Barbosa, A. M. (2021). Want to model a species niche? A step-by-step guideline on correlative ecological niche modelling. Ecological Modelling, 456, 109671. https://doi.org/10.1016/j.ecolmodel.2021.109671
+
+Sillero, N., & Barbosa, A. M. (2021). Common mistakes in ecological niche models. International Journal of Geographical Information Science, 35(2), 213–226. https://doi.org/10.1080/13658816.2020.1798968
+
+Silva, F. S. da, & Catelli, F. (2019). Os modelos na ciência: Traços da evolução histórico-epistemológica. Revista Brasileira de Ensino de Física, 41(4), e20190029. https://doi.org/10.1590/1806-9126-rbef-2019-0029
+
+Soberón, J. (2007). Grinnellian and Eltonian niches and geographic distributions of species. Ecology Letters, 10(12), 1115–1123. https://doi.org/10.1111/j.1461-0248.2007.01107.x
+
+Soberón, J., & Nakamura, M. (2009). Niches and distributional areas: Concepts, methods, and assumptions. Proceedings of the National Academy of Sciences, 106(Supplement_2), 19644–19650. https://doi.org/10.1073/pnas.0901637106
+
+Soberón, J. M. (2010). Niche and area of distribution modeling: A population ecology perspective. Ecography, 33(1), 159–167. https://doi.org/10.1111/j.1600-0587.2009.06074.x
+
+Soberón, J., & Peterson, A. T. (2005). Interpretation of Models of Fundamental Ecological Niches and Species’ Distributional Areas. Biodiversity Informatics, 2(0). https://doi.org/10.17161/bi.v2i0.4
+
+Soberón, J., Osorio-Olvera, L., & Peterson, T. (2017). Diferencias conceptuales entre modelación de nichos y modelación de áreas de distribución. Revista Mexicana de Biodiversidad, 88(2), 437–441. https://doi.org/10.1016/j.rmb.2017.03.011
+
+Sbrocco, E. J., & Barber, P. H. (2013). MARSPEC: Ocean climate layers for marine spatial ecology. Ecology, 94(4), 979–979. https://doi.org/10.1890/12-1358.1
+
+Tax, D. M. J., & Duin, R. P. W. (2004). Support Vector Data Description. Machine Learning, 54(1), 45–66. https://doi.org/10.1023/B:MACH.0000008084.60811.49
+
+Tennekes, M. (2018). tmap: Thematic Maps in R. Journal of Statistical Software, 84(1), 1–39. https://doi.org/10.18637/jss.v084.i06
+
+Thuiller, W. (2003). BIOMOD - optimizing predictions of species distributions and projecting potential future shifts under global change. Global Change Biology, 9(10), 1353–1362. https://doi.org/10.1046/j.1365-2486.2003.00666.x
+
+Thuiller, W., Lafourcade, B., Engler, R., & Araújo, M. B. (2009). BIOMOD - a platform for ensemble forecasting of species distributions. Ecography, 32(3), 369–373. https://doi.org/10.1111/j.1600-0587.2008.05742.x
+
+Tyberghein, L., Verbruggen, H., Pauly, K., Troupin, C., Mineur, F., & Clerck, O. D. (2012). Bio-ORACLE: A global environmental dataset for marine species distribution modelling. Global Ecology and Biogeography, 21(2), 272–281. https://doi.org/10.1111/j.1466-8238.2011.00656.x
+
+Urbina-Cardona, N., Blair, M. E., Londoño, M. C., Loyola, R., Velásquez-Tibatá, J., & Morales-Devia, H. (2019). Species Distribution Modeling in Latin America: A 25-Year Retrospective Review. Tropical Conservation Science, 12, 194008291985405. https://doi.org/10.1177/1940082919854058
+
+Valavi, R., Elith, J., Lahoz‐Monfort, J. J., & Guillera‐Arroita, G. (2019). BlockCV: An r package for generating spatially or environmentally separated folds for k‐fold cross‐validation of species distribution models. Methods in Ecology and Evolution, 10(2), 225–232. https://doi.org/10.1111/2041-210X.13107
+
+Vega, G. C., Pertierra, L. R., & Olalla-Tárraga, M. Á. (2017). MERRAclim, a high-resolution global dataset of remotely sensed bioclimatic variables for ecological modelling. Scientific Data, 4(1), 170078. https://doi.org/10.1038/sdata.2017.78
+
+Warren, D. L. (2012). In defense of ‘niche modeling’. Trends in Ecology & Evolution, 27(9), 497–500. https://doi.org/10.1016/j.tree.2012.03.010
+
+Wegmann, M., Leutner, B., & Dech, S. (Orgs.). (2016). Remote sensing and GIS for ecologists: Using open source software. Pelagic Publishing.
+
+Wickham, H. (2016). ggplot2: Elegant Graphics for Data Analysis (2º ed). Springer International Publishing. https://doi.org/10.1007/978-3-319-24277-4
+
+Wickham, H., & Grolemund, G. (2016). R for data science: Import, tidy, transform, visualize, and model data (First edition). O’Reilly.
+
+Wisz, M. S., Pottier, J., Kissling, W. D., Pellissier, L., Lenoir, J., Damgaard, C. F., Dormann, C. F., Forchhammer, M. C., Grytnes, J., Guisan, A., Heikkinen, R. K., Høye, T. T., Kühn, I., Luoto, M., Maiorano, L., Nilsson, M., Normand, S., Öckinger, E., Schmidt, N. M., … Svenning, J. (2013). The role of biotic interactions in shaping distributions and realised assemblages of species: Implications for species distribution modelling. Biological Reviews, 88(1), 15–30. https://doi.org/10.1111/j.1469-185X.2012.00235.x
+
+Zizka, A., Antonelli, A., & Silvestro, D. (2021). Sampbias, a method for quantifying geographic sampling biases in species distribution data. Ecography, 44(1), 25–32. https://doi.org/10.1111/ecog.05102
+
+Zizka, A., Silvestro, D., Andermann, T., Azevedo, J., Duarte Ritter, C., Edler, D., Farooq, H., Herdean, A., Ariza, M., Scharn, R., Svantesson, S., Wengström, N., Zizka, V., & Antonelli, A. (2019). CoordinateCleaner: Standardized cleaning of occurrence records from biological collection databases. Methods in Ecology and Evolution, 10(5), 744–751. https://doi.org/10.1111/2041-210X.13152
+
+Zurell, D., Franklin, J., König, C., Bouchet, P. J., Dormann, C. F., Elith, J., Fandos, G., Feng, X., Guillera‐Arroita, G., Guisan, A., Lahoz‐Monfort, J. J., Leitão, P. J., Park, D. S., Peterson, A. T., Rapacciuolo, G., Schmatz, D. R., Schröder, B., Serra‐Diaz, J. M., Thuiller, W., … Merow, C. (2020). A standard protocol for reporting species distribution models. Ecography, 43(9), 1261–1277. https://doi.org/10.1111/ecog.04960
+
+Zuur, A. F., Ieno, E. N., & Elphick, C. S. (2010). A protocol for data exploration to avoid common statistical problems: Data exploration. Methods in Ecology and Evolution, 1(1), 3–14. https://doi.org/10.1111/j.2041-210X.2009.00001.x

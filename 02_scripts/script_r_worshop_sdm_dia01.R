@@ -274,7 +274,7 @@ tm_shape(env_li$bio01) +
 
 # collinearity ----
 # correlation
-ENMTools::raster.cor.matrix(env_li, method = "pearson")
+ENMTools::raster.cor.matrix(env_li, method = "spearman")
 ENMTools::raster.cor.plot(env_li)
 
 # vif
@@ -308,6 +308,7 @@ plot(env_li_vif_scale, col = viridis::viridis(100))
 raster::writeRaster(x = env_li_vif_scale,
                     filename = paste0("03_dados/02_variaveis/", names(env_li_vif_scale)),
                     bylayer = TRUE,
-                    format = "GTiff")
+                    format = "GTiff",
+                    overwrite = TRUE)
 
 # end ---------------------------------------------------------------------

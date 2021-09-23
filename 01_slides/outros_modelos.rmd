@@ -1,0 +1,48 @@
+---
+
+background-image: url(img/sdm_ocupacao.jpg), url(img/sdm_ocupacao.gif)
+background-size: 500px, 300px
+background-position: 20% 60%, 80% 70%
+
+# 2.3 Outros tipos de modelos
+
+### hSDM - Hierarchical Species Distribution Modeling (Modelos de ocupação)
+
+- Detecção imperfeita
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+[Kéry et al. (2010)](https://onlinelibrary.wiley.com/doi/10.1111/j.1365-2699.2010.02345.x),
+[Guillera-Arroita (2017)](https://onlinelibrary.wiley.com/doi/10.1111/ecog.02445)
+
+---
+
+background-image: url(img/sdm_ssdm.png), url(img/sdm_ssdm_gra.png), url(img/sdm_ssdm_map.png)
+background-size: 600px, 250px, 400px
+background-position: 10% 60%, 85% 85%, 90% 25%
+
+# 2.3 Outros tipos de modelos 
+
+## S-SDM - Stacked Species Distribution Modeling
+
+- Modelar a composição potencial de espécies em comunidades
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+[Vidal et al. (in prep.)](https://www.biorxiv.org/content/10.1101/629782v1.abstract)
+
+---
+
+background-image: url(img/sdm_jsdm_dados.webp), url(img/sdm_jsdm02.jpg), url(img/sdm_jsdm_filtro.webp), url(img/sdm_jsdm03.jpg)
+background-size: 450px, 300px, 300px, 300px
+background-position: 8% 70%, 60% 75%, 97% 2%, 97% 80%
+
+# 2.3 Outros tipos de modelos
+
+## JSDM - Joint Species Distribution Modeling
+
+- Modelar a resposta individual das espécies às variações ambientais
+- Entender as coocorrências potenciais (respostas positivas e negativas)
+- Embasado na teoria de filtros para montagem de comunidades
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
+[Warton et al. (2015)](https://onlinelibrary.wiley.com/doi/10.1111/j.1365-2699.2010.02345.x),
+[Ovaskainen et al. (2017)](https://onlinelibrary.wiley.com/doi/10.1111/ecog.02445)

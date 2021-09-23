@@ -16,6 +16,7 @@ if(!require(raster)) install.packages("raster")
 if(!require(viridis)) install.packages("viridis")
 if(!require(dismo)) install.packages("dismo")
 if(!require(gam)) install.packages("gam")
+if(!require(kernlab)) install.packages("kernlab")
 if(!require(e1071)) install.packages("e1071")
 if(!require(randomForest)) install.packages("randomForest")
 if(!require(sdm)) install.packages("sdm")
@@ -160,7 +161,7 @@ DOM <- dismo::domain(x = train_pa[train_pa$pb == 1, -1])
 # presence-only - distance-based
 MAH <- dismo::mahal(x = train_pa[train_pa$pb == 1, -1])
 
-# presence-absence - machine learning
+# presence-absence - statistics
 GLM <- glm(formula = pb ~ ., data = train_pa, family = "binomial")
 GLM
 summary(GLM)
@@ -432,7 +433,7 @@ ens_mean_pad_sd
 plot(ens_mean_pad_sd, col = viridis::turbo(100), main = "Ensemble - Média - Desvio padrão")
 points(occ$longitude, occ$latitude, pch = 20, col = "steelblue")
 
-# weighted.mean
+# weighted mean
 w_auc <- (eval$auc-0.5)^2 # retirar 0.5 (aleatorio) e eleva ao quadrado para valores muito altos
 ens_wei_mean_auc <- weighted.mean(models_cont_pad, w_auc)
 plot(ens_wei_mean_auc, col = viridis::turbo(100), main = "Ensemble - Média pondera pelo AUC")
@@ -520,8 +521,9 @@ sdm::getModelInfo(sdm_fit)
 sdm::getEvaluation(sdm_fit, opt = 2)
 
 # roc
+x11()
 sdm::roc(sdm_fit)
-sdm::roc(sdm_fit, method = "glm")
+sdm::roc(sdm_fit, method = "maxent")
 sdm::roc(sdm_fit, method = "glm", smooth = TRUE)
 
 # response curve
