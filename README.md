@@ -35,19 +35,27 @@ Para mais informações ou dúvidas, envie e-mail para:
 **Hardware** <br>
 Será necessário que todas e todos usem seus próprios notebooks.
 
-**Softwares**<br>R e RStudio <br>
+**Softwares**<br> 
+
+- **R e RStudio** <br>
 Instalar a versão mais recente do R (4.1.1): https://www.r-project.org/ <br>
 Instalar o RStudio: https://www.rstudio.com/ <br>
 Vídeo de instalação do R e do RStudio: https://youtu.be/l1bWvZMNMCM <br>
 
 Para quem não tem familiaridade com a linguagem R, sugiro que se possível, assistam algumas aulas desse curso: http://www.bosontreinamentos.com.br/category/programacao-em-r/
 
-**Instalar os pacotes no R** <br>
+- **RTools**
+Possivelmente se você usa Windows, vai precisar instalar o RTools (app de desenvolvedores) para instalar os pacotes. Siga esses passos: https://cran.r-project.org/bin/windows/Rtools/
+
+- **Instalar os pacotes no R** <br>
 Com o R e o RStudio instalados, baixe esse [script](https://github.com/mauriciovancine/workshop-r-sdm/blob/master/02_scripts/script_r_instalar_pacotes.R) (scripts são roteiros que possuem comandos, como um rascunho). <br>
 Abra o script baixado (**script_r_instalar_pacotes.R**) no software RStudio e rode cada linha de comando para instalar os pacotes. <br>
 Para rodar as linhas, basta colocar o cursor na linha de código a ser executada e precionar: `Crtl + Enter`, como mostra o gif abaixo:
 
 ![Alt Text](https://appsilon.com/wp-content/uploads/2019/03/blog_code_execution_optimized.gif)
+
+- **Java**
+Para instalar o pacote *rJava* no R para rodar o MaxEnt será necessário instalar o Java. Siga os passos nesse link: https://www.java.com/pt-BR/
 
 **Dúvidas ou dificuldades** <br>
 Para ajuda, envie e-mail para: <br>
