@@ -46,7 +46,9 @@ tm_shape(li) +
 
 # download ----
 # species
-sp <- "Chrysocyon brachyurus"
+# sp <- "Chrysocyon brachyurus"
+sp <- "Marmosops incanus"
+
 
 # spocc - pode demorar um tempo...
 occ_spocc <- spocc::occ(query = sp,
