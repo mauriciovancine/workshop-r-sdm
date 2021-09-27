@@ -8,6 +8,7 @@
 # packages
 if(!require(tidyverse)) install.packages("tidyverse")
 if(!require(rnaturalearth)) install.packages("rnaturalearth")
+if(!require(rnaturalearthdata)) install.packages("rnaturalearthdata")
 if(!require(nngeo)) install.packages("nngeo")
 if(!require(sf)) install.packages("sf")
 if(!require(tmap)) install.packages("tmap")
@@ -51,7 +52,7 @@ sp <- "Chrysocyon brachyurus"
 occ_spocc <- spocc::occ(query = sp,
                         from = c("gbif", "inat", "vertnet", "idigbio", "ecoengine"),
                         has_coords = TRUE,
-                        limit = 1e3)
+                        limit = 1e5)
 occ_spocc
 
 # specieslink
@@ -75,10 +76,9 @@ occ_splink_data <- occ_splink %>%
                 name = scientificName,
                 longitude = as.numeric(decimalLongitude),
                 latitude = as.numeric(decimalLatitude),
-                prov = "specieslink",
-                date = as.numeric(year),
-                key = as.character(catalogNumber)) %>%
-  dplyr::select(species:key)
+                year = as.numeric(year),
+                base = "specieslink") %>%
+  dplyr::select(name, species, longitude, latitude, year, base)
 occ_splink_data
 
 # combine data
@@ -98,7 +98,6 @@ tm_shape(li, bbox = occ_data_vector) +
   tm_shape(occ_data_vector) +
   tm_dots(size = .2, shape = 21, col = "steelblue") +
   tm_graticules(lines = FALSE)
-
 
 # spatial limit filter ----
 # crop to limit
@@ -123,8 +122,7 @@ occ_data_sptlim_date <- occ_data_sptlim %>%
     is.na(year) == FALSE &
       year >= 1970 &
       year <= lubridate::today() %>% lubridate::year(),
-    TRUE, FALSE)) %>%
-  dplyr::arrange(prov, date)
+    TRUE, FALSE))
 occ_data_sptlim_date
 
 # map
@@ -217,7 +215,7 @@ occ_data_filter
 mapview::mapview(occ_data_filter)
 
 # manual editing ----
-occ_data_filter_edit <-  mapedit::editFeatures(occ_data_filter) # atencao para o Done!
+occ_data_filter_edit <- mapedit::editFeatures(occ_data_filter) # atencao para o Done!
 occ_data_filter_edit
 
 # verificar
@@ -274,7 +272,7 @@ tm_shape(env_li$bio01) +
 
 # collinearity ----
 # correlation
-ENMTools::raster.cor.matrix(env_li, method = "spearman")
+ENMTools::raster.cor.matrix(env_li, method = "pearson")
 ENMTools::raster.cor.plot(env_li)
 
 # vif

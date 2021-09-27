@@ -1,7 +1,7 @@
 #' ---
 #' titulo: oficina sdm moco
 #' autor: mauricio vancine
-#' data: 25-09-2021
+#' data: 26-09-2021
 #' ---
 
 # prepare r -------------------------------------------------------------
@@ -129,7 +129,7 @@ pa_sample_train
 # train and test data
 train_pa <- dismo::prepareData(x = env,
                                p = pr_specie[pr_specie$id %in% pr_sample_train, 1:2],
-                               b = pa_specie[pr_specie$id %in% pr_sample_train, 1:2])
+                               b = pa_specie[pa_specie$id %in% pa_sample_train, 1:2])
 train_pa
 nrow(train_pa)
 table(train_pa$pb)
@@ -143,7 +143,7 @@ table(train_pb$pb)
 
 test_pa <- dismo::prepareData(x = env,
                               p = pr_specie[!pr_specie$id %in% pr_sample_train, 1:2],
-                              b = pa_specie[!pr_specie$id %in% pr_sample_train, 1:2])
+                              b = pa_specie[!pa_specie$id %in% pa_sample_train, 1:2])
 test_pa
 nrow(test_pa)
 table(test_pa$pb)
@@ -297,6 +297,8 @@ model_predict_bio
 model_predict_bio_thr <- model_predict_bio >= eval[1, ]$thr
 model_predict_bio_thr
 
+plot(model_predict_bio_thr * model_predict_bio)
+
 plot(model_predict_bio, col = viridis::turbo(100), main = "BIOCLIM - Contínuo")
 plot(model_predict_bio_thr, col = c("gray", "blue"), main = "BIOCLIM - Binário")
 points(occ$longitude, occ$latitude, pch = 20, col = "steelblue")
@@ -444,7 +446,7 @@ ens_wei_mean_tss <- weighted.mean(models_cont_pad, w_tss)
 plot(ens_wei_mean_tss, col = viridis::turbo(100), main = "Ensemble - Média pondera pelo AUC")
 points(occ$longitude, occ$latitude, pch = 20, col = "steelblue")
 
-par(mfrow = c(1, 4))
+par(mfrow = c(2, 2))
 plot(ens_freq, col = viridis::turbo(100), main = "Ensemble - Frequência")
 plot(ens_mean_pad, col = viridis::turbo(100), main = "Ensemble - Média")
 plot(ens_wei_mean_auc, col = viridis::turbo(100), main = "Ensemble - Média ponderada AUC")
@@ -466,7 +468,6 @@ env <- dir(path = "03_dados/02_variaveis", pattern = ".tif", full.names = TRUE) 
   raster::stack() %>%
   raster::brick()
 env
-
 
 # 2. data preparation -----------------------------------------------------
 # prepare data
@@ -490,7 +491,7 @@ parallel::detectCores()
 sdm_fit <- sdm::sdm(species ~ .,
                     data = sdm_data,
                     replication = "subsampling",
-                    n = 10,
+                    n = 5,
                     test.percent = 30,
                     parallelSetting = list(ncores = 3, method = "parallel"),
                     methods = c(
@@ -513,6 +514,7 @@ sdm_fit <- sdm::sdm(species ~ .,
                     ))
 sdm_fit
 
+
 # information
 sdm::getModelInfo(sdm_fit)
 
@@ -528,7 +530,7 @@ sdm::roc(sdm_fit, method = "glm", smooth = TRUE)
 
 # response curve
 sdm::rcurve(sdm_fit) + theme_bw()
-sdm::rcurve(sdm_fit, id = 41:50) + theme_bw()
+sdm::rcurve(sdm_fit, id = 21:25) + theme_bw()
 
 # variable importance
 sdm::getVarImp(sdm_fit)
